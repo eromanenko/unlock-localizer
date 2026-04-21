@@ -1,0 +1,420 @@
+{ 
+	   "visible" : "True", 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "Sirene", 
+	   "displayName" : "Le Cœur des Mers", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Sirene", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "cinematic-atmosphere", 
+	   "maxTime" : "2700", 
+	   "totalTime" : "2700", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "97", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Tout devient sombre. Trouvez la carte qui illustre cela,"
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Inclinez la carte comme indiqué. Le numéro deviendra une lettre."
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il semble qu'il faille poser votre main ici"
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Mais n'uilisez que 4 de vos 5 doigts !"
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez la carte qui représente le pont du navire."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait détourner la lumière vers ces cristaux pour illuminer la grotte."
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour trouver le numéro de cette machine faites pivoter la carte vers la droite."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut libérer cette créature du filet avec un objet tranchant."
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a 5 grottes. Leur disposition est proche de celle du bâton (39)"
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour choisir la bonne grotte, remarquez qu'une des branches est différente et que le bâton est à l'envers."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La créature a laissé une trace en s'échappant. Suivez-là pour trouver un numéro."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Même si la scène est plongée dans l'obscurité, des éléments vous renseignent sur sa nature. "
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette carte est une carte rouge. Il suffit d'un peu de lumière."
+	      }, 
+	      { 
+	         "number" : "62", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce sable semble venir du sablier. Autant compléter ce motif."
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce triton cache la fin d'un numéro. Il faut le contourner pour touver le début."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Installez la grue en la superposant exactement sur le bateau,"
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Manoeuvrez la grue en la faisant pivoter jusqu'à ce qu'elle soit à droite."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le domaine des tritons est tout en bas. Quel numéro cela évoque-t-il ?"
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le cœur de l'océan était au centre de cette structure. Vous cherchez donc une sorte de disque."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un disque. Une étoile à 8 branches. Où avez-vous dejà vu cela ?"
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_3", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez vu le chemin dans votre rêve ! Vous pouvez sans doute le reconstituer avec un peu de sable."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est la porte du sanctuaire des sirènes. Il faut donc tracer leur signe."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous connaissez le symbole des tritons (0) et celui des sirènes et des tritons (P)"
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Elle essaye de communiquer avec vous. Etablissez le contact."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "97", 
+	         "hintID" : "", 
+	         "message" : "Prenez la carte 73 dont le dos est plus sombre.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "3", 
+	         "hintID" : "", 
+	         "message" : "Mettez la barre à gauche en inclinant le bateau (3) à 90 degrés vers la gauche. Le 3 devient un M.", 
+	         "cards" : "M", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "38", 
+	         "hintID" : "", 
+	         "message" : "4 doigts (4) + 38", 
+	         "cards" : "42", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "91", 
+	         "hintID" : "", 
+	         "message" : "Pour vous rendre sur le pont, cherchez la carte dont le dos représente le pont.", 
+	         "cards" : "3", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "42", 
+	         "hintID" : "", 
+	         "message" : "Utilisez votre Nécessaire de rasage (30) sur la Grotte (42).", 
+	         "cards" : "72", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "100", 
+	         "hintID" : "", 
+	         "message" : "Lancez la Machine 3.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "7", 
+	         "hintID" : "", 
+	         "message" : "Utilisez votre Nécessaire de rasage (30) sur le filet (7).", 
+	         "cards" : "37", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "25", 
+	         "hintID" : "", 
+	         "message" : "Combinez la bâton (39) à la seconde grotte (+21).", 
+	         "cards" : "60", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "37", 
+	         "hintID" : "", 
+	         "message" : "Le chemin de bulle, formé par la sirène, forme un 25.", 
+	         "cards" : "25", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "60", 
+	         "hintID" : "", 
+	         "message" : "Utilisez la bâton luminescent (39) pour faire fuir les créatures (60).", 
+	         "cards" : "99", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "62", 
+	         "hintID" : "", 
+	         "message" : "Utilisez le sablier (14) sur la table (62).", 
+	         "cards" : "76", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "0", 
+	         "hintID" : "", 
+	         "message" : "Un bout de 5 dépasse derrière le Triton. Si vous retournez la carte, vous verrez l’autre moitié de ce numéro, un 4.", 
+	         "cards" : "45", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "98", 
+	         "hintID" : "", 
+	         "message" : "Placez la grue sur le bateau (3) et faites-la pivoter à tribord, l'inverse de bâbord donc à droite. Dans l'eau un 97 apparait.", 
+	         "cards" : "97", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "27", 
+	         "hintID" : "", 
+	         "message" : "Le sanctuaire que vous recherchez est tout en bas. La carte avec la valeur la plus basse et la carte 0.", 
+	         "cards" : "0", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "72", 
+	         "hintID" : "", 
+	         "message" : "Cherchez dans votre cabine.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_3", 
+	         "message" : "Associez le sablier (14) a votre table (62) pour connaitre le chemin à emprunter (76)", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "45", 
+	         "hintID" : "", 
+	         "message" : "Le symbole des sirènes est donc un diamant. Tracez-le.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "hintID" : "", 
+	         "message" : "Poser un doigt sur chacun des 4 doigts de la sirène.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "1", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "91", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Loh-Ran ! Il faut te réveiller à présent !"
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "10", 
+	         "message" : "La vive piqûre vous fait tressaillir. Autour de vous, le sanctuaire semble fondre pour laisser place à une réalité bien différente. Vous revoilà sur le pont du navire !  Prenez la carte 3 dans la défausse."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "38", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "27", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Au contact de la créature, la pression sur vos tympans se relâche. Vous comprenez sa langue ! Tu m’as sauvé étranger. Je suis Shâ-Na du peuple des sirènes. Quel est ton nom ? Loh-Ran ? Cette cage de corde m’a prise au piège alors que j’étais en mission pour sauver le peuple des sirènes. Il dépérit et le seul moyen de le sauver est de retrouver le Cœur des Mers, un puissant artefact. Malheureusement, le sanctuaire qui l’abrite est situé dans le domaine des tritons. M’aideras-tu Loh-Ran ?"
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "98", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Un peu interloqué, vous naviguez avec aisance parmi les récifs. Peu importe la manière ! Voici la zone de pêche…"
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "name" : "Machine_Sirene_3", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	      "French", 
+	      "English", 
+	      "German", 
+	      "Italian", 
+	      "Spanish"
+	   ]
+	}

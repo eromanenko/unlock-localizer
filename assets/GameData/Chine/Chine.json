@@ -1,0 +1,900 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Chine", 
+	   "displayName" : "Les 7 Épreuves du Dragon", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Chine", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Chine_1", 
+	   "maxTime" : "4620", 
+	   "totalTime" : "4620", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o1", 
+	         "time" : "240", 
+	         "nextObject" : "False", 
+	         "message" : "Observez bien le bas de la muraille."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Comptez bien les clous. Tous les clous..."
+	      }, 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comptez tous les clous, y compris ceux cachés par les textes et celui qui a permis d'accrocher la note."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Peu importe le nombre de poissons. Regardez plutôt leur disposition."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il ne vous laissera pas passer, il faut donc trouver un autre moyen d'entrer. Observez bien le bas de la muraille."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Seuls, ces bambous ne vous serviront à rien. Allez parler au marchand."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris la carte 65 ?"
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour traverser ce lac, vous aurez besoin d'un radeau de bambous."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce garde attend un mot de passe. Pour l'obtenir, vous devez d'abord trouver un parchemin."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez bien les piliers du temple et trouvez les animaux sur l'horoscope. Il faut relier les points ainsi identifiés avec la pointe des baguettes pour obtenir le mot de passe."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce parchemin vous sera utile pour accéder à la salle du trône. Observez bien les idéogrammes correspondant à chaque animal."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les piliers du temple voisin ont des symboles en commun avec ce parchemin. Repérez-les ! Mais comment les relier ?"
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut assembler cet éventail correctement, et ensuite s'éventer pour connaître la direction à prendre."
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En vous éventant, vous observez le dos des cartes. Une rose des vents est visible. Que vous indique le « ? » ?"
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces symboles sont incompréhensibles… Pour les déchiffrer et trouver le chemin, il faut n'en lire qu'une partie bien précise."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comme indiqué au-dessus du panneau central, ne prenez que le quart inférieur gauche des symboles."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Peu importe le nombre de papillons. Regardez plutôt leur disposition."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez ces positions de mains dans la machine 60."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le Yi-King régit votre vie et celle de ce marchand aussi. Lisez bien les 6 étapes de son voyage."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Intéressez-vous au sens du récit : la grande muraille évoque, par exemple, un trait long."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez bien la théière."
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Impossible de compter toutes les fleurs. Regardez plutôt la forme de la branche."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris les cartes 59 et 68 ?"
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La fortune ne vous servira à rien dans votre quête. Faites preuve de générosité."
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le Yi-King régit votre vie. Tendez l'oreille, la mélodie n'a-t-elle pas changé ?"
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le rythme de la mélodie donne Long/Long/Double/Long, puis..."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le seul symbole visible vous rappelle quelque chose ? Les tuiles de mah-jong, bien orientées, vous montreront le chemin à suivre."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Progressez dans l'ordre croissant des bambous, en partant du 1."
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Toute seule, cette corde ne servira à rien. Allez parler au mendiant."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous pris les cartes 1 et Y ?"
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut assembler cet éventail correctement, et ensuite s'éventer pour connaître la direction à prendre."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En vous éventant, vous observez le dos des cartes. Une rose des vents est visible. Que vous indique le « ? » ?"
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Maintenant vous pouvez traverser le lac."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Sans indications supplémentaires, ces tuiles resteront mystérieuses."
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris les cartes 91, 92, 93 ? Assemblez le dragon suivant le modèle du marchand et prenez la carte indiquée."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Aidez-vous des cartes 24 et 63 pour former les ombres chinoises demandées dans la machine 60."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez ces positions de mains dans la machine 60."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le mendiant vous désigne en fait une tuile de mah-jong.... À l'intersection (« la croisée ») des 4 tuiles se trouve celle que vous cherchez."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comptez le nombre de fleurs sur la tuile désignée par le mendiant."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le Yi-King régit votre vie. Au bas des escaliers, il y a un symbole du Yi-King. Et la carte décrit 6 portes identiques..."
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le Yi-King régit votre vie. Observez bien les lanternes, du haut vers le bas..."
+	      }, 
+	      { 
+	         "number" : "71", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris les cartes 5, 23, 28 et 88 ?"
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut assembler cet éventail correctement, et ensuite s'éventer pour connaître la direction à prendre."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En vous éventant, vous observez le dos des cartes. Une rose des vents est visible. Que vous indique le « ? » ?"
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les symboles sur les piliers vous indiquent deux éléments d'un parchemin dont vous aurez besoin pour accéder à la salle du trône."
+	      }, 
+	      { 
+	         "number" : "76", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le Yi-King régit votre vie. Observez bien les 6 parchemins."
+	      }, 
+	      { 
+	         "number" : "84", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez ce menu avec la machine 98."
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez ce menu avec la machine 98."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez ce menu avec la machine 98."
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces baguettes, bien placées, vous serviront une fois entrés dans la cité interdite."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez bien les décors du jardin. Le nombre d'éléments compte moins que la forme qu'ils dessinent."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Assemblez le dragon suivant le modèle du marchand et prenez la carte indiquée."
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Assemblez le dragon suivant le modèle du marchand et prenez la carte indiquée."
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Assemblez le dragon suivant le modèle du marchand et prenez la carte indiquée."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il est possible pour un disciple de se tromper, mais il est de son devoir d'essayer."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le Yi-king régit votre vie. L'Impératrice fait référence aux 6 fois, dans l'ordre, où vous l'avez utilisé aujourd'hui."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'orientation (paysage/portrait) des 6 cartes vous donnera un dernier Yi-King."
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le Yi-King régit votre vie. Observez bien le portail traditionnel situé sur l'autre rive."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "1", 
+	         "hintID" : "", 
+	         "message" : "Il y a 27 clous sur cette porte : 26 autour de la porte (en comptant ceux qui sont cachés par les messages) et 1 qui sert à clouer le mot du haut.", 
+	         "cards" : "27", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "5", 
+	         "hintID" : "", 
+	         "message" : "Il y a 5 poissons, mais ils forment un 6. C'est bien 6 poissons qu'il faut entrer sur la stèle (machine 88).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "hintID" : "", 
+	         "message" : "Avec la corde (40) donnée par le marchand et les bambous (8), fabriquez un radeau.", 
+	         "cards" : "48", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "hintID" : "", 
+	         "message" : "Les symboles sur les piliers sont ceux du Tigre et du Coq. Placez les baguettes sur l'horoscope de façon à pointer ces 2 symboles. Les extrémités opposées des baguettes pointent le mot de passe. Dites « Gloire éternelle » devant le micro.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "21", 
+	         "hintID" : "", 
+	         "message" : "Le point d'interrogation vous indique de vous diriger vers l'est (E).", 
+	         "cards" : "E", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "22", 
+	         "hintID" : "", 
+	         "message" : "En prenant le quart de chaque symbole, vous lisez l'addition 24+47.", 
+	         "cards" : "71", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "Il y a 8 papillons qui forment un 3. C'est bien 3 papillons qu'il faut entrer dans la stèle (machine 88).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "26", 
+	         "hintID" : "", 
+	         "message" : "Chacune des 6 étapes dans l'ordre correspond à un trait du Yi-King : grande muraille (long), pont cassé (double), longue route (long), seconde route (long), bâton brisé (double), lac qui interrompt (double).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "27", 
+	         "hintID" : "", 
+	         "message" : "Il y a trois chiffres visibles sur la théière.", 
+	         "cards" : "21,45,74", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "28", 
+	         "hintID" : "", 
+	         "message" : "La branche forme un 8. Entrez 8 fleurs sur la stèle (machine 88).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "30", 
+	         "hintID" : "", 
+	         "message" : "Faites don de cette pièce d'or (30) au mendiant (65).", 
+	         "cards" : "95", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "31", 
+	         "hintID" : "", 
+	         "message" : "Le Yi-King est Long/Long/Double/Long/Long/Double", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "35", 
+	         "hintID" : "", 
+	         "message" : "Dans l'ordre et en partant du bas, appuyez sur les cases gauche, milieu, droite, milieu, gauche, droite.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "40", 
+	         "hintID" : "", 
+	         "message" : "Avec les bambous indiqués par le mendiant (8) et cette corde (40), fabriquez un radeau.", 
+	         "cards" : "48", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "45", 
+	         "hintID" : "", 
+	         "message" : "Le point d'interrogation vous indique de vous diriger vers l'est (E).", 
+	         "cards" : "E", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "48", 
+	         "hintID" : "", 
+	         "message" : "Utilisez ce radeau (48) pour traverser le lac (12).", 
+	         "cards" : "60", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "51", 
+	         "hintID" : "", 
+	         "message" : "Les tuiles du marchand et de la mer (bateau), et celles de la princesse (chaise à porteurs) et du paon tracent deux lignes qui se rencontrent sur la tuile des 8 fleurs.", 
+	         "cards" : "8", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "59", 
+	         "hintID" : "", 
+	         "message" : "La tête du dragon vous indique le chiffre 8, et la queue le chiffre 7.", 
+	         "cards" : "87", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "65", 
+	         "hintID" : "", 
+	         "message" : "Sur le mah-jong, les tuiles du marchand et de la mer (bateau), et celles de la princesse (chaise à porteurs) et du paon tracent deux lignes qui se rencontrent sur la tuile des 8 fleurs.", 
+	         "cards" : "8", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "66", 
+	         "hintID" : "", 
+	         "message" : "La porte est soulignée d'un trait double du Yi-King. Il y en a 6 identiques. Entrez Double/Double/Double/Double/Double/Double dans l'application.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "68", 
+	         "hintID" : "", 
+	         "message" : "Les petites lanternes côte à côte représentent un trait double, les grosses lanternes un trait long. Le Yi-King est donc Double/Long/Long/Double/Long/Long.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "74", 
+	         "hintID" : "", 
+	         "message" : "Le point d'interrogation vous indique de vous diriger vers l'est (E).", 
+	         "cards" : "E", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "76", 
+	         "hintID" : "", 
+	         "message" : "Chaque parchemin représente un trait long sauf celui avec un coup de pinceau au milieu. Le Yi-King est donc Long/Long/Double/Long/Long/Long.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "88", 
+	         "hintID" : "", 
+	         "message" : "Si vous regardez bien les formes dans le jardin, vous trouverez : 3 pour les papillons, 8 pour les fleurs et 6 pour les poissons.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "91", 
+	         "hintID" : "", 
+	         "message" : "La tête du dragon vous indique le chiffre 8, et la queue le chiffre 7.", 
+	         "cards" : "87", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "92", 
+	         "hintID" : "", 
+	         "message" : "La tête du dragon vous indique le chiffre 8, et la queue le chiffre 7.", 
+	         "cards" : "87", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "93", 
+	         "hintID" : "", 
+	         "message" : "La tête du dragon vous indique le chiffre 8, et la queue le chiffre 7.", 
+	         "cards" : "87", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "hintID" : "", 
+	         "message" : "Les cartes au format portrait représentent un trait double, celles au format paysage un trait long. Le Yi-King est Long/Double/Double/Long/Long/Long.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "100", 
+	         "hintID" : "", 
+	         "message" : "Avez-vous pris la carte 51 ? Dans le portail à gauche se dissimule le Yi-King suivant : Long/Long/Long/Double/Long/Long. Entrez-le dans l'application grâce au bouton dédié.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "15", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "22", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Gloire éternelle : c'est bon. Vous pouvez passer…"
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "29", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Un passage secret s'ouvre dans la muraille. Vous pénétrez dans la capitale au nez et à la barbe des gardes."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "31", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous avez triomphé de l'épreuve de l'ombre."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "99", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La stèle pivote et révèle un passage secret qui s'enfonce dans la terre…"
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "C", 
+	         "cardsToDiscard" : "", 
+	         "message" : "« Très bon service ! Vous avez de l'avenir dans la profession ! Prenez une pause, on remet ça dans une heure. » Vous filez. Vous voici entrés dans la Cité Interdite."
+	      }, 
+	      { 
+	         "number" : "11111", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "1", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous pouvez retourner la carte d'introduction. ", 
+	         "messageID" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "« Ainsi l'homme noble distingue le haut du bas et affermit par là l'esprit du peuple. » Vous avez trouvé votre voie, mais bien vite le chemin se divise en deux.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "10,12", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "« Éloignement et séparation, tel est le lot du voyageur. Merci pour votre sagesse, acceptez ce modeste cadeau. »", 
+	         "messageID" : "", 
+	         "cardsToTake" : "40", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "Chine_2", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "« Il est avantageux d'avoir où aller et de voir le grand homme. L'onde vous a montré la voie. Trouvez l'Impératrice à la capitale… »", 
+	         "messageID" : "", 
+	         "cardsToTake" : "M", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "« Commerce heureux avec autrui. Vous semblez perdus, étrangers... L'impératrice ? Elle siège dans la Cité Interdite, mais on n'y entre pas facilement. »", 
+	         "messageID" : "", 
+	         "cardsToTake" : "66", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "« Sublime réussite par la persévérance et la paix. » Vous vous faufilez dans la Cité Interdite, mais les gardes sont partout. Peut-être par les cuisines ?", 
+	         "messageID" : "", 
+	         "cardsToTake" : "98", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "« Nuages qui se rassemblent, mais pas encore de pluie. » L'un des parchemins attire votre attention.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "20", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "« II est profitable d'entreprendre, de voyager, d'accepter des responsabilités. Vous êtes sages et retenez les leçons. Acceptez cette récompense… »", 
+	         "messageID" : "", 
+	         "cardsToTake" : "30", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

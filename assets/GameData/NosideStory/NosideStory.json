@@ -1,0 +1,866 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "NosideStory", 
+	   "number" : "7", 
+	   "displayName" : "A Noside Story", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Squeek", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "ad2_squeek.mp3", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "3", 
+	   "wrongCodePenaltyTime" : "2", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "4071", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "X", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous pénétrez dans l'antre de Noside !"
+	      }, 
+	      { 
+	         "number" : "9153", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "4", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "B", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La porte de la salle de bain s'ouvre !"
+	      }, 
+	      { 
+	         "number" : "4444", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "99", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "K", 
+	         "cardsToDiscard" : "JQ", 
+	         "message" : "La porte de la cage s'ouvre juste au moment où Noside quitte la pièce. Vous êtes libres ! Reprenez les cartes mises de côté."
+	      }, 
+	      { 
+	         "number" : "2546", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "99", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "K", 
+	         "cardsToDiscard" : "JQ", 
+	         "message" : "La porte de la cage s'ouvre juste au moment où Noside quitte la pièce. Vous êtes libres ! Reprenez les cartes mises de côté."
+	      }, 
+	      { 
+	         "number" : "8471", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le fax se met en marche. Vous parvenez à écrire un S.O.S. sur un papier et vous l'envoyez à la police. Noside est sous les verrous, le comté va enfin pouvoir respirer !"
+	      }, 
+	      { 
+	         "number" : "5287", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ce serait trop facile non ? Il faut bien utiliser 5287 mais vous oubliez 1=--, 2=---- "
+	      }, 
+	      { 
+	         "number" : "7825", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ce serait trop facile non ? Il faut bien utiliser 5287 mais vous oubliez 1=--, 2=---- "
+	      }, 
+	      { 
+	         "number" : "5049", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ce serait trop facile non ? Il faut bien utiliser 5049 mais vous oubliez 1=--, 2=---- "
+	      }, 
+	      { 
+	         "number" : "9405", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ce serait trop facile non ? Il faut bien utiliser 5049 mais vous oubliez 1=--, 2=---- "
+	      }, 
+	      { 
+	         "number" : "4671", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "X", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous pénétrez dans l'antre de Noside !"
+	      }, 
+	      { 
+	         "number" : "8909", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ce serait trop facile non ? Il faut bien utiliser 5049 mais vous oubliez 1=--, 2=---- "
+	      }, 
+	      { 
+	         "number" : "9098", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ce serait trop facile non ? Il faut bien utiliser 5049 mais vous oubliez 1=--, 2=---- "
+	      }, 
+	      { 
+	         "number" : "5575", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "99", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "K", 
+	         "cardsToDiscard" : "JQ", 
+	         "message" : "La porte de la cage s'ouvre juste au moment où Noside quitte la pièce. Vous êtes libres ! Reprenez les cartes mises de côté."
+	      }, 
+	      { 
+	         "number" : "4345", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "99", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "K", 
+	         "cardsToDiscard" : "JQ", 
+	         "message" : "La porte de la cage s'ouvre juste au moment où Noside quitte la pièce. Vous êtes libres ! Reprenez les cartes mises de côté."
+	      }, 
+	      { 
+	         "number" : "8063", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ce serait trop facile non ? Il faut bien utiliser 5049 mais vous oubliez 1=--, 2=---- "
+	      }, 
+	      { 
+	         "number" : "50491", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "99", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "K", 
+	         "cardsToDiscard" : "JQ", 
+	         "message" : "La porte de la cage s'ouvre juste au moment où Noside quitte la pièce. Vous êtes libres ! Reprenez les cartes mises de côté."
+	      }, 
+	      { 
+	         "number" : "141", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "X", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous pénétrez dans l'antre de Noside !"
+	      }, 
+	      { 
+	         "number" : "5653", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "99", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "K", 
+	         "cardsToDiscard" : "JQ", 
+	         "message" : "La porte de la cage s'ouvre juste au moment où Noside quitte la pièce. Vous êtes libres ! Reprenez les cartes mises de côté."
+	      }, 
+	      { 
+	         "number" : "5792", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ce serait trop facile non ? Il faut bien utiliser 5792 mais vous oubliez 1=--, 2=---- "
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "3", 
+	         "hintName" : "o2", 
+	         "time" : "300", 
+	         "nextObject" : "False", 
+	         "message" : "La fumée de la cheminée cache une étrange machine."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o1", 
+	         "time" : "120", 
+	         "nextObject" : "True", 
+	         "message" : "Il y a une aiguille dans cette meule de foin."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "hintName" : "o3", 
+	         "time" : "120", 
+	         "nextObject" : "False", 
+	         "message" : "Avez-vous regardé la baignoire ?"
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "222", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les vêtements sont de différentes tailles. Cela ne vous rappelle-t-il pas quelque chose ?"
+	      }, 
+	      { 
+	         "number" : "222", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Servez-vous du dessin d'enfant pour connaître les bonnes associations de vêtements et leur ordre."
+	      }, 
+	      { 
+	         "number" : "333", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Divisez la tête du robot en deux. Quel nombre voyez-vous apparaître ?"
+	      }, 
+	      { 
+	         "number" : "444", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Obtenez les bons ingrédients et suivez pas à pas la recette. Vous obtiendrez sûrement un bon gâteau."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans quoi pourriez-vous la baigner ?"
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cela vous aidera à affronter Noside, en temps voulu."
+	      }, 
+	      { 
+	         "number" : "1111", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "1", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pourriez transformer ce blé en farine à condition de le broyer avec quelque chose."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le miel colle trop pour être lancé à la main. Il faudrait une machine pour le balancer."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet animal semble être le seul à pouvoir enfiler une petite tenue de plongée.\t"
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Indice capital : le feu s'éteindra si on y verse de l'eau. Désolé de divulgâcher ainsi cet effet magique."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait le laisser refroidir un peu."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a une encoche sur le dentier. On doit pouvoir y fixer un remontoir."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce bâton est juste bon à être jeté. Mais à qui ?\t"
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez une manivelle pour remonter cette corde."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il dégage une chaleur douce et constante."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette chaleur est idéale pour faire éclore un œuf."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Visez votre ennemi avec le miel !"
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "3", 
+	         "message" : "Il faudrait boucher cette machine avec un… un… un… un bouchon, par exemple."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Toute l'électricité de la maison est utilisée pour l'arme de Noside. Battez-le pour rétablir le courant."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pouvez refroidir quelque chose en le posant sur le rebord de cette fenêtre."
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce seau peut recueillir de nombreuses choses… même s'il semble très approprié pour les liquides."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le panneau semble indiquer qu'il faut se dévêtir pour entrer. Peut-être que les vêtements de la chambre vous aideraient ?"
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Associez les hauts et les bas des vêtements dans l'ordre indiqué sur le dessin d'enfant. Cela vous donnera le code."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Obtenez les bons ingrédients et suivez pas à pas la recette sur cette machine. Vous obtiendrez sûrement un bon gâteau."
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "2", 
+	         "message" : "Que pourriez-vous bien piquer ?"
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Changez la menace en force ! La puissance surhumaine de cet ours pourrait être une bonne alliée pour vaincre Noside. Encore faudrait-il l'attirer vers ce dernier."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les créatures qui pourront utiliser cet équipement de plongée ne sont pas nombreuses, vu la petite taille de l'ensemble."
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Hormis l'heure, que pourriez-vous régler sur un tel appareil ?"
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Quel jour sommes-nous ?"
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Que pourrait vous rapporter ce chien ?"
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Battez le lait pour le transformer en beurre."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devriez vous essayer vous aussi aux armes à distance."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut un récipient pour récupérer le lait de cette vache."
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un peu de chaleur devrait aider à le faire éclore."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet objet doit probablement servir à remonter quelque chose. Une corde, par exemple."
+	      }, 
+	      { 
+	         "number" : "84", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'êtes pas assez forts pour vaincre Noside seuls, même s'il est recouvert de miel. Il faudrait trouver un allié."
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Indice capital : l'eau éteint le feu. Désolé de divulgâcher ainsi cet effet magique."
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Malgré son jeune âge, Michel sait voler et pourrait vous ramener des objets brillants."
+	      }, 
+	      { 
+	         "number" : "49", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "4", 
+	         "message" : "Cette bonde vous servira à boucher quelque chose."
+	      }, 
+	      { 
+	         "number" : "193", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois que vous avez l'heure, remettez les aiguilles à la bonne place. Que forment-elles alors ?"
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez bien les inscriptions au fond du foyer de la cheminée."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Que dissimule ce mur de ballons ? Il faudrait trouver un moyen de les faire éclater. Une aiguille peut-être ?"
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait être petit et voler pour aller chercher l'objet brillant qui est coincé."
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Quel jour sommes-nous ?"
+	      }, 
+	      { 
+	         "number" : "61", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette clef mécanique devrait bien se loger dans l'encoche d'un objet nécessitant un remontoir."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce dentier mécanique ferait un excellent pilon. Reste à trouver quelque chose à pilonner."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Appliquez le modificateur sur un appareil nécessitant de l'énergie."
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Impossible d'entrer tant que vous n'avez pas trouvé de clef."
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cherchez bien sur le message. Le code y est inscrit !"
+	      }, 
+	      { 
+	         "number" : "111", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "4", 
+	         "message" : "Noside a écrit un aide-mémoire pour ce code sur un papier. Il se reflète dans une casserole. Mais cet aide-mémoire est codé. Les tirets après UN : -- / DEUX : ---- / etc. sont la clef."
+	      }, 
+	      { 
+	         "number" : "111", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce ne sont pas les chiffres qui sont importants, mais le nombre de lettres qui les composent."
+	      }, 
+	      { 
+	         "number" : "123", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Seuls les vêtements et leur ordre revêtent une importance dans ce dessin."
+	      }, 
+	      { 
+	         "number" : "123", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour entrer dans la salle de bains, assemblez les bons vêtements selon l'ordre indiqué sur le dessin."
+	      }, 
+	      { 
+	         "number" : "200", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cherchez bien sur le message. Le code y est inscrit !"
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "3", 
+	         "message" : "", 
+	         "cards" : "30", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "5", 
+	         "message" : "", 
+	         "cards" : "51", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "78", 
+	         "message" : "", 
+	         "cards" : "94", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "message" : "", 
+	         "cards" : "37", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "message" : "", 
+	         "cards" : "47", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "21", 
+	         "message" : "", 
+	         "cards" : "55", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "9153"
+	      }, 
+	      { 
+	         "hintNumber" : "29", 
+	         "message" : "", 
+	         "cards" : "37", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "30", 
+	         "message" : "", 
+	         "cards" : "85", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "37", 
+	         "message" : "", 
+	         "cards" : "46", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "84", 
+	         "message" : "", 
+	         "cards" : "99", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "51", 
+	         "message" : "", 
+	         "cards" : "18", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "61", 
+	         "message" : "", 
+	         "cards" : "65", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "30", 
+	         "message" : "", 
+	         "cards" : "85", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "111", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "4444"
+	      }, 
+	      { 
+	         "hintNumber" : "200", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "4071"
+	      }, 
+	      { 
+	         "hintNumber" : "333", 
+	         "message" : "", 
+	         "cards" : "7", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "47", 
+	         "message" : "", 
+	         "cards" : "61", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "2", 
+	         "message" : "", 
+	         "cards" : "12", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "message" : "", 
+	         "cards" : "97", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "1111", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "5049"
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "93", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "78", 
+	         "cardsToDiscard" : "", 
+	         "message" : "C'est prêt ! Bon appétit !"
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "2", 
+	         "type" : "Sound", 
+	         "extraNumber" : "-1680", 
+	         "time" : "60", 
+	         "nextEvent" : "2", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "ad7_heure.mp3", 
+	         "messageID" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "1", 
+	         "type" : "Resource", 
+	         "extraNumber" : "0", 
+	         "time" : "1", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "ad7_tel.mp3", 
+	         "musicType" : "3", 
+	         "resourceName" : "", 
+	         "message" : "ad7_intro.mp3", 
+	         "messageID" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

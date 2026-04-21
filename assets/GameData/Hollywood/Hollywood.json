@@ -1,0 +1,1055 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Hollywood", 
+	   "number" : "31", 
+	   "displayName" : "Hollywood Confidential", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Hollywood", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette balle de calibre .38 tirée laisse penser que c'est un membre de la police qui est venu enlever Marlowe."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La disparition de Marlowe est peut-être liée à l'une de ses enquêtes. Il se pourrait que parmi les photos de cet appareil se trouve une piste qui vous permettra de retrouver votre patron. Mais comment récupérer les photos de la pellicule ?"
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il existe une vieille technique pour tenter de récupérer les informations qui étaient inscrites sur la page supérieure d'un bloc-notes."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avec la pression du stylo, les notes prises sur un bloc de papier peuvent également marquer la page du dessous. Avec les bons outils, vous pourrez tenter de révéler ces informations."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Un morceau de papier est coincé dans la machine à écrire. Il recouvre l'un des boutons."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Sans preuve évidente d'un mauvais coup de leur part, vous feriez mieux de ne pas trop vous frotter à ces hommes."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "D'après la lettre anonyme (1) envoyée à Irina Nevski, les hommes de Moretti communiquent vers l'extérieur en découpant des mots dans les journaux. Ce journal a dû servir à composer le prochain message destiné à la princesse russe. Déduisez quels mots ont été découpés ici et retrouvez l'ordre de ces mots pour reconstituer le message."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "De haut en bas sur le journal, les mots découpés sont : Hollywood, y, film, le, le, est, enterré, à, panneau, sous."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les initiales présentes sur le morceau de papier sont celles de Jessica Klissman, l'actrice du film volé et la femme présente sur les photos avec Charles Forest. La suite de la note indique son numéro d'appartement."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le numéro d'appartement (33) est écrit en bleu. Vous pouvez l'additionner à une carte rouge."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "À en croire ces billets d'avion et le mot laissé par Charles Forest, les deux tourtereaux avaient prévu de fuir le pays vers le Mexique. Où auraient-ils pu se donner rendez-vous pour fuir ensemble ?"
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans quelques instants, elle aura fini de chanter. Montez le volume de votre appareil et patientez jusqu'à la fin du show."
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "N'aimeriez-vous pas développer une pellicule ?"
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez bien ces photos. L'une d'entre elles vous donne une piste à suivre pour tenter de retrouver les personnes sur lesquelles Marlowe enquêtait."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il est possible de discerner le nom du lieu où l'une de ces photos a été prise."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Quel terminal et quelle porte devez-vous rejoindre pour tenter d'intercepter Charles Forest ?"
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Sur le billet de Jessica (14), repérez le numéro du terminal et celui de la porte. Ils sont écrits en rouge…"
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Qu'est-ce qui vous a amenés ici ?"
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Derrière l'officier de police, un document attire votre attention."
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'obtiendrez rien de plus de cet homme. Observez attentivement le reste du bureau (35) en quête d'une information intéressante."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Reconstituez les indications menant à la Villa Nevski grâce au morceau de papier coincé dans le clavier de la machine à écrire."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Dessinez le trajet en suivant les indications. La forme du tracé de cet itinéraire vous mènera à Irina Nevski."
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'un de ces hommes doit être Charles Forest. Vous avez, plus tôt dans l'aventure, obtenu un détail remarquable concernant sa tenue."
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Reprenez la photo de fin de tournage trouvée dans la salle de montage (96)."
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'allez pas vous arrêter ici. Ce n'est pas une simple porte qui va vous résister."
+	      }, 
+	      { 
+	         "number" : "49", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces mots écrits par Charles Forest à l'attention de Moretti incriminent directement ce parrain de la mafia et ses hommes dans cette sombre affaire."
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce tract appartient-il vraiment à votre patron ? Si vous souhaitez creuser cette piste, une adresse y apparaît."
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous allez maintenant pouvoir enquêter sur le lieu de travail de Charles Forest."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La chanteuse détient peut-être des informations concernant les personnes sur lesquelles Marlowe enquêtait."
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez en votre possession quelques informations compromettantes concernant son mari. Peut-être qu'en lui livrant ces informations, elle pourra à son tour vous aider dans votre enquête."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Selon les informations de la chanteuse (78), l'homme présent sur les photos (23) serait susceptible d'être apparu dans les pages du <i>Hollywood Night Life</i>. Si c'est le cas, cette secrétaire sera sans doute en mesure de vous donner son identité."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Un certain Finnegan était chargé de s'occuper de votre patron, mais il semble que l'affaire a été finalement confiée au FBI, qui sera sans doute peu enclin à vous répondre au sujet de Marlowe..."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La cause des blessures de l'inspecteur Finnegan n'est pas très convaincante. Il va falloir trouver un moyen de le faire parler malgré tout."
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Portez votre attention sur les têtes d'affiche de ce film."
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "D'après la lettre anonyme (1) envoyée à Irina Nevski, les hommes de Moretti communiquent vers l'extérieur en découpant des mots dans les journaux. Le journal trouvé dans la poubelle (11) a dû servir à composer le prochain message destiné à la princesse russe. Déduisez quels mots ont été découpés dans ce journal et retrouvez l'ordre de ces mots pour reconstituer le message."
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "De haut en bas sur le journal, les mots découpés sont : Hollywood, y, film, le, le, est, enterré, à, panneau, sous."
+	      }, 
+	      { 
+	         "number" : "71", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le videur n'est pas disposé à vous laisser entrer sans rien obtenir en échange."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour identifier ce producteur, il vous faut trouver le journal à scandale dans lequel il aurait pu apparaître."
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans quelques instants, la chanteuse aura terminé de chanter. Montez le volume de votre appareil et patientez jusqu'à la fin du show."
+	      }, 
+	      { 
+	         "number" : "83", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La disparition de Marlowe a-t-elle réellement un lien avec ces histoires de partisans communistes ? C'est louche… Mais vous pouvez toujours vous rendre du côté des docks, à l'entrepôt de Fairbank Street."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous connaissez à présent l'identité de l'homme sur les photos : Charles Forest. La secrétaire vous fournit ici 2 pistes à suivre pour continuer votre enquête."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La piste du tract communiste trouvé chez Marlowe est donc un leurre."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Au cours de votre enquête, vous avez eu une information sur les goûts de Jessica en matière de littérature."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pendant le tournage du film, Jessica avait avec elle un livre..."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "phonebook_journal", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "D'après la chanteuse (78), l'homme des photos est apparu dans un journal à scandale. Un seul de ces 4 journaux semble couvrir ce type de sujet."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "phonebook_finnegan", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si FINNEGAN est bien l'inspecteur de police qui a enlevé votre patron pendant votre échange téléphonique en tout début d'aventure, alors vous avez aussi son prénom."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "blueroom_door", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Qu’attendez-vous devant cette porte ?"
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "2", 
+	         "hintID" : "", 
+	         "message" : "Consultez votre annuaire à l'aide du bouton dédié et recherchez POLICE pour obtenir l'adresse du poste de police.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "Appuyez sur le bouton dédié de l'annuaire et tapez « photographie » pour trouver une boutique qui serait en mesure de développer la pellicule de cet appareil.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "7", 
+	         "hintID" : "", 
+	         "message" : "Utilisez le crayon de votre calepin (42) pour hachurer le bloc-notes (7).", 
+	         "cards" : "49", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "hintID" : "", 
+	         "message" : "Le morceau de papier recouvre le bouton de la lettre S. Retirez-le.", 
+	         "cards" : "S", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "hintID" : "", 
+	         "message" : "Dans l'ordre, les mots découpés forment : « Le film est enterré sous le panneau Y à Hollywood. » Recherchez PANNEAU HOLLYWOOD dans l'annuaire.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "hintID" : "", 
+	         "message" : "Si ce n'est pas déjà fait, recherchez Jessica Klissman dans l'annuaire. Une fois devant son immeuble (13), dirigez-vous vers son appartement (33).", 
+	         "cards" : "46", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "14", 
+	         "hintID" : "", 
+	         "message" : "Charles Forest est très certainement à l'aéroport en train d'attendre la regrettée Jessica… Recherchez AEROPORT dans l'annuaire.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "19", 
+	         "hintID" : "", 
+	         "message" : "Donnez la pellicule de l'appareil photo (4) à développer à cette boutique de photographie (19).", 
+	         "cards" : "23", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "Il est écrit BLUE ROOM sur la photo de gauche. Recherchez BLUE ROOM dans l'annuaire pour vous y rendre et ainsi poursuivre l'enquête sur votre patron.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "26", 
+	         "hintID" : "", 
+	         "message" : "Pour retrouver Charles Forest dans l'aéroport (26), dirigez-vous vers le terminal 2 et la porte 16 (+18).", 
+	         "cards" : "44", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "30", 
+	         "hintID" : "", 
+	         "message" : "Montrez votre tract communiste (53) à ce vieil homme (30).", 
+	         "cards" : "83", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "35", 
+	         "hintID" : "", 
+	         "message" : "Voyez le numéro caché derrière l'officier de police.", 
+	         "cards" : "64", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "36", 
+	         "hintID" : "", 
+	         "message" : "Voyez dans le bureau (35) le numéro caché derrière l'officier de police.", 
+	         "cards" : "64", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "37", 
+	         "hintID" : "", 
+	         "message" : "En dessinant le trajet donné par les indications manuscrites (37 et S), vous pourrez lire de haut en bas les chiffres 5 et 7.", 
+	         "cards" : "57", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "44", 
+	         "hintID" : "", 
+	         "message" : "Repérez le chapeau posé sur la chaise de Forest. Celui-ci est muni de 2 bandes grises. Sélectionnez l'homme portant ce même chapeau pour l'interpeller.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "46", 
+	         "hintID" : "", 
+	         "message" : "Usez de votre force (22) pour enfoncer la porte (46).", 
+	         "cards" : "68", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "49", 
+	         "hintID" : "", 
+	         "message" : "Maintenant que vous avez en votre possession une preuve tangible (49) de l'implication de Moretti, allez les interroger, lui et sa bande (9), à ce sujet.", 
+	         "cards" : "58", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "53", 
+	         "hintID" : "", 
+	         "message" : "Un tract communiste glissé sous les coussins et qui pourrait causer du tort à Marlowe en cette période, cela semble un peu gros. Mais si vous voulez creuser cette piste, utilisez l'annuaire pour vous rendre chez Phil's Diner.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "54", 
+	         "hintID" : "", 
+	         "message" : "Montrez ce laissez-passer (54) au gardien contrôlant l'accès aux Forest Movies Studios (20).", 
+	         "cards" : "74", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "55", 
+	         "hintID" : "", 
+	         "message" : "Montrez les photos que vous avez développées (23) à la chanteuse (55) afin de l'interroger à propos des personnes qui y apparaissent.", 
+	         "cards" : "78", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "57", 
+	         "hintID" : "", 
+	         "message" : "Dévoilez à Irina Nevski (57) les photos (23) prouvant l'adultère de son mari.", 
+	         "cards" : "80", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "63", 
+	         "hintID" : "", 
+	         "message" : "Montrez à la secrétaire (63) les photos du couple prises par Marlowe (23).", 
+	         "cards" : "86", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "64", 
+	         "hintID" : "", 
+	         "message" : "N'allez pas voir le FBI, qui n'acceptera jamais de coopérer au sujet de Marlowe, mais renseignez-vous au sujet de ce fameux FINNEGAN en tapant son nom dans l'annuaire.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "66", 
+	         "hintID" : "", 
+	         "message" : "Ayez exceptionnellement recours à la force (22) pour faire parler l'inspecteur Finnegan (66).", 
+	         "cards" : "88", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "67", 
+	         "hintID" : "", 
+	         "message" : "Selon les dires de la chanteuse (78), la fille que côtoie Charles Forest s'appelle Jess. Cette Jess est certainement l'actrice qui a joué dans le dernier film réalisé par Charles Forest lui-même : JESSICA KLISSMAN. Effectuez une recherche à ce nom dans l'annuaire.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "69", 
+	         "hintID" : "", 
+	         "message" : "Dans l'ordre, les mots découpés forment : « Le film est enterré sous le panneau Y à Hollywood. » Placez le curseur juste sous le panneau de la lettre Y pour creuser à cet endroit.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "71", 
+	         "hintID" : "", 
+	         "message" : "Il attend que vous lui graissiez la patte. Glissez un petit billet (10) à ce videur (71) afin qu'il vous laisse entrer.", 
+	         "cards" : "81", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "78", 
+	         "hintID" : "", 
+	         "message" : "Appuyez sur le bouton dédié de l'application pour effectuer une recherche des journaux existants dans l'annuaire en y tapant JOURNAL.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "81", 
+	         "hintID" : "", 
+	         "message" : "Patientez jusqu'à la fin de la musique. Un message apparaîtra alors sur votre appareil.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "83", 
+	         "hintID" : "", 
+	         "message" : "Ne perdez pas de temps à enquêter du côté des docks. Tout cela ne semble pas être une piste fiable.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "86", 
+	         "hintID" : "", 
+	         "message" : "Allez à présent enquêter du côté du lieu de travail de Charles Forest, les FOREST MOVIES STUDIOS, ainsi qu'auprès de sa femme IRINA NEVSKI, en cherchant ces noms dans l'annuaire.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "88", 
+	         "hintID" : "", 
+	         "message" : "Ne vous attardez pas sur la piste du tract communiste (53) trouvé chez votre patron. C'est une fausse piste semée par l'inspecteur Finnegan afin d'évincer Marlowe et d'arrêter son enquête en cours.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "91", 
+	         "hintID" : "", 
+	         "message" : "Reprenez la photo de la fin de tournage récupérée dans la salle de montage (96). Il y a sur la chaise de Jessica Klissman le livre <i>Strangers on a Train</i> de Patricia Highsmith. Sélectionnez ce livre dans la bibliothèque.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "phonebook_journal", 
+	         "message" : "Sélectionnez le <i>Hollywood Night Life</i>.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "phonebook_finnegan", 
+	         "message" : "Sur la carte d'introduction, alors que vous étiez en ligne avec Marlowe, ce dernier a prononcé le prénom « SAM » avant de se faire enlever. Sélectionnez SAM FINNEGAN.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "blueroom_door", 
+	         "message" : "Toquez trois fois à la porte pour continuer.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "44", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "Z", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous attrapez l’homme par l’épaule. Il se retourne, surpris et apeuré. C’est bien Forest !"
+	      }, 
+	      { 
+	         "number" : "58", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "12", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Les sirènes de police ! Ils prennent la fuite. Avant de déserter les lieux vous aussi, vous repérez quelque chose au sol."
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La terre semble plus meuble à cet endroit. Vous creusez et trouvez la fameuse bobine ! FÉLICITATIONS ! Vous êtes grassement récompensés par la princesse Nevski. Ravie, elle va enfin pouvoir divorcer de son escroc de mari. Vous apportez au FBI toutes les preuves qui innocentent Marlowe. Grâce à vous, c'est un homme libre. De retour à votre bureau miteux, le téléphone sonne. Les affaires reprennent."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "14", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous vous emparez du livre et l’ouvrez."
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "11111", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_Hollywood_BlueRoom", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous trouvez parmi les pages de l'annuaire une boutique de photographe. Vous notez l'adresse et vous y rendez.", 
+	         "messageID" : "phonebook_photo", 
+	         "cardsToTake" : "19", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous récupérez dans l'annuaire l'adresse d'un club nommé The Blue Room. Le soir venu, vous arrivez devant les lieux et entendez la musique depuis l'extérieur.", 
+	         "messageID" : "phonebook_blueroom", 
+	         "cardsToTake" : "71", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "Hollywood_Old_Mackies_Back", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "À l'aube, vous vous mettez en route vers les bureaux du <i>Hollywood Night Life</i>.", 
+	         "messageID" : "phonebook_journal", 
+	         "cardsToTake" : "63", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous filez jusqu'aux abords du Forest Movies Studio.", 
+	         "messageID" : "phonebook_forestmovies", 
+	         "cardsToTake" : "20", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous consultez l'annuaire pour trouver l'adresse d'Irina Nevski. Aucune adresse n'apparaît à ce nom, mais vous trouvez entre deux pages une note manuscrite déchirée la concernant.", 
+	         "messageID" : "phonebook_nevski", 
+	         "cardsToTake" : "37", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Ce nom est bel et bien présent dans l'annuaire. Vous vous rendez à l'adresse indiquée.", 
+	         "messageID" : "phonebook_klissman", 
+	         "cardsToTake" : "13", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "Hollywood_Jazz_Action_Scene", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous arrêtez un taxi et le pressez de vous conduire sur-le-champ à l'aéroport.", 
+	         "messageID" : "phonebook_airport", 
+	         "cardsToTake" : "26", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Direction la Casa Mario, vous touchez au but !", 
+	         "messageID" : "phonebook_casamario", 
+	         "cardsToTake" : "P", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous gravissez le versant sud du mont Lee pour atteindre les lettres Hollywood. Vous voilà en haut, essoufflés, surplombant une partie de la ville.", 
+	         "messageID" : "phonebook_hollywood", 
+	         "cardsToTake" : "69", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous trouvez l'adresse du central de la police de Los Angeles et partez vous y renseigner.", 
+	         "messageID" : "phonebook_police", 
+	         "cardsToTake" : "35", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous notez la localisation de Sam Finnegan et vous rendez à son domicile.", 
+	         "messageID" : "phonebook_finnegan", 
+	         "cardsToTake" : "66", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "« Oui, je connais. C’est une munition de calibre .38, utilisée exclusivement par les forces de police. Je ne peux pas vous en vendre. »", 
+	         "messageID" : "phonebook_armurier", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous récupérez l'adresse de la villa de l'acteur.", 
+	         "messageID" : "phonebook_karis", 
+	         "cardsToTake" : "J", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Phil's Diner est un petit restaurant situé dans un coin de la ville. Vous allez y faire un tour.", 
+	         "messageID" : "phonebook_diner", 
+	         "cardsToTake" : "D", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Les docks sont en pleine activité. Vous localisez avec peine l’entrepôt, mais il semble déserté. C'est une fausse piste, quelle perte de temps !", 
+	         "messageID" : "phonebook_docks", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "83"
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous vous planquez devant la gare et voyez passer plein de gens sans rapport avec l’affaire.", 
+	         "messageID" : "phonebook_gare", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Arrivés à l'agence fédérale, on vous fait attendre longuement, puis on prend vos empreintes. On vous fait patienter à nouveau… Finalement, on ne vous dit rien à propos de Marlowe et on vous invite à rentrer chez vous. Quelle perte de temps !", 
+	         "messageID" : "phonebook_fbi", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Votre recherche est infructueuse.", 
+	         "messageID" : "phonebook_notfound", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous n’avez rien à y faire pour le moment.", 
+	         "messageID" : "phonebook_tooearly", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous frappez à la porte de la loge.\\nAprès un bref instant de silence, une voix vous invite à entrer.", 
+	         "messageID" : "blueroom_door", 
+	         "cardsToTake" : "55", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

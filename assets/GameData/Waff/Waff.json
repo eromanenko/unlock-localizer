@@ -1,0 +1,816 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Waff", 
+	   "number" : "33", 
+	   "displayName" : "L'Odyssée de W.A.F.F.", 
+	   "difficulty" : "3", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Waff", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "WAFF_Start", 
+	   "maxTime" : "5400", 
+	   "totalTime" : "5400", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o1", 
+	         "time" : "300", 
+	         "nextObject" : "False", 
+	         "message" : "Il y a un numéro caché dans la décharge (14 et 17)."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Malgré les secousses, avez-vous pris les cartes T et V ? Avez-vous aussi remarqué le 3 qui est tombé du numéro de la machine ?"
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les formes arrondies de cet objet vous sont étrangement familières."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut l'amadouer avec un détritus de la décharge. Même si la boîte paraît tentante, elle est vide. Restent le caoutchouc et l'objet métallique aux formes arrondies. Mais lequel choisir ?"
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faudra remplir cette boîte vide à un moment de l'aventure."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "W.A.F.F. peut vous aider à mieux comprendre cette planète."
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Malgré les secousses, avez-vous pris les cartes T et V ?"
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les flèches indiquant des directions sur les écrans vous donnent la séquence à entrer."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Quelque chose semble être caché dans le noir."
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Quelque chose semble être caché dans le noir."
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ne distinguez-vous pas une sorte de carte magnétique ?"
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La position initiale m'a appris le 3. En positionnant correctement les 4 morceaux (en les déplaçant et en les retournant, jamais en les inclinant), je pourrai apprendre les chiffres dans la langue de W.A.F.F. Reste à trouver les formes qui me seront utiles."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cherchez dans la décharge un objet qui puisse se glisser dans la fente."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "N'avez-vous pas remarqué le panneau solaire brisé au dos ?"
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Superposez correctement les quatre morceaux du panneau solaire, et les fils seront reconnectés comme il faut."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut trouver un moyen de réanimer W.A.F.F."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La couleur des yeux de W.A.F.F. et de la fumée qui s'échappe de lui peut vous aider à trouver l'endroit où vous rendre. "
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour déchiffrer cette tablette, il faudrait la montrer à un natif de cette planète."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous remarqué sa console près de son arrière-train ?"
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous pris les cartes 20, 53, 58 et 62 ?"
+	      }, 
+	      { 
+	         "number" : "39", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "W.A.F.F. est prêt à vous guider."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "N'avez-vous pas remarqué le panneau solaire brisé au dos ?"
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Superposez correctement les quatre morceaux du panneau solaire, et les fils seront reconnectés comme il faut."
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'image imprimée montre un lieu très chaud avec un geyser de feu. Cet endroit pourrait vous aider à faire fondre le caoutchouc."
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris les 4 morceaux du panneau ? Attention ! le premier est à l'envers."
+	      }, 
+	      { 
+	         "number" : "49", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Positionnez cette carte sur le ( C ) du support 3D. Guidez W.A.F.F. dans le vaisseau 3D. Vous devriez voir des chiffres colorés à travers les trous. Reste à trouver le bon ordre."
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La position initiale m'a appris le 3. En positionnant correctement les 4 morceaux (en les déplaçant et en les retournant, jamais en les inclinant), je pourrai apprendre les chiffres dans la langue de W.A.F.F. Reste à trouver les formes qui me seront utiles."
+	      }, 
+	      { 
+	         "number" : "58", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La position initiale m'a appris le 3. En positionnant correctement les 4 morceaux (en les déplaçant et en les retournant, jamais en les inclinant), je pourrai apprendre les chiffres dans la langue de W.A.F.F. Reste à trouver les formes qui me seront utiles."
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez les indications de W.A.F.F. (bouton dédié)."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce matériau vous sera utile plus loin dans l'aventure."
+	      }, 
+	      { 
+	         "number" : "62", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La position initiale m'a appris le 3. En positionnant correctement les 4 morceaux (en les déplaçant et en les retournant, jamais en les inclinant), je pourrai apprendre les chiffres dans la langue de W.A.F.F. Reste à trouver les formes qui me seront utiles."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "N'avez-vous pas remarqué le panneau solaire brisé au dos ?"
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Superposez correctement les quatre morceaux du panneau solaire, et les fils seront reconnectés comme il faut."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut scanner le vaisseau pour connaître les autres avaries."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque symbole désigne un chiffre ou une couleur. Cela devrait vous aider à vous faire comprendre de W.A.F.F. (grâce au modificateur à deux chiffres)."
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'appareil demande une reconnaissance faciale. Choisissez qui vous voulez."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous pris la combinaison (97) et remarqué les modificateurs (+7 et +9) où positionner vos pieds ?"
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "N'avez-vous pas remarqué le panneau solaire brisé au dos ?"
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Superposez correctement les quatre morceaux du panneau solaire, et les fils seront reconnectés comme il faut."
+	      }, 
+	      { 
+	         "number" : "89", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La carte magnétique est-elle dans le bon sens ?"
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Maintenant que vous connaissez 1, 2, rouge et bleu, reproduisez les séquences sur le clavier de W.A.F.F."
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque jauge de sa batterie peut recevoir 1 dose constituée de plusieurs gouttes. Il faut nourrir W.A.F.F. en respectant bien le nombre de gouttes pour chaque dose."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Colmatez la brèche avec le caoutchouc fondu."
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Tâchez de ne pas trop vous emmêler les pieds avant de sortir."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est l'antenne de ces vestiges qui vous intéresse pour votre vaisseau."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'histoire de W.A.F.F. va vous permettre de trouver sur quelle destination mettre le cap."
+	      }, 
+	      { 
+	         "number" : "222", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez trouvé ici le soufre et la quantité (+43). Il vous faut la même quantité d'argile (lieu cœur). Donc…"
+	      }, 
+	      { 
+	         "number" : "666", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut comprendre les formes de cet inhabituel modificateur dans la langue de W.A.F.F. Avez-vous percé le mystère de la tablette en pierre (25) ?"
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "waff_step1", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "W.A.F.F. est prêt à vous guider."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "waff_step2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque jauge de sa batterie peut recevoir 1 dose constituée de plusieurs gouttes. Il faut nourrir W.A.F.F. en respectant bien le nombre de gouttes pour chaque dose."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "waff_step3", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez 2 zones inexplorées. Commencez par mettre en bon ordre les différents environnements qui entourent la décharge."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "waff_step4", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devriez voir à travers les trous des chiffres colorés. Reste à trouver le bon ordre en suivant les traces de W.A.F.F. N'oubliez pas, le chiffre à valider doit être coloré."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "1", 
+	         "hintID" : "", 
+	         "message" : "Regardez le 3 qui est tombé de la puce. Cette carte (Machine) est en réalité la numéro 13.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "Pour l'amadouer, il faut donner à W.A.F.F. (8) cet objet métallique qui ressemble à un os : 4 + 8 = 12.", 
+	         "cards" : "12", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "hintID" : "", 
+	         "message" : "Pour l'amadouer, il faut donner à W.A.F.F. l'objet métallique (4) qui ressemble à un os : 4 + 8 = 12.", 
+	         "cards" : "12", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "hintID" : "", 
+	         "message" : "Il faut combiner la boîte de conserve (11), le modificateur +57 de la carte 666 (violette) et W.A.F.F. en panne (24) pour recharger ce dernier. Comme vous pouvez le voir, la pièce de puzzle violette (666) est particulière. Il faut la combiner avec deux cartes et non une.", 
+	         "cards" : "92", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "13", 
+	         "hintID" : "", 
+	         "message" : "Ces illusions d'optique cachent, pour la carte T, une flèche allant vers la droite sur l'écran du haut et une flèche indiquant la gauche sur celui du bas. Sur la carte V, vous pouvez distinguer une flèche allant vers le haut pour l'écran du haut et une flèche indiquant la droite sur celui du bas.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "14", 
+	         "hintID" : "", 
+	         "message" : "Juxtaposez les éléments (14) et (17) de la décharge afin que les deux décors se complètent. Un numéro caché (8) apparaît dans l'espace noir entre les deux cartes, juste au-dessus du grognement.", 
+	         "cards" : "8", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "17", 
+	         "hintID" : "", 
+	         "message" : "En juxtaposant la décharge (17) et la décharge (14) afin que les deux décors se complètent, vous trouverez le numéro caché (8) dans l'espace noir entre les deux cartes. Révélez la carte qui ressemble étrangement à la carte magnétique dans le décor de la décharge (17).", 
+	         "cards" : "8", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "20", 
+	         "hintID" : "", 
+	         "message" : "Afin de décoder toutes les formes présentes sur la tablette, il faut garder les cartes 20, 53, 58 et 62 en format portrait. En échangeant leurs positions et en les faisant pivoter, vous trouverez neuf formes différentes contenant un chiffre allant de 1 à 9. Reportez-vous aux solutions pour voir les différentes formes.", 
+	         "cards" : "65", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "22", 
+	         "hintID" : "", 
+	         "message" : "Pour déverrouiller la console, il faut utiliser la carte magnétique (89) qui est dissimulée dans la décharge (17) (et dans vos cartes). La carte magnétique doit être placée dans le sens des chevrons, c'est-à-dire à l'envers, pour avoir le numéro dans le bon sens (68).", 
+	         "cards" : "90", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "Superposez les dos des cartes 20, 42, 64 et 80 en vous aidant des fissures pour voir le panneau solaire dans son intégralité. En retournant l'ensemble, vous verrez les fils électriques démêlés former le numéro 65.", 
+	         "cards" : "65", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "24", 
+	         "hintID" : "", 
+	         "message" : "Il faut aller dans l'environnement violet. Combinez le symbole cœur (rouge) et le symbole goutte (bleu) pour trouver le symbole correspondant à la couleur violette. Prenez la carte avec le symbole goutte dans cœur.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "25", 
+	         "hintID" : "", 
+	         "message" : "W.A.F.F. (12) peut vous aider à déchiffrer la tablette en pierre (25).", 
+	         "cards" : "37", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "33", 
+	         "hintID" : "", 
+	         "message" : "Sur sa console se trouve un code composé de deux triangles. Vous l'avez compris, deux triangles font 22.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "37", 
+	         "hintID" : "", 
+	         "message" : "Prenez les cartes 20, 53, 58 et 62, et placez-les comme sur l'image. Vous verrez un losange avec un 3 en son centre. Cela va vous permettre de décoder toutes les formes.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "39", 
+	         "hintID" : "", 
+	         "message" : "Appuyez sur le bouton dédié (W.A.F.F.) de votre téléphone. Il vous guidera vers le lieu contenant de l'argile. Le cœur qu'il vous montre vous indique de prendre la carte avec le symbole cœur.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "42", 
+	         "hintID" : "", 
+	         "message" : "Superposez les dos des cartes 20, 42, 64 et 80 en vous aidant des fissures pour voir le panneau solaire dans son intégralité. En retournant l'ensemble, vous verrez les fils électriques démêlés former le numéro 65.", 
+	         "cards" : "65", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "43", 
+	         "hintID" : "", 
+	         "message" : "Sur l'image imprimée, vous pouvez remarquer la moitié d'un modificateur rouge avec des formes bizarres. Pour avoir le modificateur complet, placez la carte 43 derrière la carte cœur afin d'avoir le geyser de feu qui sort de la montagne. Avec l'aide de la tablette en pierre (25), vous trouverez la correspondance entre formes et chiffres.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "49", 
+	         "hintID" : "", 
+	         "message" : "En plaçant la carte 49 sur le support du vaisseau 3D, vous pourrez voir des numéros à travers les trous. Allez dans la solution du bouton dédié pour plus de détails.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "53", 
+	         "hintID" : "", 
+	         "message" : "Afin de décoder toutes les formes présentes sur la tablette, il faut garder les cartes 20, 53, 58 et 62 en format portrait. En échangeant leurs positions et en les faisant pivoter, vous trouverez neuf formes différentes contenant un chiffre allant de 1 à 9. Reportez-vous aux solutions pour voir les différentes formes.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "58", 
+	         "hintID" : "", 
+	         "message" : "Afin de décoder toutes les formes présentes sur la tablette, il faut garder les cartes 20, 53, 58 et 62 en format portrait. En échangeant leurs positions et en les faisant pivoter, vous trouverez neuf formes différentes contenant un chiffre allant de 1 à 9. Reportez-vous aux solutions pour voir les différentes formes.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "59", 
+	         "hintID" : "", 
+	         "message" : "Orientez votre téléphone vers les deux lieux inexplorés. Le nord-ouest pour avoir la forme qui correspond au 9, et le sud-ouest pour obtenir celle qui correspond au 8.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "60", 
+	         "hintID" : "", 
+	         "message" : "Combinez le pneu (60) d'une part, et le modificateur rouge (+35) de la carte 43 et de la carte cœur d'autre part, pour obtenir du caoutchouc malléable.", 
+	         "cards" : "95", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "62", 
+	         "hintID" : "", 
+	         "message" : "Afin de décoder toutes les formes présentes sur la tablette, il faut garder les cartes 20, 53, 58 et 62 en format portrait. En échangeant leurs positions et en les faisant pivoter, vous trouverez neuf formes différentes contenant un chiffre allant de 1 à 9. Reportez-vous aux solutions pour voir les différentes formes.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "64", 
+	         "hintID" : "", 
+	         "message" : "Superposez les dos des cartes 20, 42, 64 et 80 en vous aidant des fissures pour voir le panneau solaire dans son intégralité. En retournant l'ensemble, vous verrez les fils électriques démêlés former le numéro 65.", 
+	         "cards" : "65", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "65", 
+	         "hintID" : "", 
+	         "message" : "Scannez la carte 47 pour détecter les avaries.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "66", 
+	         "hintID" : "", 
+	         "message" : "Voilà ce que W.A.F.F. essaye de vous faire comprendre : rond égale 1, triangle égale 2, cœur égale rouge et goutte égale bleu. Vous devez répondre à W.A.F.F. (12) : modificateur + 21 rouge.", 
+	         "cards" : "33", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "69", 
+	         "hintID" : "", 
+	         "message" : "Scannez votre visage pour continuer.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "70", 
+	         "hintID" : "", 
+	         "message" : "Pour sortir du vaisseau, il faut utiliser les modificateurs aux pieds de la combinaison (97). Enfilez la combinaison (97) face à la sortie (70). Vous aurez comme résultats le pied droit (+8) avec le +9 au sol, soit 17, et le pied gauche (+7) avec le +7 au sol, soit 14.", 
+	         "cards" : "14,17", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "80", 
+	         "hintID" : "", 
+	         "message" : "Superposez les dos des cartes 20, 42, 64 et 80 en vous aidant des fissures pour voir le panneau solaire dans son intégralité. En retournant l'ensemble, vous verrez les fils électriques démêlés former le numéro 65.", 
+	         "cards" : "65", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "89", 
+	         "hintID" : "", 
+	         "message" : "En mettant cette carte magnétique dans le bon sens, vous débloquerez la console. Regardez bien le numéro : 89 devient 68. Vous n'avez plus qu'à combiner la carte magnétique (68) et la console de W.A.F.F. (22).", 
+	         "cards" : "90", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "90", 
+	         "hintID" : "", 
+	         "message" : "Voici les réponses aux cinq séquences pour apprendre les premiers signes :\\n1/ Rouge.\\n2/ Rouge et bleu.\\n3/ Rouge, bleu et deux.\\n4/ Rouge, bleu, deux et un.\\n5/ Rouge, bleu, deux, un et bleu.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "92", 
+	         "hintID" : "", 
+	         "message" : "Pour chaque jauge à recharger, il faut donner à W.A.F.F. un certain nombre de gouttes en touchant sa bouche. La première dose proche de sa bouche représente 8 gouttes, la deuxième, 4, et la dernière, 6.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "95", 
+	         "hintID" : "", 
+	         "message" : "Suivez le tracé avec votre doigt afin de colmater la brèche.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "97", 
+	         "hintID" : "", 
+	         "message" : "Pour sortir du vaisseau, il faut utiliser les modificateurs aux pieds de la combinaison (97). Enfilez la combinaison (97) face à la sortie (70). Vous aurez comme résultats le pied droit (+8) avec le +9 au sol, soit 17, et le pied gauche (+7) avec le +7 au sol, soit 14.", 
+	         "cards" : "14,17", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "98", 
+	         "hintID" : "", 
+	         "message" : "Additionnez le modificateur +65 bleu et la carte de la brèche colmatée pour fixer l'antenne (34).", 
+	         "cards" : "99", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "hintID" : "", 
+	         "message" : "Dans la vignette 6 de l'histoire de W.A.F.F., on voit deux constellations ayant des formes qui peuvent être déchiffrées avec le code de la carte Z. Elles forment un 6 et un 9.", 
+	         "cards" : "69", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "222", 
+	         "hintID" : "", 
+	         "message" : "Il faut de l'argile (+43) et du soufre (+43) en quantités égales.", 
+	         "cards" : "86", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "666", 
+	         "hintID" : "", 
+	         "message" : "Il faut combiner la boîte de conserve (11), le modificateur +57 de la carte 666 (violette) et W.A.F.F. en panne (24) pour recharger ce dernier. Comme vous pouvez le voir, la pièce de puzzle violette (666) est particulière. Il faut la combiner avec deux cartes et non une.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "waff_step1", 
+	         "message" : "Le cœur qu'il vous montre vous indique de prendre la carte avec le symbole cœur.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "waff_step2", 
+	         "message" : "Pour chaque jauge à recharger, il faut donner à W.A.F.F. un certain nombre de gouttes en touchant sa bouche. La première dose proche de sa bouche représente 8 gouttes, la deuxième, 4, et la dernière, 6.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "waff_step3", 
+	         "message" : "Orientez votre téléphone vers les deux lieux inexplorés. Le nord-ouest pour avoir la forme qui correspond au 9, et le sud-ouest pour obtenir celle qui correspond au 8.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "waff_step4", 
+	         "message" : "Les codes à entrer dans l'ordre sur le pad sont : symbole 9 + cœur, symbole 8 + soleil goutte et symbole 2 + goutte.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "1", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Il n’y a pas de machine 1. Dans la précipitation, j’ai dû me tromper."
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "70", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Après un atterrissage forcé, tout est devenu calme dans le vaisseau."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "75", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Identification du propriétaire acceptée."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "47", 
+	         "cardsToDiscard" : "", 
+	         "message" : "W.A.F.F. a suffisamment joué avec vous et part se reposer. Vous pouvez maintenant utiliser le bouton dédié W.A.F.F. : le petit robot vous viendra en aide plusieurs fois dans cette aventure."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "34", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La brèche est colmatée."
+	      }, 
+	      { 
+	         "number" : "11111", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "Q", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Bravo ! W.A.F.F. a pu réparer le vaisseau !"
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

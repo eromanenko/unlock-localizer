@@ -1,0 +1,505 @@
+{
+	"boxes": [
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French",
+				"English",
+				"German",
+				"Italian",
+				"Dutch",
+				"Spanish",
+				"Hungarian",
+				"Korean",
+				"Chinese",
+				"Ukrainian"
+			],
+			"soonLanguages": [],
+			"ID": "Short",
+			"displayName": "",
+			"localizedBanner": "False",
+			"adventures": [
+				"Sabre",
+				"Ascension",
+				"Sirene",
+				"Migration",
+				"SherlockHead",
+				"Chat",
+				"Birmingham",
+				"RedMask",
+				"Donjon_Doo-Arann",
+				"Cuisine",
+				"Momie",
+				"Ange",
+				"Poursuite_Cabrakan",
+				"Pieuvre"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French",
+				"English"
+			],
+			"soonLanguages": [],
+			"ID": "Unlock15",
+			"displayName": "New Game",
+			"localizedBanner": "False",
+			"adventures": [
+				"Heat",
+				"Carcassonne",
+				"SevenWonders"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French",
+				"English",
+				"German",
+				"Italian",
+				"Spanish",
+				"Chinese"
+			],
+			"soonLanguages": [],
+			"ID": "Enchanted",
+			"displayName": "Enchanted",
+			"localizedBanner": "False",
+			"adventures": [
+				"Kilea",
+				"Funfair",
+				"Excalibur"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French",
+				"English",
+				"German",
+				"Italian",
+				"Spanish",
+				"Chinese"
+			],
+			"soonLanguages": [],
+			"ID": "Risky",
+			"displayName": "Risky",
+			"localizedBanner": "False",
+			"adventures": [
+				"Altipia",
+				"Lapinot",
+				"Mafia"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French",
+				"English",
+				"German",
+				"Italian",
+				"Dutch",
+				"Spanish",
+				"Chinese"
+			],
+			"soonLanguages": [],
+			"ID": "SuperNatural",
+			"displayName": "",
+			"localizedBanner": "False",
+			"adventures": [
+				"NovaCity",
+				"DiaDeMuertos",
+				"Ragnarok"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French",
+				"English",
+				"German",
+				"Italian",
+				"Dutch",
+				"Spanish"
+			],
+			"soonLanguages": [],
+			"ID": "Extraordinary",
+			"displayName": "Extraordinary",
+			"localizedBanner": "False",
+			"adventures": [
+				"Restart",
+				"Hollywood",
+				"Waff"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French",
+				"English",
+				"German",
+				"Italian",
+				"Dutch",
+				"Spanish",
+				"Japanese",
+				"Russian",
+				"Chinese",
+				"Brazilian"
+			],
+			"soonLanguages": [],
+			"ID": "Game",
+			"displayName": "Game",
+			"localizedBanner": "False",
+			"adventures": [
+				"TicketToRide",
+				"Mysterium",
+				"Pandemic"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French",
+				"English",
+				"German",
+				"Italian",
+				"Dutch",
+				"Spanish",
+				"Chinese"
+			],
+			"soonLanguages": [],
+			"ID": "Legendary",
+			"displayName": "Legendary",
+			"localizedBanner": "False",
+			"adventures": [
+				"ActionStory",
+				"Robin",
+				"Sherlock2"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French",
+				"English",
+				"German",
+				"Italian",
+				"Dutch",
+				"Spanish",
+				"Japanese",
+				"Korean",
+				"Chinese"
+			],
+			"soonLanguages": [],
+			"ID": "Mythic",
+			"displayName": "Mythic",
+			"localizedBanner": "False",
+			"adventures": [
+				"Grece",
+				"Animalomatic",
+				"TourDuMonde"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French",
+				"English",
+				"German",
+				"Italian",
+				"Dutch",
+				"Spanish",
+				"Japanese",
+				"Korean",
+				"Chinese"
+			],
+			"soonLanguages": [],
+			"ID": "Epic",
+			"displayName": "Epic",
+			"localizedBanner": "False",
+			"adventures": [
+				"Cinema",
+				"Chine",
+				"Espions"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French",
+				"English",
+				"German",
+				"Italian",
+				"Dutch",
+				"Spanish",
+				"Japanese",
+				"Korean",
+				"Chinese",
+				"Brazilian"
+			],
+			"soonLanguages": [],
+			"ID": "Timeless",
+			"displayName": "Timeless",
+			"localizedBanner": "False",
+			"adventures": [
+				"Circus",
+				"Paris",
+				"TimeTravel"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French",
+				"English",
+				"German",
+				"Italian",
+				"Dutch",
+				"Spanish",
+				"Japanese",
+				"Czech",
+				"Korean",
+				"Chinese",
+				"Brazilian"
+			],
+			"soonLanguages": [],
+			"ID": "Heroic",
+			"displayName": "Heroic",
+			"localizedBanner": "False",
+			"adventures": [
+				"InsertCoin",
+				"Sherlock",
+				"Alice"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French",
+				"English",
+				"German",
+				"Italian",
+				"Dutch",
+				"Spanish",
+				"Japanese",
+				"Hungarian",
+				"Korean",
+				"Chinese"
+			],
+			"soonLanguages": [],
+			"ID": "Exotic",
+			"displayName": "Exotic",
+			"localizedBanner": "False",
+			"adventures": [
+				"CroqueMitaine",
+				"MilleNuits",
+				"Challenger"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French",
+				"English",
+				"German",
+				"Italian",
+				"Dutch",
+				"Greek",
+				"Spanish",
+				"Japanese",
+				"Hungarian",
+				"Korean",
+				"Chinese"
+			],
+			"soonLanguages": [],
+			"ID": "Secret",
+			"displayName": "Secret Adventures",
+			"localizedBanner": "False",
+			"adventures": [
+				"NosideStory",
+				"Tombstone",
+				"Oz"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French",
+				"English",
+				"German",
+				"Italian",
+				"Dutch",
+				"Portuguese",
+				"Spanish",
+				"Japanese",
+				"Hungarian",
+				"Korean",
+				"Chinese"
+			],
+			"soonLanguages": [],
+			"ID": "Mystery",
+			"displayName": "Mystery Adventures",
+			"localizedBanner": "False",
+			"adventures": [
+				"HouseOnHill",
+				"Nautilus",
+				"Tonipal"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"Swedish",
+				"Danish",
+				"Finnish",
+				"Norwegian"
+			],
+			"soonLanguages": [],
+			"ID": "Fantastic",
+			"displayName": "Fantastic",
+			"localizedBanner": "False",
+			"adventures": [
+				"Circus",
+				"Chine",
+				"Tonipal"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French",
+				"English",
+				"German",
+				"Italian",
+				"Polish",
+				"Dutch",
+				"Greek",
+				"Portuguese",
+				"Spanish",
+				"Japanese",
+				"Russian",
+				"Hungarian",
+				"Czech",
+				"Romanian",
+				"Korean",
+				"Chinese",
+				"Swedish",
+				"Thai",
+				"Danish",
+				"Finnish",
+				"Norwegian"
+			],
+			"soonLanguages": [],
+			"ID": "Escape",
+			"displayName": "Escape Adventures",
+			"localizedBanner": "False",
+			"adventures": [
+				"Tuto",
+				"Formula",
+				"Squeek",
+				"DoctorGoorse"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French"
+			],
+			"soonLanguages": [],
+			"ID": "EscapeGeeks",
+			"displayName": "",
+			"localizedBanner": "False",
+			"adventures": [
+				"TourEiffel"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French",
+				"English",
+				"German",
+				"Italian",
+				"Dutch",
+				"Spanish",
+				"Korean",
+				"Chinese"
+			],
+			"soonLanguages": [],
+			"ID": "Cannes_2020",
+			"displayName": "Le Masque de fer",
+			"localizedBanner": "True",
+			"adventures": [
+				"MasqueDeFer"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French"
+			],
+			"soonLanguages": [],
+			"ID": "LastmanBox",
+			"displayName": "Lastman",
+			"localizedBanner": "False",
+			"adventures": [
+				"Lastman"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
+				"French",
+				"English",
+				"German",
+				"Italian",
+				"Polish",
+				"Dutch",
+				"Greek",
+				"Spanish",
+				"Japanese",
+				"Russian",
+				"Korean",
+				"Chinese",
+				"Swedish",
+				"Danish",
+				"Finnish",
+				"Norwegian"
+			],
+			"soonLanguages": [],
+			"ID": "Demos",
+			"displayName": "Demo Adventures",
+			"localizedBanner": "False",
+			"adventures": [
+				"5thAvenue",
+				"RalphAzham",
+				"GhostStone",
+				"TicketToRide_Demo",
+				"Elite",
+				"Noel",
+				"RA"
+			]
+		}
+	]
+}

@@ -1,0 +1,932 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Tonipal", 
+	   "number" : "6", 
+	   "displayName" : "Le Trésor de Tonipal", 
+	   "difficulty" : "3", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Pirat", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "ad6_0.mp3", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "5100", 
+	   "penaltyTime" : "3", 
+	   "wrongCodePenaltyTime" : "2", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "1025", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd6_porte.wav", 
+	         "musicName" : "ad6_1.mp3", 
+	         "cardsToTake" : "38", 
+	         "cardsToDiscard" : "JD", 
+	         "message" : "La porte est déverrouillée ! Tonipal Island s'ouvre à vous..."
+	      }, 
+	      { 
+	         "number" : "1111", 
+	         "locale" : "", 
+	         "type" : "Dial", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd6_halte.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Trop tard ! Il faut combattre à présent !"
+	      }, 
+	      { 
+	         "number" : "1111", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "F", 
+	         "cardsToDiscard" : "R28,B42", 
+	         "message" : "Mouais…je vais vérifier vos dires. Bougez pas d’ici…\\n\\nLe garde s’en va, vous pouvez entrer dans la capitainerie."
+	      }, 
+	      { 
+	         "number" : "1603", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd6_tremble.wav", 
+	         "musicName" : "ad6_2.mp3", 
+	         "cardsToTake" : "H", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La terre tremble et la tombe pivote, laissant apparaître un cercueil."
+	      }, 
+	      { 
+	         "number" : "1710", 
+	         "locale" : "", 
+	         "type" : "Sound", 
+	         "extraNumber" : "-728", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "ad6_boite.mp3"
+	      }, 
+	      { 
+	         "number" : "2510", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd6_porte.wav", 
+	         "musicName" : "ad6_1.mp3", 
+	         "cardsToTake" : "38", 
+	         "cardsToDiscard" : "JD", 
+	         "message" : "La porte est déverrouillée ! Tonipal Island s'ouvre à vous..."
+	      }, 
+	      { 
+	         "number" : "5555", 
+	         "locale" : "", 
+	         "type" : "Sound", 
+	         "extraNumber" : "-2048", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "ad6_espion.mp3"
+	      }, 
+	      { 
+	         "number" : "5643", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "99", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd6_dead.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "F", 
+	         "cardsToDiscard" : "60,J70", 
+	         "message" : "Le garde est terrassé. Vous entrez dans la capitainerie."
+	      }, 
+	      { 
+	         "number" : "6662", 
+	         "locale" : "", 
+	         "type" : "Penal", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd6_plouf.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous avez fait long feu. Heureusement, d'ailleurs, car vous visiez le mauvais bateau. Les canonniers perdent du temps à recharger."
+	      }, 
+	      { 
+	         "number" : "6663", 
+	         "locale" : "", 
+	         "type" : "Penal", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd6_plouf.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous avez fait long feu. Heureusement, d'ailleurs, car vous visiez le mauvais bateau. Les canonniers perdent du temps à recharger."
+	      }, 
+	      { 
+	         "number" : "6664", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd6_boum.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "Y", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le Péril Salé est touché ! Mais Johnson s'en échappe sur une barque."
+	      }, 
+	      { 
+	         "number" : "6665", 
+	         "locale" : "", 
+	         "type" : "Penal", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd6_plouf.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous avez fait long feu. Heureusement, d'ailleurs, car vous visiez le mauvais bateau. Les canonniers perdent du temps à recharger."
+	      }, 
+	      { 
+	         "number" : "6666", 
+	         "locale" : "", 
+	         "type" : "Penal", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd6_plouf.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous avez fait long feu. Heureusement, d'ailleurs, car vous visiez le mauvais bateau. Les canonniers perdent du temps à recharger."
+	      }, 
+	      { 
+	         "number" : "6667", 
+	         "locale" : "", 
+	         "type" : "Penal", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd6_plouf.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous avez fait long feu. Heureusement, d'ailleurs, car vous visiez le mauvais bateau. Les canonniers perdent du temps à recharger."
+	      }, 
+	      { 
+	         "number" : "7098", 
+	         "locale" : "", 
+	         "type" : "Sound", 
+	         "extraNumber" : "-304", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "ad6_ara.mp3"
+	      }, 
+	      { 
+	         "number" : "8462", 
+	         "locale" : "", 
+	         "type" : "Reset", 
+	         "extraNumber" : "25", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd6_porte.wav", 
+	         "musicName" : "ad6_3.mp3", 
+	         "cardsToTake" : "43,Z", 
+	         "cardsToDiscard" : "B75,B,JE,H", 
+	         "message" : "La boîte à musique s'ouvre ! Le trésor est à portée de main. Le temps est compté."
+	      }, 
+	      { 
+	         "number" : "8907", 
+	         "locale" : "", 
+	         "type" : "Sound", 
+	         "extraNumber" : "-432", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "ad6_biscuit.mp3"
+	      }, 
+	      { 
+	         "number" : "9937", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "X", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous avez trouvé le trésor ! L'aventure s'arrête ici…ou alors…"
+	      }, 
+	      { 
+	         "number" : "4444", 
+	         "locale" : "", 
+	         "type" : "Sound", 
+	         "extraNumber" : "-283", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "ad6_mainate.mp3"
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "300", 
+	         "nextObject" : "False", 
+	         "message" : "Avez-vous examiné le sol de la geôle ?"
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o2", 
+	         "time" : "400", 
+	         "nextObject" : "False", 
+	         "message" : "Avez-vous regardé le panneau du port ? Il n'indique pas une distance, mais une carte."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hintName" : "o3", 
+	         "time" : "120", 
+	         "nextObject" : "False", 
+	         "message" : "Avez-vous regardé l'adresse de la plantation ? Allez-y !"
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "53", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez la clef et calez-la bien pour ouvrir le coffre."
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour chaque ligne du coffre, placez la clef en vis-à-vis des flèches blanches : chaque coche vous donnera alors une lettre."
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Six bateaux… Un seul d'entre eux est à couler, celui de Johnson. Enquêtez et donnez le bon code aux canonniers !"
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette gamelle peut contenir de nombreuses préparations… une potion vaudoue, par exemple."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le pêcheur qui habite cette maison a colmaté les fissures de ses vitres avec une page d'un vieux manuel d'escrime."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait trouver un moyen de jeter un œil à la serrure de l'autre côté de la porte."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le miroir réfléchit. Utilisez-le pour voir l'extérieur de la porte."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce perroquet ne dira rien avant d'avoir obtenu son fichu biscuit."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les couleurs indiquent l'ingrédient à utiliser, les animaux le nombre de mesures à employer."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comptez les pattes des animaux."
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces aiguilles ne peuvent être utilisées qu'avec la poupée vaudoue. Attendez le bon moment."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez bien les mouvements de vos adversaires et essayez de trouver les bonnes parades. Vous avez dû les voir quelque part sur une vitre."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque pierre peut être placée sur la montre-boussole."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois les pierres placées, chaque couleur correspondra à un chiffre qui vous donnera le code."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La phrase du perroquet ne correspond-elle pas à un rébus ? Il servira tôt ou tard..."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ile Faux Ssss Dé Pêche Haie ! "
+	      }, 
+	      { 
+	         "number" : "84", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait toucher les organes valides d'un estropié pour le rendre inoffensif."
+	      }, 
+	      { 
+	         "number" : "84", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez les aiguilles aux bons endroits sur la poupée. "
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Appuyez le bon nombre de fois sur chaque manette ou bouton et ajoutez la moitié des cannes disponibles."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut 6 kilos de cannes pour obtenir 100 cl (soit 1 litre) de rhum. "
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Rien à signaler..."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette potion réveillerait un mort… enfin, c'est une expression (espérons-le)."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "1", 
+	         "message" : "Vous n'avez rien pour tourner les vis cruciformes…"
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "1", 
+	         "message" : "Utilisez le doublon pour les vis plates, cela devrait suffire pour affaiblir la serrure."
+	      }, 
+	      { 
+	         "number" : "105", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez la poupée vaudoue et les aiguilles !"
+	      }, 
+	      { 
+	         "number" : "105", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : " Il faut toucher les organes valides de Johnson pour le rendre inoffensif."
+	      }, 
+	      { 
+	         "number" : "114", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le soleil se lève à l'Est. L'Est = 3."
+	      }, 
+	      { 
+	         "number" : "114", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Si l'Est = 3, alors l'Ouest = 9. Chaque pierre colorée correspond à un numéro."
+	      }, 
+	      { 
+	         "number" : "116", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce journal contient de précieuses informations, comme la date d'hier et l'adresse de Mami Wata."
+	      }, 
+	      { 
+	         "number" : "117", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Prenez les cartes indiquées dans la défausse et regardez leur dos… puis recomposez le puzzle."
+	      }, 
+	      { 
+	         "number" : "119", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque patte représente une mesure d'ingrédient. Suivez ensuite les couleurs de chaque animal."
+	      }, 
+	      { 
+	         "number" : "124", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Prenez la première lettre de chaque mot, vous obtiendrez le code en chiffres romains. La date du journal pourra aussi vous aider."
+	      }, 
+	      { 
+	         "number" : "124", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "M=1000/D=500/C=100/I=1"
+	      }, 
+	      { 
+	         "number" : "136", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a 4 emplacements pour loger des pierres. Il faut les trouver et les placer sur la boussole. Chacune donnera un numéro."
+	      }, 
+	      { 
+	         "number" : "139", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le bateau de Johnson a au moins 2 canons prêts. Cela élimine donc un vaisseau."
+	      }, 
+	      { 
+	         "number" : "143", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le code est simple et change tous les jours. Qu'est-ce qui change chaque matin ?"
+	      }, 
+	      { 
+	         "number" : "143", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "D'après le journal, nous étions le 24 octobre hier… Aujourd'hui, nous sommes donc le…"
+	      }, 
+	      { 
+	         "number" : "146", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez aller à la plantation. L'en-tête de la lettre vous donne l'adresse. Prenez la carte."
+	      }, 
+	      { 
+	         "number" : "152", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "2", 
+	         "message" : "Le bateau de Johnson vient de l'est, c'est-à-dire de la droite. Voilà qui élimine un bateau."
+	      }, 
+	      { 
+	         "number" : "157", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez de plus près le tatouage, il vous mènera à la crique. "
+	      }, 
+	      { 
+	         "number" : "157", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'ancre est une addition. Une fois résolue, elle vous indiquera le chemin de la crique."
+	      }, 
+	      { 
+	         "number" : "160", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "3", 
+	         "message" : "Johnson trempe ses voiles dans le sang de ses victimes. Ses voiles ont donc une couleur spécifique."
+	      }, 
+	      { 
+	         "number" : "165", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "3", 
+	         "message" : "Une clef vous donnera les moyens d'ouvrir ce coffre."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce cabot connaît Tonipal Island par cœur : montrez-lui une carte de l'île et il vous guidera."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait trouver une potion pour réveiller Mami Wata… reste à trouver la recette."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il n'y a rien à acheter ici… mais ce doublon peut servir à dévisser quelque chose."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "3", 
+	         "message" : "Regardez le graffiti sur ce mur… De quelle couleur est la coque du bateau de Johnson ?"
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "3", 
+	         "message" : "Il faudrait nettoyer cette vitre avec un chiffon pour y voir plus clair."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Personne ne mangerait cela à part un animal !"
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut que vous alliez au port… Regardez le panneau : il vous indique quelle carte prendre."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a 12 kilos de cannes. N'est-ce pas un peu trop ?"
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "N'utilisez que la moitié des cannes à sucre. Le chiffre de la carte (18) devient donc… Ajoutez-le à ce que vous donne l'alambic."
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "2", 
+	         "message" : "Des points à l'horizon : utilisez une lunette pour voir de près ce dont il s'agit."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Du (mauvais) rhum. À peine bon pour des pirates emprisonnés."
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "3", 
+	         "message" : "Pour combattre, utilisez un sabre ! Mais en parlementant, vous éviterez peut-être la bagarre. "
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce pirate ne vous aidera qu'en échange d'une bouteille de rhum. Inutile d'essayer de lui donner autre chose."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "1", 
+	         "message" : "Ce miroir vous permet de regarder l'autre côté de la porte."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette longue-vue peut vous permettre de voir à l'horizon."
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut aller chez la sorcière vaudoue. Ses coordonnées sont un symbole sur le journal. Le chien vous guidera."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce sabre ne sert qu'à se battre… Vu son état, espérons que l'adversaire est un piètre combattant."
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Écoutez le perroquet : « Ile » « Faux » « Ssssss »… Cela vous permettra de remettre le poème dans l’ordre."
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ile Faux Ssss Dé Pêche Haie ! Lisez le poème dans cet ordre."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce chiffon servira à nettoyer quelque chose de très sale. Comme une vitre."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "9", 
+	         "message" : "", 
+	         "cards" : "60", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "message" : "", 
+	         "cards" : "77", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "13", 
+	         "message" : "", 
+	         "cards" : "7", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "18", 
+	         "message" : "", 
+	         "cards" : "24", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "21", 
+	         "message" : "", 
+	         "cards" : "56", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "24", 
+	         "message" : "", 
+	         "cards" : "53", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "34", 
+	         "message" : "", 
+	         "cards" : "98", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "53", 
+	         "message" : "", 
+	         "cards" : "75", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "56", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "6664"
+	      }, 
+	      { 
+	         "hintNumber" : "64", 
+	         "message" : "", 
+	         "cards" : "98", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "66", 
+	         "message" : "Orange=2 / Violet=8 / Rose= 4", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "70", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "5643"
+	      }, 
+	      { 
+	         "hintNumber" : "90", 
+	         "message" : "100/3/2", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "95", 
+	         "message" : "", 
+	         "cards" : "99", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "105", 
+	         "message" : "", 
+	         "cards" : "83", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "114", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "8462"
+	      }, 
+	      { 
+	         "hintNumber" : "119", 
+	         "message" : "Orange=2 / Violet=8 / Rose= 4", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "124", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "1603"
+	      }, 
+	      { 
+	         "hintNumber" : "143", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "2510"
+	      }, 
+	      { 
+	         "hintNumber" : "146", 
+	         "message" : "", 
+	         "cards" : "27", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "157", 
+	         "message" : "", 
+	         "cards" : "13", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "84", 
+	         "name" : "", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "solutions" : "16", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "name" : "", 
+	         "objectNumber" : "99", 
+	         "eventNumber" : "0", 
+	         "solutions" : "52", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "34,36", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "name" : "", 
+	         "objectNumber" : "99", 
+	         "eventNumber" : "0", 
+	         "solutions" : "15", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "51", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

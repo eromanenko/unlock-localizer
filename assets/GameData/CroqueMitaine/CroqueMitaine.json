@@ -1,0 +1,645 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "CroqueMitaine", 
+	   "number" : "10", 
+	   "displayName" : "La nuit des Croquemitaines", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "CroqueMitaine", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "CroqueMitaine.mp3", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "3", 
+	   "wrongCodePenaltyTime" : "2", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "3128", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "4", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "45", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La serrure de la hero box se déverrouille."
+	      }, 
+	      { 
+	         "number" : "3127", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "4", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "45", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La serrure de la hero box se déverrouille."
+	      }, 
+	      { 
+	         "number" : "3100", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Êtes-vous sûrs d'avoir bien compté les voitures ?"
+	      }, 
+	      { 
+	         "number" : "3101", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Êtes-vous sûrs d'avoir bien compté les voitures ?"
+	      }, 
+	      { 
+	         "number" : "3107", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Êtes-vous sûrs d'avoir bien compté les voitures ?"
+	      }, 
+	      { 
+	         "number" : "3108", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Êtes-vous sûrs d'avoir bien compté les voitures ?"
+	      }, 
+	      { 
+	         "number" : "3110", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Êtes-vous sûrs d'avoir bien compté les voitures ?"
+	      }, 
+	      { 
+	         "number" : "3111", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Êtes-vous sûrs d'avoir bien compté les voitures ?"
+	      }, 
+	      { 
+	         "number" : "3117", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Êtes-vous sûrs d'avoir bien compté les voitures ?"
+	      }, 
+	      { 
+	         "number" : "3118", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Êtes-vous sûrs d'avoir bien compté les voitures ?"
+	      }, 
+	      { 
+	         "number" : "2577", 
+	         "locale" : "", 
+	         "type" : "Event", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "2", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "7752", 
+	         "locale" : "", 
+	         "type" : "Event", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "2", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "84711", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ces croquemitaines ne sont plus qu'un lointain cauchemar pour Guillaume ! Vous l'avez aidé à vaincre ses peurs, félicitations !"
+	      }, 
+	      { 
+	         "number" : "1609", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "26", 
+	         "cardsToDiscard" : "12,J83", 
+	         "message" : "Le placard s'ouvre en grinçant."
+	      }, 
+	      { 
+	         "number" : "5125", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "80,90,91", 
+	         "message" : "Guillaume se rendort, vous pouvez continuer votre aventure."
+	      }, 
+	      { 
+	         "number" : "5225", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "80,90,91", 
+	         "message" : "Guillaume se rendort, vous pouvez continuer votre aventure."
+	      }, 
+	      { 
+	         "number" : "7311", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd10_broyeur", 
+	         "musicName" : "", 
+	         "cardsToTake" : "60", 
+	         "cardsToDiscard" : "J2,3,7,11,42,57", 
+	         "message" : "Vous détruisez toutes les cachettes... et le croquemitaine dans la foulée."
+	      }, 
+	      { 
+	         "number" : "3120", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous avez bien compté les ballons et les voitures, mais les soleils sont sur une autre carte."
+	      }, 
+	      { 
+	         "number" : "3121", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous avez bien compté les ballons et les voitures, mais les soleils sont sur une autre carte."
+	      }, 
+	      { 
+	         "number" : "1137", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Avez-vous bien lu le guide des monstres ?"
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "180", 
+	         "nextObject" : "True", 
+	         "message" : "Avez-vous remarqué l'étrange forme de l'interrupteur du store de la chambre de Guillaume ?"
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o2", 
+	         "time" : "180", 
+	         "nextObject" : "False", 
+	         "message" : "Il y a quelque chose sous l'aile de la lampe en forme d'avion."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hintName" : "o3", 
+	         "time" : "120", 
+	         "nextObject" : "False", 
+	         "message" : "Avez-vous bien observé le rebord de la fenêtre ?"
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "hintName" : "o4", 
+	         "time" : "120", 
+	         "nextObject" : "False", 
+	         "message" : "Votre regard est attiré par le coin de la hero box."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les trois boîtes en carton seraient facilement déchiquetées par cette broyeuse."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette boîte en carton est une cachette parfaite pour le croquemitaine. Trouvez un moyen de la détruire !"
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Que pouvez-vous observer avec ce télescope ?"
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La fenêtre laisse entrevoir un beau ciel étoilé. Si seulement vous pouviez l'observer de plus près."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette petite boîte en carton est une cachette parfaite pour le croquemitaine. Trouvez un moyen de la détruire !"
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce nounours est l'une des seules choses qui rassureront Guillaume dans son rêve."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette grosse boîte en carton est une cachette parfaite pour le croquemitaine. Trouvez un moyen de la détruire !"
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ordonnez les 5 chapitres du guide des monstres et lisez le numéro en chiffres romains."
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un seul objet pourrait rassurer Guillaume. "
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez un réceptacle pour cette ampoule."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Impossible de vaincre le monstre sans un équipement adéquat."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une magie puissante habite cette chaussette. À quoi pourriez-vous l'associer ?"
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez un réceptacle pour cette ampoule."
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est la pointure de Guillaume. Mais pas question de les enfiler sans chaussettes !"
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce monstre utilise les boîtes pour se cacher. Broyez-les de la plus petite à la plus grande pour le détruire."
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait trouver la bonne ampoule pour cette lampe."
+	      }, 
+	      { 
+	         "number" : "49", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour vous débarrasser de ce croquemitaine, trouvez les 3 moments où appuyer sur le bouton central."
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vite ! Le croquemitaine DÉVORE cette carte. Un solide coup de poing lui a coûté une dent. La position de celle-ci est l'une des clefs pour le vaincre."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez bien les 3 symboles sur cette boîte à goûter. Vous trouverez ces objets éparpillés dans la chambre."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comptez les ballons et les voitures sur le tapis de jeu, puis les soleils sur le lit de Guillaume."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "4 numéros cachés dans le dessin d'enfant vous indiqueront le code."
+	      }, 
+	      { 
+	         "number" : "62", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vite ! Le croquemitaine DÉVORE cette carte. Un solide coup de pied lui a coûté une dent. La position de celle-ci est l'une des clefs pour le vaincre."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avec ces chaussures, Guillaume pourrait combattre n'importe quoi."
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Guillaume aurait pu ranger sa chambre. Certains types d'objets vous seront utiles. Reste à savoir lesquels."
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vite ! Le croquemitaine DÉVORE cette carte. Un solide coup de poing lui a coûté une dent. La position de celle-ci est l'une des clefs pour le vaincre."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Certaines de ces étoiles ne ressemblent pas à la réalité. "
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Allumez une lumière douce pour faire fuir ce vilain monstre."
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "« Se brosser les dents 5 minutes, allumer 1 petite veilleuse et compter les moutons jusqu'à 25. »"
+	      }, 
+	      { 
+	         "number" : "83", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un cahier dans le tiroir secret de Guillaume vous aidera à trouver le code."
+	      }, 
+	      { 
+	         "number" : "84", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il doit bien y avoir un bouton pour remonter ce store."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "« Se brosser les dents 5 minutes, allumer 1 petite veilleuse et compter les moutons jusqu'à 25. »"
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "À quoi se raccroche ce monstre ? Car seuls les bons fils le feront dégringoler. "
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez la carte de la fenêtre au-dessus de cette carte pour savoir quels fils couper."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans quel sens voulez-vous faire aller le store ?"
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "2", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "7311"
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "1609"
+	      }, 
+	      { 
+	         "hintNumber" : "55", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "3127"
+	      }, 
+	      { 
+	         "hintNumber" : "60", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "2577"
+	      }, 
+	      { 
+	         "hintNumber" : "80", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "5125"
+	      }, 
+	      { 
+	         "hintNumber" : "98", 
+	         "message" : "2e, 4e et 6e fils.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "72", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "55", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous découvrez un double fond dans le tiroir. Le panneau s'ouvre sur une mystérieuse mallette."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "29,86", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le croquemitaine s'enroule sur lui-même comme une pelote de laine et s'écrase au sol, libérant ainsi de curieux objets."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "name" : "", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "5", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le store remonte doucement."
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "2", 
+	         "type" : "Resource", 
+	         "extraNumber" : "0", 
+	         "time" : "1", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous entrez dans le rêve de Guillaume. Prenez les cartes 17 et 49, défaussez le dessin d'enfant et les cartes 0, 5, 45 et 76. Puis appuyez sur le bouton Go.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

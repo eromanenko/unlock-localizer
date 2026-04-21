@@ -1,0 +1,620 @@
+{ 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "RedMask", 
+	   "displayName" : "Red Mask", 
+	   "difficulty" : "3", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "RedMask", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "flamenco-guitar-duo", 
+	   "maxTime" : "2700", 
+	   "totalTime" : "2700", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o1", 
+	         "time" : "120", 
+	         "nextObject" : "False", 
+	         "message" : "Regardez bien le nom de Juan !"
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hintName" : "o2", 
+	         "time" : "300", 
+	         "nextObject" : "False", 
+	         "message" : "Les E du bandeau sont à l'envers."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Difficile de discerner quoi que ce soit dans cette obscurité. Trouvez une source de lumière pour vous éclairer."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Alors que vous saisissez les documents secrets du coffre-fort, vous remarquez l'ombre d'un homme derrière vous. Celui-ci s'apprête à vous asséner un coup d'épée. Il faut vite réagir !"
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Maintenant que vous avez retrouvé Eldorado, vous allez pouvoir vous rendre à la grande réception du gouverneur (62) pour enquêter sur la disparition de votre ami Alfonso. Une information dissimulée dans l'invitation vous permettra de vous y rendre."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez bien le cachet de cire de l'invitation. Le sceau ne forme pas exactement un \"G\"."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Alfonso a laissé dans cette lettre de nombreuses informations qui vous seront utiles au cours de votre aventure. Dans un premier temps repérez la localisation du domicile de Juan ainsi que le nouveau code d'accès à votre cave secrète."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les lettres entourées dans Juan (UA) forme un numéro. Le code d'accès qui vous permettra d'ouvrir la bibliothèque (54) a littéralement était changé par prudence."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous êtes encerclé et ces hommes sont trop nombreux à affronter. Il vous faut trouver un moyen de fuir. Vous repérez le balcon derrière ces hommes mais comment y accéder ? "
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez de quoi vous accrocher au chandelier pour passer au-dessus de l'embuscade."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Elena vous confie que le Gouverneur et Salvador ont prévu de s'absenter à nouveau cette nuit. L'occasion pour vous de revenir de nuit et ainsi fouiller pour trouver des informations sur la disparition d'Alfonso. La maison sera vide au soleil couchant quand ce dernier sera au plus bas."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Où trouver un soleil couchant sur vos cartes ?"
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous ne pouvez pas courir le risque de vous aventurer dans la maison du Gouverneur à visage découvert. Si ce n'est pas déjà fait, accédez à votre cave secrète dont l'entrée est dissimulée par la bibliothèque (54)."
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La lumière de cette bougie vous sera utile à plusieurs reprises dans l'aventure…"
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Remarquez qu'Alfonso n'a pas terminé sa lettre. Ou peut-être a-t-il dissimulé des informations. Comment les révéler ?"
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Alfonso a dissimulé des informations dans sa lettre en utilisant de l'encre sympathique. Cette encre invisible se révèlera à l'aide d'une source de chaleur."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avant de pouvoir mettre ce morceau de tissu sur votre visage, il vous faut l'arranger pour voir à travers."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous voilà seul dans le bureau du Gouverneur. Fouillez scrupuleusement les lieux."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En observant attentivement l'intérieur du bureau vous trouverez un numéro caché."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre cheval Eldorado est caché quelque part sur cette carte."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez littéralement \"derrière-lui\" pour trouver votre cheval Eldorado."
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce morceau de tissu découpé pourrait faire office de masque. Vous allez pouvoir poursuivre votre aventure."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous ne pouvez pas rentrer dans cette mine le visage découvert. Observez autour de vous pour trouver de quoi vous fabriquer un masque."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le morceau de tissu rouge à l'entrée peut convenir. Remarquez que le mot \"KEEP\" est écrit d'une étrange façon."
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette bibliothèque dissimule l'accès à votre cave secrète. Mais le code d'accès a été changé par Alfonso. Si ce n'est pas déjà fait, trouvez d'abord le moyen de révéler les informations cachées dans la lettre d'Alfonso (29)."
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Certains numéros sont partiellement cachés par des feuilles volantes. Mais avec les chiffres visibles, vous pourrez déduire quelles cartes prendre."
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans votre paquet, une seule carte porte un numéro commençant par un 6. De la même façon, une seule termine par un 9."
+	      }, 
+	      { 
+	         "number" : "62", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez d'abord Eldorado puis repérez l'information dissimulée dans l'invitation qui vous permettra de vous rendre à la réception."
+	      }, 
+	      { 
+	         "number" : "62", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez bien le cachet de cire de l'invitation : le sceau ne forme pas exactement un \"G\" mais un modificateur rouge."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces documents vous serviront quand vous aurez atteint l'intérieur de la mine d'or."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Salvador semble bien décidé à croiser le fer. Défendez-vous !"
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Alfonso vous a indiqué dans sa lettre (15) que vous pouviez faire confiance à l'une des filles du Gouverneur : mais laquelle ? Alfonso vous a laissé un indice…"
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans la lettre d'Alfonso, remarquez l'éventail dessiné ainsi que les lettres soulignées : R, O, U, G et E. La fille du Gouverneur en qui vous pouvez avoir confiance est celle possédant l'éventail rouge (+9). Que pourriez-vous lui partager ?"
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce fouet vous sera utile à plusieurs reprises dans l'aventure…"
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait sauter directement sur le dos d'Eldorado mais il est trop éloigné."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comment appeler votre cheval pour qu'il s'approche ?"
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Plusieurs dynamites sont sur le point d'exploser. Vous n'avez le temps d'éteindre qu'une seule mèche. Laquelle et comment ?"
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Sur les trois dynamites, deux semblent déjà être prise en charge. Pour éteindre la troisième, il va falloir exécuter un geste habile et précis."
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet éventail vous sera utile quand vous reviendrez de nuit pour fouiller le bureau du Gouverneur."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet éventail vous sera utile quand vous reviendrez de nuit pour fouiller le bureau du Gouverneur."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois l'éventail d'Elena placé correctement sur chacun des 4 disques, le cœur vous révèlera la combinaison."
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque direction est associée à une couleur. Il faut trouver la bonne séquence de couleurs à suivre pour vous orienter dans ce dédale."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_map", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez découvert plusieurs indices au cours de votre aventure sur l'itinéraire emprunté par le Gouverneur et Salvador pour se rendre à la mine. Reconstituez les différentes étapes."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_map", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Tout d'abord la lettre d'Alfonso (15) mentionne que le Gouverneur et Salvador chevauchaient de nuit près des Chariots des Colons. Sur le plan sélectionnez donc d'abord l'étape qui passe près des chariots. La deuxième étape vous est donnée par l'oncle Juan (42)."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "2", 
+	         "hintID" : "", 
+	         "message" : "Utilisez votre bougie (28) pour éclairer votre cave secrète.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "7", 
+	         "hintID" : "", 
+	         "message" : "Dégainez votre épée (13) pour parer l'attaque dans votre dos (7).", 
+	         "cards" : "20", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "hintID" : "", 
+	         "message" : "Le sceau de cire forme un +6 rouge. Chevauchez Eldorado (11) pour vous rendre à la réception.", 
+	         "cards" : "17", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "hintID" : "", 
+	         "message" : "Les lettres UA entourées au milieu de Juan forment un 42. Le code d'accès à la bibliothèque (54) est PRUDENCE. Tirez alors les livres PRU, DEN et CE puis validez.", 
+	         "cards" : "42", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "20", 
+	         "hintID" : "", 
+	         "message" : "Utilisez votre fouet (80) pour vous accrocher au chandelier (20) et vous hisser par-dessus vos assaillants.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "24", 
+	         "hintID" : "", 
+	         "message" : "Selon les dires d'Elena, la maison sera déserte au coucher du soleil. Regardez les dos de votre paquet. Sur l'un d'eux, le soleil flirte avec l'horizon.", 
+	         "cards" : "25", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "25", 
+	         "hintID" : "", 
+	         "message" : "Une fois récupérée dans votre cave secrète, enfilez votre tenue de Red Mask (10) avant de vous faufiler de nuit dans la propriété du Gouverneur (25).", 
+	         "cards" : "35", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "29", 
+	         "hintID" : "", 
+	         "message" : "Dans l'application ouvrez la machine 28. Approchez ensuite la bougie (28) du mot d'Alfonso (29) pour révéler l'encre sympathique.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "33", 
+	         "hintID" : "", 
+	         "message" : "A l'aide de votre épée (13), découpez deux trous pour les yeux dans le tissu (33).", 
+	         "cards" : "46", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "35", 
+	         "hintID" : "", 
+	         "message" : "Observez bien le plus grand tableau. Le nombre 95 est dissimulé dans la peinture.", 
+	         "cards" : "95", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "42", 
+	         "hintID" : "", 
+	         "message" : "Eldorado est caché \"derrière moi\"… c’est-à-dire derrière la carte de Juan (42). Repérez le numéro caché (11) placé sur le cheval du dos de carte.", 
+	         "cards" : "11", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "46", 
+	         "hintID" : "", 
+	         "message" : "Votre masque (46) est prêt, vous pouvez vous aventurer incognito dans la mine (51).", 
+	         "cards" : "97", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "51", 
+	         "hintID" : "", 
+	         "message" : "Les deux \"E\" du mot \"KEEP\" sont écrits à l'envers : c'est un 33 qui se cache ici.", 
+	         "cards" : "33", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "54", 
+	         "hintID" : "", 
+	         "message" : "Le code d'accès à la bibliothèque (54) est PRUDENCE. Tirez les livres PRU, DEN et CE, puis validez.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "56", 
+	         "hintID" : "", 
+	         "message" : "Parmi les cartes de votre paquet, une seule carte porte un numéro commençant par un 6 : la 62. La seule se terminant par un 9 est la 29.", 
+	         "cards" : "29,62", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "62", 
+	         "hintID" : "", 
+	         "message" : "Le sceau de cire forme un +6 rouge. Une fois Eldorado récupéré, chevauchez-le pour vous rendre à la réception (+6).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "75", 
+	         "hintID" : "", 
+	         "message" : "Dégainez votre épée (13) pour vous défendre face à l'impétueux Salvador (75) ", 
+	         "cards" : "88", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "78", 
+	         "hintID" : "", 
+	         "message" : "Parlez-lui (+9) de la disparition d'Alfonso en lui montrant sa lettre (15)", 
+	         "cards" : "24", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "86", 
+	         "hintID" : "", 
+	         "message" : "Sifflez près du micro de votre appareil pour appeler Eldorado.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "88", 
+	         "hintID" : "", 
+	         "message" : "La mèche de gauche va être piétinée par l'un des hommes et celle de droite éteinte par le seau d'eau. Vous devez vous occupez de la mèche du milieu. Utilisez votre fouet et visez précisément l'étincelle au centre.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "95", 
+	         "hintID" : "", 
+	         "message" : "Placez d'abord le coin de l'éventail (92) de façon à compléter le disque d'Elena. Le cœur de l'éventail pointe alors un S. Faites la même chose pour les 3 autres disques de Serena, Violetta et Penelopa. Le cœur pointe respectivement les lettres E, P et T. Ces 4 lettres forment le chiffre SEPT.", 
+	         "cards" : "7", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "97", 
+	         "hintID" : "", 
+	         "message" : "La séquence de couleurs est notée sur un des documents secrets (carte 70) : jaune, bleu, rouge, bleu, vert, rouge, vert, violet, violet puis jaune. Suivez l'ordre des couleurs pour suivre la bonne direction.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_map", 
+	         "message" : "Les étapes pour retracer l'itinéraire sont : Chariots des Colons (15), la forêt de Cactus (42), le volcan (Elena(24) vous indique que son père à son retour sent le souffre), le passage dans l'eau (le Gouverneur et Salvador sont revenus trempés) (17) et enfin la mine d'or (70).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "1111", 
+	         "name" : "Machine_RedMask_Map", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "51", 
+	         "cardsToDiscard" : "", 
+	         "message" : "En suivant les informations récoltées au cours de votre enquête, vous atteignez l'entrée de la mine."
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "15", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous passez la flamme de la bougie près de la lettre. Certaines zones du papier réagissent à la chaleur."
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "2", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous tirez les 3 bons livres. La bibliothèque s'ouvre sur un escalier qui s'enfonce dans l'obscurité."
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "75", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous parvenez jusqu'à la zone d'extraction."
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "20", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous enroulez votre fouet autour du lustre et vous hissez au-dessus des gardes. Vous vous enfuyez par le balcon.", 
+	         "messageID" : "card_20_ar", 
+	         "cardsToTake" : "86", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	      "French", 
+	      "English", 
+	      "German", 
+	      "Italian", 
+	      "Dutch", 
+	      "Spanish", 
+	      "Hungarian"
+	   ]
+	}

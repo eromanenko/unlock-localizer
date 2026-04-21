@@ -1,0 +1,1102 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Animalomatic", 
+	   "displayName" : "", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "Manual", 
+	   "skinName" : "Animalomatic", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "ad2_squeek", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o1", 
+	         "time" : "120", 
+	         "nextObject" : "False", 
+	         "message" : "Observez bien le squelette du T. rex"
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "0", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Tant que vous n'aurez pas rechargé votre animal-O-matic au moyen d'une pile atomique, vous ne pourrez rien attendre de votre corps de professeur."
+	      }, 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "De la taille d'une mouche, vous pouvez vous faufiler n'importe où, ou presque."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre odorat surdéveloppé est une arme de recherche redoutable. Quelle odeur souhaitez-vous traquer ?"
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois le coffre atomique ouvert, reniflez le liquide de la pile atomique et suivez son odeur à travers la maison, sans en perdre la trace."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez de quoi tailler la mine de crayon. La solution est juste sous votre nez... et au-dessus de votre menton."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Sans plumes, Michel ne pourra jamais voler. Mais comment faire tenir des plumes sur cette peau lisse et douce ?"
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'eau monte à toute vitesse. Sortez vite du séjour !"
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous rêviez depuis toujours d'avoir des yeux de chat pour devenir nyctalope : voir dans le noir vous sera utile pour avancer."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut fabriquer un bateau. C'est à peine plus difficile à faire qu'une cocotte."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'êtes pas seul, il y a comme un ronflement dans cette pièce…"
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'odeur pourrait-elle vous mener jusqu'à la pile ? Il vous faudrait quand même un sacré odorat…"
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce crayon vous révélera quelque chose sur votre cahier de notes. Veillez à griffonner le bon endroit."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait s'envoler pour pouvoir atteindre cette trappe."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avec le corps de Maurice, vous êtes un excellent nageur."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il ne manque plus que les plumes. Où en trouver ?"
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Et si vous faisiez exploser une bulle pour faire peur à Maurice ?"
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avec tout ce repos, Rémi est en pleine forme : il pourrait déplacer des montagnes."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait être assez petit pour rejoindre le séjour en passant par la serrure."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Comme toutes les mouches, vous êtes attiré par tout ce qui produit de la lumière."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une feuille en papier. Elle se plie aisément."
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Tant que vous n'aurez pas trouver de quoi l'attirer hors de sa niche, Lucien ne vous sera pas bien utile."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les boutons de ce coffre ont les mêmes couleurs que votre papier peint. Est-ce une coïncidence ?"
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Josy a bien grandi dans son pot. Chacune de ses têtes semble vous pointer quelque chose sur le papier peint derrière."
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il est pour qui le bon nonosse ? Hein ? Il est pour qui ?"
+	      }, 
+	      { 
+	         "number" : "39", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Michel, du moins son corps, va maintenant pouvoir vous aider pour la suite."
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est un vrai torrent, mauvais nageurs s'abstenir…"
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous ne vous souvenez plus de la solution de ce labyrinthe, mais vous l'aviez notée dans votre cahier. Il va falloir trouver un moyen de la récupérer, mais occupez-vous d'abord de l'inondation."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Comment réagirait la plante au son d'un insecte volant tout près ?"
+	      }, 
+	      { 
+	         "number" : "49", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce morceau de papier peint semble compléter celui qui se trouve derrière la plante."
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il ne reste plus qu'à prendre le contrôle de James pour récupérer la pile. Mais il a toujours un coup d'avance sur vous."
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Tout navire qui se respecte doit avoir son capitaine, mais où se cache-t-il ?"
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous voyez quelque chose s'agiter au-dessus de l'armoire à pharmacie."
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour rembobiner la cassette, il faut trouver de quoi faire tourner la molette de la bande audio."
+	      }, 
+	      { 
+	         "number" : "58", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce n'est pas avec votre corps de mouche que vous parviendrez à ouvrir cette porte. Il faudrait une force bestiale."
+	      }, 
+	      { 
+	         "number" : "62", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pas besoin de toucher l'écran pour tourner cette vanne."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Enfin capable de voler, vous pouvez maintenant atteindre des lieux jusqu'alors inaccessibles."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avec une feuille de papier, vous pourriez faire des merveilles."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Maurice trône sur la tête de Cocow. Et si vous faisiez exploser une bulle pour faire peur à Maurice ?"
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Arrêtez d'imaginer ce que c'est d'être un chien, devenez-en un !"
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Remettez la cassette dans le magnétophone (machine 79) en suivant les instructions."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Contrairement à la plupart des chewing-gums vendus dans le commerce, vos chewing-gums préférés sont capables de faire d'énormes bulles. Encore faut-il avoir des joues puissantes…"
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Maurice le poisson, ou du moins son corps, va maintenant pouvoir vous aider."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette porte est d'une solidité à toute épreuve. Hormis par la chatière, elle est infranchissable."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Fourme d'Ambert est maintenant libre de sortir de la cuisine. Cela pourrait vous être utile."
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Un oiseau coincé dans sa labycage et un poisson coincé dans ce bocal crânien. C'est pas de bol ! Et puis cette vache qui vous regarde a quelque chose d'hypnotique…"
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En regardant de plus près, vous vous apercevez que le papier de la page de droite a été marqué par la pression du stylo. Il va falloir trouver un moyen de récupérer ces informations, mais occupez-vous d'abord de l'inondation."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez été infesté de mouches tout l'été, elles se faufilent vraiment partout."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il va vraiment falloir souffler davantage, et fort, si vous souhaitez gonfler cette bulle."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Soufflez dans le micro de votre appareil pour gonfler la bulle jusqu'à l'explosion."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le bateau est prêt à se mettre à l'eau... ou plutôt sur l'eau."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Superposez le bateau sur l'eau de la salle de bains (55)."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La solution du labycage ! Mais n'auriez-vous pas une fois de plus inversé quelque chose ?"
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "1", 
+	         "hintID" : "", 
+	         "message" : "Profitez de votre taille de mouche (1) pour vous faufiler à travers la serrure de la porte de la cuisine (23).", 
+	         "cards" : "24", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "3", 
+	         "hintID" : "", 
+	         "message" : "Passez tout d'abord la caméra de votre appareil sur la tache du liquide atomique (12) pour renifler l'échantillon à suivre. Puis suivez l'odeur DANS L'ORDRE, en passant votre caméra sur le grenier (77), suivi de la salle de bains (S), le séjour (10) et enfin le jardin (80).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "Utilisez vos dents de rongeur (9) pour tailler la mine de ce crayon (4).", 
+	         "cards" : "13", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "5", 
+	         "hintID" : "", 
+	         "message" : "Enduisez Michel (5) de miel (11). Si ! si ! vous allez comprendre !", 
+	         "cards" : "16", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "6", 
+	         "hintID" : "", 
+	         "message" : "Sortez de la maison avec Fourme d'Ambert (6) en passant par la chatière (74).", 
+	         "cards" : "80", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "7", 
+	         "hintID" : "", 
+	         "message" : "Passez la caméra de votre appareil au-dessus de la cuisine plongée dans le noir (C) pour y voir plus clair.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "9", 
+	         "hintID" : "", 
+	         "message" : "Une fois le joli bateau en papier posé sur l'eau (53), placez-y son capitaine (9).", 
+	         "cards" : "62", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "10", 
+	         "hintID" : "", 
+	         "message" : "Transférez, grâce à l'animal-O-matic, votre esprit dans le corps de cet ours. Si ! si ! il est bel et bien vivant !", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "hintID" : "", 
+	         "message" : "Une fois Lucien sorti de sa niche, utilisez-le pour renifler l'odeur du liquide de la pile atomique et suivre sa trace.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "13", 
+	         "hintID" : "", 
+	         "message" : "À l'aide du crayon (13), griffonnez la page de droite du cahier de notes (85, et non 82) pour découvrir la solution du labycage.", 
+	         "cards" : "98", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "hintID" : "", 
+	         "message" : "Usez de vos nageoires puissantes (15) pour remonter le torrent qui se déverse des escaliers (40).", 
+	         "cards" : "55", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "16", 
+	         "hintID" : "", 
+	         "message" : "Appliquez les plumes de l'oreiller (47) sur la peau collante de Michel (16).", 
+	         "cards" : "63", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "18", 
+	         "hintID" : "", 
+	         "message" : "Profitez de votre mâchoire surpuissante (18) pour mastiquer l'un de vos chewing-gums préférés (72).", 
+	         "cards" : "90", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "20", 
+	         "hintID" : "", 
+	         "message" : "Poussez la porte de la cuisine bloquée par votre corps de professeur (58) en utilisant votre force phénoménale (20).", 
+	         "cards" : "78", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "24", 
+	         "hintID" : "", 
+	         "message" : "Les lampes forment un 10.", 
+	         "cards" : "10", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "27", 
+	         "hintID" : "", 
+	         "message" : "Utilisez cette feuille de papier (27) pour réaliser un de vos plus beaux origamis (64).", 
+	         "cards" : "91", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "35", 
+	         "hintID" : "", 
+	         "message" : "En plaçant correctement Josy à 4 têtes (35) sur le fond en papier peint (48 et 49), ses 4 langues vous indiquent de haut en bas les couleurs violet/orange/vert/bleu. Utilisez cette combinaison pour ouvrir le coffre atomique (machine 30).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "38", 
+	         "hintID" : "", 
+	         "message" : "Utilisez cet os (38) pour attirer Lucien hors de sa niche (28).", 
+	         "cards" : "66", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "39", 
+	         "hintID" : "", 
+	         "message" : "Saisissez-vous de votre animal-O-matic et passez dans le corps du petit Michel !", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "48", 
+	         "hintID" : "", 
+	         "message" : "Une fois la cassette rembobinée et remise en place, appuyez sur « play » et passez votre appareil, écran vers le haut, au-dessus de la plante (48).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "49", 
+	         "hintID" : "", 
+	         "message" : "Placez ce morceau de papier peint (49) au-dessus de l'autre (48) pour compléter le motif.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "50", 
+	         "hintID" : "", 
+	         "message" : "James se déplace toujours selon le même enchaînement. Avec l'animal-O-matic, visez et tirez là où James apparaîtra au prochain coup.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "53", 
+	         "hintID" : "", 
+	         "message" : "Une fois dans le corps de James (9 - grâce à l'animal-O-matic sur la carte 55), naviguez à travers la salle de bains à bord du bateau (53).", 
+	         "cards" : "62", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "55", 
+	         "hintID" : "", 
+	         "message" : "Avec l'animal-O-matic, visez au-dessus de l'armoire à pharmacie (oui, oui, au-dessus de la carte). À en croire le reflet dans le miroir, c'est là que James se trouve.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "57", 
+	         "hintID" : "", 
+	         "message" : "Utilisez le crayon à papier (13) pour rembobiner la cassette (57).", 
+	         "cards" : "70", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "58", 
+	         "hintID" : "", 
+	         "message" : "Transférez votre esprit, grâce à l'animal-O-matic, dans le corps de cet ours. Si, si ! il est bel et bien vivant !", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "62", 
+	         "hintID" : "", 
+	         "message" : "Tournez votre appareil dans le sens des aiguilles d'une montre pour fermer la vanne.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "63", 
+	         "hintID" : "", 
+	         "message" : "Volez avec votre corps d'oiseau (63) pour atteindre et tirer la poignée de la trappe du grenier (14).", 
+	         "cards" : "77", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "66", 
+	         "hintID" : "", 
+	         "message" : "Saisissez votre animal-O-matic et tirez sur Lucien pour passer dans son corps.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "70", 
+	         "hintID" : "", 
+	         "message" : "Dans la machine 79, maintenez les touches « symbole rond » et « symbole triangle » enfoncées, et appuyez 3 fois sur « eject » pour insérer la cassette. Appuyez ensuite sur « play » : vous entendrez alors un son, utile à un moment dans cette aventure.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "73", 
+	         "hintID" : "", 
+	         "message" : "Passez dans le corps de Maurice en utilisant l'animal-O-matic.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "78", 
+	         "hintID" : "", 
+	         "message" : "Projetez de nouveau votre esprit dans le corps de Fourme d'Ambert en utilisant l'animal-O-matic.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "80", 
+	         "hintID" : "", 
+	         "message" : "Profitez de votre animal-O-matic pour aller dans l'imposant corps de cette vache.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "88", 
+	         "hintID" : "", 
+	         "message" : "Utilisez votre animal-O-matic pour transférer votre esprit dans le corps d'une de ces mouches.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "90", 
+	         "hintID" : "", 
+	         "message" : "Un +8 bleu est dissimulé dans le « BOOM ». Effrayez Maurice (65) avec le bruit de l'explosion (+8).", 
+	         "cards" : "73", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "91", 
+	         "hintID" : "", 
+	         "message" : "En superposant le bas du bateau (91) à la surface de l'eau de la salle de bains (55), vous verrez apparaître l'addition 45+8.", 
+	         "cards" : "53", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "98", 
+	         "hintID" : "", 
+	         "message" : "Assurément, vous avez à nouveau confondu votre droite et votre gauche. La solution est donc droite/bas/gauche/bas/droite/haut/gauche/gauche. Entrez ces instructions dans la machine 45 (labycage).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "11111", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "50", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous courez à toute vitesse en suivant l'odeur qui vous mène jusqu'au milieu de la forêt. Vous apercevez enfin la pile."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "12", 
+	         "cardsToDiscard" : "", 
+	         "message" : "C'est la bonne combinaison. Le coffre atomique s'ouvre."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "39", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La labycage s'ouvre !"
+	      }, 
+	      { 
+	         "number" : "62", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "S", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Après quelques tours, la vanne est bien fermée."
+	      }, 
+	      { 
+	         "number" : "79", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous tirez et… et rien ne se passe. Sans la pile atomique, vous ne retrouverez jamais votre forme humaine.", 
+	         "messageID" : "animalomatic_0", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Oh ! oh… Vous pouvez à présent retourner cette carte.", 
+	         "messageID" : "animalomatic_intro", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "En plein vol, vous quittez votre petit corps de mouche et vous projetez vers le corps massif de cet ours.", 
+	         "messageID" : "animalomatic_10", 
+	         "cardsToTake" : "20", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Souhaitez-vous réellement transférer votre esprit dans le dessin de cette abeille et y rester bloqué à jamais ?", 
+	         "messageID" : "animalomatic_11", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "39", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous dirigez votre animal-O-matic vers Michel et tirez : « Piou ! Piou ! »", 
+	         "messageID" : "animalomatic_39", 
+	         "cardsToTake" : "5", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Michel est enfermé derrière les barreaux. Il ne vous servira à rien tant que la labycage ne sera pas ouverte.", 
+	         "messageID" : "animalomatic_45", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Pour aller dans le corps d'une plante, il faut un plante-O-matic, voyons ! Vous devez trouver un autre moyen d'attirer l'attention de cette plante.", 
+	         "messageID" : "animalomatic_48", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous devancez le prochain de mouvement de James et vous transférez à nouveau dans son corps. La pile est enfin à vous. Vous la placez sans plus attendre dans l'animal-O-matic, qui se met alors à charger lentement…", 
+	         "messageID" : "animalomatic_50", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "3,50"
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "", 
+	         "messageID" : "animalomatic_51", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Votre tir atteint James.", 
+	         "messageID" : "animalomatic_55", 
+	         "cardsToTake" : "9", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "C'est une bonne idée, mais ce n'est que le reflet de James dans le miroir, et malheureusement le tir ne ricoche pas.", 
+	         "messageID" : "animalomatic_55_miroir", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous ne serez pas plus avancé dans le corps de Maurice si vous êtes bloqué dans le bocal crânien de cette vache.", 
+	         "messageID" : "animalomatic_65", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Le coup part.", 
+	         "messageID" : "animalomatic_66", 
+	         "cardsToTake" : "3", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous dégainez l'animal-O-matic et tirez sur Maurice, qui jaillit du bocal explosé.", 
+	         "messageID" : "animalomatic_73", 
+	         "cardsToTake" : "15", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous commencez à perdre la boule… L'animal-O-matic ne fonctionne que sur les animaux… vivants.", 
+	         "messageID" : "animalomatic_74", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "L'animal-O-matic a la capacité de transférer un esprit dans le corps d'un animal vivant…", 
+	         "messageID" : "animalomatic_77", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Joli tir !", 
+	         "messageID" : "animalomatic_78", 
+	         "cardsToTake" : "6", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "En même temps, vous ne pouviez pas la louper...", 
+	         "messageID" : "animalomatic_80", 
+	         "cardsToTake" : "18", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous tirez en direction de cette nuée de mouches.", 
+	         "messageID" : "animalomatic_88", 
+	         "cardsToTake" : "1", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

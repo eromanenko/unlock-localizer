@@ -1,0 +1,360 @@
+{ 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "Cuisine", 
+	   "displayName" : "", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Cuisine", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "", 
+	   "maxTime" : "1800", 
+	   "totalTime" : "1800", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le couteau vous permet de couper le pain."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le fouet permet de mélanger des ingrédients."
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Mettez le bout des doigts sur les coquilles d’oeuf afin de former un numéro."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut une demie bouteille de lait. Comment avoir la quantité nécessaire ?"
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La moitié de la bouteille, ça fait combien ?"
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Tamisez la farine."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois le concours commencé, le chef semble attendre votre plat."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour faire des crêpes quel ingrédient nous manque t-il ?"
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Maintenant que le plat est prêt, il faut le présenter."
+	      }, 
+	      { 
+	         "number" : "62", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avant que cela fasse des grumeaux, il va falloir tout mélanger."
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il est temps de faire des crêpes !"
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La plaque doit être à quel niveau pour le pain perdu ? Combien de temps de chaque côté le pain de mie inbibé doit chauffer ?"
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut cuire le pain."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La décoration de l'assiette peut vous aider."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez la tranche de pain cuite (81) sur l'assiette (77) afin de finaliser la présentation."
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Posez la serviette contenant le pain perdu sur l’assiette. Voyez-vous quelque chose ?"
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez la tranche de pain cuite (81) sur l'assiette (77) afin de finaliser la présentation."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Et si vous trempez une tranche de pain dans une pâte à crêpe ?"
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour la cuisson c’est un mélange des deux, quelles valeurs de niveau et de temps cuisson choisir ?"
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Quel était le conseil de mamie Thérèse ?"
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "2", 
+	         "hintID" : "", 
+	         "message" : "Couper le pain sur la carte E, prendre le modificateur bleu + 2 et l'addionner avec le couteau (2).", 
+	         "cards" : "4", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "7", 
+	         "hintID" : "", 
+	         "message" : "Mélangez la mixture de la carte 61.", 
+	         "cards" : "68", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "13", 
+	         "hintID" : "", 
+	         "message" : "En mettant un doigt sur chaque coquille, vous verrez le numéro 29 formé par le jaune d'œuf.", 
+	         "cards" : "29", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "20", 
+	         "hintID" : "", 
+	         "message" : "Diviser (20) de la bouteille de lait par 2, vous obtiendrez une demi boutelle de lait (10).", 
+	         "cards" : "10", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "30", 
+	         "hintID" : "", 
+	         "message" : "Dès que votre plat est prêt, apportez-le-lui pour avoir ses retours.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "45", 
+	         "hintID" : "", 
+	         "message" : "Il faut mettre de la farine, utiliser la machine (25) qui se trouve sur l'étagère (E).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "57", 
+	         "hintID" : "", 
+	         "message" : "Amenez le plat au chef (30) pour avoir ses retours.", 
+	         "cards" : "87", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "62", 
+	         "hintID" : "", 
+	         "message" : "Utilisez le fouet (7) pour mélanger la mixture.", 
+	         "cards" : "69", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "69", 
+	         "hintID" : "", 
+	         "message" : "Lancez le four (70) pour faire des crêpes.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "70", 
+	         "hintID" : "", 
+	         "message" : "Mettez le niveau de la plaque sur six et placez votre téléphone au-dessus la carte (72). Vous verrez le pain cuire. Retournez la carte (72) après douze secondes. Puis attendez le même temps de cuisson pour l'autre côté.", 
+	         "cards" : "81", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "77", 
+	         "hintID" : "", 
+	         "message" : "Superposez la carte de la tranche de pain dorée (81) sur la carte de l'assiette ornée (77). Vous verrez un alignement de trait qui forme le numéro (57).", 
+	         "cards" : "57", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "81", 
+	         "hintID" : "", 
+	         "message" : "Superposez la carte de la tranche de pain dorée (81) sur la carte de l'assiette ornée (77). Vous verrez un alignement de trait qui forme le numéro (57).", 
+	         "cards" : "57", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "86", 
+	         "hintID" : "", 
+	         "message" : "Commencez par le couper une tranche de pain, ajoutez tous les ingrédients dans le bol en une fois, mélangez la mixture, trempez la tranche de pain, faites la moyenne des deux recettes pour le niveau de cuisson donc 5, faites même chose pour le temps de cuisson donc 11 puis dressez dans une assiette.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "87", 
+	         "hintID" : "", 
+	         "message" : "Conseil de mamie Thèrese : En cas d'échec, n'oublie jamais d'avancer d'un cran. Avancez de 1. ", 
+	         "cards" : "88", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "25", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "72", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "", 
+	         "messageID" : "", 
+	         "cardsToTake" : "81", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	      "French", 
+	      "English", 
+	      "German", 
+	      "Italian", 
+	      "Dutch", 
+	      "Spanish", 
+	      "Hungarian", 
+	      "Korean", 
+	      "Chinese", 
+	      "Ukrainian"
+	   ]
+	}

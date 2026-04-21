@@ -1,0 +1,749 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Formula", 
+	   "number" : "1", 
+	   "displayName" : "La Formule", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "Auto", 
+	   "skinName" : "Steam", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "ad1_formula.mp3", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "3", 
+	   "wrongCodePenaltyTime" : "2", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "1234", 
+	         "locale" : "", 
+	         "type" : "Sound", 
+	         "extraNumber" : "-260", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "ad1_1234.mp3"
+	      }, 
+	      { 
+	         "number" : "2453", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "Y", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Code accepté."
+	      }, 
+	      { 
+	         "number" : "7865", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "Y", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Code accepté."
+	      }, 
+	      { 
+	         "number" : "2726", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "Y", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Code bon."
+	      }, 
+	      { 
+	         "number" : "4286", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "Y", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Code accepté."
+	      }, 
+	      { 
+	         "number" : "4287", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "Y", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Code bon."
+	      }, 
+	      { 
+	         "number" : "4321", 
+	         "locale" : "", 
+	         "type" : "Sound", 
+	         "extraNumber" : "-260", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "ad1_4321.mp3"
+	      }, 
+	      { 
+	         "number" : "4752", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "M", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le cadenas s'ouvre !"
+	      }, 
+	      { 
+	         "number" : "4847", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "Y", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Code accepté."
+	      }, 
+	      { 
+	         "number" : "5327", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "M", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le cadenas s'ouvre !"
+	      }, 
+	      { 
+	         "number" : "7286", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "Y", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Code accepté."
+	      }, 
+	      { 
+	         "number" : "8265", 
+	         "locale" : "", 
+	         "type" : "NFlag", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "Y", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Code accepté."
+	      }, 
+	      { 
+	         "number" : "8563", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "C", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Bravo !"
+	      }, 
+	      { 
+	         "number" : "8652", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "1", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "K", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Un ronronnement électrique se fait entendre."
+	      }, 
+	      { 
+	         "number" : "9455", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "Y", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Code bon."
+	      }, 
+	      { 
+	         "number" : "9464", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "Y", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Code bon."
+	      }, 
+	      { 
+	         "number" : "2452", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "NULL", 
+	         "musicName" : "", 
+	         "cardsToTake" : "Y", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Code bon."
+	      }, 
+	      { 
+	         "number" : "4652", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "NULL", 
+	         "musicName" : "", 
+	         "cardsToTake" : "Y", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Code bon."
+	      }, 
+	      { 
+	         "number" : "7852", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "Y", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Code bon."
+	      }, 
+	      { 
+	         "number" : "5618", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "Y", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Code bon."
+	      }, 
+	      { 
+	         "number" : "5252", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "Y", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Code bon."
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "360", 
+	         "nextObject" : "False", 
+	         "message" : "Avez-vous fouillé la blouse ?"
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o2", 
+	         "time" : "30", 
+	         "nextObject" : "False", 
+	         "message" : "Dans un coin de la salle des machines..."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "3", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "2", 
+	         "message" : "On peut former des mots simples avec les éléments. Il suffit ensuite de choisir la bonne rangée."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez bien la carte 28. Qui est-ce ?"
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "2", 
+	         "message" : "On jurerait que c'est une lamelle de microscope."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut probablement la clé qui est dans la boite trouée."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si seulement vous pouviez voir les empreintes du professeur !"
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ça tombe bien, vous avez un projecteur !"
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour sortir, il faut absolument la formule. Il doit y avoir les 4 chiffres dessus."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cela s'écoute sur un électrophone."
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est sûrement l'entrée secrète du laboratoire, mais il va falloir trouver comment ouvrir cette \"porte\"."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait faire remonter le bouchon. Peut être avec de l'eau ?"
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "2", 
+	         "message" : "Le dessin au pochoir représente Mona Lisa ! Ou plutôt Mo Na Li Sa..."
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "2", 
+	         "message" : "Il est temps d'entrer dans le labo."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "1", 
+	         "message" : "C'est une clé de tiroir."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut rétablir la tonalité. Sûrement dans la salle des machines."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous fouillé les poches ?"
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cela lit à l'envers. Il faut trouver un moyen de lire dans l'autre sens. Un autre code ? "
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il doit bien y avoir une clé quelque part. Avez-vous fouillé la blouse ?"
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cela serait utile sur un panneau électrique."
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les fleurs ne vous serviront pas, mais l'eau du vase en revanche..."
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "2", 
+	         "message" : "C'est le téléphone ! Décrochez vite !"
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "2=A/B/C... et ainsi de suite. Le code est donc sûrement un mot de 4 lettres."
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "2", 
+	         "message" : "Les couleurs évoquent celles des rangées du tableau électrique. Il faut sûrement relier un picot par rangée avec du fil.  "
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "1", 
+	         "message" : "Cette lampe est bien utile pour trouver des empreintes."
+	      }, 
+	      { 
+	         "number" : "84", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La porte de la salle des machines doit pouvoir s'ouvrir."
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a exactement 9 dossiers. Que veulent dire ces initiales ? Celle qui manque désigne une carte."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Combien dans chaque couleur ?"
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comptez TOUTES les fioles dans chaque couleur et vous aurez un ordre pour les chiffres de la formule."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il doit y avoir un ordre logique. À quoi servent ces \">\" ?"
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans un coin de la salle des machines..."
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Combien dans chaque couleur ?"
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comptez TOUTES les fioles dans chaque couleur et vous aurez un ordre pour les chiffres de la formule."
+	      }, 
+	      { 
+	         "number" : "123", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut allumer le générateur avant toute autre chose."
+	      }, 
+	      { 
+	         "number" : "136", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le panneau de contrôle doit fonctionner maintenant."
+	      }, 
+	      { 
+	         "number" : "157", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Peut-être que le dessin au pochoir sur l'armoire est utile. C'est Mona Lisa ! Ou plutôt Mo Na Li Sa..."
+	      }, 
+	      { 
+	         "number" : "164", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "2", 
+	         "message" : "Allumer le générateur, puis faire l'addition avec toutes les instructions du docteur."
+	      }, 
+	      { 
+	         "number" : "165", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est une AILE. En 4 lettres..."
+	      }, 
+	      { 
+	         "number" : "166", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut positionner le fil aux bons endroits. Un picot par rangée."
+	      }, 
+	      { 
+	         "number" : "199", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces 4 chiffres colorés doivent être ceux du code pour sortir. Il faut les placer dans l'ordre."
+	      }, 
+	      { 
+	         "number" : "199", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comptez TOUTES les fioles dans chaque couleur et vous aurez un ordre pour les chiffres de la formule."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "3", 
+	         "message" : "Mo Na Li Sa", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "7", 
+	         "message" : "", 
+	         "cards" : "73", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "message" : "", 
+	         "cards" : "91", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "13", 
+	         "message" : "", 
+	         "cards" : "25", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "message" : "", 
+	         "cards" : "43", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "27", 
+	         "message" : "", 
+	         "cards" : "84", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "31", 
+	         "message" : "", 
+	         "cards" : "56", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "42", 
+	         "message" : "", 
+	         "cards" : "33", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "43", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "4321"
+	      }, 
+	      { 
+	         "hintNumber" : "47", 
+	         "message" : "", 
+	         "cards" : "80", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "57", 
+	         "message" : "", 
+	         "cards" : "84", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "59", 
+	         "message" : "", 
+	         "cards" : "64", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "64", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "2453"
+	      }, 
+	      { 
+	         "hintNumber" : "80", 
+	         "message" : "", 
+	         "cards" : "91", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "84", 
+	         "message" : "", 
+	         "cards" : "92", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "85", 
+	         "message" : "", 
+	         "cards" : "N", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "90", 
+	         "message" : "1 Gris / 2 Bleu / 3 Rouge /4 Jaune", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "91", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "8652"
+	      }, 
+	      { 
+	         "hintNumber" : "93", 
+	         "message" : "1 Gris / 2 Bleu / 3 Rouge /4 Jaune", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "92", 
+	         "message" : "", 
+	         "cards" : "7", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "157", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "5327"
+	      }, 
+	      { 
+	         "hintNumber" : "199", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "8563"
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "123", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "16", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "166", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "9", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

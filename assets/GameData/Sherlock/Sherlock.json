@@ -1,0 +1,674 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Sherlock", 
+	   "number" : "15", 
+	   "displayName" : "Sherlock Holmes sur le fil", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Sherlock", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "SherlockHolmes_Theme_1", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "1123", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "N", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous achetez votre carte."
+	      }, 
+	      { 
+	         "number" : "7416", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "SherlockHolmes_Theme_2", 
+	         "cardsToTake" : "S", 
+	         "cardsToDiscard" : "B,J,JN,Q,B9,22,24,93,97", 
+	         "message" : "Vous avez reconstitué les allées et venues des suspects."
+	      }, 
+	      { 
+	         "number" : "1112", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Non, avez-vous compté les pièces sur l'étagère ?"
+	      }, 
+	      { 
+	         "number" : "1152", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le Dr Lally est l'auteur du meurtre de Mr Hall. Le Dr Peterson l'avait envoyé chez Mr Hall pour lui faire une injection de morphine. Lorsque le Dr Lally remonta la manche de Hall pour procéder à l'injection, il vit le tatouage du gang des Vipères sur le bras de Hall. Ce tatouage reliant directement Hall au meurtre de la femme du Dr Lally, ce dernier décida d'attendre que la morphine fasse effet avant de briser le crâne de Hall avec la statuette."
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "180", 
+	         "nextObject" : "True", 
+	         "message" : "N'auriez-vous pas « loupé » l'adresse de Sherlock Holmes ?"
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o2", 
+	         "time" : "300", 
+	         "nextObject" : "True", 
+	         "message" : "Ces deux points d'interrogation sur la scène du crime sont des numéros cachés."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hintName" : "o3", 
+	         "time" : "600", 
+	         "nextObject" : "False", 
+	         "message" : "Observez de plus près les traces de pas devant chez Mr Hall ainsi que le portail de son jardin."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'instrument de tout bon enquêteur, à utiliser pour analyser de tout petits objets déjà prélevés."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous trouvez de la terre, ce livre détaillé pourra vous aider dans votre analyse."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La voisine a vu vers midi un suspect avec une tenue d'ouvrier et des bottines."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cherchez des fleurs blanches, comme celles retrouvées sur la pelouse de Mr Hall."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pratique pour saisir plusieurs objets fins sur ce cadavre."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez déjà croisé un symbole étrange au début de votre enquête."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce lieu recèle peut-être l'une des clefs pour avancer dans l'interrogatoire."
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous aimeriez questionner ce B. T. pour en savoir plus."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce tatouage vous sera utile plusieurs fois dans cette enquête."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La voisine semble avoir vu quelque chose, à quelle adresse l'interroger ?"
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La robe du cheval est bien blanche et les roues sont crantées."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une enquête de voisinage autour de chez Mr Hall ainsi que les éléments glanés sur la scène du crime vous aideront à identifier votre suspecte."
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pourriez prélever l'un de ces poils pour l'analyser de plus près."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les pattes du cheval sont sales et les roues sont lisses."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La liste des victimes est bien trop longue, trouvez d'abord un nom à chercher."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les pattes du cheval sont sales et les roues sont crantées."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous aimeriez connaître la cause de cette dispute. Interroger cette femme est une priorité."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le cabinet médical Lamford, son adresse est dans l'annuaire."
+	      }, 
+	      { 
+	         "number" : "39", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous ne voyez pas grand-chose à l'œil nu, il faudrait l'analyser autrement."
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette terre est sûrement identifiable avec les bonnes références."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Bill Tallow. Vous avez déjà vu ces initiales quelque part."
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le magasin Lambert, son adresse est dans l'annuaire."
+	      }, 
+	      { 
+	         "number" : "49", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le Jardin Botanique, son adresse est dans l'annuaire."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a plusieurs questions à poser à ce docteur pour creuser dans son passé."
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les dettes de Bill Tallow peuvent-elles être un bon mobile pour ce crime ? À vous de trancher."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est la bonne personne à interroger sur les sujets d'ordre privé."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Récupérez ce qu'il a dans les cheveux, attention c'est vraiment fin."
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Se pourrait-il qu'Elizabeth ait été victime d'un meurtre ?"
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comment positionner cet événement dans le fil rouge de votre enquête ?"
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Sûrement un cheveu de femme. Cela vous aidera à dresser le profil d'un des 3 suspects."
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a 7 lieux utiles pour votre enquête à trouver dans cet annuaire."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Comptez les pièces chez Sherlock Holmes : il y en a autour de l'annuaire, de la monographie des types de sols et de l'étagère en bois."
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "N'oubliez pas de prendre la carte 6 (le numéro est sur la porte)."
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "N'oubliez pas de prendre la carte 10."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comment positionner cet événement dans le fil rouge de votre enquête ?"
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces disputes amoureuses peuvent-elles être un bon mobile pour ce crime ? À vous de trancher."
+	      }, 
+	      { 
+	         "number" : "111", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "En dessinant les déplacements des 3 suspects, vous obtiendrez les 4 chiffres de ce code."
+	      }, 
+	      { 
+	         "number" : "222", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Reconstituez le fil rouge de cette histoire : le panorama des 4 cartes ainsi trouvées et placées avant la photo de la scène de crime vous donnera le code final."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "11", 
+	         "hintID" : "", 
+	         "message" : "Utilisez la pince (11) pour retirer un poil de la chemise du cadavre (28) et dans ses cheveux (66).", 
+	         "cards" : "39,77", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "hintID" : "", 
+	         "message" : "Cherchez dans le dossier (12) une information au sujet du tatouage de Mr Hall (18).", 
+	         "cards" : "30", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "22", 
+	         "hintID" : "", 
+	         "message" : "La maison de gauche a un numéro qui se termine par 0. La maison de Mr Hall est au 22. La maison de la voisine est donc au 24 (on voit le 2). Dans les empreintes, on distingue le n° 40. Sur la porte du jardin,  le n°14.", 
+	         "cards" : "24,14,40", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "37", 
+	         "hintID" : "", 
+	         "message" : "Tappez Lamford dans l'annuaire.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "39", 
+	         "hintID" : "", 
+	         "message" : "Examinez le poil prélevé (39) avec la loupe de Holmes (8).", 
+	         "cards" : "47", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "40", 
+	         "hintID" : "", 
+	         "message" : "Utilisez le livre de Holmes sur les sols (9) pour identifier la terre trouvée dans le jardin (40).", 
+	         "cards" : "49", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "42", 
+	         "hintID" : "", 
+	         "message" : "Montrez donc à Mr Tallow (42) la lettre que Mr Hall a reçu (17).", 
+	         "cards" : "59", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "47", 
+	         "hintID" : "", 
+	         "message" : "Tappez Lambert dans l'annuaire.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "49", 
+	         "hintID" : "", 
+	         "message" : "Tappez Jardin Botanique dans l'annuaire.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "52", 
+	         "hintID" : "", 
+	         "message" : "Le docteur se rend régulièrement à l'Eglise St Peter. Combinez cette carte (52) avec l'église (16). Vous devez également lui montrer le bras du cadavre (18) pour qu'il s'explique sur cette piqure.", 
+	         "cards" : "68,70", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "64", 
+	         "hintID" : "", 
+	         "message" : "Parlez à Susan Fay (64) du tatouage sur le bras de Mr Hall (18). Puis, interrogez-là sur le témoignage du postier qui fait référence à une dispute (35).", 
+	         "cards" : "82,99", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "88", 
+	         "hintID" : "", 
+	         "message" : "Le type de chaque pièce est marqué dessus. Il y a un Penny à côté de l'annuaire et deux Farthings, par exemple. Une fois que vous avez fait le total de chaque monnaie et que vous les mettez dans l'ordre indiqué sur la carte, le tour est joué.", 
+	         "cards" : "", 
+	         "code" : "1123"
+	      }, 
+	      { 
+	         "hintNumber" : "111", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "7416"
+	      }, 
+	      { 
+	         "hintNumber" : "222", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "1152"
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "5", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "12", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous trouvez des informations intéressantes sur les symboles des gangs."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "V", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous arrivez à décrire votre suspecte."
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "K", 
+	         "cardsToDiscard" : "", 
+	         "message" : "C'était bien cette calèche."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "Z", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "851", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Pour vous rendre chez Smith & Sons :", 
+	         "messageID" : "", 
+	         "cardsToTake" : "88", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "852", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Pour vous rendre à l'Église St.Peter :", 
+	         "messageID" : "", 
+	         "cardsToTake" : "16", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "853", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Pour vous rendre au cabinet médical Lamford :", 
+	         "messageID" : "", 
+	         "cardsToTake" : "93", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "854", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Pour vous rendre au magasin Lambert :", 
+	         "messageID" : "", 
+	         "cardsToTake" : "J", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "855", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Pour vous rendre au Post Office :", 
+	         "messageID" : "", 
+	         "cardsToTake" : "Q", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "856", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Pour vous rendre au Jardin Botanique :", 
+	         "messageID" : "", 
+	         "cardsToTake" : "97", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "857", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Pour vous rendre à Scotland Yard :", 
+	         "messageID" : "", 
+	         "cardsToTake" : "5", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

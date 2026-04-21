@@ -1,0 +1,583 @@
+{ 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "Donjon_Doo-Arann", 
+	   "number" : "300", 
+	   "displayName" : "Le Donjon de Doo-Arann", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "DooArann", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Doo_Arann_Intro", 
+	   "maxTime" : "1800", 
+	   "totalTime" : "1800", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "300", 
+	         "nextObject" : "False", 
+	         "message" : "Avez-vous examiné la margelle du puits ?"
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Rien à signaler ici."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Mieux vaut se protéger de son souffle de feu."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Visez une carte avec votre téléphone puis dessinez l'un des signes. Cela vous permettra de lancer le sort."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut une arme pour le combattre. Le héros mort en possède peut-être une."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette torche va s'éteindre. La magie pourrait vous aider."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avec le sort Attraction, vous pourrez garder la flamme."
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait allumer cette grenade pour qu'elle explose !"
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez l'encoche de cette flèche au centre de la corde de l'arc et visez bien la créature. Un mot apparaîtra alors."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le parchemin vous donne le point faible du dragon."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette épée vous permettra de combattre certaines créatures. "
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois le parchemin (29) et l'arc (78) ramassés, ouvrez cette porte avec une clef."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce dessin vous sera utile face au dragon."
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce bouclier vous servira à vous protéger. Il est résistant aux flammes."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut utiliser toute sa magie pour le vaincre."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le pentacle magique sur le parchemin (29) peut vous aider."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Alignez le dragon avec l'arc et visez-le avec une flèche."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le point faible du dragon est indiqué sur le parchemin. Regardez sa tête !"
+	      }, 
+	      { 
+	         "number" : "39", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette grenade permet d'abattre un mur."
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La constellation vous permettra d'ouvrir la gueule du lion."
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La forme est importante. La position des points de la constellation vous aidera."
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les élémentaires d'eau sont sensibles au gel. Jetez-lui un sortilège !"
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois le sortilège lancé, brisez la glace pour le détruire."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'objet est hors d'atteinte. Comment l'attirer à vous ?"
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il fait très sombre. Il serait utile d'éclairer ce mur."
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La torche éteinte fixée au mur peut servir."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette clef peut ouvrir la porte fermée (24)."
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "En tournant les cercles, les cristaux peuvent former un dessin."
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le mur de la carte 43 peut servir de modèle."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet arc ne sera utile que contre le dragon."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Alignez l'arc avec le dragon et décochez-lui une flèche."
+	      }, 
+	      { 
+	         "number" : "84", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Évitez les flèches qui vous toucheront."
+	      }, 
+	      { 
+	         "number" : "84", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez une carte pour suivre leur trajectoire. "
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez bien la margelle du puits… et faites attention à vous !"
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez déjà vu cet étui quelque part, mais où ?"
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous l'aviez entre vos mains avant le début de l'aventure."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "5", 
+	         "hintID" : "", 
+	         "message" : "Protégez-vous de son souffle à l'aide du bouclier (31 + modificateur +2 = 33).", 
+	         "cards" : "33", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "hintID" : "", 
+	         "message" : "Attaquez-le avec l'épée trouvée dans l'étui sans fond (99).", 
+	         "cards" : "35", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "18", 
+	         "hintID" : "", 
+	         "message" : "Utilisez le sort Attraction sur la torche, puis placez votre téléphone sur la carte 6 de sorte à insérer la flamme sur l'emplacement vide.", 
+	         "cards" : "9", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "21", 
+	         "hintID" : "", 
+	         "message" : "Lancez le sort Flamme (9) sur la mèche pour l'allumer.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "22", 
+	         "hintID" : "", 
+	         "message" : "Placez l'encoche de cette flèche au centre de la corde de l'arc (78) et visez l'œil du dragon (35). De l'encoche à son œil, vous pouvez lire CINQ.", 
+	         "cards" : "5", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "Attaquez le guerrier squelette (12).", 
+	         "cards" : "35", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "24", 
+	         "hintID" : "", 
+	         "message" : "Ouvrez la porte avec la clef (60).", 
+	         "cards" : "84", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "33", 
+	         "hintID" : "", 
+	         "message" : "Dessinez les trois signes l'un après l'autre pour créer le pentacle magique représenté sur le parchemin (29).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "35", 
+	         "hintID" : "", 
+	         "message" : "Placez l'encoche de la flèche (22) au centre de la corde de l'arc (78) et visez l'œil du dragon (35). De l'encoche à son œil, vous pouvez lire CINQ.", 
+	         "cards" : "5", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "39", 
+	         "hintID" : "", 
+	         "message" : "La grenade vous permet de détruire le mur (43).", 
+	         "cards" : "82", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "43", 
+	         "hintID" : "", 
+	         "message" : "Le mur peut être détruit avec la grenade (39).", 
+	         "cards" : "82", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "46", 
+	         "hintID" : "", 
+	         "message" : "Le sort Blizzard de la carte 6 vous permet de le geler.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "48", 
+	         "hintID" : "", 
+	         "message" : "Le sort Attraction de la carte 6 vous permet de récupérer la clef.", 
+	         "cards" : "60", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "50", 
+	         "hintID" : "", 
+	         "message" : "Le sort Flamme de la carte 9 vous permet d'allumer la torche.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "68", 
+	         "hintID" : "", 
+	         "message" : "Il faut utiliser le modèle de la constellation du Lion du mur (43) et la reproduire à l'aide des trois cercles de la carte (68).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "78", 
+	         "hintID" : "", 
+	         "message" : "Placez l'encoche de la flèche (22) au centre de la corde de l'arc (78) et visez l'œil du dragon (35). De l'encoche à son œil, vous pouvez lire CINQ.", 
+	         "cards" : "5", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "84", 
+	         "hintID" : "", 
+	         "message" : "Sélectionnez les quatre flèches qui touchent le personnage. Pour cela, prenez une carte afin de tracer des lignes imaginaires.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "94", 
+	         "hintID" : "", 
+	         "message" : "Vous pouvez voir le numéro caché 46 sur la margelle du puits.", 
+	         "cards" : "46", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "hintID" : "", 
+	         "message" : "Regardez au fond de l'étui dont vous avez sorti les cartes juste avant de commencer l'aventure. Vous verrez le numéro 23.", 
+	         "cards" : "23", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "6", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "21", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "84", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "50", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous réussissez à éviter les flèches et vous retrouvez dans une impasse mal éclairée."
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "18", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "", 
+	         "messageID" : "", 
+	         "cardsToTake" : "9", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "Doo_Arann_Fighting_The_Dragon", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "", 
+	         "messageID" : "", 
+	         "cardsToTake" : "39", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Bravo ! le dragon est vaincu. Vous récupérez son trésor, que vous glissez dans votre étui sans fond, et quittez le donjon de Doo-Arann. Vous êtes maintenant prêt à affronter de nouveaux dangers. Au fait, comment expliquer que vous n'ayez pas croisé la route du magicien maléfique Doo-Arann ? Bon, peut-être irez-vous le chercher un jour. Mais ceci est une autre histoire...", 
+	         "messageID" : "end", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "", 
+	         "messageID" : "", 
+	         "cardsToTake" : "60", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "", 
+	         "messageID" : "", 
+	         "cardsToTake" : "68", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	      "French", 
+	      "English", 
+	      "German", 
+	      "Italian", 
+	      "Dutch", 
+	      "Spanish"
+	   ]
+	}

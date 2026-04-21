@@ -1,0 +1,821 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "NovaCity", 
+	   "displayName" : "Menace sur\\nNova City", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "NovaCity", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "fight-cinematic-action-music", 
+	   "maxTime" : "2700", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o1", 
+	         "time" : "120", 
+	         "nextObject" : "False", 
+	         "message" : "Une porte dérobée vous permettra sûrement de pénétrer dans les lieux."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait déloger cet homme de sous cette lourde voiture."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre ordinateur est équipé pour lire tout type de support de données."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Techmax est trop fort, vous devez vous enfuir."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si l'alerte est terminée, le code ne doit pas être loin."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Titano doit pouvoir atteindre le braqueur d'ici s'il frappe au bon endroit."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une carte de crédit, des bonbons et un reçu mieux vaut tout garder, ça pourrait servir."
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il doit y avoir une séquence particulière à rentrer dans la machine pour l'arrêter."
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Techmax doit être le seul à connaitre la combinaison du code d'annulation."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Contrôler des flammes pourrait créer un incendie, faites attention."
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut détruire l'antenne et le signal qu'elle émet."
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Techmax est trop fort, vous devez vous enfuir."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le dessinateur de notre aventure peut influer sur le cours de l'histoire."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut se débarrasser de cette montagne de muscles."
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Techmax est trop fort, vous devez vous enfuir."
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "D'où Techmax peut-il bien envoyer des ordres à ses androïdes ?"
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Techmax a dû cacher sa planque quelque part dans ce chantier."
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les malfrats ont déjà ouvert le coffre, il faut vérifier à l'intérieur. "
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce distributeur peut être utilisé dans la pièce où il est."
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour arrêter ces androïdes, il vous faudrait une grande quantité d'eau."
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Des yeux plus aiguisés peuvent vous aider à trouver ce que vous cherchez."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Maintenant que les malfrats sont mouillés, il doit bien y avoir un moyen de les mettre hors d'état de nuire."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les malfrats ont dû se transmettre l'information du code de ce coffre."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "\"Les derniers\" peuvent ne pas appartenir à la même suite de chiffres."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le Tic Tac de Techmax peut être un indice sur le lieu de sa prochaine attaque."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Des objets peuvent facilement être cachés dans cette pièce."
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Comment expliquer à cette réceptionniste la raison de votre venue ?"
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Techmax est trop fort, vous devez vous enfuir."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Certaines choses craignent l'eau."
+	      }, 
+	      { 
+	         "number" : "62", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette gigantesque machine est trop rapide et forte pour certains de vos héros."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez le conseil de Vizio : faites demi-tour."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Retournez les cartes reproduisant la conversation de vos héros."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Comment pouvez-vous empêcher ces braises de tomber sur les habitants."
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette réceptionniste ne semble pas être comme nous, mais comment en être sûr ?"
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette séquence semble servir à désactiver la super arme de Techmax."
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le robot n'est pas arrêté, vos héros doivent chercher une faille dans sa structure."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_70_B", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les malfrats ont surement laissé une piste sur leur cachette."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_70_E", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "D'où Techmax peut-il bien envoyer des ordres à ses androïdes ?"
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_70_F", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le Tic Tac de Techmax peut être un indice sur le lieu de sa prochaine attaque."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "computer_alert_1", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous les 4 cartes pour compléter la conversation des héros ?"
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "computer_alert_1", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez ce que dit Visio, faites demi-tour."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "computer_info_1", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "En suivant les éléments laissés par les malfrats vous pourrez trouver le responsable, un homme, capable de créer des androïdes et ayant des sous-fifres."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "computer_alert_2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le code de fin d’alerte est à l’endroit où l’alerte semble terminée."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_99", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Quand Techmax disparaît, utilisez Vizio pour l'empêcher de s'enfuir."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_99", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Certaines couleurs vont nécessiter d'appuyer sur deux héros à la fois."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "14", 
+	         "hintID" : "", 
+	         "message" : "Titano (10) soulève la voiture (14) pour sauver cet homme.", 
+	         "cards" : "24", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "2", 
+	         "hintID" : "", 
+	         "message" : "Vous mettez la clé USB (91) dans l'ordinateur (2) pour voir son contenu.", 
+	         "cards" : "93", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "22", 
+	         "hintID" : "", 
+	         "message" : "Titano (10) frappe Techmax (22) de toutes ses forces.", 
+	         "cards" : "32", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "24", 
+	         "hintID" : "", 
+	         "message" : "Le code de fin d'alerte 15 et caché sur le tableau de bord. Entrez ce code dans l'ordinateur.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "26", 
+	         "hintID" : "", 
+	         "message" : "Titano (10) attrape le malfrat à l'étage en traversant le plafond juste en dessous +25.", 
+	         "cards" : "35", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "28", 
+	         "hintID" : "", 
+	         "message" : "Rentrez la séquence (SYMBOLE SÉQUENCE) trouvée dans les fichiers de Techmax (93) dans la machine pour arrêter le robot. Les deuxièmes et troisièmes symboles doivent être rentrés en même temps.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "31", 
+	         "hintID" : "", 
+	         "message" : "Lumina (L) +35 électrocute l'antenne (31) et la fait surcharger.", 
+	         "cards" : "66", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "32", 
+	         "hintID" : "", 
+	         "message" : "Techmax ne peut pas perdre, nos héros doivent quitter le scénario en appuyant sur le bouton quitter de l'application.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "33", 
+	         "hintID" : "", 
+	         "message" : "Le dessinateur (33) peut modifier l'histoire de nos héros (66).", 
+	         "cards" : "99", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "34", 
+	         "hintID" : "", 
+	         "message" : "Titano (10) assomme l'agent de sécurité (34).", 
+	         "cards" : "44", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "36", 
+	         "hintID" : "", 
+	         "message" : "Techmax ne peut pas perdre, nos héros doivent quitter le scénario en appuyant sur le bouton quitter de l'application.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "38", 
+	         "hintID" : "", 
+	         "message" : "Techmax peut envoyer son signal à partir d'une antenne en ville. Ouvrez 70 et cherchez l'antenne sur la carte.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "L'entrée de la planque de Techmax est cachée derrière la tractopelle.", 
+	         "cards" : "34", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "40", 
+	         "hintID" : "", 
+	         "message" : "Visio (96) voit un malfrat dans le coffre et le système de fermeture du coffre +44. Kinesia (21) ferme le coffre avec le malfrat à l'intérieur.", 
+	         "cards" : "65", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "41", 
+	         "hintID" : "", 
+	         "message" : "Kinesia lance la fontaine à eau (41) sur les malfrats de la pièce +7.", 
+	         "cards" : "48", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "44", 
+	         "hintID" : "", 
+	         "message" : " Visio (96) voit dans le hangar (44) les gicleurs du système d'incendie. Kinesia déplace la braise (29) sur les 9 gicleurs (+9) déclenchant l'arrosage automatique.", 
+	         "cards" : "38", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "48", 
+	         "hintID" : "", 
+	         "message" : "Lumina (+35) projette sa foudre sur l'eau sous les malfrats (48) pour les électrocuter.", 
+	         "cards" : "83", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "5", 
+	         "hintID" : "", 
+	         "message" : "Les malfrats parlent des derniers chiffres d'une carte (Y), en regardant les derniers des quatre séries de la carte de crédit (24) vous obtenez le code du coffre 5752.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "51", 
+	         "hintID" : "", 
+	         "message" : "Le tic tac de Techmax fait référence à une horloge, ouvrez la machine 70 et cherchez la mairie et son horloge sur la carte.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "52", 
+	         "hintID" : "", 
+	         "message" : "Visio (96) utilise son pouvoir pour scanner la chambre (52).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "53", 
+	         "hintID" : "", 
+	         "message" : "Nos héros montrent le ticket du motel 2 Monts (27) à la réceptionniste (53).", 
+	         "cards" : "80", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "57", 
+	         "hintID" : "", 
+	         "message" : "Techmax ne peut pas perdre, nos héros doivent quitter le scénario en appuyant sur le bouton quitter de l'application.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "62", 
+	         "hintID" : "", 
+	         "message" : "Lumina (L) +35 électrocute le robot (62) pour le ralentir.", 
+	         "cards" : "97", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "65", 
+	         "hintID" : "", 
+	         "message" : "Lorsque vous avez les cartes (65), (83), (35) et (A), assemblez-les pour reformer la conversation et ensuite retournez les cartes. Vous obtenez le numéro 54 à entrer dans le système d'alerte.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "hintID" : "", 
+	         "message" : "Kinesia (21) utilise sa télékinésie pour empêcher les braises de tomber sur la population (8).", 
+	         "cards" : "29", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "80", 
+	         "hintID" : "", 
+	         "message" : "Les héros lancent le verre d'eau (6) sur cette réceptionniste en plein bug (80).", 
+	         "cards" : "86", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "93", 
+	         "hintID" : "", 
+	         "message" : "Le TIC TAC de Techmax fait référence à une horloge. Ouvrez la machine 70 et cherchez la mairie et son horloge sur la carte.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "97", 
+	         "hintID" : "", 
+	         "message" : "Scannez le robot avec Visio (96) et utilisez Titano (10) pour retirer la plaque (+18).", 
+	         "cards" : "28", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_70_B", 
+	         "message" : "Cherchez le Motel 2 Mont dont le nom est visible sur la carte (27) sur la carte (70).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_70_E", 
+	         "message" : "Techmax peut envoyer son signal à partir d'une antenne en ville. Cherchez l'antenne sur la carte. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_70_F", 
+	         "message" : "Le tic tac de Techmax fait référence à une horloge. Cherchez la mairie et son horloge sur la carte. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "computer_alert_1", 
+	         "message" : "Assemblez les cartes A, 35, 65 et 83, et retournez les pour avoir le code de fin d’alerte 54.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "computer_info_1", 
+	         "message" : "Les cartes Z, Y et 27, vous indique que votre coupable est Techmax. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "computer_alert_2", 
+	         "message" : "Le code de fin d’alerte est sur la carte 24. Le code est donc 15.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_NovaCity_Special", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "91", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le coffre s'ouvre et vous récupérez une clé USB."
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "36", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Par la seule force de son esprit, Kinesia parvient à entrer le code d’annulation du robot. Celui-ci se fige, définitivement cette fois. Dans les airs, Techmax fulmine de rage. Il ne peut plus se cacher."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Cette fois, Techmax est vaincu ! Privé de ses gadgets, ce n’est plus qu’un humain comme les autres que la police de Nova City emmène derrière les barreaux. Une fois de plus, les Champions ont fait triompher la justice. Le premier tome de Nova Force s'achève. Félicitations."
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous volez jusqu'à la banque pour arrêter ce braquage.", 
+	         "messageID" : "machine_70_A", 
+	         "cardsToTake" : "B,N,K", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous allez incognito dans le Motel 2 Monts pour mener votre enquête.", 
+	         "messageID" : "machine_70_B", 
+	         "cardsToTake" : "53", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous volez au secours de la population.", 
+	         "messageID" : "machine_70_C", 
+	         "cardsToTake" : "8", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Allons enquêter sur ces pics d’énergie.", 
+	         "messageID" : "machine_70_D", 
+	         "cardsToTake" : "4", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Les ondes radio ! Il faut détruire cette antenne pour empêcher les androïdes de semer le chaos.", 
+	         "messageID" : "machine_70_E", 
+	         "cardsToTake" : "31", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous volez jusqu'à la mairie, prêt à mettre un terme aux agissements Techmax !", 
+	         "messageID" : "machine_70_F", 
+	         "cardsToTake" : "62", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Oh non ! Au moment où vous alliez mettre la main sur Techmax, celui-ci active sa machine temporelle ! Il disparait sous vos yeux alors que la réalité change.", 
+	         "messageID" : "card_32_ar", 
+	         "cardsToTake" : "36", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Techmax est trop fort, vous vous enfuyez ! Mais que se passe-t-il ?", 
+	         "messageID" : "on_button_quit", 
+	         "cardsToTake" : "33", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

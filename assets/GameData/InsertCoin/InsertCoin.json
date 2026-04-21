@@ -1,0 +1,613 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "InsertCoin", 
+	   "number" : "13", 
+	   "displayName" : "Insert Coin!", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "InsertCoin", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "InsertCoin_AMBIANT", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "2484", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "InsertCoin_Theme_2", 
+	         "cardsToTake" : "14", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous esquivez les tirs et retrouvez la piste de la princesse à travers ce labyrinthe."
+	      }, 
+	      { 
+	         "number" : "5848", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "41", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Les envahisseurs s'enfuient en marchant en crabe ! La voie est libre."
+	      }, 
+	      { 
+	         "number" : "5938", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "InsertCoin_Theme_1", 
+	         "cardsToTake" : "0", 
+	         "cardsToDiscard" : "J92", 
+	         "message" : "D'étranges lumières jaillissent de la machine et le temps semble s'arrêter autour de vous. Vous vous sentez soudainement happés par l'écran et atterrissez au milieu d'une jungle luxuriante."
+	      }, 
+	      { 
+	         "number" : "2449", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "InsertCoin_Theme_2", 
+	         "cardsToTake" : "23", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous vous faufilez jusqu'à cette échelle."
+	      }, 
+	      { 
+	         "number" : "1", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Bravo !"
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o1", 
+	         "time" : "300", 
+	         "nextObject" : "False", 
+	         "message" : "Les lianes dans la crevasse du Level 1 sont anormalement emmêlées. "
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hintName" : "o2", 
+	         "time" : "480", 
+	         "nextObject" : "False", 
+	         "message" : "Ne voyez-vous rien sur les ferrures de ce coffre ?"
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "0", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Et si vous preniez la carte 30 ?"
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Quelque chose se cache dans ce souterrain. La machine du casque vous le révélera."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le numéro de la carte est devenu rouge. Avec quoi le combiner pour revivre ?"
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Attention, quelqu'un pourrait glisser sur cette peau de banane !"
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre casque vous aidera à trouver le bon chemin en évitant les tirs. Chaque échelle ou passage emprunté vous donnera une partie du code."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette pièce vous permettra de démarrer une partie de SUPERBOY !"
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faudra une arme tranchante pour le vaincre."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Prenez les cartes 21 et 66."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La machine de votre casque pourrait éclairer ce coin de la pièce."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Lancez la machine 39, puis passez votre téléphone sur cette carte. N'observez-vous rien ?"
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Donnez trois coups d'épée au gorille pour le vaincre."
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le point faible du robot, il serait dommage qu'il glisse bêtement."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous recouvrir d'un carton vous protégera ici."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Superposez la carte 98 et cette carte. Que dessinent alors les lasers ? "
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La carte cheat code vous sera nécessaire pour battre ce boss."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le numéro au-dessus du KO est un décompte de temps pour le combat. Il indique l'ordre des coups à porter."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Malheureusement pour vous, vous ne sautez pas assez haut pour voir les ennemis."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce mur est moins solide qu'il n'y paraît, une bonne explosion vous en débarrassera."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Si les blocs du centre tombent complètement, quel numéro dessineront-ils ?"
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Qui voulez-vous attaquer avec cette belle épée ? Et surtout combien de fois ?"
+	      }, 
+	      { 
+	         "number" : "39", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Passez votre téléphone sur la carte que vous voulez éclairer."
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous trouverez un vaisseau au level 5. Une des échelles du level 4 vous y mènera."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce petit ressort peut vous faire sauter vraiment haut. Il suffit de l'utiliser au bon level."
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce vaisseau est fait pour aller dans l'espace. Il vous sera utile après le level 7."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il n'y a rien à faire exploser avant le level 2."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Passez votre téléphone sur une carte avec le symbole indiqué."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le haut de la cuirasse du robot est trop solide, vous devriez viser plus bas."
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a diverses façons de mourir dans un jeu : se faire écraser par un ennemi, brûler par des lasers, manger par un monstre… Ou simplement tomber dans un trou."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Et si vous preniez la carte 99 ? N'oubliez pas de prendre les cartes 60 et 69 également."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous êtes proches de la fin, mais comment arrêter votre partie ?"
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ne voyez-vous rien sur les ferrures de ce coffre ?"
+	      }, 
+	      { 
+	         "number" : "79", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce sont les envahisseurs de votre vieille affiche ! Mais à quels autres éléments correspondent leurs couleurs ?"
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Un seul moyen de faire une partie de SUPERBOY : trouver une pièce dans ce grenier."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "N'oubliez pas de prendre les cartes 24 et 98."
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une seule colonne de lettres vous donnera le bon CODE."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces trois envahisseurs vous ont toujours interpellés. Cette affiche vous servira plus tard."
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Seul un tuyau vert vous mènera à la sortie. Essayez de déterminer précisément d'où vous êtes tombés !"
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce carton vous protégera des lasers du level 5."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Superposez cette carte et celle du level 5. Que dessinent alors les lasers de part et d'autre de la carte ?"
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "N'oubliez pas de prendre les cartes 12, 45, et 51! Avez-vous remarqué le numéro caché dans les lianes ?"
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "5", 
+	         "hintID" : "", 
+	         "message" : "Utilisez la potion de vie (69) avec cette carte de Game Over ? (5) pour reprendre la partie !", 
+	         "cards" : "74", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "9", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "2484"
+	      }, 
+	      { 
+	         "hintNumber" : "10", 
+	         "hintID" : "", 
+	         "message" : "Pour lancer la partie, il faut mettre une pièce dans le jeu SUPERBOY. Combinez la pièce (10) et la borne SUPERBOY (82).", 
+	         "cards" : "92", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "hintID" : "", 
+	         "message" : "En déplaçant la caméra de votre appareil sur les deux caisses puis en remontant légèrement, un numéro apparaît.", 
+	         "cards" : "10", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "21", 
+	         "hintID" : "", 
+	         "message" : "C'est un classique ! Glisser sur une peau de banane, c'est fatal ! Combinez les jambes du Mecha-niche (21) avec la banane (7).", 
+	         "cards" : "28", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "Les lasers dessinent le chiffre 4 à gauche du carton et le chiffre 7 à droite.", 
+	         "cards" : "47", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "34", 
+	         "hintID" : "", 
+	         "message" : "Heureusement, vous avez un ressort portatif ! Combinez la carte du Level 7 (34) avec le ressort (45) pour vous mettre à la bonne hauteur.", 
+	         "cards" : "79", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "35", 
+	         "hintID" : "", 
+	         "message" : "Utilisez le baril explosif (51) pour faire sauter ce mur (35).", 
+	         "cards" : "86", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "38", 
+	         "hintID" : "", 
+	         "message" : "Combinez le gorille (12) avec l'épée (5). Mais il faut utiliser cette dernière trois fois pour retirer les trois vies : 3 x 5 = 15.", 
+	         "cards" : "27", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "75", 
+	         "hintID" : "", 
+	         "message" : "Appuyez sur le bouton pause de l'application.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "77", 
+	         "hintID" : "", 
+	         "message" : "Les ferrures de ce coffre forment le chiffre 38 (en le tournant d'un quart de tour vers la gauche.)", 
+	         "cards" : "38", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "79", 
+	         "hintID" : "", 
+	         "message" : "L'affiche indique à quelle maison correspond chaque envahisseur. Le nombre d'envahisseurs de chaque couleur, dans l'ordre des maisons, vous donne chaque chiffre du code.", 
+	         "cards" : "", 
+	         "code" : "5848"
+	      }, 
+	      { 
+	         "hintNumber" : "82", 
+	         "hintID" : "", 
+	         "message" : "Pour lancer la partie, il faut mettre une pièce dans le jeu SUPERBOY. Combinez la pièce (10) et la borne SUPERBOY (82).", 
+	         "cards" : "92", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "92", 
+	         "hintID" : "", 
+	         "message" : "Le mot CODE est écrit de haut en bas dans la 3éme colonne de lettres. Le code correspondant est donc constitué par  la 3éme colonne de chiffres.", 
+	         "cards" : "", 
+	         "code" : "5938"
+	      }, 
+	      { 
+	         "hintNumber" : "96", 
+	         "hintID" : "", 
+	         "message" : "Placez la carte 96 en dessous de la carte 99, mais attention, il faut placer la chute correctement et décaler la carte. L'un des tuyaux verts du souterrain s'aligne sur le tuyau du haut. Ajoutez les chiffres de ces deux tubes verts ensemble.", 
+	         "cards" : "77", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "26", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "9", 
+	         "cardsToDiscard" : "H,I,T,S,24,V26", 
+	         "message" : "Vos puissantes combos mettent votre ennemi à terre, mais comment avez-vous fait ça ? Défaussez le cheat code."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "44", 
+	         "cardsToDiscard" : "V60,88,V90", 
+	         "message" : "Vous avez neutralisé le vaisseau et sauvé Marion des griffes de Wolfix."
+	      }, 
+	      { 
+	         "number" : "39", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "2449", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Il y a un passage secret au level 4.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "2484", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "N'oubliez pas de suivre la piste de la princesse au level 4.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

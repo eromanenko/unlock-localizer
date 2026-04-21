@@ -1,0 +1,458 @@
+{ 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "Poursuite_Cabrakan", 
+	   "number" : "302", 
+	   "displayName" : "À la poursuite de Cabrakan", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Cabrakan", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Amazonic_Deep_Jungle", 
+	   "maxTime" : "2400", 
+	   "totalTime" : "2400", 
+	   "penaltyTime" : "3", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "0", 
+	         "nextObject" : "False", 
+	         "message" : "Avez-vous bien examiné le sol de la grotte ?"
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o2", 
+	         "time" : "0", 
+	         "nextObject" : "False", 
+	         "message" : "Il y a un petit objet fixé au plafond de la salle secrète."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut trouver une clé dans la grotte pour l'ouvrir. Cherchez sur le sol."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faudrait un objet tranchant pour récupérer cette gourde."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette gemme n'est pas là par hasard, mais il manque quelque chose pour l'activer."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il est hors de portée de main, mais vous pouvez peut-être l'atteindre autrement."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Bien qu'ancienne, cette dague est encore très tranchante."
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette clé semble parfaitement adaptée à la serrure du coffre."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utile pour attraper des objets hors de portée de main..."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez le masque en or. Il y a une fente au niveau de sa bouche. Elle doit pouvoir accueillir un objet."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les glyphes de ce miroir sont également présents sur le mur (80)."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Repérez dans l'ordre la position des glyphes sur le mur. Chacun des deux groupes de glyphes dessine un chiffre."
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette gourde est légère. Si vous avez besoin d'un objet plus lourd, vous pouvez toujours la remplir, mais avec quoi ? "
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce curieux symbole ne vous sera utile qu'après avoir découvert la salle secrète qui abrite la statuette."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avec un objet adapté, vous devriez pouvoir orienter ce faisceau."
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Fouillez bien les lieux. Il pourrait y avoir un élément caché dans les zones sombres de cette salle."
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La statuette est le trésor, mais c'est aussi la clé pour ouvrir cette porte et sortir de ce temple maudit."
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les couleurs en haut de la porte sont les mêmes que celles de la gemme lorsque vous changez l'orientation de la statuette (91). Reste à reproduire la bonne séquence."
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Inutile de toutes les compter : seules deux couleurs suffisent. Reste à trouver lesquelles."
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Entrez dans la salle secrète puis trouvez comment faire pivoter le mur. Vous aurez alors les informations nécessaires à l'utilisation de ces masques."
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Orientez bien le rayon et vous verrez quelle carte prendre."
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il ne reste plus qu'à diriger cette lumière vers le bon endroit."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce mécanisme utilise un système de numérotation maya. Un point vaut 1, et un trait, 5.\\nUne fois que vous aurez fait pivoter le mur de la salle secrète, les têtes en pierre du couloir (46) vous aideront à trouver la bonne combinaison."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le système de contrepoids de la stèle (90) détectera l'absence de la statuette (70) si vous la retirez. À moins de l'échanger habilement avec un objet du même poids."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La gourde du squelette (10) pourrait faire l'affaire. Une fois que vous aurez trouvé comment la libérer et la lester, tentez de la substituer à la statuette (70)."
+	      }, 
+	      { 
+	         "number" : "71", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La gourde lestée doit faire sensiblement le même poids que la statuette… En retirant la statuette de la stèle tout en la remplaçant par la gourde, cela devrait éviter le système de contrepoids de se déclencher."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez noter ce qui manque pour chaque symbole. La carte 30 vous aidera ici."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En notant les traits manquants, par rapport au symbole de carte 30, vous trouverez un numéro vous indiquant quelle statue du couloir (46) sera utile pour débloquer le mécanisme de la statuette en or (60)."
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avant de pouvoir passer, il vous faut l'objet qui est dans le coffre."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le système de contrepoids de la stèle (90) détectera l'absence de la statuette (70) si vous la retirez. À moins de l'échanger habilement avec un objet du même poids."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La gourde du squelette (10) pourrait faire l'affaire. Une fois que vous aurez trouvé comment la récupérer et la lester, tentez de l'échanger avec la statuette (70)."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il semble que la gemme de la statuette change de couleur en fonction de son orientation dans l'espace…"
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Remettez les trois roues à l'endroit : la tête, les bras..."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Remettez les trois roues à l'endroit : la tête, les bras..."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "5", 
+	         "hintID" : "", 
+	         "message" : "Repérez le numéro caché (19) sur le sol de la grotte.", 
+	         "cards" : "19", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "hintID" : "", 
+	         "message" : "Aidez-vous de votre fouet (20) pour atteindre le crochet (15) et tirer dessus.", 
+	         "cards" : "35", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "18", 
+	         "hintID" : "", 
+	         "message" : "Récupérez la gourde du squelette (10) en tranchant la lanière avec la dague (18). ", 
+	         "cards" : "28", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "19", 
+	         "hintID" : "", 
+	         "message" : "Utilisez la clé (19) pour ouvrir le coffre de la grotte (5).", 
+	         "cards" : "24", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "Insérez la dague (18) dans la fente du masque en or (23).", 
+	         "cards" : "41", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "24", 
+	         "hintID" : "", 
+	         "message" : "Le premier groupe de glyphes forme un 4. Le deuxième forme un 6. ", 
+	         "cards" : "46", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "28", 
+	         "hintID" : "", 
+	         "message" : "Remplissez la gourde (28) avec des gemmes (43) pour la lester.", 
+	         "cards" : "71", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "35", 
+	         "hintID" : "", 
+	         "message" : "Placez le miroir (24) dans le faisceau de lumière (35).", 
+	         "cards" : "59", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "38", 
+	         "hintID" : "", 
+	         "message" : "Si ce n'est pas déjà fait, repérez le numéro caché en haut à gauche.", 
+	         "cards" : "15", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "41", 
+	         "hintID" : "", 
+	         "message" : "Orientez la statuette (machine 91) de façon à modifier la couleur de la gemme selon la séquence suivante : ?????.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "54", 
+	         "hintID" : "", 
+	         "message" : "Le rayon forme les chiffres 7 puis 5.", 
+	         "cards" : "75", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "59", 
+	         "hintID" : "", 
+	         "message" : "Orientez la lumière sur la gemme du sceptre (12) grâce au miroir (+42).", 
+	         "cards" : "54", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "71", 
+	         "hintID" : "", 
+	         "message" : "Remplacez la statuette (70) de la stèle (90) par la gourde (71). Pour cela, retirez la statuette de la stèle en y ajoutant « en même temps » la gourde (90 - 70 + 71 = 91)", 
+	         "cards" : "91", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "75", 
+	         "hintID" : "", 
+	         "message" : "Les traits manquants forment les lettres HUIT. Les yeux de la 8e tête (46) vous indiquent quelles gemmes (43) compter pour débloquer le mécanisme (60) : les blanches puis les vertes.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "hintID" : "", 
+	         "message" : "Repérez la racine au plafond (+3 rouge) et accrochez-y votre fouet (20) pour vous balancer de l'autre côté.", 
+	         "cards" : "23", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "54", 
+	         "name" : "", 
+	         "objectNumber" : "99", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "90", 
+	         "cardsToDiscard" : "", 
+	         "message" : "C'est la bonne combinaison, vous soulevez la cage qui entoure la statuette…"
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "name" : "", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "38", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Les disques sont en place ! La sculpture s'ouvre sur un tunnel au bout duquel vous découvrez une grande salle."
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	      "French", 
+	      "English", 
+	      "German", 
+	      "Italian", 
+	      "Dutch", 
+	      "Spanish"
+	   ]
+	}

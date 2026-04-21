@@ -1,0 +1,608 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Paris", 
+	   "number" : "17", 
+	   "displayName" : "Arsène Lupin et le Grand Diamant Blanc", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Paris", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Arsene_1", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "1418", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La boîte s'ouvre sous vos yeux émerveillés : vous avez entre les mains l'énorme diamant. Arsène vous attend au pied de l'arbre et vous félicite chaleureusement : « Vous êtes arrivés au bout, bien joué ! Malheureusement, ce diamant est un faux, le vrai est évidemment caché chez moi. Néanmoins, votre esprit affûté mérite bien que je vous prenne sous mon aile, j'aurai sans doute de nouveau besoin de vos talents. À bientôt pour la suite de vos aventures ! »"
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o1", 
+	         "time" : "180", 
+	         "nextObject" : "False", 
+	         "message" : "Observez la tour gauche de la façade de Notre-Dame."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ils sont vraiment nombreux. La fuite semble être une option plus sage."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comme beaucoup de clés, elle vous servira à ouvrir une porte. Retenez surtout que parmi de nombreuses autres, cette clé-ci est spéciale."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Un indice sur le voleur des toits se trouve à Concorde. N'oubliez pas de relire attentivement le journal."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Êtes-vous sûrs que le voleur des toits est un être humain ? "
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces billes vous serviront certainement si vous croisez d'autres enfants."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utile pour grimper, vous en aurez besoin pour coincer le voleur."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette forme ressemble beaucoup à une certaine lettre. Prenez la carte correspondante."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les flèches indiquent un chemin. Utilisez le plan pour résoudre cette énigme."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Sur le plan, en partant du lion, allez d'un lieu à l'autre (sans révéler toutes les cartes) pour trouver l'étape suivante."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce n'est pas grand-chose, mais cela pourrait quand même vous permettre d'effectuer un achat."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les initiales de ces deux lieux sont la clé."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'étape suivante se situe entre (N)otre-Dame et (R)épublique. À quelle lettre cela correspond-il ?"
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le ticket vous indique l'étape suivante. Il faut maintenant vous y rendre."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Placée au bon endroit, cette carte de visite vous révélera le code d'un cadenas."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut choisir les bons ballons et noter les lettres qu'ils indiquent dans l'ordre."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'ordre est celui de votre chemin depuis le début : Denfert/Montmartre/Notre-Dame/Gare Ouest/Tour Eiffel."
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Sur le bras de la gargouille sont représentées les aiguilles d'une montre."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Faites bien attention à tous les détails : moustache, col, gants, gilet et pantalon."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'avez pas 5 centimes, mais peut-être vous donnerait-il un journal pour moins."
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour trouver la bonne heure, vous devez chercher la créature sur la façade de Notre-Dame et suivre les indications du journal."
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La créature vous donnera la position des deux aiguilles et le journal vous dira comment modifier les heures."
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il ne vous reste qu'à lui donner vos 2 centimes."
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous détalez dans les escaliers. Il y a sûrement un moyen de faire glisser la bande à Marcel."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Placée au bon endroit, la carte de visite vous révélera le code du cadenas."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez déjà vu le monogramme de Lupin au tout début de l'aventure."
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut choisir les bons ballons et noter les lettres qu'ils indiquent dans l'ordre."
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'ordre est celui de votre chemin depuis le début : Denfert/Montmartre/Notre-Dame/Gare Ouest/Tour Eiffel."
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez lentement le film et vous trouverez un numéro de carte."
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le numéro apparaît sur le dos d'un homme qui court."
+	      }, 
+	      { 
+	         "number" : "71", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La phrase du journal « La bibliothèque… » est une méthode de décodage. Trouvez comment elle fonctionne puis, seulement après, appliquez-la aux livres. "
+	      }, 
+	      { 
+	         "number" : "71", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La bIbliothèque déVoilera autRe chosE préciSément."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les flèches indiquent un chemin. Utilisez le plan pour résoudre cette énigme."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Sur le plan, en partant du lion, allez d'un lieu à l'autre (sans révéler toutes les cartes) pour trouver l'étape suivante."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Reconstituez le puzzle ; les cours d'eau sont de bons points de repère. Les 4 flèches pointeront alors votre prochaine étape."
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Reconstituez le puzzle ; les cours d'eau sont de bons points de repère. Les 4 flèches pointeront alors votre prochaine étape."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Reconstituez le puzzle ; les cours d'eau sont de bons points de repère. Les 4 flèches pointeront alors votre prochaine étape."
+	      }, 
+	      { 
+	         "number" : "89", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Reconstituez le puzzle ; les cours d'eau sont de bons points de repère. Les 4 flèches pointeront alors votre prochaine étape."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Faites bien attention à tous les détails : moustache, col, gants, gilet et pantalon."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour ouvrir cette porte, il vous faut la clef qui se cache dans les cartes. Et avez-vous remarqué que les numéros ne dépassent pas 99 ? Il ne vous reste donc qu’une combinaison à tenter."
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez le plan, vous trouverez des couleurs pour Nord, Sud, Est et Ouest."
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour les autres points, il vous faut mélanger les couleurs (par exemple : bleu + jaune = vert)."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "6", 
+	         "hintID" : "", 
+	         "message" : "Le voleur des toits est une pie. Il faut maintenant grimper jusqu'à son nid.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "Q", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "18", 
+	         "hintID" : "", 
+	         "message" : "Denfert -> Orsay -> Louvre -> Opéra -> République -> Montmartre.", 
+	         "cards" : "M", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "P se situe entre N et R dans l'alphabet (N/o/P/q/R).", 
+	         "cards" : "P", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "26", 
+	         "hintID" : "", 
+	         "message" : "Placez la carte sur la lettre en faisant correspondre le monogramme et la signature. Les doigts vous révéleront 4 chiffres : 1418.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "29", 
+	         "hintID" : "", 
+	         "message" : "PALAIS. Il faut aller au Jardin du Grand Palais.", 
+	         "cards" : "J", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "35", 
+	         "hintID" : "", 
+	         "message" : "Donnez à l'enfant (35) la pièce de 2 centimes (20).", 
+	         "cards" : "55", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "43", 
+	         "hintID" : "", 
+	         "message" : "La gargouille indique 9h35. Le journal nous dit d’avancer d’une heure. L'heure qu'il faut entrer est donc 10h35.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "50", 
+	         "hintID" : "", 
+	         "message" : "Servez-vous des billes (9) pour faire glisser la bande à Marcel dans les escaliers (50).", 
+	         "cards" : "59", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "52", 
+	         "hintID" : "", 
+	         "message" : "Placez la carte sur la lettre en faisant correspondre le monogramme et la signature. Les doigts vous révéleront 4 chiffres : 1418.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "53", 
+	         "hintID" : "", 
+	         "message" : "PALAIS. Il faut aller au Jardin du Grand Palais.", 
+	         "cards" : "J", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "67", 
+	         "hintID" : "", 
+	         "message" : "Le numéro 39 apparaît sur le dos d'un homme vers la fin du film.", 
+	         "cards" : "39", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "71", 
+	         "hintID" : "", 
+	         "message" : "Prenez la première lettre de Germinal, la seconde de Madame Bovary et ainsi de suite. Vous obtenez « Gare Ouest ».", 
+	         "cards" : "S", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "75", 
+	         "hintID" : "", 
+	         "message" : "Denfert -> Orsay -> Louvre -> Opéra -> République -> Montmartre.", 
+	         "cards" : "M", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "86", 
+	         "hintID" : "", 
+	         "message" : "Allez à Notre-Dame.", 
+	         "cards" : "N", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "87", 
+	         "hintID" : "", 
+	         "message" : "Allez à Notre-Dame.", 
+	         "cards" : "N", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "88", 
+	         "hintID" : "", 
+	         "message" : "Allez à Notre-Dame.", 
+	         "cards" : "N", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "89", 
+	         "hintID" : "", 
+	         "message" : "Allez à Notre-Dame.", 
+	         "cards" : "N", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "90", 
+	         "hintID" : "", 
+	         "message" : "Moustache, col blanc, pas de boutons, gants, pantalon rayé. Il faut choisir le 4e.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "95", 
+	         "hintID" : "", 
+	         "message" : "Il n'y a que la carte 99 qui vous reste dans les cartes comprises entre 95 et 100. La valeur de la clé est donc 4.", 
+	         "cards" : "99", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "100", 
+	         "hintID" : "", 
+	         "message" : "En partant du Nord (dans le sens horaire) : Bleu/Bleu ciel/Blanc/Rose/Rouge/Orange/Jaune/Vert.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "43", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "2", 
+	         "solutions" : "", 
+	         "cardsToTake" : "X,23", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le cadran de l'horloge pivote, révélant un compartiment secret."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "25", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous identifiez l'homme, qui vous remet un ticket."
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "92", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La plaque se débloque, révélant une échelle qui s'enfonce dans le noir."
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "2", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "30", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "La bande à Marcel au grand complet vous encercle ! Arrêtez votre enquête.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "1", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

@@ -1,0 +1,855 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Challenger", 
+	   "number" : "12", 
+	   "displayName" : "Expédition : Challenger", 
+	   "difficulty" : "3", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Challenger", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Challenger.mp3", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "3", 
+	   "wrongCodePenaltyTime" : "2", 
+	   "scoreOvertime" : "False", 
+	   "scoreHints" : [ 
+	      "2", 
+	      "6"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "3674", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "31", 
+	         "cardsToDiscard" : "75,88,93", 
+	         "message" : "La pierre vous indique un chemin dans le désert."
+	      }, 
+	      { 
+	         "number" : "2120", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "5", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le cadenas se déverrouille facilement."
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "V90,94", 
+	         "message" : "Lord Roxton est sauvé. Il vous explique qu'il a été pris par la fièvre alors qu'il allait chercher du secours au camp."
+	      }, 
+	      { 
+	         "number" : "3514", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "Challenger.mp3", 
+	         "cardsToTake" : "99", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Un jeune homme-singe ouvre la porte et s'enfuit en vous voyant. Vous pénétrez dans le village désert."
+	      }, 
+	      { 
+	         "number" : "8471", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La terre tremble sous les pas du T. rex qui arrive sur vous ! Sa vue fait déguerpir les hommes-singes. Vous en profitez pour vous enfuir et regagnez le campement. Challenger vous y attend, sain et sauf. Il active la machine et vous téléporte à Londres. Quelle expédition !"
+	      }, 
+	      { 
+	         "number" : "941", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "V90,94", 
+	         "message" : "Lord Roxton est mort. Il est trop tard pour lui donner l'onguent."
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "L'onguent ne sauvera pas Zambo."
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o1", 
+	         "time" : "15", 
+	         "nextObject" : "False", 
+	         "message" : "Un numéro se trouve au bas de la page du livre."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hintName" : "o2", 
+	         "time" : "60", 
+	         "nextObject" : "False", 
+	         "message" : "Regardez bien l'eau du marais."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce plan indique le chemin du village à travers la forêt : il faut commencer par aller tout droit, puis à votre gauche, puis à votre droite..."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour récupérer la corde, il va falloir nourrir cette créature."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce lapin a une étrange posture. À quoi joue-t-il ?"
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Seuls les lacets pourraient vous servir. À quoi les attacheriez-vous ?"
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "C en bleu pour les degrés Celsius, F en rouge pour les degrés Fahrenheit."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le rouge correspond à la température d'ébullition…"
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette grotte est trop sombre pour être explorée."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a une fente au centre de cette noix de coco. Trouvez un moyen de l'ouvrir."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez attentivement le rectangle rouge. Que lisez-vous ?"
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette griffe pourrait servir d'hameçon, mais il manque un fil pour l'accrocher."
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est un crâne de parausorolophus. Souffler dans la corne permet de communiquer."
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Approchez votre bouche du micro de votre appareil et soufflez dessus."
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce fusil de chasse vous servira en cas d'attaque de dinosaure."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce fil de pêche est prêt à être utilisé. Reste à trouver un bon endroit où pêcher."
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Zambo a l'air complètement déshydraté. "
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Des étincelles pourraient vous permettre d'allumer cette torche. "
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous entendez frapper un S.O.S. Quelqu'un est coincé dans cette faille, mais impossible de descendre par ici."
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette solide rame pourrait servir de levier."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "D'après le guide, les ptéranodons raffolent de ce genre de poisson."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Seul, ce texte est peu utile. Les marques sur le papier nous indiquent qu'un autre texte devrait s'y superposer."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Entrechoquez les deux pierres et observez attentivement les étincelles."
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une encre sympathique redevient visible à la lumière d'une bougie. "
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette corde vous permettra d'escalader les parois les plus abruptes."
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faudra un plan pour se repérer dans cette forêt tortueuse."
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous semble entendre du bruit en dessous de ce rocher. Trouvez un moyen de le soulever."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les usages de cet objet semblent multiples, mais le manche pointu devrait venir à bout des coques les plus dures."
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette torche sera utile pour éclairer les endroits les plus sombres."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Où pourriez-vous remplir cette bouteille ? "
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faudrait une corde pour escalader cette falaise. "
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comme l'indique son dessin, ce papier a une légère odeur citronnée. Étrange ?"
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un message a été écrit à l'encre sympathique. Une flamme pourrait le révéler."
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette machine nécessite des coordonnées. Deux autres documents mis ensemble vous donneront les informations."
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les Indiens utilisent ces peintures comme repères pour traverser les rapides."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le rythme de ce tam-tam semble vous mettre sur la voie."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "tam tam tam, tam tam tam tam tam, tam, tam tam tam tam…"
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Faites glisser votre doigt sur l'écran. Repérez-vous grâce à l'intensité du son."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "4 lignes de 9 symboles blancs. Lequel choisir sur chaque ligne ?"
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une stèle au sommet de la falaise vous indiquera le symbole à choisir."
+	      }, 
+	      { 
+	         "number" : "76", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette pirogue est prête à partir. Où souhaitez-vous l'utiliser ?"
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce plan indique le chemin du village qui traverse la forêt : il faut commencer par aller tout droit, puis à votre gauche, puis à votre droite..."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Servez-vous de la peinture trouvée dans la grotte."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour commencer, passez entre les 2e et 3e rochers."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une seule de ces couleurs vous sera utile, mais laquelle ? "
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Challenger a utilisé une craie blanche pour vous aider. Suivez les flèches de cette couleur, elles forment un symbole. Reste à associer celui-ci aux inscriptions du désert."
+	      }, 
+	      { 
+	         "number" : "89", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'avez que des bouts de phrase. À quel document faut-il les rattacher pour avoir un message complet ?"
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les Indiens se servent de ces plantes pour soigner les malades. Il y a une recette dans le guide."
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un remède doit être préparé pour sauver Roxton. Seuls les Indiens pourraient vous aider. "
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Que craignent par-dessus tout les hommes-singes ? Et comment l'attirer ?"
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez la corne pour attirer le T. rex. Soufflez ensuite dans le micro de votre appareil."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "8", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "2120"
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "message" : "", 
+	         "cards" : "14", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "64", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "3514"
+	      }, 
+	      { 
+	         "hintNumber" : "75", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "3674"
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "21", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "79", 
+	         "cardsToDiscard" : "57", 
+	         "message" : "Vous avez traversé les rapides. Vous arrivez sur une plaine désolée. Une violente bataille entre les Indiens et les Hommes-singes a eu lieu ici. (Le lac est maintenant traversable libremement)."
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "64", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous arrivez au pied d'une grande palissade, voici enfin Ape Town."
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "1", 
+	         "cardsToDiscard" : "56,5,34,89", 
+	         "message" : "Des éclairs jaillissent de la machine. La pièce tout entière semble tourbillonner et vous perdez connaissance. Vous vous réveillez au milieu d'une étrange forêt…"
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "L'onguent est prêt. Pour l'utiliser entrez le code \"00\" suivi du numéro du personnage que vous souhaitez soigner."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "72", 
+	         "message" : "Après bien des errements, vous retrouvez Summerlee, épuisé mais sauf. Il vous apprend que Zambo et Malone ont disparu pendant la bataille entre les indiens et les hommes-singes."
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "1", 
+	         "type" : "Resource", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "", 
+	         "messageID" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "type" : "Resource", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "", 
+	         "messageID" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Summerlee est mort. Il est inutile de fouiller ce trou.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "72"
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous arrivez dans une mangrove.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "87", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "101", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Une vaste plaine s'étend devant vos yeux.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "52", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "102", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous progressez difficilement. Le sol, instable, tremble sous vos pieds. Un énorme vacarme retentit.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "29", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "103", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous arrivez au pied d'une immense falaise.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "51", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "105", 
+	         "type" : "Normal", 
+	         "extraNumber" : "3", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "La terre est marécageuse, vous progressez difficilement.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "82", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "106", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous traversez le lac à bord de la pirogue.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "107", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "La chaleur devient étouffante, ce lieu désertique semble servir de cimetierre aux dinosaures.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "97", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "109", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous arrivez dans une grande forêt, il est facile de s'y perdre.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "38", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "209", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous vous retrouvez au milieu d'une forêt très dense. Vous rebroussez chemin.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "211", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Il est trop risqué de traverser ce désert. Cherchez un chemin.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "208", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous devez d'abord trouver votre chemin dans cette grande forêt.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "210", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Le pont qui traverse la rivière vers cet endroit a été détruit, impossible d'y accéder par là.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "206", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous arrivez sur les rives d'un immense lac, impossible de traverser.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "10", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

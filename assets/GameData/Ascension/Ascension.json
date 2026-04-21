@@ -1,0 +1,440 @@
+{ 
+	   "visible" : "True", 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "Ascension", 
+	   "displayName" : "L'Ascension", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Ascension", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Mountain_begin", 
+	   "maxTime" : "2700", 
+	   "totalTime" : "2700", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "4", 
+	         "hintName" : "o1", 
+	         "time" : "30", 
+	         "nextObject" : "False", 
+	         "message" : "Un chiffre est gravé sur la statue du Pèlerin."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ajoutez un pas à votre position actuelle."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez un objet dans votre sac à dos pour repousser ces loups."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Comme précédemment vous devez faire attention à sauter la crevasse."
+	      }, 
+	      { 
+	         "number" : "111", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez un objet de votre sac à dos pour atteindre les bonnes prises."
+	      }, 
+	      { 
+	         "number" : "111", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les prises visibles ont la même forme que les gravures de la statue du pèlerin (21)."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez un objet de votre sac à dos pour marcher sur la neige épaisse."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez les conseils de votre grand-père et sautez la prochaine crevasse."
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez un objet à votre nom pour marquer votre accomplissement."
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez un objet de votre sac à dos pour vous diriger sans avoir besoin de voir au loin."
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez un objet de votre sac à dos pour les distraire."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pouvez retourner sur vos pas en retournant les cartes."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les sens des traces vous aideront à bien assembler les cartes."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez un objet de votre sac à dos pour voir les pierres du mont visible en fond. Ces pierres forment un chiffre."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le mont visible en fond n'est qu'une partie des monts Jumeaux, vous devez deviner la forme de l'autre mont."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour aller au Nord, une carte dans votre paquet en fait mention."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez un objet de votre sac à dos pour repérer votre route."
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Évitez les trous et les zones qui les entourent."
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre trajet en restant le plus éloigné possible des trous trace un chiffre."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez les souvenirs de votre grand-père pour trouver les bons fanions."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez le mémorial des alpinistes pour tracer les trajets déjà empruntés par les alpinistes depuis l'Ouest ou le Sud jusqu'à leurs destinations."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le chiffre indiqué à côté de chaque nom indique le nombre de lieux traversés par les alpinistes tout en évitant les crevasses."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_compass", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Servez-vous des notes que vous avez prises pour vous diriger."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_compass", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous commencez votre trajet à l'Est et partez donc en direction de l'Ouest."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "1", 
+	         "hintID" : "", 
+	         "message" : "Pour avancer un pas après l'autre, ajoutez 1 à la valeur de cette carte. 1+1=2.", 
+	         "cards" : "2", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "9", 
+	         "hintID" : "", 
+	         "message" : "Pour repousser les loups, utilisez le feu de détresse de votre sac à dos +22. 9+22=31.", 
+	         "cards" : "31", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "hintID" : "", 
+	         "message" : "Pour continuer à avancer tout en sautant la crevasse, ajoutez 2 à la valeur de cette carte 15+2=17.", 
+	         "cards" : "17", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "111", 
+	         "hintID" : "", 
+	         "message" : "Utilisez le piolet de votre sac à dos (+15) pour effectuer le trajet indiqué sur la statue du Pèlerin (21). 15 + 10 + 5 +7 + 7 + 4 = 48", 
+	         "cards" : "48", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "Utilisez les raquettes de votre sac à dos +10 pour avancer dans la neige épaisse. 10+4=14.", 
+	         "cards" : "14", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "2", 
+	         "hintID" : "", 
+	         "message" : "Le souvenir (40) vous indique qu'il faut sauter la crevasse, pour cela ajouter 2 à la valeur de cette carte au lieu de 1. 2+2=4.", 
+	         "cards" : "4", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "92", 
+	         "hintID" : "", 
+	         "message" : "Plantez votre drapeau (7) au sommet. 92+7=99.", 
+	         "cards" : "99", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "81", 
+	         "hintID" : "", 
+	         "message" : "Pour vous déplacer dans la tempête de neige, appuyez sur le bouton sac à dos puis appuyez sur la boussole.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "31", 
+	         "hintID" : "", 
+	         "message" : "Utilisez de la nourriture pour distraire les loups. Vous avez une boite de conserve dans votre sac à dos +30. 31+30=61.", 
+	         "cards" : "60", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "60", 
+	         "hintID" : "", 
+	         "message" : "Pour voir les traces laissées derrière vous, retournez les cartes 9, 31 et 61 et assemblez-les de sorte que les traces aillent dans le même sens. Le tracé forme un 56.", 
+	         "cards" : "56", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "48", 
+	         "hintID" : "", 
+	         "message" : "Appuyez sur le bouton Sac à dos et sélectionnez les jumelles pour mieux voir le mont et y voir un chiffre. Ce mont étant une partie des monts Jumeaux comme l'indique le plan, cela signifie que le second mont est identique à celui-ci. Les monts Jumeaux font donc un nombre prenez la carte portant ce nombre.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "45", 
+	         "hintID" : "", 
+	         "message" : "Le Nord peut être indiqué par la lettre N, comme sur la boussole visible en appuyant sur le bouton sac à dos.", 
+	         "cards" : "N", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "14", 
+	         "hintID" : "", 
+	         "message" : "Pour mieux voir votre chemin, appuyez sur le bouton Sac à dos, sélectionnez les jumelles et scannez la carte 14 avec votre appareil.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "17", 
+	         "hintID" : "", 
+	         "message" : "Avancez jusqu'aux drapeaux tout en restant à deux cases de distance des trous. Le trajet que vous faites forme un 45.", 
+	         "cards" : "45", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "hintID" : "", 
+	         "message" : "En suivant les tenus de votre grand-père dans vos souvenirs, 93, 40 et D, sélectionnez les fanions rouge, gris et jaune.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "34", 
+	         "hintID" : "", 
+	         "message" : "Tracez le chemin des quatre alpinistes visible sur le mémorial (43). Le premier est Ouest, Aiguilles de Gives et Pic Monsaillie. Le deuxième est Sud, Rouvre et Col St-Bernard. Le troisième est Sud, Rouvre, Pic du Juste et Fil de l'espoir. Le quatrième est Sud, Terrier Bonhomme, Aiguilles des Gives et Pic de l'armoise.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_compass", 
+	         "message" : "Utilisez les trajets des anciens alpinistes pour faire un trajet qu'aucun autre n'a emprunté. Vous commencez donc à l'est et avancez en suivant ces directions Ouest, Nord, Ouest, Sud-Ouest et Sud-Est.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_Ascension_Bag", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "73", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous avez tracé les trajets des quatres alipinistes."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous prenez le plan dans votre sac à dos.", 
+	         "messageID" : "machine_bag_open", 
+	         "cardsToTake" : "51", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous traversez la tempête de neige tant bien que mal et relevez la tête.", 
+	         "messageID" : "machine_compass", 
+	         "cardsToTake" : "92", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous avez conquis le mont Célestin. Vos initiales trônent fièrement au sommet, aux côtés des couleurs de votre grand-père. Alice Delaroche devient ainsi la première personne à avoir atteint le sommet en hiver et le chemin pour y accéder est maintenant nommé la route Théodore Delaroche.", 
+	         "messageID" : "END", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	      "French", 
+	      "English", 
+	      "German", 
+	      "Italian", 
+	      "Spanish"
+	   ]
+	}

@@ -1,0 +1,529 @@
+{ 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "Migration", 
+	   "displayName" : "L'Écaille et la Plume", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Migration", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Waltzing_On_Clouds", 
+	   "maxTime" : "2700", 
+	   "totalTime" : "2700", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o1", 
+	         "time" : "30", 
+	         "nextObject" : "False", 
+	         "message" : "Où est l'arbre géant dans la forêt ?"
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "101", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si le pinson rejoint les autres oiseaux, quelque chose apparaitra."
+	      }, 
+	      { 
+	         "number" : "234", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le regard de l'oiseau (V) et du poisson (6) se relie grâce au courant."
+	      }, 
+	      { 
+	         "number" : "234", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Superposer les cartes V et 6, pour relier le regard de l'oiseau et poisson."
+	      }, 
+	      { 
+	         "number" : "333", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut trouver l'heure du départ, qui arrive bientôt."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les traces du courant relient les regards de l'oiseau (V) et du poisson (6)."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Superposer les cartes V et 6, pour relier le regard de l'oiseau et poisson."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les reflets dans l'eau sur la carte 52 vous aideront à savoir où est parti l'oiseau."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pouvez voir la position de l'oiseau dans les reflets, mais ils sont inversés."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les reflets dans l'eau sur la carte 52 vous aideront à savoir où est parti l'oiseau."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pouvez voir la position de l'oiseau dans les reflets, mais ils sont inversés."
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez déjà vu le bon poisson durant votre aventure."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'arbre que l'oiseau cherche est dans la forêt."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet arbre a une belle écorce."
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Changez le sens du message pour mieux comprendre."
+	      }, 
+	      { 
+	         "number" : "421", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Appuyez sur l'oiseau dans l'application pour entendre son chant et trouver la valeur de cette carte."
+	      }, 
+	      { 
+	         "number" : "421", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le chant de l'oiseau est composé de 1 à 3 sifflements aigus ou graves."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Faites circuler la carpe de bulle en bulle tout en évitant les obstacles."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez bien toutes les bulles bleues dans la machine, mais aussi sur les cartes."
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez la conversation de l'oiseau et poisson pour assembler les cartes harmonieusement."
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La position des cartes 29, 30, 37 et 94 forme un grand décor."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez la conversation de l'oiseau et poisson pour assembler les cartes harmonieusement."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La position des cartes 29, 30, 37 et 94 forme un grand décor."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez la conversation de l'oiseau et poisson pour assembler les cartes harmonieusement."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La position des cartes 29, 30, 37 et 94 forme un grand décor."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez la conversation de l'oiseau et poisson pour assembler les cartes harmonieusement."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La position des cartes 29, 30, 37 et 94 forme un grand décor."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le pinson et la carpe doivent éviter les obstacles et quitter la carte chacun dans leur espace."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Que donne comme forme chacun de leurs trajets ?"
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La carte 85 peut s'assembler avec la carte d'introduction. Faites glisser la carte 85 derrière la mer visible sur les cartes du début de votre aventure pour voir le coucher du soleil. Ne remarquez-vous pas quelque chose ? "
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les oiseaux visent des lettres."
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le décor de cette carte ressemble au décor du début de votre aventure."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_85_part1", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pouvez scanner avec votre appareil une carte comportant le même symbole que celui qui est affiché sur l'écran."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_85_part2", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans l'application, le cœur vous aidera à retracer le chemin que doit prendre chaque animal."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_85_part2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Déplacez sur l'écran chaque animal vers son objectif décrit dans les textes."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "101", 
+	         "hintID" : "", 
+	         "message" : "Lorsque le pinson rejoint les autres oiseaux, leur position trace un V.", 
+	         "cards" : "V", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "234", 
+	         "hintID" : "", 
+	         "message" : "Placez la carte 6 sur la carte V de sorte que les lignes de courant partant des yeux de l'oiseau et poisson se rejoignent et forment un décor logique. Les tourbillons forment 52.", 
+	         "cards" : "52", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "333", 
+	         "hintID" : "", 
+	         "message" : "Regardez le clocher, il bientôt 6 heures.", 
+	         "cards" : "6", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "6", 
+	         "hintID" : "", 
+	         "message" : "Placez la carte 6 sur la carte V de sorte que les lignes de courant partant des yeux de l'oiseau et du poisson se rejoignent et forment un décor logique. Les mouvements de l'eau forment un 52.", 
+	         "cards" : "52", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "52", 
+	         "hintID" : "", 
+	         "message" : "En observant les reflets dans l'eau (52), vous pouvez voir que l'oiseau est parti dans la direction d'un lieu avec, de gauche à droite, une tour, une maison et un arbre. Sélectionnez ce lieu et appuyez sur OK.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "20", 
+	         "hintID" : "", 
+	         "message" : "En observant les reflets dans l'eau (52), vous pouvez voir que l'oiseau est parti dans la direction d'un lieu avec, de gauche à droite, une tour, une maison et un arbre. Sélectionnez ce lieu et appuyez sur OK.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "41", 
+	         "hintID" : "", 
+	         "message" : "Vous pouvez voir sur le dos des cartes que le poisson dont l'oiseau est tombé amoureux a un œil entouré de blanc, une tache noire et trois lignes blanches sur sa queue. Additionnez l'oiseau (41) avec le bon poisson (+16), 41 + 16 = 57.", 
+	         "cards" : "57", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "24", 
+	         "hintID" : "", 
+	         "message" : "L'arbre qu'il vous faut est caché sur la carte 57. Prenez la carte 16 et additionnez-la avec la carte 24.", 
+	         "cards" : "40", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "16", 
+	         "hintID" : "", 
+	         "message" : "L'oiseau (24) cherche un arbre pour y graver un message. Combinez l'oiseau à l'arbre (16). 16 + 24=40.", 
+	         "cards" : "40", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "40", 
+	         "hintID" : "", 
+	         "message" : "Pivotez la carte (40) à 180° pour lire 1+8.", 
+	         "cards" : "9", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "421", 
+	         "hintID" : "", 
+	         "message" : "En appuyant une première fois sur l'oiseau dans l'application, vous pouvez entendre son chant composé d'un son grave et de deux sons aigus. En appuyant une seconde fois, vous entendrez un son grave. La troisième fois, ce sera deux sons graves . Sur la carte ?, les petits cœurs peuvent se traduire par des sons aigus et les plus gros par des sons graves. Le chant de l'oiseau se traduisant par 11 + 30, la carte est un +41 rouge que vous pouvez additionner au tracé des bulles du poisson.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "78", 
+	         "hintID" : "", 
+	         "message" : "En vous servant des cartes 78 et 4 reliez les bulles tout en évitant les obstacles. Déplacez le poisson en suivant ce parcours : à droite, en haut, à gauche, en haut, à droite, à droite, en diagonale bas gauche, en diagonal bas droite, en diagonale bas gauche. Ensuite, vous aurez un +53 à addtionner avec le chant de l'oiseau.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "94", 
+	         "hintID" : "", 
+	         "message" : "Placez la carte 94 sur le côté gauche et en haut de la carte 29, placez la carte 30 en bas de la carte 29, et la carte 37 en bas de la carte 30 de sorte à former un seul décor. Les cartes placées ainsi forment le chiffre 7.", 
+	         "cards" : "7", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "29", 
+	         "hintID" : "", 
+	         "message" : "Placez la carte 94 sur le côté gauche et en haut de la carte 29, placez la carte 30 en bas de la carte 29, et la carte 37 en bas de la carte 30 de sorte à former un seul décor. Les cartes placées ainsi forment le chiffre 7.", 
+	         "cards" : "7", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "30", 
+	         "hintID" : "", 
+	         "message" : "Placez la carte 94 sur le côté gauche et en haut de la carte 29, placez la carte 30 en bas de la carte 29, et la carte 37 en bas de la carte 30 de sorte à former un seul décor. Les cartes placées ainsi forment le chiffre 7.", 
+	         "cards" : "7", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "37", 
+	         "hintID" : "", 
+	         "message" : "Placez la carte 94 sur le côté gauche et en haut de la carte 29, placez la carte 30 en bas de la carte 29, et la carte 37 en bas de la carte 30 de sorte à former un seul décor. Les cartes placées ainsi forment le chiffre 7.", 
+	         "cards" : "7", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "7", 
+	         "hintID" : "", 
+	         "message" : "Le seul trajet que l'oiseau peut faire pour éviter les obstacles des humains forme un 23 rouge, et le seul trajet que le poisson peut faire pour éviter les obstacles des humains forme un 62 bleu. 23+62= 85.", 
+	         "cards" : "85", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "85", 
+	         "hintID" : "", 
+	         "message" : "Si vous faites glisser lentement la carte 85 derrière les deux premières cartes de votre aventure (1 et Intro), vous pouvez voir les oiseaux viser les lettres A-Puy-et, sur-la et L-U-N-E, ce qui donne \"Appuyez sur la lune\". Appuyez sur la lune visible sur l'écran de l'application.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "57", 
+	         "hintID" : "", 
+	         "message" : "Placez la carte 57 sur le décor du début de votre aventure de sorte à voir apparaître le numéro 78.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_85_part1", 
+	         "message" : "Scannez la carte 44 avec votre téléphone.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_85_part2", 
+	         "message" : "Appuyez sur le cœur blanc pour voir le chemin de l'oiseau. Assemblez les cartes 44, 96,97, 98, 99 de sorte à reconstituer le chemin jaune vu sur votre appareil. Avec votre doigt, déplacez l'oiseau jusqu'à la fleur, puis faites la même chose avec le coeur orange et menez le poisson jusqu'au coquillage. C'est alors que deux chemins apparaissent avec le coeur rouge. L'oiseau et le poisson doivent alors rejoindre cœur, mais cette fois en même temps.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "20", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "41", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La carpe trouve et poursuit son être cher, Quant à notre pinson, effleurant l’eau, lui se perd."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "C’est par ses deux amants, bravant les éléments,\\nQue le vent et la mer s’unissent dans un seul chant.\\nUn pinson et une carpe, unis pour ne faire qu’un.\\nC'est un amour sans commun, le chant des embruns."
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Avant de commencer,", 
+	         "messageID" : "machine_78_intro", 
+	         "cardsToTake" : "4", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Le soleil se couche pour faire place à la nuit. Il reste un effort ultime pour être uni.", 
+	         "messageID" : "machine_85_intro", 
+	         "cardsToTake" : "44", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	      "French", 
+	      "English", 
+	      "German", 
+	      "Italian", 
+	      "Spanish"
+	   ]
+	}

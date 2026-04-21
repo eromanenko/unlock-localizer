@@ -1,0 +1,692 @@
+{ 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "SherlockHead", 
+	   "displayName" : "", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Sherlock2", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "221B_Baker_Street", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Reliez les 8 cartes indices à celle-ci par le fil rouge. Sherlock vous a déjà donné la première et la dernière. Il ne reste qu’à suivre l’histoire."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "les cartes assemblées forment une opération avec des chiffres, des plus et des moins. Reste à faire le total."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet indice sera utile quand vous les aurez tous rassemblés. D’ici là, cherchez ailleurs."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cherchez aux alentours pour trouver où peut être ce poison."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet indice sera utile quand vous les aurez tous rassemblés. D’ici là, cherchez ailleurs."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le pharmacien semble avoir des choses à vous dire. Recueillez son témoignage."
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet indice sera utile quand vous les aurez tous rassemblés. D’ici là, cherchez ailleurs."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet indice sera utile quand vous les aurez tous rassemblés. D’ici là, cherchez ailleurs."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le meilleur moyen pour trouver le chien le plus proche est d’utiliser l’un de vos sens."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Sherlock à une ouïe très fine. Utilisez sa tête pour localiser le chien."
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cherchez un endroit en hauteur avec lequel vous pourriez combiner cette carte."
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il n’y a qu’un moyen de vérifier que la bouteille et l’étiquette coïncident."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Amara portait le contenu de ces bouteilles à sa bouche. Le poison évoqué par Watson y est sûrement."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En utilisant la tête de Sherlock, reniflez le contenu de ces bouteilles."
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Watson parlait d'un poison. Il est temps de déterminer lequel."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Recueillez son témoignage."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le banquier vous a indiqué une direction. En utilisant votre plan de Covent Garden dans votre tête, vous devriez pouvoir la localiser."
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Voici 2 nouveaux témoins dont vous pouvez recueillir le témoignage."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a probablement une pharmacie dans Covent Garden. Sherlock connait l’endroit par cœur."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cherchez un plan dans la tête de Sherlock."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Recueillez son témoignage."
+	      }, 
+	      { 
+	         "number" : "71", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Watson a raison. Respirer ces sels vous réveillera sans doute."
+	      }, 
+	      { 
+	         "number" : "71", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez votre odorat pour renifler ces sels."
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Sherlock est sonné. Pour se souvenir, il faut refaire la dernière étape de son parcours."
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Qu’avez-vous fait après être monté sur le balcon ?"
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet indice sera utile quand vous les aurez tous rassemblés. D’ici là, cherchez ailleurs. "
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet indice sera utile quand vous les aurez tous rassemblés. D’ici là, cherchez ailleurs. "
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La tête de Sherlock vous permettra de regarder de plus près."
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Seule, cette carte ne vous donnera rien. Vous devez trouver l’autre Idée avant de pouvoir l’utiliser."
+	      }, 
+	      { 
+	         "number" : "101", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les deux cartes idées se combinent. Insérez-les dans la boîte pour trouver un numéro."
+	      }, 
+	      { 
+	         "number" : "101", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Insérez d’abord A entièrement, puis faites coulisser B jusqu’au trait."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "oreille", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Explorez les alentours en faisant attention aux bruits."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "oeil", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Quelqu'un vous a mis fhor d'état de nuire, il faut vous réveiller !"
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "8", 
+	         "hintID" : "", 
+	         "message" : "Entrez 17 pour le cadenas du Grand Final.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "31", 
+	         "hintID" : "", 
+	         "message" : "Cette carte se combine avec le modificateur (+68) du balcon. 31+68 = 99.", 
+	         "cards" : "99", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "32", 
+	         "hintID" : "", 
+	         "message" : "Combinez l'étiquette (55) à la Bouteille (32). 55+32 = 87.", 
+	         "cards" : "87", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "33", 
+	         "hintID" : "", 
+	         "message" : "Reniflez ces bouteilles (33) grâce au nez de Sherlock (+10). 33+10 = 43.", 
+	         "cards" : "43", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "43", 
+	         "hintID" : "", 
+	         "message" : "Combinez cette carte (43) avec Watson (12). 43+12 = 55.", 
+	         "cards" : "55", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "45", 
+	         "hintID" : "", 
+	         "message" : "Combinez cette carte (45) avec le plan (+30). 45+30 = 75.", 
+	         "cards" : "75", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "55", 
+	         "hintID" : "", 
+	         "message" : "Combinez cette carte (55) avec le plan (+30). 55+30 = 85.", 
+	         "cards" : "85", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "71", 
+	         "hintID" : "", 
+	         "message" : "Combinez cette carte (71) avec le nez de Sherlock (+10). 71+10 = 81.", 
+	         "cards" : "81", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "81", 
+	         "hintID" : "", 
+	         "message" : "Utilisez à nouveau les yeux de Sherlock sur la carte 99.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "hintID" : "", 
+	         "message" : "Utilisez les yeux de Sherlock sur cette carte.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "101", 
+	         "hintID" : "", 
+	         "message" : "Dans la boîte, les deux cartes combinées forment le numéro 31.", 
+	         "cards" : "31", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "oreille", 
+	         "message" : "Tournez l’appareil lentement autour de vous jusqu’à entendre les aboiements du chien.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "oeil", 
+	         "message" : "Secouez le téléphone !", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_SherlockHead_Interrogation", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_SherlockHead_Ear", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "D", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_SherlockHead_Eye", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "94", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Oui c’est cela, je suis entré par le balcon, puis j’ai pu me faufiler discrètementjusqu’aux cuisines."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_SherlockHead_End", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Je l’observais depuis une bonne heure en vous attendant. La performance était très agréable. Elle revenait juste d’une pause quand vous êtes arrivés et se lançait dans un nouveau numéro.  Mais personne ne l’a approchée, j’en suis certain.", 
+	         "messageID" : "machine_temoignage_watson", 
+	         "cardsToTake" : "29", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Oui je suis le président du comité des commerçants de Covent Garden.   Nous croulons déjà sous les problèmes avec tous ces bateleurs qui trainent partout. Cela ne va pas durer vous pouvez m’en croire ! Ces anarchistes dégradent nos murs maintenant. Allez voir à l’Est, vous constaterez par vous-même.", 
+	         "messageID" : "machine_temoignage_plumb", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Monsieur, j’ai été victime d’un vol ! Tôt ce matin, alors que je venais d’ouvrir le magasin, j’ai constaté que la bouteille de cyanure avait disparu ! Je ne comprends pas, il n’y a aucune trace d’effraction comme vous le constaterez. C’est très inquiétant. Même à faible dose, c’est un poison violent !", 
+	         "messageID" : "machine_temoignage_holmwood", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Je suis effondré. Amara faisait partie de la troupe et tout le monde l’aimait. Il y a certes des tensions avec certains commerçants, mais les spectacles sont une tradition ancestrale du marché alors je n’imagine pas que quelqu’un puisse en venir à tuer.", 
+	         "messageID" : "machine_temoignage_sefu", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "C’est terrible ! Amara était comme une sœur pour moi. Oui le chien lui appartient, nous le gardons ainsi que sa réserve de kérosène avec nos propres affaires. Je l’ai vue passer il y a quelques minutes alors que nous étions au milieu de notre numéro avec Sefu. Elle est allée à la réserve et est repartie vers sa place.", 
+	         "messageID" : "machine_temoignage_cleo", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Je n’en peux plus de cette engeance. Ces anarchistes de l’épine sanglante. Ils causent des troublent, dégradent nos rues et filent comme des rats ! Et si ce n’était que les murs ! Non, il y a de plus en plus d’accidents et de violences. Mais ils n’ont pas le monopole !  Si j’en attrape un il va passer un sale quart d’heure !", 
+	         "messageID" : "machine_temoignage_strand", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Mais non Watson ! Examinez attentivement les marques sur mon cou (81). Ce sont celles d'une chaîne.", 
+	         "messageID" : "machine_grandfinal_q1_wrong", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Bien vu Watson ! Les marques sur mon cou (81) laissent peu de doute quand à la méthode employée.", 
+	         "messageID" : "machine_grandfinal_q1_right", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Très drôle Watson ! Je sais bien que vous n'êtes pas impliqué. Faites moi une autre proposition.", 
+	         "messageID" : "machine_grandfinal_q2_watson", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Mais non Watson ! Les commerçants n'avaient aucune raison de saboter cette réunion avec du poison, contrairement à Cléo. Elle appartient à l'épine sanglante comme l'indique son tatouage. En voyant l'avis elle a décidé de passer à l'action, volé la bouteille et tenté cette périlleuse escalade. Puis elle est revenue par le même chemin, caché la bouteille et repris les représentations.", 
+	         "messageID" : "machine_grandfinal_q2_plumb", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Mais non Watson ! Les commerçants n'avaient aucune raison de saboter cette réunion avec du poison, contrairement à Cléo. Elle appartient à l'épine sanglante comme l'indique son tatouage. En voyant l'avis elle a décidé de passer à l'action, volé la bouteille et tenté cette périlleuse escalade. Puis elle est revenue par le même chemin, caché la bouteille et repris les représentations.", 
+	         "messageID" : "machine_grandfinal_q2_holmwood", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Mais non Watson ! Les commerçants n'avaient aucune raison de saboter cette réunion avec du poison, contrairement à Cléo. Elle appartient à l'épine sanglante comme l'indique son tatouage. En voyant l'avis elle a décidé de passer à l'action, volé la bouteille et tenté cette périlleuse escalade. Puis elle est revenue par le même chemin, caché la bouteille et repris les représentations.", 
+	         "messageID" : "machine_grandfinal_q2_strand", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Non Watson ! Sefu avait sans doute les capacités pour réussir l'escalade, mais je pense plutôt que le forfait a été commis par un membre de l'épine sanglante : son assistante Cléo, qui en porte le tatouage.  En voyant l'avis elle a décidé de passer à l'action, volé la bouteille et tenté cette périlleuse escalade. Puis elle est revenue par le même chemin, caché la bouteille et repris les représentations.", 
+	         "messageID" : "machine_grandfinal_q2_sefu", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Bien vu Watson ! Cléo appartient à l'épine sanglante comme l'indique son tatouage. En voyant l'avis elle a décidé de passer à l'action, volé la bouteille et tenté cette périlleuse escalade. Puis elle est revenue par le même chemin, caché la bouteille et repris les représentations.", 
+	         "messageID" : "machine_grandfinal_q2_cleo", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Non Watson ! Tout cela n'était qu'un malheureux accident. Cléo nous a révélé que les affaires d'Amara sont gardées avec les siennes. Or Amara est passée pendant le numéro de Cléo et Sefu pour reprendre une bouteille de kérosène puisque les bouteilles que nous avons trouvées étaient vides. Malheureusement ele a pris par erreur la bouteille de poison, dont l'étiquette avait été jetée. Voilà qui clôt cette affaire Watson, au moins aurons-nous évité quelques morts supplémentaires.", 
+	         "messageID" : "machine_grandfinal_q3_wrong", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Oui Watson ! Tout cela n'était qu'un malheureux accident. Cléo nous a révélé que les affaires d'Amara sont gardées avec les siennes. Or Amara est passée pendant le numéro de Cléo et Sefu pour reprendre une bouteille de kérosène puisque les bouteilles que nous avons trouvées étaient vides. Malheureusement ele a pris par erreur la bouteille de poison, dont l'étiquette avait été jetée. Voilà qui clôt cette affaire Watson, au moins aurons-nous évité quelques morts supplémentaires.", 
+	         "messageID" : "machine_grandfinal_q3_right", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	      "French", 
+	      "English", 
+	      "German", 
+	      "Italian", 
+	      "Spanish"
+	   ]
+	}

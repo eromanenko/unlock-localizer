@@ -1,0 +1,722 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "TimeTravel", 
+	   "number" : "18", 
+	   "displayName" : "Perdus dans le ChronoWarp !", 
+	   "difficulty" : "3", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "TimeTravel", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Voyage_1", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "1", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La pièce tremble, la machine crépite et disparaît sous vos yeux dans un flash aveuglant. C'est sûrement mieux ainsi et les papillons qui virevoltent dehors ne diront pas le contraire. Jouer avec les fils du temps est tout aussi palpitant que périlleux, mais à trop grand pouvoir trop grande responsabilité !"
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "180", 
+	         "nextObject" : "False", 
+	         "message" : "Observez le bas de l'horloge, autour de la signature A. T."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o2", 
+	         "time" : "1200", 
+	         "nextObject" : "False", 
+	         "message" : "Quelque chose est pris dans le bassin gelé."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut exactement 4 doses de carburant pour alimenter la machine."
+	      }, 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans la machine 58, pour commencer, faites 8->3, puis 3->5. Répétez l'opération, il restera alors 1 dose dans le baril 3."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce gland donnera un beau chêne dans quelques années. Si seulement vous aviez le temps."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous plantez ce gland en 1900, le chêne aura sûrement bien poussé en 1950."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette scie peut vous permettre de couper du bois et même de la glace."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut un outil coupant pour déloger cet objet."
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avec un filet, vous ne pourriez pas résister à l'envie de l'attraper."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utile pour creuser des trous dans la terre."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour revenir au temps présent, entrez l'année en cours dans la machine."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il manque un livre. Ça tombe bien, vous en avez justement un."
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avec le bon outil, cet arbre peut vous fournir du bois, mais vous pouvez également l'utiliser pour y graver un message."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour annuler un événement, il faut le soustraire au rebrousse-temps."
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Visiblement, il faut exactement 4 doses de carburant pour alimenter la machine."
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans la machine 58, pour commencer, faites 8->3, puis 3->5. Répétez l'opération, il restera alors 1 dose dans le baril 3."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour récupérer l'objet, il faut faire fondre la glace."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous êtes en 1974 et Igor, adulte, a de nouveau fondé une famille. Son fils est donc ?"
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un canif peut être très utile. Pas pour couper du bois ou de la glace, mais peut-être pour un usage plus poétique."
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Igor doit absolument reconquérir Sophie. Vous pourriez l'aider en laissant un message quelque part dans le jardin."
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Et si vous graviez un message pour l'éternité sur l'arbre ?"
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Parfait pour faire une bonne flambée."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces objets seront sûrement utiles assez tard dans l'aventure."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le coffre fonctionne avec une combinaison à 5 chiffres, ce qui correspond au nombre de livres dans la bibliothèque (en y replaçant celui que vous avez trouvé)."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque livre évoque un chiffre : 4 saisons, Néant = 0, etc."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces allumettes vous permettront d'allumer un feu au bon moment."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si la cheminée disparaissait, vous pourriez récupérer l'objet qui est coincé dedans."
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'une de ces mélodies vous donnera une année vers laquelle voyager. ​Encore faut-il avoir un indice sonore pour vous guider."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut personnaliser ce message avec des initiales."
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Si Igor n'est pas père, Alcibiade ne naîtra jamais. Il faut absolument remédier à cela ! Enquêtez dans le passé."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudra confier ce livre à quelqu'un de très intelligent."
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette belle pelouse ne demande qu'à être creusée."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois retournés, notez que ces sabliers ne s'écoulent pas tous à la même vitesse."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'ordre d'apparition des numéros est important."
+	      }, 
+	      { 
+	         "number" : "58", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Quand vous aurez trouvé le nombre de doses dont vous avez besoin, il faudra transvaser le liquide entre les barils pour atteindre ce dosage. "
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avec ce feu, vous pouvez faire fondre de la glace."
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pourrez y planter quelque chose plus tard."
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette mélodie correspond à une seule des 3 musiques de la partition. Identifiez-la grâce au nombre de notes."
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les moments où le métronome frappe indiquent certaines notes de la mélodie. Notez les numéros."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'auriez pas dû attraper ce papillon, mais peut être pourrez-vous corriger cette erreur par la suite."
+	      }, 
+	      { 
+	         "number" : "71", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez entrer les bonnes années dans la machine pour progresser dans l'aventure. Le livre devrait vous aider à trouver la première."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pourrez débloquer cet objet vers la fin de l'aventure."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Notre présent est juste au milieu entre 1900 et l'année à trouver dans le futur."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En quelle année sommes-nous ? Combien d'années y a-t-il entre 1900 et maintenant ?"
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous vu la boîte coincée dans l'arbre ?"
+	      }, 
+	      { 
+	         "number" : "79", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris la carte ? Retenez le nombre de péchés capitaux, mais surtout l'année d'impression de ce livre."
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il ne vous reste plus qu'à trouver un papillon à attraper."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour comprendre comment fonctionne cet objet, vous devez d'abord vous rendre dans le futur."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'application se comporte bizarrement. Appuyez sur le bouton qui clignote."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour trouver les bonnes couleurs, observez bien le salon du professeur tel qu'il est devenu au cours de l'aventure."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "1", 
+	         "hintID" : "", 
+	         "message" : "Pour finir 5->8, 3->5, 8->3 et il y aura exactement 4 doses dans le bidon 8.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "9", 
+	         "hintID" : "", 
+	         "message" : "En 1900, faites un trou dans la terre (68) et plantez le gland (9).", 
+	         "cards" : "77", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "hintID" : "", 
+	         "message" : "En découpant la glace (12) avec la scie (10), vous extrayez le bloc avec le bidule.", 
+	         "cards" : "22", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "13", 
+	         "hintID" : "", 
+	         "message" : "Attrapez le papillon (13) avec le filet (82).", 
+	         "cards" : "95", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "18", 
+	         "hintID" : "", 
+	         "message" : "Replacez le livre (79) dans la bibliothèque (18).", 
+	         "cards" : "97", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "20", 
+	         "hintID" : "", 
+	         "message" : "Si vous n'aviez pas attrapé le papillon, rien ne serait arrivé. ​Il faut annuler la capture du papillon (carte 70) avec le rebrousse-temps (carte 86) en suivant les instructions du mode d’emploi (20) : 86-70=16.", 
+	         "cards" : "16", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "21", 
+	         "hintID" : "", 
+	         "message" : "Pour finir 5->8, 3->5, 8->3 et il y aura exactement 4 doses dans le baril 8.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "22", 
+	         "hintID" : "", 
+	         "message" : "C'est avec le feu de bois (64) que vous ferez fondre la glace (22).", 
+	         "cards" : "86", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "​1974, la lignée Tempus est rétablie : Victor est l’arrière-grand-père, Hector le grand-père, Igor le père et Alcibiade (jeune) l’enfant en face de vous.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "28", 
+	         "hintID" : "", 
+	         "message" : "Avec le canif (26), vous gravez un cœur sur l'arbre (19).", 
+	         "cards" : "45", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "29", 
+	         "hintID" : "", 
+	         "message" : "Allumez ce bois (29) avec les allumettes (35).", 
+	         "cards" : "64", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "33", 
+	         "hintID" : "", 
+	         "message" : "4 pour les saisons / 0 pour le néant / 7 pour les péchés (visuel carte 79) / 8 pour l'infini renversé (visuel de l'infini sur le tableau noir) / 1 pour la solitude. Entrez la combinaison 40781.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "37", 
+	         "hintID" : "", 
+	         "message" : "Gommez la cheminée sur le plan (37) avec la gomme (30). Ainsi, la cheminée ne sera pas construite.", 
+	         "cards" : "67", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "45", 
+	         "hintID" : "", 
+	         "message" : "Gravez sur ce tronc les initiales des prénoms des amoureux : S(ophie) et I(gor). Le dessin final gravé sur les cartes S et I indique l'opération 5+1=6.", 
+	         "cards" : "6", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "54", 
+	         "hintID" : "", 
+	         "message" : "Creusez la pelouse (54) avec la pelle (14).", 
+	         "cards" : "68", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "55", 
+	         "hintID" : "", 
+	         "message" : "Le sablier du 1 est celui qui s'écoule le plus vite, suivi du 9, du 5, puis du 0. Vous pouvez entrer l'année 1950 dans la machine à voyager dans le temps.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "69", 
+	         "hintID" : "", 
+	         "message" : "La seule mélodie à 8 notes est la 2e. Le métronome pointe un temps sur deux (1re, 3e, 5e et 7e notes), soit 1, 9, 7 et 4. Vous pouvez entrer l'année 1974 dans la machine à voyager dans le temps.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "75", 
+	         "hintID" : "", 
+	         "message" : "Calculez la différence entre 1900 et l'année à laquelle vous jouez ce scénario. Ajoutez ces années à l'année en cours et vous trouverez la date dans le futur à entrer dans la machine.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "82", 
+	         "hintID" : "", 
+	         "message" : "Attrapez le papillon (13) avec le filet (82).", 
+	         "cards" : "95", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "hintID" : "", 
+	         "message" : "Les couleurs des papillons dans le salon sont la clé : violet (papillon sauvé), vert (dessiné sur le mur : 67), bleu (avec le chat : 99), blanc ou vert foncé (tableau noir : 75).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "23", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "Y", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous entendez un cliquetis encourageant, c'est bien le code d'ouverture du coffre."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "58", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "50", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "71", 
+	         "name" : "", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "99", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La machine commence à fumer. Vous êtes revenus dans le présent, mais impossible de voyager plus loin…"
+	      }, 
+	      { 
+	         "number" : "11111", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "1900", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Tout autour de vous semble tournoyer. Vous voilà projetés dans le passé.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "11", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "1950", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Les sabliers vous pointent une nouvelle époque : 1950, nous voilà !", 
+	         "messageID" : "", 
+	         "cardsToTake" : "24", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "1974", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "En suivant les indications de la partition, vous partez vers 1974.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "74", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "2138", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Bien joué. Le futur vous attend !", 
+	         "messageID" : "", 
+	         "cardsToTake" : "83", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

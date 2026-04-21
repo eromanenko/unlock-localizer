@@ -1,0 +1,378 @@
+{ 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "Chat", 
+	   "displayName" : "", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Chat", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Chat_Start", 
+	   "maxTime" : "1800", 
+	   "totalTime" : "1800", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "0", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a quelque chose que vous pouvez retirer sur la carte."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les chats aiment les boîtes en carton."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce chat est la combinaison de deux réalités d'un chat de M.Schrödinger."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il manque une partie symbole en haut à droite pour multiplier les chats."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce chat mort-mort de M.Schrödinger tout à fait particulier peut être assemblé avec un autre chat."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce chat positif à besoin d'un chat négatif."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce chat vivant-vivant de M.Schrödinger tout à fait particulier peut être assemblé avec un autre chat."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "20_after_39", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce chat négatif à besoin d'un chat positif."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le chat de M.Schrödinger est sorti de la boîte avec un autre chat de M.Schrödinger. Maintenant, il en a deux. Que pouvez-vous faire de ces chats ?"
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il manque une partie symbole en haut à droite pour multiplier les chats."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce chat noir peut être combiné avec un chat blanc ou ce chat blanc peut être combiné avec un chat noir."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans la note (N) lisez bien la phrase soulignée et regardez vos cartes !"
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le chat de M.Schrödinger est sorti de la boîte avec un autre chat de M.Schrödinger. Maintenant, il en à deux. Que pouvez-vous faire de ces chats ?"
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce chat blanc peut être combiné avec un chat noir ou ce chat noir peut être combiné avec un chat blanc."
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans la notes (N) lisez bien la phrase soulignée et regardez bien vos cartes !"
+	      }, 
+	      { 
+	         "number" : "39", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut trouver le chat caché dans l'un des portails."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce chat rouge est venu avec un chat d'une autre couleur dans notre univers, qu'allez-vous faire ?"
+	      }, 
+	      { 
+	         "number" : "61", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Prenez votre appareil en main et orientez le pour faire apparaître un chat par anamorphose."
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez la bonne couleur du véritable chat de M.Schrödinger. Attention : ce n'est pas celle du chat qui se trouve sur la boîte."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce chat contient deux pièces de puzzle : une rouge et une bleue."
+	      }, 
+	      { 
+	         "number" : "108", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce chat bleu est venu avec un chat d'une autre couleur dans notre univers, qu'allez-vous faire ?"
+	      }, 
+	      { 
+	         "number" : "250", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce chat en plusieurs morceaux est instable. Retrouvez les autres parties du chat."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "0", 
+	         "hintID" : "", 
+	         "message" : "Retirez le cache et placez la carte sur le chat de la carte L. Le +60 recouvert par la carte L donne 600.", 
+	         "cards" : "600", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "Mettez des chats dans la boîte !", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "hintID" : "", 
+	         "message" : "Le 8 de la carte est doublé. Cela donne un 88.", 
+	         "cards" : "88", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "10", 
+	         "hintID" : "", 
+	         "message" : "Regardez bien le symbole en haut à droite. Avec la carte 25, la combinaison des symboles forme la croix de la multiplication. Il faut multiplier le chat (25) avec le chat (10). 25 x 10 = 250", 
+	         "cards" : "250", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "hintID" : "", 
+	         "message" : "Il faut assembler ce chat (15) avec l'autre moitié (20) puis les mettre dans la boîte (4). 20 + 15 + 4 = 39", 
+	         "cards" : "39", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "16", 
+	         "hintID" : "", 
+	         "message" : "Il faut faire une soustraction de ce chat positif (16) avec le chat négatif (20). 16 -20 = - 4", 
+	         "cards" : "-4", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "20", 
+	         "hintID" : "", 
+	         "message" : "Il faut assembler ce chat (15) avec l'autre moitié (20) puis les mettre dans la boîte (4). 20 + 15 + 4 = 39", 
+	         "cards" : "39", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "20_after_39", 
+	         "message" : "Il faut faire une soustraction de ce chat négatif (20) avec le chat positif (16). 16 -20 = - 4", 
+	         "cards" : "-4", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "Il faut mettre le chat VIVANT (23) dans la boîte (4). 23 + 4 = 27. Attention regardez bien les numéros de vos cartes.", 
+	         "cards" : "27,27", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "25", 
+	         "hintID" : "", 
+	         "message" : "Regardez bien le symbole en haut à droite. Avec la carte 10, la combinaison des symboles forme la croix de la multiplication. Il faut multiplier le chat (25) avec le chat (10). 25 x 10 = 250", 
+	         "cards" : "250", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "32", 
+	         "hintID" : "", 
+	         "message" : "Il faut mettre le chat VIVANT (32) dans la boîte (4). 32 + 4 = 36. Attention regardez bien les numéros de vos cartes.", 
+	         "cards" : "36,36", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "42", 
+	         "hintID" : "", 
+	         "message" : "Il faut mélanger le chat rouge (42) et le chat bleu (108) pour avoir un chat violet. Regardez le dos de vos cartes, l'une d'elles contient un chat violet.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "61", 
+	         "hintID" : "", 
+	         "message" : "Orientez légèrement votre appareil sur la gauche jusqu'à voir un chat se former.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "69", 
+	         "hintID" : "", 
+	         "message" : "La bonne combinaison de couleur du chat de M.Schrödinger est Pelage principal : gris foncé / Pelage secondaire : gris clair / Yeux : verts / Oreilles : roses.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "88", 
+	         "hintID" : "", 
+	         "message" : "Additionnez les huit (rouge et bleu) de la carte pour récupérer la fusion des deux réalités.", 
+	         "cards" : "16", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "108", 
+	         "hintID" : "", 
+	         "message" : "Il faut mélanger le chat bleu (108) et le chat rouge (42) pour avoir un chat violet. Regardez le dos de vos cartes, l'une d'elles contient un chat violet.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "250", 
+	         "hintID" : "", 
+	         "message" : "Ce chat cassé se combine avec la carte C afin de le compléter. La combinaison du K rouge et du C bleu donne KC. Si vous regardez vos cartes, l'une d'elles contient un chat cassé.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "39", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "M", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Est-ce bien celui que vous recherchez ?"
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_Chat_Phone", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_Chat_Space", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	      "French", 
+	      "English", 
+	      "German", 
+	      "Italian", 
+	      "Dutch", 
+	      "Spanish", 
+	      "Hungarian"
+	   ]
+	}

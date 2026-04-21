@@ -1,0 +1,456 @@
+{ 
+	   "visible" : "False", 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "Sabre", 
+	   "displayName" : "La Voie du Sabre", 
+	   "difficulty" : "3", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Sabre", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "", 
+	   "maxTime" : "3000", 
+	   "totalTime" : "3000", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette lettre vous indique comment vous rendre à Kamakura."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La forme de l'entrée de Kamakura forme un chiffre"
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez la forme visible sur la demeure (56), repoussez les poissons de sorte qu'ils rejoignent le symbole dans la mare."
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Si un poisson est sur un bord de la mare, vous pouvez le débloquer en le faisant aller contre ce bord."
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre trajet depuis la tour en haut à droite jusqu'à la chambre de votre maitresse écrit un chiffre."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Jouez avec votre flute la musique de chaque saison. Les musiques sont visibles sous les différentes parties de la branche du parchemin (10)."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les couleurs peuvent se mélanger pour en donner une nouvelle, comme sur le parchemin (10)."
+	      }, 
+	      { 
+	         "number" : "84", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut utiliser une de vos valeurs de samouraï pour résoudre ce conflit."
+	      }, 
+	      { 
+	         "number" : "84", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les deux hommes disent être des commerçants de Kamakura, mais seul un des deux a un objet qu'un vrai commerçant peut avoir. L'autre est donc un menteur."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez eu une fleur durant votre aventure, maitresse Koda cherche donc une fleur de même couleur."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pouvez quitter la chambre par la fenêtre et retourner sur les toits. "
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut utiliser des outils pour escalader cette tour."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez les marques jaunes pour y placer vos armes, un calcul est visible."
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut utiliser une de vos valeurs de samouraï pour prouver que vous faites comme votre maitresse."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut utiliser une de vos valeurs de samouraï pour montrer votre fidélité à Dame Koda."
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Un nombre est caché dans ce texte. La phrase \"Avance d'un seul pas à chaque ligne de ma missive\" vous aidera à la trouver.  "
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez les indications données par les deux personnages et changez le décor à votre convenance."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "91_part2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les lieux ont une disposition que vous avez déjà vue durant votre aventure."
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut utiliser une de vos valeurs de samouraï pour affronter votre adversaire."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut utiliser une de vos valeurs de samouraï pour résoudre la situation sans violence."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Montrez à la servante l'objet qui a motivé votre venue sans mentir."
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si les lumières sont éteintes, un chiffre est visible."
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Manipulez directement la carte pour éteindre les lumières."
+	      }, 
+	      { 
+	         "number" : "101", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut utiliser une de vos valeurs de samouraï pour aider ce moine."
+	      }, 
+	      { 
+	         "number" : "101", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Faites preuve de bonté avec le moine en lui donnant quelque chose. "
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machinefin", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre ennemie fait toujours le même enchainement de mouvement. Essayez d'être face à lui quand il ne fait rien."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machinefin", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre ennemie fait un mouvement spécifique pour chaque attaque. Retenez-les pour deviner ses intentions."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "51", 
+	         "hintID" : "", 
+	         "message" : "Dans le texte de Koda, Kamakura  a la particularité d'une entrée à la forme de deux K se faisant face. Si l'on dessine cette forme, cela donne 101.", 
+	         "cards" : "101", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "96", 
+	         "hintID" : "", 
+	         "message" : "Déplacez les trois poissons de sorte qu'ils rejoignent le symbole visible au centre de la marre. Pour cela, touchez les cases à côté des poissons pour les repousser.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "19", 
+	         "hintID" : "", 
+	         "message" : "Si vous tracez le trajet depuis la tour en haut à droite de la carte jusqu'à la fenêtre où la lumière s'échappe, votre trajet passe par les lettres T, R, O, I et S formant trois.", 
+	         "cards" : "3", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "20", 
+	         "hintID" : "", 
+	         "message" : "Jouez les différentes musiques des saisons en appuyant les trous de la flute. Pour mélanger des couleurs, appuyez sur plusieurs trous en même temps. Faites d’abord l’été en jouant les notes : jaune, bleu, vert, rouge puis jaune. Puis l’automne, en jouant les notes : rouge, bleu, rouge et bleu en mettant, jaune, puis vert. Puis l’hiver en jouant les notes : bleu, rouge et jaune en même temps, rouge, vert et bleu en même temps, puis vert. Et enfin, le printemps en jouant les notes : vert, jaune, vert et bleu en même temps, toutes les notes en même temps, puis rouge.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "84", 
+	         "hintID" : "", 
+	         "message" : "Pour stopper les deux hommes, appuyez sur le bouton dédié, sélectionnez Justice et scannez la carte. Choisissez ensuite le bon coupable. D'après le moine (74), celui-ci a donné des talismans bleus aux commerçants de Kamakura. L'homme en jaune ayant un talisman rouge, ce n'est donc pas lui le commerçant. Sélectionnez le personnage jaune. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "35", 
+	         "hintID" : "", 
+	         "message" : "Les fleurs mentionnées par la servante sont les mêmes que celle en votre possession (80). Koda s'est donc rendu là où il y a des fleurs rouges près de l'entrée. Sur les toits (19), si vous repartez depuis la fenêtre allumée et allez jusqu'aux fleurs rouges près de l'entrée, votre trajet passe par les lettres S, O, I, X, A, N, T, E formant soixante.", 
+	         "cards" : "60", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "14", 
+	         "hintID" : "", 
+	         "message" : "Placer les dagues de sorte que chaque pointe soit sur un tissu jaune. Les dagues indiqueront 8, + et 11. 8 + 11 = 19", 
+	         "cards" : "19", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "43", 
+	         "hintID" : "", 
+	         "message" : "Pour montrer votre attachement à votre maitresse, appuyez sur le bouton dédié. Pour choisir la bonne valeur, référez-vous au texte écrit par Koda (51) et sélectionnez la valeur la plus proche du sens de la politesse. Sélectionnez donc Respect et scannez la carte. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "60", 
+	         "hintID" : "", 
+	         "message" : "Pour refuser la demande Yoru, appuyez sur le bouton dédié, choisissez Loyauté et scannez cette carte. Vous avez ainsi un +60 rouge que vous pouvez combiner avec votre sabre pour l'attaquer +8 60+8=68", 
+	         "cards" : "68", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "32", 
+	         "hintID" : "", 
+	         "message" : "Si vous avancez d'une lettre supplémentaire à chaque ligne du message, vous pourrez lire CINQUANTE SIX.", 
+	         "cards" : "56", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "91", 
+	         "hintID" : "", 
+	         "message" : "Suivez les indications du maitre du sabre (8) et du voleur (87) et appuyez sur toutes les fenêtres pour fermer les commerces et baissez le soleil pour faire la nuit.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "91_part2", 
+	         "message" : "Les pierres du labyrinthe dans le sable (24) ont la même disposition que les lieux sur le plan. Sélectionnez les lieux dans le même ordre que les pierres dans le labyrinthe. Sélectionnez dans l'ordre le lieu en bas à droite, puis celui en bas à gauche, puis celui en haut à gauche, ensuite celui en haut à droite, puis celui au centre à gauche, puis celui au centre à droite, ensuite celui au centre en bas et enfin le lieu au centre.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "68", 
+	         "hintID" : "", 
+	         "message" : "Pour affronter votre adversaire, appuyez sur le bouton dédié. Puis choisissez la valeur Courage et scannez cette carte.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "3", 
+	         "hintID" : "", 
+	         "message" : "Pour expliquer la situation à la servante, appuyez sur le bouton dédié, choisissez Honnêteté et scannez cette carte. Vous avez ainsi un +3 rouge que vous pouvez combiner avec la lettre que vous avez reçue au début de votre aventure +32 3+32=35", 
+	         "cards" : "35", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "47", 
+	         "hintID" : "", 
+	         "message" : "Placez vos doigts sur les lumières pour les cachées, vous verrez ainsi un 14 apparaitre.", 
+	         "cards" : "14", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "101", 
+	         "hintID" : "", 
+	         "message" : "Pour aider le moine, appuyez sur le bouton dédié, choisissez Générosité et scannez cette carte. Vous avez ainsi un +13 rouge que vous pouvez combiner les pièces que vous pouvez lui donner +61 13+61=74", 
+	         "cards" : "74", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machinefin", 
+	         "message" : "Utilisez les actions attaque et saut pour déplacez votre personnage, de sorte qu'il soit au moins à une case de votre adversaire lorsqu'il ne fait rien. Vous pouvez attaquer dans sa direction et pour parer ses projectiles. Attention, retenez bien les poses de votre ennemie celles-ci indiquent sa prochaine action lorsqu'il utilise son fumigène. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_Sabre_Amulet", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "32", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Alors que vous jouiez de la flute, une flèche traverse la pièce et se plante au sol."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "47", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous arrivez devant le fort de Kamakura."
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "38", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Un coffre est visible au fond de la marre."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_Sabre_End", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Yoru vaincu, vous sauvez Dame Koda et lui rendez le sabre volé. Votre honneur est restauré et vous retournez au service de votre Maitresse. Vous devenez la samouraï la plus réputée au service de la dirigeante la plus puissante du Japon."
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous reconnaissez bien là la fourberie de votre ancien ami. Vous le prenez à partie pour comprendre ses agissements.", 
+	         "messageID" : "amulet_card_84_result", 
+	         "cardsToTake" : "87", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous faites preuve de courage et affrontez Yoru !", 
+	         "messageID" : "amulet_card_68_result", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	      "French", 
+	      "English"
+	   ]
+	}

@@ -1,0 +1,822 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Grece", 
+	   "displayName" : "Les Griffes d'Hadès", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "Manual", 
+	   "skinName" : "Grece", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Grece_Ancient_Greek_Folk", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "0", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris les cartes C, R, 13 et 31 ?"
+	      }, 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Présentez à Apollon les olives d'or et il vous aidera."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Rapportez ces olives à Apollon."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les îles forment un gigantesque trident."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut commencer par trouver de quoi gagner le large, puis s'attarder quelques secondes au milieu de la mer."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet homme ailé pourrait vous faire prendre de la hauteur. Mais qu'en est-il des règles d'Unlock! ?"
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Puisque cet homme transgresse les règles, cette carte grise pourrait s'additionner à une autre."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Voilà une passerelle de fortune."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "N'ayez pas peur de regagner le large, même si cela vous conduit au milieu de la mer."
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez les talents de fabrication d'Alix pour l'aider à s'échapper d'ici."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Assez grand pour vous y cacher. Mais pour aller où ?"
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Seule la vision des dieux (le filtre) peut vous permettre de lire correctement cette inscription."
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "On ne sait jamais, il faut toujours avoir une roue de secours."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez mener ce char à l'arbre aux olives d'or. Les étoiles vous guideront."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce vieil homme pourrait vous en dire plus sur les cieux, si seulement vous aviez quelque chose à lui montrer."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Heureusement, la voile n'est pas le seul moyen de faire avancer un bateau."
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous trouviez un moyen de vous cacher parmi ces offrandes, vous pourriez vous échapper."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ariclès vous donne la clef pour vaincre le dieu des enfers. Il faut allier les trois dieux qui vous ont aidée et regarder le dos de ces cartes."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois la constellation d'Hadès assemblée, quelle opération faites-vous ?"
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Peut-être pourriez-vous monter les deux têtes l'une contre l'autre ?"
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les yeux de Cerbère luisent de colère, une belle harmonie est le seul moyen de le calmer."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les notes de la lyre changent selon le sens dans lequel on les joue. Trouvez les notes qui apaiseront chacune des têtes de la créature."
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez la vision des dieux (le filtre). Une seule image vous révélera les bonnes olives à cueillir sur l'arbre."
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il ne vous reste plus qu'à trouver un bateau maintenant !"
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Battez des ailes et envolez-vous des enfers !"
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il ne reste plus qu'à s'y cacher."
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Même aux enfers, tout a un prix."
+	      }, 
+	      { 
+	         "number" : "49", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans ce monde, cette pièce ne vaut pas grand-chose et ne vous sera pas utile."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette lyre divine ne vous sera utile qu'à la vue du terrible Cerbère."
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans le ciel, les étoiles sont étincelantes : sûrement un signe des dieux."
+	      }, 
+	      { 
+	         "number" : "58", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris les cartes 9, 22, 70 et 15 ?"
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Comment couper le chant de ces sirènes ?"
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les créatures mythologiques mêlent 2 choses. Trouvez ce qui les lie l'une après l'autre."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris les cartes S, T, Y, X et 47 ?"
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez un moyen de faire un pont entre les deux rives."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Quelque chose attire votre attention en haut de ce temple, mais comment y parvenir ?"
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez la vision des dieux (le filtre). Parfois il ne faut pas avoir peur des pénalités de la mort."
+	      }, 
+	      { 
+	         "number" : "76", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Certains marins naviguent grâce aux étoiles, et la forme de la constellation d'Apollon vous est familière."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez la vision des dieux (le filtre). L'ordre est important, contrairement à la tête par laquelle vous commencez."
+	      }, 
+	      { 
+	         "number" : "79", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris les cartes 23, 54 et 65 ?"
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-Utilisez la vision des dieux (le filtre). Il y a quelque chose d'étrange avec la roue du char.ous bien pris les cartes 23, 54 et 65 ?"
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait changer cette roue brisée."
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Gaïa n'est pas qu'une tortue. Les étoiles aussi guident les aventuriers."
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Charon parle de façon énigmatique. Positionnez les cartes du STYX pour recréer les étapes de son trajet."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Seule la tortue Gaïa connaît les secrets de cet arbre sacré. Utilisez la vision des dieux (le filtre)."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "2", 
+	         "hintID" : "", 
+	         "message" : "Donnez ces olives d'or (2) à Apollon (1) pour lui prouver votre réussite.", 
+	         "cards" : "3", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "3", 
+	         "hintID" : "", 
+	         "message" : "Dans la machine 63, appuyez sur l'île tout en bas.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "hintID" : "", 
+	         "message" : "Une fois en mer, maintenez votre doigt appuyé au milieu de l'écran (machine 63).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "9", 
+	         "hintID" : "", 
+	         "message" : "En transgressant les règles, l'homme ailé (9) peut emmener Alix jusqu'à la corniche en haut du temple (70).", 
+	         "cards" : "79", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "hintID" : "", 
+	         "message" : "Sur la machine 63, appuyez dans la mer, à mi-chemin entre la 3e île en partant du haut et le temple (sur le continent).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "13", 
+	         "hintID" : "", 
+	         "message" : "Une fois la chaise achevée, fabriquez un tonneau pour vous aider à vous échapper.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "14", 
+	         "hintID" : "", 
+	         "message" : "Placez le tonneau (14) parmi les offrandes (31).", 
+	         "cards" : "45", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "hintID" : "", 
+	         "message" : "Passez le filtre sur cette carte, vous devez voir un 8 tourner.", 
+	         "cards" : "8", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "20", 
+	         "hintID" : "", 
+	         "message" : "Sur la carte 76, on voit que la constellation de Gaïa, qui est le nom de la tortue sacrée, comporte une étoile étincelante. La position de cette étoile indique le modificateur +61 rouge du plan (82). Allez-y avec le char (20).", 
+	         "cards" : "81", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "Fabriquez des rames grâce à la machine 90.", 
+	         "cards" : "40", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "33", 
+	         "hintID" : "", 
+	         "message" : "Prenez les cartes 3, 8 et 11, et retournez-les. Formez la constellation d'Hadès. Les chiffres dessinent alors 3=8, soit 33=88.", 
+	         "cards" : "88", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "34", 
+	         "hintID" : "", 
+	         "message" : "Utilisez la partie de droite (34) pour qu'elle se batte avec la partie de gauche (34).", 
+	         "cards" : "68", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "35", 
+	         "hintID" : "", 
+	         "message" : "Les yeux de Cerbère indiquent le sens dans lequel jouer de la lyre (machine 51) : violet/orange/orange/orange/violet/orange, soit gauche/droite/droite/droite/gauche/droite.", 
+	         "cards" : "33", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "40", 
+	         "hintID" : "", 
+	         "message" : "Utilisez les rames (40) dans le bateau désert (23) pour gagner le large.", 
+	         "cards" : "63", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "41", 
+	         "hintID" : "", 
+	         "message" : "Prenez le téléphone dans votre main et agitez-le de haut en bas en mimant des ailes.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "45", 
+	         "hintID" : "", 
+	         "message" : "Alix (13) peut désormais s'échapper en se cachant dans le tonneau mêlé aux offrandes (45).", 
+	         "cards" : "58", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "47", 
+	         "hintID" : "", 
+	         "message" : "Offrez la pièce (49) au passeur (47).", 
+	         "cards" : "96", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "54", 
+	         "hintID" : "", 
+	         "message" : "Le vieux sage (22) vous dira tout sur les constellations (54).", 
+	         "cards" : "76", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "60", 
+	         "hintID" : "", 
+	         "message" : "Coupez le son de l'application pour rendre les sirènes muettes. Allez dans le menu et coupez le son.", 
+	         "cards" : "F", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "65", 
+	         "hintID" : "", 
+	         "message" : "La séquence est : Taureau -> Minotaure (une tête de taureau sur un corps d'homme) -> Centaure (un buste d'homme sur un corps de cheval) -> Pégase (cheval ailé) -> Griffon (aigle ailé sur un corps de lion) -> Lion.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "68", 
+	         "hintID" : "", 
+	         "message" : "Construisez une planche à l'aide de votre kit. Puis placez la planche (10) pour passer le torrent (68).", 
+	         "cards" : "78", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "70", 
+	         "hintID" : "", 
+	         "message" : "En transgressant les règles, l'homme ailé (9) peut emmener Alix jusqu'à la corniche en haut du temple (70).", 
+	         "cards" : "79", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "74", 
+	         "hintID" : "", 
+	         "message" : "Passez le filtre sur cette carte, qui vous indique d'appuyer sur le bouton Pénalité.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "78", 
+	         "hintID" : "", 
+	         "message" : "Zeus foudroie dans l'ordre la 2e tête, la 4e, puis la 1re et la 3e simultanément.", 
+	         "cards" : "11", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "81", 
+	         "hintID" : "", 
+	         "message" : "Grâce à la machine 90, fabriquez une roue de rechange.", 
+	         "cards" : "17", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "82", 
+	         "hintID" : "", 
+	         "message" : "Sur la carte 76, on voit que la constellation de Gaïa, qui est le nom de la tortue sacrée, comporte une étoile étincelante. La position de cette étoile indique le modificateur +61 rouge du plan (carte 82). Allez-y avec le char (20).", 
+	         "cards" : "81", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "96", 
+	         "hintID" : "", 
+	         "message" : "Placez d'abord la carte S, puis la X et la T. Ensuite, superposez la carte Y à la carte T. Le Styx dessine alors 5x7 (=35).", 
+	         "cards" : "35", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "98", 
+	         "hintID" : "", 
+	         "message" : "En passant le filtre sur la tortue, vous pouvez voir qu'une seule position révèle les bonnes olives (tête de la tortue sortie et arbre clairement visible sur sa carapace).", 
+	         "cards" : "2", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "90", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "33", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La mélodie apaise le monstre, qui s’endort à vos pieds."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "6", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Les sculptures des créatures s'illuminent et le dieu Hermès en personne apparaît alors devant vous !"
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "11", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Zeus foudroie l'hydre, qui s'effondre au sol dans un bruit sourd. Athéna réapparaît."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "2", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous prélevez quelques olives sacrées qui semblent briller d'une lumière divine."
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Les oreilles bouchées, vous parvenez à échapper à l’emprise des sirènes. Alors que vous approchez de votre destination, la déesse Athéna se matérialise sur le pont de votre navire.", 
+	         "messageID" : "machine_63_music", 
+	         "cardsToTake" : "F", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous terminez la chaise. Satisfait, le contremaître s’éloigne. C’est l’occasion de trouver un moyen de vous échapper.", 
+	         "messageID" : "machine_special_chaise", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "C"
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous construisez un grand tonneau.", 
+	         "messageID" : "machine_special_tonneau", 
+	         "cardsToTake" : "14", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous construisez de solides rames.", 
+	         "messageID" : "machine_special_rame", 
+	         "cardsToTake" : "40", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous construisez une roue.", 
+	         "messageID" : "machine_special_roue", 
+	         "cardsToTake" : "17", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous construisez une longue planche.", 
+	         "messageID" : "machine_special_planche", 
+	         "cardsToTake" : "10", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "La porte s’ouvre et révèle un chemin qui s’enfonce dans les ténèbres.", 
+	         "messageID" : "penality_button", 
+	         "cardsToTake" : "66", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous accostez sur la plage de la verdoyante île d'Apollon et laissez le bateau sur le rivage.", 
+	         "messageID" : "machine_63_step_1", 
+	         "cardsToTake" : "D", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "", 
+	         "messageID" : "machine_63_step_2", 
+	         "cardsToTake" : "60", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Alors que vous approchez de votre destination, une brume surnaturelle se lève sur l’océan. Un îlot désolé en émerge, révélant la porte des enfers.", 
+	         "messageID" : "machine_63_step_3", 
+	         "cardsToTake" : "74", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

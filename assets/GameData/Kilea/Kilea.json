@@ -1,0 +1,666 @@
+{ 
+	   "visible" : "True", 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Kilea", 
+	   "displayName" : "La colère de Kilea", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Kilea", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "420", 
+	         "nextObject" : "False", 
+	         "message" : "Regardez où les traces de pas vous mène."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "13", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Imaginez suivre le chemin tel qu'il est décrit."
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cela se passe en deux étapes. Le héros emprunte un premier chemin puis un autre plus compliqué."
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y  a qu'un possibilité, détruire la porte pour pouvoir entrer dans la maison de l'oracle."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre marteau va vous servir à fracasser des objets."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez les indications notées sur la carte (77) et les explications sur le plan se trouvant dans la boîte."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un objet qui va vous servir à éclairer les souterrains interdits et à faire fuir les créatures malfaisantes."
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "A vos pieds vous pouvez remarquer des traces de pas."
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En vous aidant du plan que vous avez constitué avec les cartes et votre position, vous pouvez suivre les traces de pas."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a deux bouts de cordes qui forment un nombre."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La corde va vous permettre de continuer à avancer."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait atteindre l'autre île en utilisant un autre moyen que le pont."
+	      }, 
+	      { 
+	         "number" : "76", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pensez à placer la carte sur le plan."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le phare est éteint, vous avez besoin d'une flamme pour l'allumer."
+	      }, 
+	      { 
+	         "number" : "61", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La créature des souterrains ne supporte pas la lumière."
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pensez à placer la carte sur le plan."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les projectiles vous tombent dessus, esquivez les uns après les autres."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Du plus proche au plus éloigné, en esquivant dans cet ordre vous allez dessiner une forme."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Déplacez les rochers gris, pour vous frayer un chemin en vous dirigeant vers l'autre côté du pont."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Seul un chemin est possible, commencez par le chemin qui mène vers le haut."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a 4 statues sur le plan que vous avec constitué identiques à la stèle brisée. En les connectant, vous trouverez l'accès au souterrain."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'une des statues est cachée en partie par le brouillard, mais vous pouvez l'aperçevoir sur une autre carte. Faites les connexions et utilisez la carte (11) pour trouver la bonne entrée."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une lanterne, sa flamme peut vous aider à progresser vers l'autre l'île."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce dessin va vous permettre de sortir des souterrains. Certains éléments du dessin ressemblent à ceux présents sur le plan des souterrains."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez la boussole sur le plan en direction du nord pour trouver la voie vers le phare."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Trois directions vous sont proposées, mais une seule est bonne. Le reste vous mène vers le récif."
+	      }, 
+	      { 
+	         "number" : "49", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pensez à placer la carte sur le plan."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut briser ce rocher."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans les souterrains interdits aucune lumière naturelle ne vous aidera."
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pensez à placer la carte sur le plan."
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Un seul tunnel est bon. Vous avez déjà vu ces perles bleues quelque part."
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utlisez le collier de perles bleues (92) que la créature des souterrains interdits a perdu pour trouver le bon chemin. Il semble que les perles bleues sur les cartes du plan (11, 14, 26, 49 et 50) ont un lien avec l'agencement des perles bleues sur collier."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pensez à placer la carte sur le plan."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez la carte (16) à gauche de la carte (82) pour former un panorama."
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "ID" : "82_step_1", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La créature des souterrains interdits vous bloque le passage, il faudrait le déstabiliser avec la lumière de Fey."
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "ID" : "82_step_1", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez le téléphone sur Fey et envoyez sa lumière sur la créature."
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "ID" : "82_step_2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pouvez le déstabiliser !"
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pensez à placer la carte sur le plan."
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le dessin accroché au mur représente une statue se trouvant sur l'archipel."
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Au nord-est de l'archipel se trouve la statue mais pour quelle raison cet endroit a un lien avec la combinaison du coffre (86) ?"
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut trouver la combinaison du coffre, mais que représente les différent pics ?"
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En utilisant l'affiche (94) vous aurez une idée du point de départ à votre réflexion."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La pierre sacrée doit être insérée sur la stèle au pied du volcan."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut utiliser la stèle (35) pour trouver l'accès aux souterrains interdits."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pensez à placer la carte sur le plan."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "En posant les cartes (36, 58, 70 et 80) faces visibles sur le plan de façon à voir le volcan et les chemins vous pourrez trouver la bonne direction."
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a un emplacement spécifique pour un objet."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Trois blocs peuvent tourner, mais à quoi correpond les points gravés sur la pierre ?"
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les points gravés représentent les statues de l'archipel."
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pensez à placer la carte sur le plan."
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pensez à placer la carte sur le plan."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "13", 
+	         "hintID" : "", 
+	         "message" : "Le premier chemin forme un 1 et le second forme un 9. Cela donne comme résultante un 19.", 
+	         "cards" : "19", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "19", 
+	         "hintID" : "", 
+	         "message" : "Pour entrer, il faut fracasser la porte (19) avec le marteau (24). 19 + 24 = 43", 
+	         "cards" : "43", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "77", 
+	         "hintID" : "", 
+	         "message" : "Une fois qu'on vous demande de placer la carte sur le plan, vous pouvez la poser sur l'emplacement indiqué.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "97", 
+	         "hintID" : "", 
+	         "message" : "Les traces de pas en bas de la carte (97) continue sur le plan que vous avez commencé à construire. En suivant les pas vous allez arriver sur le dos de la carte (13). Vous pouvez voir un numéro caché, le 23.", 
+	         "cards" : "23", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "Le premier bout de corde forme un 1 et à sa droite vous pouvez voir un 2. Le reste est incomplet. Ce donne la carte 12 à récupérer.", 
+	         "cards" : "12", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "64", 
+	         "hintID" : "", 
+	         "message" : "La corde (12) que vous avez trouvé va vous servir à passer sur l'île (64) suivante vu que le pont a été détruit. 12 +64 = 76", 
+	         "cards" : "76", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "76", 
+	         "hintID" : "", 
+	         "message" : "Une fois qu'on vous demande de placer la carte sur le plan, vous pouvez la poser sur l'emplacement indiqué.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "61", 
+	         "hintID" : "", 
+	         "message" : "L'amulette (8)  va vous permettre d'éloigner la créature venue des souterrains interdits (61). 8+61 = 69", 
+	         "cards" : "69", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "69", 
+	         "hintID" : "", 
+	         "message" : "Une fois qu'on vous demande de placer la carte sur le plan, vous pouvez la poser sur l'emplacement indiqué.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "9", 
+	         "hintID" : "", 
+	         "message" : "Commencez par le projectile le plus proche de vous, celui à droite puis à gauche, en haut puis en bas. Cela forme un 4.", 
+	         "cards" : "4", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "Poussez la pierre à gauche puis poussez celle du haut jusqu'au bout. Descendez d'un cran puis poussez la vers la gauche. Puis montez la pierre vers le haut. Ensuite le chemin est libre pour aller vers le haut. Poussez la dernière pierre jusqu'au bout et montez vers la sortie.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "hintID" : "", 
+	         "message" : "Placez la carte 15 en travers, sur la partie du plan concernant les souterrains. Elle doit chevaucher les cartes 68, 60, 14, 50 et 82 afin de complèter le chemin vers la sortie. Les ponts vont former un 45.", 
+	         "cards" : "45", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "35", 
+	         "hintID" : "", 
+	         "message" : "En vous aidant des cartes (35, 11 et 97) vous pourrez résoudre cette énigme. Sur la carte 35, identifiez les statues se trouvant sur le plan que vous avez construit.  Celle de gauche se trouve sur le dos de la carte (13), celle de droite se trouve sur la carte(30), celle du haut est sur la carte (60) et la dernière cachée par du brouillard est visible sur la face carte 97, et donc sur le dos de la carte 19. En posant le carte (11) sur le plan en B2, vous pouvez relier les statues comme sur la carte (35) et voir que le croisement se situe sur le +15 rouge. +15 + 11 = 26.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "14", 
+	         "hintID" : "", 
+	         "message" : "Vous avez récupéré une lanterne (14) auprès du pécheur (84). Associez-la avec le phare pour l'allumer (30). 14+30 = 44.", 
+	         "cards" : "44", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "33", 
+	         "hintID" : "", 
+	         "message" : "Placez la carte (33) surle plan à l'endroit où avez rencontré le pêcheur. Puis orientez la boussole vers le nord (voir rose des vents sur le plan à droite) puis regardez si l'une des aiguilles noires pointe vers le phare sans rencontrer de récif. L'aiguille +16 est la bonne. +16+33 = 49.", 
+	         "cards" : "49", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "26", 
+	         "hintID" : "", 
+	         "message" : "Fracassez l'entrée des souterrains (26) avec votre marteau (24). 26 + 24 = 50", 
+	         "cards" : "50", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "60", 
+	         "hintID" : "", 
+	         "message" : "Il fait tout noir dans les souterrains interdits, seule l'amullette (8) va vous permettre d'y voir plus clair. 8 + 60 = 68", 
+	         "cards" : "68", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "32", 
+	         "hintID" : "", 
+	         "message" : "En utilisant le collier de perles bleues (92) perdu par la créature, vous pouvez décoder la séquence. Le groupe de perles vous donne le chemin à prendre en retournant la carte. Prenez le passage avec une perle (+16). +16 +32 = 48.", 
+	         "cards" : "48", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "82", 
+	         "hintID" : "82_step_1", 
+	         "message" : "Avec votre téléphone scannez Fey sur la carte (16) pour récupérer sa lumière. Puis glissez-la vers la créature sur la carte (82) pour l'éblouir et le déstabilisez.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "82", 
+	         "hintID" : "82_step_2", 
+	         "message" : "Une fois que la créature est éblouie secouez le téléphone pour le faire tomber.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "94", 
+	         "hintID" : "", 
+	         "message" : "Le dessin de la statue va vous permettre d'ouvrir le coffre. En regardant bien le plan, cette statue se trouve au nord-est, sur le dos de la carte 61. Le relief de l'île vous donne l'information manquante pour ouvrir le coffre. Un pic moyen, 2 grands pics et un petit pic.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "86", 
+	         "hintID" : "", 
+	         "message" : "Le dessin de la statue va vous permettre d'ouvrir le coffre. En regardant bien le plan, cette statue se trouve au nord-est, sur le dos de la carte 61. Le relief de l'île vous donne l'information manquante pour ouvrir le coffre. Un pic moyen, 2 grands pics et un petit pic.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "hintID" : "", 
+	         "message" : "En vous aidant des cartes (35, 11 et 97) vous pourrez résoudre cette énigme. Sur la carte 35, identifiez les statues se trouvant sur le plan que vous avez construit.  Celle de gauche se trouve sur le dos de la carte (13), celle de droite se trouve sur la carte(30), celle du haut est sur la carte (60) et la dernière cachée par du brouillard est visible sur la face carte 97, et donc sur le dos de la carte 19. En posant le carte (11) sur le plan en B2, vous pouvez relier les statues comme sur la carte (35) et voir que le croisement se situe sur le +15 rouge. +15 + 11 = 26.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "51", 
+	         "hintID" : "", 
+	         "message" : "Placez les cartes 36, 58, 70 et 80 sur le plan. La carte (70) sur la carte (50) de façon à faire correspondre les chemins. La (80) sur la (70), la (58) sur le bord à droite des carte (70 et 80) puis la (36) qui chevauche la (80, 58 et 87). En regardant les chemins qui mène au volcan, l'un d'eux n'est pas bloqué. Sur la (51) c'est le chemin de droite +30. 51+ (+30) = 81", 
+	         "cards" : "81", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "81", 
+	         "hintID" : "", 
+	         "message" : "La pierre sacrée (10) doit être insérée sur la stèle au pied du volcan (81). 10 + 81 = 91", 
+	         "cards" : "91", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "91", 
+	         "hintID" : "", 
+	         "message" : "Les points gravés représentent les statues de l'archipel. Tournez les anneaux pour que les points se placent sur la même position des statues se trouvant sur le plan de l'archipel que vous avez contruit. Une fois que les points sont placés. Validez.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "4", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "53", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Après tant d'effort, vous venez à bout du pont."
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "95", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous faites chuter la créature !"
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "20", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le coffre s'ouvre !"
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "L'archipel cesse de trembler, le volcan Kilea semble se calmer."
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

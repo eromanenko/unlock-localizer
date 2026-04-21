@@ -1,0 +1,338 @@
+{
+  "Kilea": {
+    "en": "Find a way to appease the God of Fire before the island meets its doom!",
+    "fr": "Trouvez un moyen d’apaiser la colère du dieu du Feu avant que l’île ne soit détruite !",
+    "uk": "Знайдіть спосіб умилостивити бога Вогню, поки острів не спіткала загибель!",
+    "ru": "Найдите способ умилостивить бога Огня, пока остров не постигла гибель!"
+  },
+  "Funfair": {
+    "en": "The funfair is winding down: now is the ideal chance to snag the grand prize.",
+    "fr": "La fête foraine touche à sa fin, l’occasion ou jamais de remporter le gros lot.",
+    "uk": "Ярмарок добігає кінця: зараз ідеальний шанс виграти головний приз.",
+    "ru": "Ярмарка подходит к концу: сейчас идеальный шанс выиграть главный приз!"
+  },
+  "Excalibur": {
+    "en": "The legendary sword Excalibur has disappeared! Venture forth and embark on an epic quest to recover it and restore the glory of the kingdom of Pendragon!",
+    "fr": "Excalibur a disparu ! Retrouvez-la pour sauver le royaume de Pendragon !",
+    "uk": "Екскалібур зник! Знайдіть його, щоб врятувати королівство Пендраґон!",
+    "ru": "Экскалибур исчез! Найдите его, чтобы спасти королевство Пендрагон!"
+  },
+  "Altipia": {
+    "en": "Experience the thrilling adventures your grandfather recounts and embark on a journey to a lost temple in search of Queen Altipia’s crown…",
+    "fr": "Revivez les aventures épiques que vous raconte votre grand-père et partez dans un temple perdu à la recherche de la couronne d’Altipia…",
+    "uk": "Переживіть епічні пригоди, про які розповідав ваш дідусь, і вирушайте до загубленого храму на пошуки корони королеви Альтіпії…",
+    "ru": "Переживите эпические приключения, о которых рассказывал ваш дедушка, и отправляйтесь в затерянный храм на поиски короны королевы Альтипии…"
+  },
+  "Lapinot": {
+    "en": "Play as McConey, the cult hero from the comic books by Lewis Trondheim. You have a date with your girlfriend at the library, but things are not quite on track.",
+    "fr": "Incarnez Lapinot, le héros culte de la BD de Lewis Trondheim. Vous devez retrouver votre petite amie à la bibliothèque mais rien ne se passe comme prévu.",
+    "uk": "Грайте за Лапіно, культового героя коміксів Льюїса Трондгейма. У вас побачення з дівчиною в бібліотеці, але все йде зовсім не за планом.",
+    "ru": "Играйте за Лапино, культового героя комиксов Льюиса Трондгейма. У вас свидание с девушкой в библиотеке, но всё идет совсем не по плану."
+  },
+  "Mafia": {
+    "en": "In the heart of Little Italy, one of New York’s most powerful mafia groups is planning a major hit.",
+    "fr": "Au cœur de Little Italy, l’un des plus influents groupes mafieux de New York prépare un gros coup.",
+    "uk": "У самому серці Маленької Італії одне з найвпливовіших мафіозних угруповань Нью-Йорка готує велику справу.",
+    "ru": "В самом сердце Маленькой Италии одна из самых влиятельных мафиозных группировок Нью-Йорка готовит крупное дело."
+  },
+  "NovaCity": {
+    "en": "Fight crime and injustice as part of a team of superheroes. Will you be able to get to the bottom of the threats looming over Nova City?",
+    "fr": "Combattez le crime et l’injustice grâce à vos super-pouvoirs. Saurez-vous contrer les menaces qui planent sur Nova City ?",
+    "uk": "Боріться зі злочинністю та несправедливістю у складі команди супергероїв. Чи зможете ви розкрити загрози, що нависли над Нова-Сіті?",
+    "ru": "Боритесь с преступностью и несправедливостью в составе команды супергероев. Сможете ли вы раскрыть угрозы, нависшие над Нова-Сити?"
+  },
+  "DiaDeMuertos": {
+    "en": "Once a year, the worlds of the dead and the living collide, giving you an opportunity to recover your family’s missing talisman!",
+    "fr": "Une fois par an, le monde des morts et celui des vivants s’alignent, l’occasion pour vous de retrouver le talisman perdu de la famille !",
+    "uk": "Раз на рік світи мертвих і живих стикаються, даючи вам можливість повернути зниклий талісман вашої родини!",
+    "ru": "Раз в год миры мертвых и живых сталкиваются, давая вам возможность вернуть пропавший талисман вашей семьи!"
+  },
+  "Ragnarok": {
+    "en": "You are Lif, a proud Viking warrior. Venture into new lands to gain glory and honor.",
+    "fr": "Vous êtes Lif, un fier guerrier viking en quête de renommée. Aventurez-vous sur de nouvelles terres pour briller aux yeux des vôtres.",
+    "uk": "Ви — Ліф, гордий воїн-вікінг. Вирушайте в нові землі, щоб здобути славу та честь.",
+    "ru": "Вы — Лиф, гордый воин-викинг. Отправляйтесь в новые земли, чтобы стяжать славу и честь."
+  },
+  "Restart": {
+    "en": "Crearia is in shambles! Enter this 90 ’s video game to rescue the royal couple and restore order to their pixelated kingdom.",
+    "fr": "Rien ne va plus à Créaria, un jeu vidéo des années 90. Volez au secours du roi et de la reine, et remettez de l’ordre dans ce royaume de pixels.",
+    "uk": "У Креарії безлад! Увійдіть у цю відеогру 90-х, щоб врятувати королівську пару та відновити порядок у їхньому піксельному королівстві.",
+    "ru": "В Креарии беспорядок! Войдите в эту видеоигру 90-х, чтобы спасти королевскую чету и восстановить порядок в их пиксельном королевстве."
+  },
+  "Hollywood": {
+    "en": "Your boss, Jack Marlowe, P.I., has been abducted. Lead an investigation behind the scenes in Hollywood to crack the case.",
+    "fr": "Votre patron, le détective Jack Marlowe, a disparu. Menez l’enquête dans les coulisses de la machine à rêves hollywoodienne.",
+    "uk": "Вашого боса, приватного детектива Джека Марлоу, викрали. Проведіть розслідування за лаштунками Голлівуду, щоб розкрити цю справу.",
+    "ru": "Вашего босса, частного детектива Джека Марлоу, похитили. Проведите расследование за кулисами Голливуда, чтобы раскрыть это дело."
+  },
+  "Waff": {
+    "en": "A signal from a distant planet suggests you may find some strange life forms there. Land your rocket on this unexplored world to unravel its mysteries!",
+    "fr": "Des signaux reçus d’une étrange planète semblant y indiquer une présence de vie. Partez en mission pour percer ce mystère !",
+    "uk": "Сигнал із далекої планети свідчить про те, що там можуть бути дивні форми життя. Висадіть свою ракету на цьому недослідженому світі, щоб розгадати його таємниці!",
+    "ru": "Сигнал с далекой планеты свидетельствует о том, что там могут быть странные формы жизни. Высадите свою ракету на этом неисследованном мире, чтобы разгадать его тайны!"
+  },
+  "TicketToRide": {
+    "en": "Outsmart the Railroad Tycoons on an eventful journey across the United States.",
+    "fr": "Déjouez le complot des barons du rail dans un périple mouvementé à travers les Etats-Unis.",
+    "uk": "Перехитріть залізничних магнатів у насиченій подіями подорожі Сполученими Штатами.",
+    "ru": "Перехитрите железнодорожных магнатов в насыщенном событиями путешествии по Соединенным Штатам."
+  },
+  "Mysterium": {
+    "en": "Enter the Warwick’s Manor for a dark and dreamlike investigation.",
+    "fr": "Entrez dans le manoir Warwick pour une enquête sombre et onirique.",
+    "uk": "Увійдіть до маєтку Ворвіка для темного та сноподібного розслідування.",
+    "ru": "Войдите в поместье Уорвика для темного и сноподобного расследования."
+  },
+  "Pandemic": {
+    "en": "An epidemic threatens humanity. Its future depends on you and your team of experts!",
+    "fr": "Une épidémie menace l’humanité. Son avenir dépend de vous et de votre équipe d’experts !",
+    "uk": "Епідемія загрожує людству. Його майбутнє залежить від вас і вашої команди експертів!",
+    "ru": "Эпидемия угрожает человечеству. Его будущее зависит от вас и вашей команды экспертов!"
+  },
+  "ActionStory": {
+    "en": "The elusive Stella has stolen the world’s most expensive gem! Stop her and take away her precious haul.",
+    "fr": "L’insaisissable Stella s’est emparée du joyau le plus cher du monde ! Arrêtez-la et récupérez son précieux butin !",
+    "uk": "Невловима Стелла вкрала найдорожчий самоцвіт у світі! Зупиніть її та заберіть дорогоцінну здобич.",
+    "ru": "Неуловимая Стелла украла самый дорогой самоцвет в мире! Остановите ее и заберите драгоценную добычу."
+  },
+  "Robin": {
+    "en": "Robin has fallen into the clutches of the Sheriff of Nottingham. Call upon his companions to free him from the dungeon.",
+    "fr": "Robin est entre les griffes du Shérif de Nottingham. Rassemblez ses compagnons et délivrez-le de son cachot !",
+    "uk": "Робін потрапив у лапи шерифа Ноттінгема. Закличте його супутників, щоб визволити його з підземелля.",
+    "ru": "Робин попал в лапы шерифа Ноттингема. Призовите его спутников, чтобы вызволить его из подземелья."
+  },
+  "Sherlock2": {
+    "en": "The most famous detective ever needs your help in solving a strange murder case.",
+    "fr": "Le plus célèbre des détectives a besoin de votre aide pour résoudre une étrange affaire de meurtre !",
+    "uk": "Найвідоміший детектив усіх часів потребує вашої допомоги у розгадці дивної справи про вбивство.",
+    "ru": "Самому знаменитому детективу всех времен нужна ваша помощь в разгадке странного дела об убийстве."
+  },
+  "Grece": {
+    "en": "You are Alix, a slave, in Greece during antiquity. Gaining your freedom will not be an easy task unless you ask Gods for help.",
+    "fr": "Gagner votre liberté ne sera pas facile face aux dieux de l’Olympe. Ceux-ci sont joueurs et vous réservent bien des surprises !",
+    "uk": "Ви — раб Алікс у Стародавній Греції. Здобути свободу буде непросто, якщо не попросити допомоги у богів.",
+    "ru": "Вы — раб Аликс в Древней Греции. Обрести свободу будет непросто, если не попросить помощи у богов."
+  },
+  "Animalomatic": {
+    "en": "“FWOOSH “The Animal-0-Matic…”FWOOSH“… transfers you into the body of any animal…” FWOOSH “It’s not dangerous, I’m telling you! Will you stop moving James!” FWOOSH“",
+    "fr": "L’animal-O-matic projette l’esprit dans le corps d’un animal ! C’est sans danger, vous dis-je !",
+    "uk": "«Анімаломатик» переносить вас у тіло будь-якої тварини... Це небезпечно, кажу я вам!",
+    "ru": "«Анималоматик» переносит вас в тело любого животного... Это не опасно, говорю я вам!"
+  },
+  "TourDuMonde": {
+    "en": "“I made the bet with these gentlemen from the Reform Club that we will travel around the world in 80 days. Passepartout! Hury! The world awaits Phileas Fog’s masterstroke!“",
+    "fr": "« J’ai parié avec ces gentlemen du Reform Club que nous ferons le tour du monde en 80 jours. Passepartout ! Le monde n’attend plus que l’exploit de Phileas Fogg ! »",
+    "uk": "«Я заклався з цими джентльменами з Реформ-клубу, що ми об'їдемо навколо світу за 80 днів. Паспарту! Швидше! Світ чекає на майстерний хід Філеаса Фоґґа!»",
+    "ru": "«Я поспорил с этими джентльменами из Реформ-клуба, что мы объедем вокруг света за 80 дней. Паспарту! Скорее! Мир ждет мастерский ход Филеаса Фогга!»"
+  },
+  "Cinema": {
+    "en": "Grab your popcorn! Tonight, the horror movie “The Werewolf’s Final Night” premieres. Will you get through unharmed?",
+    "fr": "Munissez-vous de votre pop-corn ! Ce soir, c’est la première du film d’horreur “la dernière nuit du loup-garou”. En sortirez-vous indemnes ?",
+    "uk": "Беріть попкорн! Сьогодні прем'єра фільду жахів «Остання ніч перевертня». Чи вийдете ви неушкодженими?",
+    "ru": "Берите попкорн! Сегодня премьера фильма ужасов «Последняя ночь оборотня». Выйдете ли вы невредимыми?"
+  },
+  "Chine": {
+    "en": "The Gold Dragons temple welcomes every seven years new disciples. Be worthy of Master Li’s teachings.",
+    "fr": "Le temple des Dragons d’Or accueille de nouveaux élèves une fois tous les sept ans. Soyez dignes de l’enseignement de Maître Li !",
+    "uk": "Храм Золотих Драконів кожні сім років приймає нових учнів. Будьте гідні вчення майстра Лі.",
+    "ru": "Храм Золотых Драконов каждые семь лет принимает новых учеников. Будьте достойны учений мастера Ли."
+  },
+  "Espions": {
+    "en": "EAGLE, the secret organization has been infiltrated. Agents, it’s up to you to identify the mole!",
+    "fr": "L’organisation secrète Eagle a été infiltrée. Agents, c’est à vous d’identifier la taupe !",
+    "uk": "У секретну організацію EAGLE проникли. Агенти, ви повинні вирахувати крота!",
+    "ru": "В секретную организацию EAGLE проникли. Агенты, вы должны вычислить крота!"
+  },
+  "Circus": {
+    "en": "The Diosen Circus is coming to town but Professor Noside has prepared a great sabotage act! Stop him. The show must go on!",
+    "fr": "Le cirque Diosen arrive en ville, mais le professeur Noside a prévu un grand numéro de sabotage. Arrêtez-le !",
+    "uk": "Цирк Діозена приїжджає до міста, але професор Носайд підготував грандіозний саботаж! Зупиніть його. Шоу має тривати!",
+    "ru": "Цирк Диозена приезжает в город, но профессор Носайд подготовил грандиозный саботаж! Остановите его. Шоу должно продолжаться!"
+  },
+  "Paris": {
+    "en": "Experience a jewel race in the early 20th century Paris and take up the challenge of Arsène Lupin.",
+    "fr": "Vivez une course au joyau dans le Paris du début du XXème siècle et relevez le défi d’Arsène Lupin !",
+    "uk": "Візьміть участь у гонитві за коштовностями в Парижі початку XX століття та прийміть виклик Арсена Люпена.",
+    "ru": "Примите участие в погоне за драгоценностями в Париже начала XX века и примите вызов Арсена Люпена."
+  },
+  "TimeTravel": {
+    "en": "Professor Alcibiades Tempus’ time machine works erratically. You must return the timeline to normal!",
+    "fr": "La machine à voyager dans le temps du professeur Alcibiade Tempus s’emballe et c’est à vous qu’il revient de tout remettre en ordre !",
+    "uk": "Машина часу професора Альцибіада Темпуса працює збоями. Ви повинні повернути часову шкалу в норму!",
+    "ru": "Машина времени профессора Альцибиада Темпуса работает со сбоями. Вы должны вернуть временную шкалу в норму!"
+  },
+  "InsertCoin": {
+    "en": "Beat all the levels in this virtual adventure. Escape or it’s Game Over!",
+    "fr": "Passez les niveaux successifs d’une aventure virtuelle. Évitez le Game Over pour vous échapper !",
+    "uk": "Пройдіть усі рівні в цій віртуальній пригоді. Втечіть, інакше — Game Over!",
+    "ru": "Пройдите все уровни в этом виртуальном приключении. Сбегите, иначе — Game Over!"
+  },
+  "Sherlock": {
+    "en": "The master of detectives has a peculiar case ahead of him. Can you help him find his way through this investigation?",
+    "fr": "Le maître des détectives fait face à une affaire des plus étranges. Pouvez-vous l’aider dans les méandres de son enquête ?",
+    "uk": "У майстра детективів попереду незвичайна справа. Чи зможете ви допомогти йому розібратися в цьому розслідуванні?",
+    "ru": "У мастера детективов впереди необычное дело. Сможете ли вы помочь ему разобраться в этом расследовании?"
+  },
+  "Alice": {
+    "en": "Discover wonderland and all its strange inhabitants. Hurry, Alice is running out of time!",
+    "fr": "Découvrez le pays des Merveilles et ses étranges personnages. Ne tardez pas, aidez Alice à s’en échapper à temps !",
+    "uk": "Відкрийте для себе Країну Чудес та всіх її дивних мешканців. Поспішайте, у Аліси обмаль часу!",
+    "ru": "Откройте для себя Страну Чудес и всех ее странных обитателей. Торопитесь, у Алисы мало времени!"
+  },
+  "CroqueMitaine": {
+    "en": "The Boogeymen have invaded William’s dreams! Unite your forces to chase them and soothe the little boy.",
+    "fr": "Les croquemitaines ont envahi les rêves de Guillaume ! Unissez vos forces pour les chasser et apaiser le petit garçon.",
+    "uk": "Букаї вдерлися в сни Вільяма! Об'єднайте зусилля, щоб прогнати їх і заспокоїти хлопчика.",
+    "ru": "Буки вторглись в сны Уильяма! Объедините усилия, чтобы прогнать их и успокоить мальчика."
+  },
+  "MilleNuits": {
+    "en": "The ultimate tale of the Arabian Nights. The sultan is going to sentence Scheherazade to death. Fly to her rescue!",
+    "fr": "Shéhérazade n’a plus d’inspiration et le sultan va la condamner à mort. Sauvez-la dans une aventure digne des Mille et Une Nuits !",
+    "uk": "Остання казка «Тисячі й однієї ночі». Султан збирається засудити Шахерезаду до страти. Летіть їй на допомогу!",
+    "ru": "Последняя сказка «Тысячи и одной ночи». Султан собирается приговорить Шахерезаду к смерти. Летите ей на помощь!"
+  },
+  "Challenger": {
+    "en": "Explore a valley full of dinosaurs and save the members of Professor Challenger’s latest expedition!",
+    "fr": "Explorez une vallée grouillante de dinosaures et sauvez les membres de la dernière expédition du professeur Challenger !",
+    "uk": "Досліджуйте долину, повну динозаврів, і врятуйте учасників останньої експедиції професора Челленджера!",
+    "ru": "Исследуйте долину, полную динозавров, и спасите участников последней экспедиции профессора Челленджера!"
+  },
+  "NosideStory": {
+    "en": "A thick smoke lingers over the region. Another dirty trick of Noside? Stop him before it’s too late.",
+    "fr": "Un nouveau plan fumeux du professeur Noside menace la région. Il est temps de l’arrêter !",
+    "uk": "Над регіоном затримався густий дим. Чергова брудна витівка Носайда? Зупиніть його, поки не пізно.",
+    "ru": "Над регионом задержался густой дым. Очередная грязная выходка Носайда? Остановите его, пока не поздно."
+  },
+  "Tombstone": {
+    "en": "This train transports a precious package and you have a hunch that this trip will hardly be restful.",
+    "fr": "Un train, une précieuse cargaison et une mystérieuse intrigue au Far West !",
+    "uk": "Цей потяг перевозить цінний вантаж, і у вас є передчуття, що ця подорож навряд чи буде спокійною.",
+    "ru": "Этот поезд перевозит ценный груз, и у вас есть предчувствие, что эта поездка вряд ли будет спокойной."
+  },
+  "Oz": {
+    "en": "Rediscover the Wonderful Land of Oz! Visit its Wizard and challenge the Wicked Witch of the West!",
+    "fr": "Parcourez le pays d’Oz, défiez la sorcière de l’ouest et retournez au Kansas !",
+    "uk": "Знову відкрийте для себе дивовижну країну Оз! Відвідайте її Чарівника та киньте виклик Злій Відьмі Заходу!",
+    "ru": "Заново откройте для себя удивительную страну Оз! Посетите ее Волшебника и бросьте вызов Злой Ведьме Запада!"
+  },
+  "HouseOnHill": {
+    "en": "What is going on in this run-down manor? Explore its sinister rooms and thwart the curse which haunts this isolated place.",
+    "fr": "Que se passe-t-il dans ce manoir délabré ? Explorez les pièces sinistres et déjouez la malédiction qui hante ces lieux désolés.",
+    "uk": "Що відбувається в цьому занедбаному маєтку? Дослідіть його зловісні кімнати та подолайте прокляття, що переслідує це ізольоване місце.",
+    "ru": "Что происходит в этом заброшенном поместье? Исследуйте его зловещие комнаты и преодолейте проклятие, преследующее это изолированное место."
+  },
+  "Nautilus": {
+    "en": "Hunt down by a sea monster during a dive, you find shelter when open an old hatch. Find a way to resurface!",
+    "fr": "Au cours d’une plongée sous-marine, vous vous retrouvez piégés dans un submersible mythique… Trouvez un moyen de refaire surface !",
+    "uk": "Під час занурення на вас напало морське чудовисько, ви знайшли притулок, відкривши старий люк. Знайдіть спосіб спливти на поверхню!",
+    "ru": "Во время погружения на вас напало морское чудище, вы нашли приют, открыв старый люк. Найдите способ всплыть на поверхность!"
+  },
+  "Tonipal": {
+    "en": "Capitain Smith hid his treasure on Tonipal Island. Dig it up before another treasure hunter gets hold of it!",
+    "fr": "Déterrez le magot du Capitaine Smith… avant les autres chasseurs de trésors.",
+    "uk": "Капітан Сміт сховав свій скарб на острові Тоніпал. Відкопайте його, поки інший мисливець за скарбами не заволодів ним!",
+    "ru": "Капитан Смит спрятал свое сокровище на острове Тонипал. Откопайте его, пока другой охотник за сокровищами не завладел им!"
+  },
+  "DoctorGoorse": {
+    "en": "Visit the island of an eccentric antique collector billionaire and overcome its traps!",
+    "fr": "Visitez l’île mystérieuse d’un milliardaire fou et triomphez de ses pièges !",
+    "uk": "Відвідайте острів ексцентричного мільярдера, колекціонера антикваріату, і подолайте його пастки!",
+    "ru": "Посетите остров эксцентричного миллиардера, коллекционера антиквариата, и преодолейте его ловушки!"
+  },
+  "Formula": {
+    "en": "Enter a secret laboratory to recover a mysterious serum that has been developed by a scientist…",
+    "fr": "Entrez dans un laboratoire secret pour récupérer une mystérieuse formule…",
+    "uk": "Увійдіть у секретну лабораторію, щоб отримати таємничу сироватку, розроблену вченим...",
+    "ru": "Войдите в секретную лабораторию, чтобы получить таинственную сыворотку, разработанную ученым..."
+  },
+  "Squeek": {
+    "en": "Thwart the plans of the despicable Professor Noside in this cartoon-style adventure!",
+    "fr": "Déjouez les plans de l’infâme professeur Noside dans cette aventure cartoonesque !",
+    "uk": "Перекресліть плани мерзенного професора Носайда в цій пригоді в стилі мультфільму!",
+    "ru": "Перечеркните планы гнусного профессора Носайда в этом приключении в стиле мультфильма!"
+  },
+  "TourEiffel": {
+    "en": "Climb the floors of the Eiffel Tower and get your hands on a powerful artifact… before ODAL takes it!",
+    "fr": "Grimpez les étages de la dame de fer et mettez la main sur un artefact puissant… avant qu’Odal ne s’en empare !",
+    "uk": "Підніміться на поверхи «Залізної леді» та знайдіть потужний артефакт... поки ним не заволоділа секта ODAL!",
+    "ru": "Поднимитесь на этажи «Железной леди» и найдите мощный артефакт... пока им не завладела секта ODAL!"
+  },
+  "Ascension": {
+    "en": "Your grandfather, the renowned climber Theodore Delaroche, set out to ascend Mount Celestine, but no one has heard from him for the past two days.",
+    "fr": "Célèbre alpiniste, votre grand-père Théodore Delaroche, parti faire l’ascension du mont Célestin, n’a plus donné de nouvelles depuis deux jours.",
+    "uk": "Ваш дідусь, відомий альпініст Теодор Деларош, вирушив на гору Селестина, але від нього немає звісток уже два дні.",
+    "ru": "Ваш дедушка, известный альпинист Теодор Деларош, отправился на гору Селестина, но от него нет изстей уже два дня."
+  },
+  "Sirene": {
+    "en": "Explore the depths of the ocean and uncover its mysteries.",
+    "fr": "Plongez dans les profondeurs sous-marines et percez le mystère de l’océan.",
+    "uk": "Досліджуйте глибини океану та розкрийте його таємниці.",
+    "ru": "Исследуйте глубины океана и раскройте его тайны."
+  },
+  "Migration": {
+    "en": "A romance between two animals that are complete opposites, where poetry and mysteries intertwine.",
+    "fr": "Une romance entre deux êtres que tout oppose, où poésie et énigmes se rencontrent.",
+    "uk": "Історія між двома абсолютно різними тваринами, де переплітаються поезія та таємниці.",
+    "ru": "История между двумя совершенно разными животными, где переплетаются поэзия и тайны."
+  },
+  "SherlockHead": {
+    "en": "An original story in the universe of the comic books edited by Ankama Editions.",
+    "fr": "Une histoire inédite dans l’univers de la bande dessinée éditée par Ankama Editions.",
+    "uk": "Нова історія у всесвіті коміксів про Шерлока Холмса.",
+    "ru": "Новая история во вселенной комиксов о Шерлоке Холмсе."
+  },
+  "Chat": {
+    "en": "Find Schrödinger’s cat who got lost in a crazy universe!",
+    "fr": "Affrontez un univers complètement détraqué et aidez M. Schrödinger à retrouver son chat",
+    "uk": "Знайдіть кота Шредінгера, який загубився в божевільному всесвіті!",
+    "ru": "Найдите кота Шредингера, который потерялся в безумной вселенной!"
+  },
+  "Birmingham": {
+    "en": "Birmingham, 1920: Become a member of a dangerous gang and solve a murder!",
+    "fr": "Pénétrez dans les bas-fonds de Birmingham en 1920 et devenez membre d’un terrible gang.",
+    "uk": "Бірмінгем, 1920 рік: станьте членом небезпечної банди та розкрийте вбивство!",
+    "ru": "Бирмингем, 1920 год: станьте членом опасной банды и раскройте убийство!"
+  },
+  "RedMask": {
+    "en": "Hide behind the red mask to protect your identity as you set out to rescue your faithful friend!",
+    "fr": "Caché sous le masque rouge de ce nouveau justicier, venez au secours de votre fidèle ami !",
+    "uk": "Сховайтеся за червоною маскою, щоб захистити свою особистість, і вирушайте на порятунок вірного друга!",
+    "ru": "Скройтесь за красной маской, чтобы защитить свою личность, и отправляйтесь на спасение верного друга!"
+  },
+  "Donjon_Doo-Arann": {
+    "en": "Avoid the traps of the dungeon, fight the monsters, and leave with the treasure!",
+    "fr": "Entrez dans le donjon et repartez avec le trésor mythique !",
+    "uk": "Уникайте пасток підземелля, боріться з монстрами та вийдіть зі скарбами!",
+    "ru": "Избегайте ловушек подземелья, сражайтесь с монстрами и уйдите с сокровищами!"
+  },
+  "Cuisine": {
+    "en": "Impress the kooky chef with highly spirited recipes.",
+    "fr": "Fuyez le cuisinier toqué en réalisant des recettes pleines d’esprits !",
+    "uk": "Вразьте дивакуватого шеф-кухаря вишуканими рецептами.",
+    "ru": "Впечатлите чудаковатого шеф-повара изысканными рецептами."
+  },
+  "Momie": {
+    "en": "Find your way to the cursed sarcophagus through a labyrinth filled with traps!",
+    "fr": "Trouvez le sarcophage dans un redoutable labyrinthe !",
+    "uk": "Знайдіть шлях до проклятого саркофага крізь лабіринт, повний пасток!",
+    "ru": "Найдите путь к проклятому саркофагу через лабиринт, полный ловушек!"
+  },
+  "Ange": {
+    "en": "Infiltrate the Venice carnaval and fulfill your secret mission!",
+    "fr": "Infiltrez-vous au carnaval de Venise et remplissez votre mission secrète !",
+    "uk": "Проникніть на венеціанський карнавал і виконайте свою секретну місію!",
+    "ru": "Проникните на венецианский карнавал и выполните свою секретную миссию!"
+  },
+  "Poursuite_Cabrakan": {
+    "en": "Triumph over the perils of the temple and take the sacred statuette!",
+    "fr": "Emparez-vous de la statuette sacrée !",
+    "uk": "Переможіть небезпеки храму та заберіть священну статуетку!",
+    "ru": "Победите опасности храма и заберите священную статуэтку!"
+  },
+  "Pieuvre": {
+    "en": "Follow in the footsteps of the legendary pirate and find his treasure!",
+    "fr": "Suivez la piste d’un pirate légendaire et de son trésor !",
+    "uk": "Йдіть слідами легендарного пірата та знайдіть його скарб!",
+    "ru": "Идите по стопам легендарного пирата и найдите его клад!"
+  }
+}

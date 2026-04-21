@@ -1,0 +1,20 @@
+﻿{ 
+    "language" : "French", 
+    "localizations" : { 
+       "title" : "Tutoriel", 
+       "hiddenObject_1" : "Il y a un numéro caché au fond du coffre.", 
+       "code_7239" : "Non. Ce sont les bons chiffres mais ils ne sont pas dans le bon ordre. Réfléchissez : les couleurs doivent vous guider.", 
+       "code_9372" : "Bravo ! Vous avez terminé le tutoriel ! Vous pouvez maintenant regarder votre score et votre temps.", 
+       "hint_11" : "Une clé. Idéal pour ouvrir le coffre.", 
+       "hint_16" : "Ce fil de 10 cm semble pouvoir s'insérer sur la machine.", 
+       "hint_21" : "Si vous avez trouvé les chiffres, vous devriez vous intéresser au texte EXIT", 
+       "hint_25" : "Avec du courant, l'écran fonctionnerait sûrement.", 
+       "hint_35" : "Avant tout, il vous faut une clé pour l'ouvrir !", 
+       "hint_42" : "Il n'y aura rien à en tirer tant qu'il n'y aura pas de courant.", 
+       "hint_46" : "Il y a un numéro caché au fond du coffre. Et ce motif sur le côté gauche rappelle beaucoup la machine.", 
+       "hint_48" : "Ce sont les 4 chiffres du digicode de la porte. Reste à les mettre dans le bon ordre avec les couleurs.", 
+       "hint_67" : "Il manque un élément pour que la machine fonctionne. Ensuite il faudra le placer au bon endroit.", 
+       "hint_69" : "Vous devez chercher dans la pièce pour trouver un schéma vous montrant quels sont les bons picots. Ensuite entrez le numéro de la machine sur l'application.", 
+       "machine01_help" : "Pour utiliser cette machine vous devez appuyer sur les boutons correspondant aux bons picots et appuyer sur Ok.\nChaque erreur vous fait perdre une minute, il est donc préférable d'attendre de comprendre quels sont les bons picots avant de l'utiliser."
+    }
+ }

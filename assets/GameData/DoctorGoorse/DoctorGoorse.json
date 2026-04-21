@@ -1,0 +1,774 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "DoctorGoorse", 
+	   "number" : "3", 
+	   "displayName" : "L'île du docteur Goorse", 
+	   "difficulty" : "3", 
+	   "useMachine" : "False", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Adven", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "ad3_island.mp3", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "4200", 
+	   "penaltyTime" : "3", 
+	   "wrongCodePenaltyTime" : "2", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "2222", 
+	         "locale" : "", 
+	         "type" : "Sound", 
+	         "extraNumber" : "-882", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "ad3_2222.mp3"
+	      }, 
+	      { 
+	         "number" : "2435", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "46", 
+	         "cardsToDiscard" : "B51,J J ", 
+	         "message" : "En appuyant sur les bonnes dalles, une nouvelle salle s'ouvre à vous."
+	      }, 
+	      { 
+	         "number" : "2573", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "C", 
+	         "cardsToDiscard" : "", 
+	         "message" : "C'est la bonne fréquence !"
+	      }, 
+	      { 
+	         "number" : "4335", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Non ce n'est pas le bon code. Ces animaux fabuleux sur le mur sont la somme de plusieurs. Pas de pénalité pour cette fois !"
+	      }, 
+	      { 
+	         "number" : "7286", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "86", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Les dalles s'ouvrent et révèlent l'entrée de la pyramide."
+	      }, 
+	      { 
+	         "number" : "7289", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ce n'est pas le bon code. Équipe jaune, êtes-vous sûrs de vos calculs ?"
+	      }, 
+	      { 
+	         "number" : "7567", 
+	         "locale" : "", 
+	         "type" : "Reset", 
+	         "extraNumber" : "10", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "11", 
+	         "cardsToDiscard" : "25,28,32,53,J61,65,86", 
+	         "message" : "La porte s'ouvre. Vous découvrez une salle avec un avion à l'intérieur. Une voix vous parvient : \"Compteur réinitialisé. 10 min avant le décollage\"."
+	      }, 
+	      { 
+	         "number" : "7777", 
+	         "locale" : "", 
+	         "type" : "Sound", 
+	         "extraNumber" : "-964", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "ad3_7777.mp3"
+	      }, 
+	      { 
+	         "number" : "8888", 
+	         "locale" : "", 
+	         "type" : "Sound", 
+	         "extraNumber" : "-875", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "ad3_8888.mp3"
+	      }, 
+	      { 
+	         "number" : "9556", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous êtes libres ! Bien joué !"
+	      }, 
+	      { 
+	         "number" : "9596", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous êtes libres ! Bien joué !"
+	      }, 
+	      { 
+	         "number" : "9656", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous êtes libres ! Bien joué !"
+	      }, 
+	      { 
+	         "number" : "9696", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous êtes libres ! Bien joué !"
+	      }, 
+	      { 
+	         "number" : "75671", 
+	         "locale" : "", 
+	         "type" : "Reset", 
+	         "extraNumber" : "10", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "11", 
+	         "cardsToDiscard" : "25,32,48,53,J61,65,86", 
+	         "message" : "La porte s'ouvre. Vous découvrez une salle avec un avion à l'intérieur. Une voix vous parvient : \"Compteur réinitialisé. 10 min avant le décollage\"."
+	      }, 
+	      { 
+	         "number" : "75672", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous avez réussi à surmonter les pièges de cette île maudite ! Bien joué !"
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "2400", 
+	         "nextObject" : "False", 
+	         "message" : "Il se cache toujours quelque chose dans un squelette."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hintName" : "o2", 
+	         "time" : "180", 
+	         "nextObject" : "False", 
+	         "message" : "Il faut parfois prendre beaucoup de recul pour voir une sortie."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "97", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cela doit avoir un rapport avec l'entrée du temple maya. 26 symboles pour 26 lettres."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La solution est la somme de deux chiffres. Il nous faut l'alphabet maya pour le premier et l'aide du soleil pour le second."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Du mal à lire tout le journal ? Avez-vous lu les lettres en gras sur le message ?"
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "3", 
+	         "message" : "Il faut parfois prendre beaucoup de recul pour voir une sortie. Ne voyez-vous rien se dessiner ?"
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez du regard le terrain marron puis le jaune : ne voyez-vous pas un chiffre apparaître ? Faites de même avec le terrain vert clair puis le vert foncé."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est probablement la porte de sortie. Tout devrait s'éclaircir à la fin."
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "1", 
+	         "message" : "Elle vous sera probablement utile dans une autre zone."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le graffiti est symétrique. Et si vous n'en gardiez que la moitié ?"
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a toujours des trésors enfouis sous le sable. Il faut juste le bon outil pour les trouver."
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est une boisson corrosive."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pratique si vous n'arrivez pas à lire quelque chose."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous remarqué cette forme circulaire sur la colonne ?"
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devriez pouvoir récupérer ce miroir. Reste à avoir le bon outil."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cela doit avoir un rapport avec l'entrée du temple maya. 26 symboles pour 26 lettres."
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un objet rond et lourd rentrerait idéalement entre ces mains."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les 4 pyramides semblent dessiner le chemin d'un code. Reste à savoir sur quoi le superposer."
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Idéal pour trouver des objets enfouis."
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans les fouilles, c'est utile pour enlever un objet scellé."
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pas de numéro caché sur cette partie du plan. Mais positionner cette salle par rapport aux autres a son importance."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a exactement un symbole en commun par ligne."
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Parfaitement circulaire, cette amulette maya pourrait déclencher des mécanismes secrets."
+	      }, 
+	      { 
+	         "number" : "58", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il manque quelque chose à ce cadran solaire."
+	      }, 
+	      { 
+	         "number" : "61", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le lion rugit 4 fois. Ces animaux fabuleux sont tous la somme de plusieurs."
+	      }, 
+	      { 
+	         "number" : "61", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Par exemple : serpent à plumes = serpent + oiseau. Comptez les cris !"
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois les zones pivotées, en suivant la même méthode qu'avant, vous pouvez lire deux nombres pour composer le code."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ne déplacez plus les zones après les avoir fait pivoter. Déplacez-vous plutôt d'un côté et de l'autre de la table pour voir deux nombres différents apparaître. Concentrez-vous sur les zones colorées."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est un objet massif et circulaire, où pouvez-vous le fixer ?"
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Attendez un message de l'autre équipe."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut quelque chose pour nettoyer la plaque."
+	      }, 
+	      { 
+	         "number" : "71", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il se cache toujours quelque chose dans un squelette."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "1", 
+	         "message" : "Le soleil indique le 8, mais cela semble incomplet pour trouver quelque chose."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous appuyez nerveusement sur les touches. Le rire d'un lutin semble résonner dans le talkie-walkie."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le graffiti est symétrique. Et si vous n'en gardiez que la moitié ?"
+	      }, 
+	      { 
+	         "number" : "79", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'autre équipe vous fait face et vous devez communiquer en conséquence. Ces lignes sur les barreaux sont la clef. "
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce crâne amplifie la lumière alentour : son côté gauche semble abîmé, comme frappé par la foudre, tandis que ses yeux pointent vers le nord."
+	      }, 
+	      { 
+	         "number" : "83", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'œil d'Horus vous indique comment regarder le mot que forment les lignes rouges."
+	      }, 
+	      { 
+	         "number" : "89", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Qu'éclairez-vous à angle droit ?"
+	      }, 
+	      { 
+	         "number" : "910", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La solution est la somme de deux chiffres. Il nous faut l'alphabet maya pour le premier et l'aide du soleil pour le second."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une position idéale pour refléter la lumière. Encore faut-il qu'elle parvienne à la statue."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Qu'éclairez-vous à angle droit ?"
+	      }, 
+	      { 
+	         "number" : "111", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces lignes sur les barreaux sont la clé. Vous aurez besoin de communiquer avec l'équipe EN FACE."
+	      }, 
+	      { 
+	         "number" : "122", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "2+11+5+16=34. Attention : un 9 à l'envers fait 6..."
+	      }, 
+	      { 
+	         "number" : "133", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous dessinez le chemin de la sortie, ne voyez-vous rien apparaître ?"
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Du mal à lire tout le journal ? Avez-vous lu les lettres en gras sur le message ?"
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pratique si vous n'arrivez pas à lire quelque chose."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "6", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "29", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "63", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "18", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "2573"
+	      }, 
+	      { 
+	         "hintNumber" : "20", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "56", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "36", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "56", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "38", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "64", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "51", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "2435"
+	      }, 
+	      { 
+	         "hintNumber" : "58", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "75", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "61", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "7567"
+	      }, 
+	      { 
+	         "hintNumber" : "63", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "9556"
+	      }, 
+	      { 
+	         "hintNumber" : "64", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "95", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "70", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "91", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "71", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "17", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "77", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "2573"
+	      }, 
+	      { 
+	         "hintNumber" : "79", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "42", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "83", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "6", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "89", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "99", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "91", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "28", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "61", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "111", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "42", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "122", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "7286"
+	      }, 
+	      { 
+	         "hintNumber" : "133", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "25", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "6", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "97", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "910", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "48", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

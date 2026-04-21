@@ -1,0 +1,831 @@
+{ 
+	   "visible" : "True", 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "MasqueDeFer", 
+	   "displayName" : "À la poursuite du masque de fer", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "Manual", 
+	   "skinName" : "MasqueDeFer", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "ad9_1", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet homme pourra vous aider à traduire de l'espagnol en français."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous rassembliez logiquement les morceaux de cette assiette ?"
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En assemblant les morceaux de cette assiette, vous devriez voir apparaître un numéro… prenez la carte correspondante."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez le bon adversaire à la pointe de l'épée du vieil homme. Une fois que vos trois coéquipiers croisera le fer, occupez-vous vous-même du dernier garde !"
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette paire de ciseaux est typique des outils utilisés par les drapiers. Avez-vous du tissu à découper ?"
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Écoutez bien votre guide ! La chose la plus importante ici est soulignée."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces leviers ouvrent les portes des geôles. Seule l'une d'elle vous intéresse car vous avez besoin d'aide : libérez ces prisonniers !"
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le levier que vous devez actionner porte le numéro de la geôle des prisonniers. Les numéros des geôles voisines à la leur devraient vous aider à actionner le bon levier."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les hommes présents dans cette cellule devraient pouvoir vous aider."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ouvrez la porte de la cellule en actionnant le bon levier. Les numéros des cellules voisines devraient vous aider."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce jeu de clefs vous permettra tout simplement d'ouvrir une porte close."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce gobelet recyclable devrait pouvoir être rempli de n'importe quel liquide."
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pourriez découper ce napperon pour obtenir un élément... mais comment ?"
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avec cette épée, vous êtes capable d'affronter n'importe quel adversaire. Mais un seul est le bon !"
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait trouver le morceau manquant de l'assiette pour qu'elle soit complète."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce garde a l'air d'avoir soif… ne pourriez-vous pas lui servir un verre de vin ?"
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce masque blanc vous est totalement inutile tant qu'il reste immaculé."
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez bien les textes et écoutez le guide…ne fait-elle pas référence à un masque ? Il faudrait teinter ce masque blanc dans une couleur utile, en utilisant l'un des éléments que vous avez trouvé."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce garde parle des prisonniers importants. Qui d'autre y a fait allusion durant cette aventure ? Et comment les reconnaissait-on ?"
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Faites vous passez pour un prisonnier important en obtenant le vêtement caractéristique qu'ils portaient : écoutez la guide !"
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez obtenu cette carte grâce au numéro caché sur le mur. Placez-là au-dessus de la carte 70 afin de commencer un panorama…. mais comment le compléter ?"
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce charbon devrait pouvoir colorer un objet. Regardez bien les textes des cartes…n'avez-vous pas besoin d'un objet noir ? Mais peut-être n'avez-vous pas encore l'objet à teinter."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'alcool est à consommer avec modération…mais un petit verre de vin pourrait vous être utile."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait déblayer ces gravats pour avancer…mais vous n'avez pas assez de force. Trouvez de l'aide !"
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un des hommes de la cellule vous aidera facilement à enlever ces gravats de votre chemin."
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour affronter ces gardes, il va falloir vous équiper !"
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Lequel de vos coéquipiers pourra croiser le fer avec ce soldat ? Servez-vous de la position des épées de vos amis et des gardes pour les apparier. Une fois qu'il ne restera plus qu'un seul garde, occupez-vous de lui ! Il vous faudra une arme pour le vaincre."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le morceau d'assiette sur la droite est le seul élément intéressant ici."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Assemblez cette carte à l'assiette pour obtenir la reconstitution complète de cette dernière !"
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous avez réussi à assembler ce masque, vous savez sûrement quoi faire avec… c'est une sorte de laissez-passer."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'avez pas soif pour le moment. Mais pour accompagner un déjeuner, ce verre serait adéquat."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour affronter ces gardes, il va falloir vous équiper !"
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Lequel de vos coéquipiers pourra croiser le fer avec ce soldat ? Servez-vous de la position des épées de vos amis et des gardes pour les apparier. Une fois qu'il ne restera plus qu'un seul garde, occupez-vous de lui !"
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet homme est très fort. il est en mesure de déblayer les obstacles et de  porter tout un tas de choses… peut-être même une personne."
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois les gravats déblayés, l'homme pourra porter le garçonnet. Poursuivez le panorama…vous devriez voir apparaître un chiffre. Prenez la carte correspondante."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait assembler le bon nombre de cordes pour descendre par la fenêtre, située très, très, très haut."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Multipliez d'autant de fois le modificateur \"+3\" que nécessaire pour descendre la fenêtre située très, très très haut. Ajoutez ce nombre au numéro de la fenêtre (72) pour descendre."
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les pierres remplacées l'ont été car, à l'époque, on les avait manipulées. Peut-être qu'elles servaient, avec d'autres, à actionner un passage secret."
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les deux pierres remplacées sont plus foncées que les autres pierres du mur."
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez le bon adversaire à la pointe de l'épée de ce prisonnier. Une fois que vos trois coéquipiers croisera le fer, occupez-vous vous-même du dernier garde !"
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il va falloir appuyer sur les bonnes pierres. La serveuse pourra déjà vous en indiquer deux."
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une carte vous indique des pierres qui ont dû être remplacées, probablement à force d'être manipulées. Elles devraient être d'une autre couleur que les plus anciennes."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La serveuse semble parler espagnol…il vous faudrait un traducteur."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette histoire d'assiette est bien mystérieuse…qu'y-a-t-il marqué dessous ? En attendant, la serveuse vous indique en partie comment emprunter le passage secret du mur."
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette porte est massive. Elle ne s'ouvrira qu'avec une clef."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez bien cette carte… quelque chose pourrait bien s'y cacher. En outre, elle fait partie du décor d'un véritable panorama !"
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est sans doute le meilleur moyen de quitter cette prison. Mais pour descendre, il vous faudra une corde."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Combien de fois est répété le mot \"très\" ? Cela vous donne une indication quant à la longueur de corde dont vous aurez besoin."
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'assiette ne s'est pas brisée…d'après la serveuse, l'homme au masque de fer y aurait inscrit quelque chose…mais où ?"
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez un moyen de regarder sous l'assiette pour découvrir le message inscrit par l'homme au masque de fer."
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour affronter ces gardes, il va falloir vous équiper !"
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Lequel de vos coéquipiers pourra croiser le fer avec ce soldat ? Servez-vous de la position des épées de vos amis et des gardes pour les apparier. Une fois qu'il ne restera plus qu'un seul garde, occupez-vous de lui !"
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vérifiez bien que vous avez pris les cartes suivantes : 24, 33 et 70."
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce garçonnet est un peu maigrichon. Il est léger comme une plume… enfin, si vous trouvez quelqu'un d'assez costaud pour le soulever."
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour affronter ces gardes, il va falloir vous équiper !"
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Lequel de vos coéquipiers pourra croiser le fer avec ce soldat ? Servez-vous de la position des épées de vos amis et des gardes pour les apparier. Une fois qu'il ne restera plus qu'un seul garde, occupez-vous de lui !"
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez le bon adversaire à la pointe de l'épée de ce garçonet. Une fois que vos trois coéquipiers croisera le fer, occupez-vous vous-même du dernier garde !"
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous pris la carte n°12 ? Indiquez l'exposition que vous souhaitez visiter en additionnant le bon numéro à cette carte."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Allez voir l'exposition sur le masque de fer…regardez la carte P pour trouver l'étage correspondant."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vérifiez bien que vous avez pris les cartes suivantes : 7, 42 et 56."
+	      }, 
+	      { 
+	         "number" : "101", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a suffisamment d'épées pour armer tous vos coéquipiers. Donnez-leur à chacun une épée !"
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "1", 
+	         "hintID" : "", 
+	         "message" : "Ce vieil homme vous servira deux fois : pour traduire les propos d'une servante tout d'abord, puis il faudra l'équiper convenablement !", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "3", 
+	         "hintID" : "", 
+	         "message" : "Si vous recollez les morceaux de cette assiette, vous verrez apparaître le numéro 16.", 
+	         "cards" : "16", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "5", 
+	         "hintID" : "", 
+	         "message" : "Le vieil homme peut combattre le garde qui pointe son épée vers le bas (51).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "6", 
+	         "hintID" : "", 
+	         "message" : "Utilisez ces ciseaux pour découper un masque dans le napperon (13).", 
+	         "cards" : "19", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "hintID" : "", 
+	         "message" : "Actionnez le levier de la cellule des prisonniers : le levier n°8.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "9", 
+	         "hintID" : "", 
+	         "message" : "Actionnez le levier de la cellule des prisonniers : le levier n°8.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "hintID" : "", 
+	         "message" : "Ouvrez la porte massive (68) avec ces clefs.", 
+	         "cards" : "79", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "hintID" : "", 
+	         "message" : "Additionnez cette carte avec le tonneau (33) pour vous servir un verre de vin.", 
+	         "cards" : "45", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "16", 
+	         "hintID" : "", 
+	         "message" : "Additionnez cette carte au morceau d'assiette (42).", 
+	         "cards" : "58", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "18", 
+	         "hintID" : "", 
+	         "message" : "Ce garde a soif : offrez-lui un verre de vin (45).", 
+	         "cards" : "63", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "19", 
+	         "hintID" : "", 
+	         "message" : "Utilisez le charbon (24) pour colorer ce masque en noir.", 
+	         "cards" : "43", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "22", 
+	         "hintID" : "", 
+	         "message" : "Ce garde ne vous laissera passer que si vous ressemblez à un prisonnier. Pour cela, il vous faut un masque de couleur noire.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "Placez cette carte au-dessus de la carte 70. Placez ensuite les cartes des prisonniers de façon à ce que le costaud porte le garçonnet et complétez  le panorama en suivant les lignes du mur. Le garçonnet est à la hauteur du trou dans le mur et le chiffre 4 apparait.", 
+	         "cards" : "4", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "33", 
+	         "hintID" : "", 
+	         "message" : "Additionnez cette carte avec le gobelet pour vous servir un verre de vin.", 
+	         "cards" : "45", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "34", 
+	         "hintID" : "", 
+	         "message" : "Utilisez l'homme prisonnier (la carte 53) pour vous aider à déblayer ces gravats.", 
+	         "cards" : "87", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "40", 
+	         "hintID" : "", 
+	         "message" : "Ce soldat ne peut être combattu que par vous. Utilisez l'épée (15) contre lui.", 
+	         "cards" : "55", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "42", 
+	         "hintID" : "", 
+	         "message" : "Additionnez cette carte à l'assiette (16).", 
+	         "cards" : "58", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "43", 
+	         "hintID" : "", 
+	         "message" : "Utilisez ce masque pour faire croire au garde (22) que vous êtes un prisonnier important.", 
+	         "cards" : "65", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "45", 
+	         "hintID" : "", 
+	         "message" : "Donnez ce verre de vin à un garde assoifé… pour accompagner son repas, par exemple.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "51", 
+	         "hintID" : "", 
+	         "message" : "Ce soldat doit être combattu par le vieil homme (5).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "53", 
+	         "hintID" : "", 
+	         "message" : "Cet homme vous servira trois fois : à déblayer les gravats (carte 34), à porter un autre prisonnier  (la carte 92) pour compléter le panorama... et il faudra penser à l'équiper !", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "55", 
+	         "hintID" : "", 
+	         "message" : "La hauteur de la fenêtre et le nombre de mots \"très\" de la carte 72 (très, très très haut) indique le nombre de longueurs de corde qu'il vous faut pour descendre, soit trois. Il faut multiplier le modificateur \"+3\" trois fois. Vous obtenez \"+9\". Ajoutez 9 à la fenêtre (72).", 
+	         "cards" : "81", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "57", 
+	         "hintID" : "", 
+	         "message" : "L'homme peut combattre le garde qui pointe son épée vers le haut (82).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "59", 
+	         "hintID" : "", 
+	         "message" : "La serveuse vous dit qu'il faut appuyer sous les deux pierres situées sous la barre de fer et sur deux autres pierres, les plus foncées que l'on voit sur la carte 56.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "63", 
+	         "hintID" : "", 
+	         "message" : "La serveuse parle espagnol : demandez au vieil homme (1) de traduire ce qu'elle dit.", 
+	         "cards" : "64", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "64", 
+	         "hintID" : "", 
+	         "message" : "Il faudra regarder sous l'assiette du masque de fer. Elle vous dit aussi d'appuyer sur les deux pierres situées sous la barre de fer de la carte 59.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "68", 
+	         "hintID" : "", 
+	         "message" : "Il vous faut absolument un trousseau de clef pour ouvrir : vous le trouverez plus tard.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "70", 
+	         "hintID" : "", 
+	         "message" : "Il y a un numéro caché à droite du tonneau, sur le mur : le 23. Prenez la carte correspondante. En outre, cette carte fait partie d'un panorama à reconstituer à l'aide des moëllons sur les murs… et de deux prisonniers !", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "72", 
+	         "hintID" : "", 
+	         "message" : "La hauteur de la fenêtre (très, très très haut)  indique le nombre de longueurs de corde qu'il vous faut pour descendre, soit trois. Mais il vous faut une corde.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "81", 
+	         "hintID" : "", 
+	         "message" : "Retournez votre appareil pour regarder sous l'assiette !", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "82", 
+	         "hintID" : "", 
+	         "message" : "Ce soldat doit être combattu par l'homme (57).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "92", 
+	         "hintID" : "", 
+	         "message" : "Ce garçonnet aura deux usages : compléter un panorama en étant porté par un autre prisonnier (la carte 53)... puis il faudra l'équiper.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "94", 
+	         "hintID" : "", 
+	         "message" : "Ce soldat doit être combattu par le garçonnet (96).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "96", 
+	         "hintID" : "", 
+	         "message" : "Le garçonnet peut combattre le garde qui pointe vers le milieu de la carte (94).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "98", 
+	         "hintID" : "", 
+	         "message" : "Additionnez le numéro de l'étage de l'exposition sur le Masque de Fer à cette carte.", 
+	         "cards" : "99", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "101", 
+	         "hintID" : "", 
+	         "message" : "Équipez chacun de vos trois coéquipiers d'une arme en additionant à chacun le modificateur du râtelier d'armes (+4).", 
+	         "cards" : "5,57,96", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "8", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "1,53,92", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Dans un grinçement peu discret, la grille se soulève et libère les prisonniers."
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "2", 
+	         "solutions" : "", 
+	         "cardsToTake" : "D", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous appuyez sur les pierres repérées lors de l'exposition et celles désignées par la serveuse. Dans un grondement sourd, le mur se dérobe et vous découvrez une salle garnie d'armes… Un bruit de pas retentit derrière vous."
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Alors que vous retournez l'assiette pour enfin lire le mystérieux message de l'Homme au Masque de Fer, celle-ci vous échappe des mains et se brise sur le sol. Une lumière blanche éblouissante vous enveloppe. Quelques instants plus tard, vous êtes aspiré et vous vous réveillez de nouveau au musée, au présent. Quelle aventure ! Pour en savoir davantage sur le mystérieux masque de fer, il ne vous reste plus qu'à poursuivre votre visite au musée ! Bravo à vous !"
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "2", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "10", 
+	         "nextEvent" : "0", 
+	         "soundName" : "xilo", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Des gardes font irruption dans la pièce ! Aux armes !", 
+	         "messageID" : "", 
+	         "cardsToTake" : "40,51,82,94", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	      "French", 
+	      "English", 
+	      "German", 
+	      "Italian", 
+	      "Dutch", 
+	      "Spanish", 
+	      "Korean", 
+	      "Chinese"
+	   ]
+	}

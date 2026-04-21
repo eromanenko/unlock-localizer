@@ -1,0 +1,972 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Pandemic", 
+	   "displayName" : "", 
+	   "difficulty" : "3", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Pandemic", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Haunted_Shores", 
+	   "maxTime" : "4200", 
+	   "totalTime" : "4200", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut d'abord trouver un prélèvement sanguin du variant jaune à analyser."
+	      }, 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Atlanta est une ville infectée par le variant jaune. Faites-y un prélèvement. Servez-vous ensuite du microscope (88) et de la classification des virus (1) pour déterminer la typologie du variant jaune."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une magnifique coupe trône sur ce coffre-fort. Cet ouvrage provient sans doute de l'une des fouilles archéologiques de Cook."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette coupe se trouve également sur la photo de la fouille archéologique (75). Cet objet doit avoir une valeur toute particulière pour Cook."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L’état de Cook est inquiétant et aucun des remèdes ne fonctionne sur lui. Sans doute le signe d’un nouveau variant…"
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois soigné, le chef du laboratoire (26) vous fournira le séquenceur dont vous avez besoin."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces échos radar vous indiquent que Cook est maintenant dans une ville située à 3 connexions aériennes d’Atlanta, de Khartoum et de Delhi. Une seule ville remplit ces conditions. C'est une ville bleue."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "E.S.S.E.N. est non seulement le nom d'une ville, mais aussi une suite de directions à suivre pour retrouver Graham Cook."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "À nouveau, utilisez le protocole (87) pour inoculer le remède rouge."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut d'abord trouver un prélèvement sanguin du variant jaune à analyser."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Atlanta est une ville infectée par ce variant. Faites-y un prélèvement. Servez-vous ensuite du microscope (88) et de la classification des virus (1) pour déterminer la typologie du variant jaune."
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cook indique dans ses notes (19) que c'est en concluant le conte maya qu'il est parvenu à ouvrir le disque. Les glyphes du conte ont été traduits un à un par Cook. Mais malgré une traduction littérale, un sens se dégage de ces quelques lignes. Trouvez la suite logique composée de 3 mots, et donc de 3 glyphes, qui conclurait cette histoire."
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Sous un immense ciel noir, un sanglier mange des fruits et boit l'eau de la rivière. Un jaguar, marchant dans la jungle, sent, entend et aperçoit ce sanglier. Il monte alors discrètement à l'arbre près de la rivière et après un instant de silence… Composez la suite à l'aide de trois mots, et donc de trois glyphes, déjà présents dans ce conte."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous connaissez la distance de vol du jet de Cook. Quelle est la ville non infectée qui se situe à cette distance de Miami ?"
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous cherchez Cook, alors peut-être que le militaire qui monte la garde devant la cellule d'urgence pourrait vous aider dans votre traque. Que pourriez-vous lui donner pour qu'il puisse lancer des recherches ?"
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les glyphes de ce conte maya ont été traduits un à un par Cook. Mais malgré une traduction littérale, un sens se dégage de ces quelques lignes. Trouvez la suite logique composée de 3 mots, et donc de 3 glyphes, qui conclurait cette histoire. "
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Sous un immense ciel noir, un sanglier mange des fruits et boit l'eau de la rivière. Un jaguar, marchant dans la jungle, sent, entend et aperçoit ce sanglier. Il monte alors discrètement à l'arbre près de la rivière et après un instant de silence… Composez la suite à l'aide de 3 mots, et donc de 3 glyphes, déjà présents dans ce conte."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'un des membres de votre équipe vous fournira le protocole pour inoculer ce remède."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les malades présents dans cette cellule d'urgence ont dans leur sang le virus du variant jaune."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut en apprendre davantage sur la nature de ce composé chimique."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le chef du laboratoire est fébrile et saigne du nez. Il pourrait être porteur de l'un des variants. Étudiez son cas."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'un des membres de votre équipe possède les compétences nécessaires pour finaliser ce chantier."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez cette nouvelle lamelle au microscope (88). Vous avez effectivement affaire à un nouveau variant de la maladie dont la particularité est sa couleur violette."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le violet est un mélange de bleu et de rouge…"
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut diffuser les remèdes de façon à couvrir au mieux le territoire de chacun des continents. Pour cela, utilisez les éléments de jeu situés au fond de la boîte. Placez-les correctement sur chacun des continents (un seul à la fois) en couvrant les différentes zones formées par les connexions entre les villes."
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois que vous aurez identifié les 6 villes infectées par le patient zéro, vous serez en mesure de trouver la seule ville qui n'a aucune connexion directe avec celles-ci afin de construire le laboratoire. Il s'agit d'une ville bleue."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Tant que vous n'aurez pas récupéré l'analyse du sang de Cook, vous ne pourrez rien faire de ce morceau de formule. Une fois l'analyse du sang de Cook récupérée (77), superposez les deux morceaux de la formule de façon à faire correspondre la structure commune (en violet) et l’atome d’oxygène (O violet)."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez fait tout ce chemin sur les traces de Cook, mais c'est en réalité son sang qui vous intéresse pour développer le remède au variant bleu."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Zoomez au maximum jusqu’à deviner l’A.D.N. Pour extraire les informations de l’A.D.N., il vous faut utiliser un « filtre à lumière infrarouge ». Vous avez avec vous un accessoire qui vous permettra de filtrer la lumière rouge."
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Lorsque vous aurez construit le laboratoire de recherche, vous trouverez le matériel nécessaire pour étudier le type de virus auquel vous avez affaire."
+	      }, 
+	      { 
+	         "number" : "58", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez cette lamelle sous votre microscope (88). Prêtez une attention particulière à la disposition des spicules non répertoriés (les petits bleus foncés). "
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Lorsque vous aurez trouvé une substance potentiellement à l'origine de la maladie, vous pourrez l'étudier à l'aide de ce spectromètre de masse."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les seules traces que vous avez du patient zéro sont ses billets d'avion de son dernier voyage."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Survolez littéralement la ville de Hong Kong sur le Plan de Quarantaine."
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Rapportez-lui simplement le remède jaune une fois celui-ci élaboré."
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "En plus d'inoculer ce remède suivant le protocole (87), souvenez-vous d'où venait le prélèvement du variant bleu."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette photo montre une zone de fouille archéologique. Certains des objets qui s'y trouvaient doivent avoir une valeur inestimable. L'un de ces objets attire particulièrement votre attention."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La coupe rouge située dans la zone de fouille est la même que celle qui est posée sur le coffre-fort (2). Cet objet doit avoir une valeur toute particulière pour Cook."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Tant que vous n'aurez pas récupéré l'analyse de la poudre qui a infecté Cook, vous ne pourrez rien faire de ce morceau de formule. Une fois l'analyse de la poudre récupérée (77), superposez les deux morceaux de la formule de façon à faire correspondre la structure commune (en violet) et l’atome d’oxygène (O violet)."
+	      }, 
+	      { 
+	         "number" : "79", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez dans votre tube à essai un peu de remède bleu et un peu de remède rouge. Il faut maintenant les mélanger pour obtenir une solution violette. Un peu de mouvement devrait suffire !"
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La lettre (95) vous informe que G. Cook est reparti de Londres en bateau. Cette bandelette de papier (80) vous indique l'itinéraire qu'il a emprunté depuis Londres."
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L’analyse par spectrométrie de la poudre blanche (82) vous indique la présence de 2 molécules. Les éléments de chacune de ces molécules sont également présents dans le tableau périodique des éléments (10). Chaque molécule vous donnera un chiffre."
+	      }, 
+	      { 
+	         "number" : "84", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce papier froissé semble représenter la prochaine étape du voyage de Cook. L'une des extrémités de l'itinéraire doit représenter Hong Kong."
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le protocole d'inoculation vous indique dans quelle ville inoculer le remède. Cette ville doit se situer entre deux villes infectées, mais lesquelles ?"
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un remède doit être inoculé dans une ville située exactement entres deux villes infectées par le variant de la couleur du remède en question."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce microscope vous servira à observer les différents prélèvements sanguins pour chacun des variants."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cook (3) est dans un état critique…"
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chacun des membres de votre équipe possède une partie du trajet de Graham Cook, le patient zéro."
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut une dernière fois appliquer le protocole (87) afin de déterminer où inoculer le remède violet. Mais cette fois-ci, il n’existe pas de ville infectée violette. Vous avez cependant découvert que le variant violet est un mélange du variant bleu et du variant rouge."
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut inoculer le variant violet dans une ville connectée à une ville infectée rouge ET à une ville infectée bleue."
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour élaborer le remède du variant rouge, il vous faut un prélèvement provenant de malades situés dans l'une des villes infectées par le variant rouge."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "1", 
+	         "hintID" : "", 
+	         "message" : "Une fois le prélèvement d'Atlanta récupéré (54), observez-le au microscope (88) en passant votre appareil au-dessus. À l'aide de la classification (1) déterminez la typologie (XY) du virus : les spicules sont jaunes (X = 1) et la forme est triangulaire (Y = 4). Rapportez ces informations (+14) au chef du labo (12). ", 
+	         "cards" : "26", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "2", 
+	         "hintID" : "", 
+	         "message" : "Les coordonnées (10 et 16) de la coupe dans la zone de fouille (75) vous donnent le code du coffre. L'ordre vous est fourni par les rectangles de couleur sur la porte du coffre : jaune en haut et violet en bas. Saisissez 1016 sur le coffre-fort pour l'ouvrir.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "3", 
+	         "hintID" : "", 
+	         "message" : "Pour vérifier si Cook (3) a effectivement contracté un nouveau variant, faites un prélèvement de son sang avec la scientifique (32).", 
+	         "cards" : "35", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "Si ce n'est pas déjà fait, soignez le chef du laboratoire (26) avec le remède bleu (68). Vous obtenez alors le séquenceur A.D.N. (70). Ouvrez le séquenceur pour scanner l'A.D.N. du variant rouge.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "5", 
+	         "hintID" : "", 
+	         "message" : "Seule la ville d'Essen est située à trois connexions de Atlanta, Khartoum et Delhi. Utilisez le bouton dédié pour vous rendre à Essen.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "6", 
+	         "hintID" : "", 
+	         "message" : "ESSEN signifie également : Est / Sud / Sud / Est / Nord. En suivant ces indications depuis Essen, vous trouvez un +39 bien dissimulé. Dépêchez-vous de vous y rendre en voiture (6).", 
+	         "cards" : "45", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "hintID" : "", 
+	         "message" : "Le remède rouge doit être inoculé entre les villes infectées par le variant rouge (Hong Kong et Delhi). Utilisez le bouton dédié pour vous rendre à Kolkata. Scannez le QR code du remède rouge avec votre appareil pour inoculer ce dernier.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "hintID" : "", 
+	         "message" : "Une fois le prélèvement d'Atlanta récupéré (54), observez-le au microscope (88) en passant votre appareil au-dessus. À l'aide de la classification (1) déterminez la typologie (XY) du virus : les spicules sont jaunes (X = 1) et la forme est triangulaire (Y = 4). Rapportez ces informations (+14) au chef du labo (12).", 
+	         "cards" : "26", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "13", 
+	         "hintID" : "", 
+	         "message" : "La suite est très certainement que le JAGUAR va MANGER le SANGLIER. Repérez les trois glyphes correspondants et saisissez-les dans le bon ordre sur le disque maya pour l'ouvrir.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "hintID" : "", 
+	         "message" : "Superposez la distance de vol (15) sur le Plan de Quarantaine. En plaçant le coin inférieur gauche sur Miami et en faisant pivoter la carte, seules deux villes sont situées à bonne distance : Istanbul et Khartoum. Les aéroports des villes infectées étant fermés, vous déduisez que Cook s’est rendu à Istanbul. Utilisez le bouton dédié pour vous y rendre.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "16", 
+	         "hintID" : "", 
+	         "message" : "Donnez la photo de G. Cook (50) au militaire (16) afin qu'il vous aide à lancer les recherches de Cook à Hong Kong. ", 
+	         "cards" : "66", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "19", 
+	         "hintID" : "", 
+	         "message" : "La suite est très certainement que le JAGUAR va MANGER le SANGLIER. Repérez dans ce même ordre les 3 glyphes correspondants. Ils vous permettront d'ouvrir le disque maya.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "20", 
+	         "hintID" : "", 
+	         "message" : "Avertissez le médecin (67) de la création du remède jaune (20) afin qu'il vous fournisse le protocole d'inoculation des remèdes.", 
+	         "cards" : "87", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "22", 
+	         "hintID" : "", 
+	         "message" : "Profitez de votre présence à Atlanta (22) pour demander à la Scientifique (32) de faire un prélèvement sanguin sur l'un des malades de la cellule d'urgence. ", 
+	         "cards" : "54", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "Utilisez le spectromètre de masse (59) du laboratoire pour analyser cette mystérieuse poudre blanche (23).", 
+	         "cards" : "82", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "26", 
+	         "hintID" : "", 
+	         "message" : "Faites un prélèvement sur le chef du labo (26) avec la scientifique (32). ", 
+	         "cards" : "58", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "33", 
+	         "hintID" : "", 
+	         "message" : "Faites finaliser le chantier du laboratoire (33) par l'Expert aux Opérations (41). ", 
+	         "cards" : "74", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "35", 
+	         "hintID" : "", 
+	         "message" : "Le remède au variant violet pourrait bien être un mélange du remède bleu (68) et du remède rouge (11). Tentez de les mélanger.", 
+	         "cards" : "79", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "37", 
+	         "hintID" : "", 
+	         "message" : "En plaçant correctement les éléments sur le variant jaune (les Amériques), vous lisez le chiffre 5. Vous trouverez un 2 pour le variant bleu (Europe et Afrique) et un 8 pour le variant rouge (Asie et Océanie). Entrez le protocole 528.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "41", 
+	         "hintID" : "", 
+	         "message" : "La seule ville qui n'a aucune connexion directe avec les six villes infectées est St. Petersburg. Utilisez le bouton dédié pour vous y rendre.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "42", 
+	         "hintID" : "", 
+	         "message" : "Ne lisez cette solution que si la carte 77 a déjà été révélée.  En plaçant correctement la molécule du sang de Cook (77) sur la molécule de la poudre (42), de façon à faire correspondre les deux éléments violets (la ligne et le O), vous pourrez lire un 68.", 
+	         "cards" : "68", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "45", 
+	         "hintID" : "", 
+	         "message" : "Faites un prélèvement sur Graham Cook (45) avec la scientifique (32) pour élaborer le remède du variant bleu.", 
+	         "cards" : "77", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "48", 
+	         "hintID" : "", 
+	         "message" : "Après avoir zoomé au maximum sur le spicule de ce virus, utilisez l’un des cubes et passez-le directement sur votre écran. Vous pouvez alors discerner un 4 au milieu des brins d’A.D.N.", 
+	         "cards" : "4", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "58", 
+	         "hintID" : "", 
+	         "message" : "En utilisant le microscope (88) sur ce prélèvement avec l'un des premiers niveaux de zoom, vous pourrez remarquer que les spicules non reconnus forment le nombre 60.", 
+	         "cards" : "60", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "60", 
+	         "hintID" : "", 
+	         "message" : "Remettez les billets d'avion dans l'ordre chronologique grâce aux dates inscrites : KTM > DEL > HKG > LMA > ATL > LDN. Sa dernière position connue est donc London. Utilisez le bouton dédié pour vous y rendre.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "66", 
+	         "hintID" : "", 
+	         "message" : "En vous plaçant au-dessus du Plan de Quarantaine, vous pourrez apercevoir un +18 à travers le cube situé sur Hong Kong. Dirigez-y alors l'hélicoptère (66).", 
+	         "cards" : "84", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "68", 
+	         "hintID" : "", 
+	         "message" : "Le remède bleu doit être inoculé entres les villes infectées par le variant bleu (London et Khartoum). Utilisez le bouton dédié pour vous rendre à Algiers et scannez le QR code avec votre appareil. De plus, rappelez-vous que le chef du labo (26) était lui aussi infecté par le variant bleu. Soignez-le avec le remède bleu (68).", 
+	         "cards" : "94", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "75", 
+	         "hintID" : "", 
+	         "message" : "Les coordonnées (10 et 16) de la coupe dans la zone de fouille vous donnent le code du coffre-fort (2). L'ordre vous est fourni par les rectangles de couleur sur la porte du coffre : jaune en haut et violet en bas. Saisissez 1016 sur le coffre-fort pour l'ouvrir.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "77", 
+	         "hintID" : "", 
+	         "message" : "Ne lisez cette solution que si la carte 42 a déjà été révélée.  En plaçant correctement la molécule du sang de Cook (77) sur la molécule de la poudre (42), de façon à faire correspondre les deux éléments violets (la ligne et le O), vous pourrez lire un 68.", 
+	         "cards" : "68", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "79", 
+	         "hintID" : "", 
+	         "message" : "Secouez votre appareil de haut en bas et de bas en haut pour mélanger les deux remèdes.", 
+	         "cards" : "90", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "80", 
+	         "hintID" : "", 
+	         "message" : "En partant de Londres, comptez 4 carreaux à l’ouest, 16 au sud, 20 à l’est, 3 au nord, 8 à l’est, 3 au nord puis 1 à l’ouest. Cela vous mène à Hong Kong. Utilisez alors le bouton dédié pour vous y rendre et tenter de trouver Cook.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "82", 
+	         "hintID" : "", 
+	         "message" : "Reportez dans l’ordre les éléments de chacune des molécules sur le tableau périodique des éléments (10). Les éléments H, K, Ti et Rf de la molécule 1 dessinent un 4. Les éléments C, F, Br, Fl et Ts de la molécule 2 dessinent un 2.", 
+	         "cards" : "42", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "84", 
+	         "hintID" : "", 
+	         "message" : "En orientant correctement le papier et en partant de Hong Kong, l’itinéraire passe par Ho Chi Minh, puis Jakarta, Sydney, Lima, Santiago, Buenos Aires, Bogotá et enfin Miami. Cook doit donc être à Miami. Utilisez le bouton dédié pour vous y rendre.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "87", 
+	         "hintID" : "", 
+	         "message" : "Le remède jaune doit être inoculé entre les villes infectées par le variant jaune (Atlanta et Lima). Utilisez le bouton dédié pour vous rendre à Mexico City. Scannez le QR code avec votre appareil pour inoculer le remède jaune.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "90", 
+	         "hintID" : "", 
+	         "message" : "C'est dans le sang de Cook (3) que vous avez découvert le variant violet. Ne perdez pas un instant pour sauver Graham Cook. Injectez-lui le remède violet (90).", 
+	         "cards" : "93", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "92", 
+	         "hintID" : "", 
+	         "message" : "Les billets d'avion présents au dos de vos personnages vous indiquent les 6 villes visitées et contaminées par Graham Cook, le patient zéro. Si ce n'est pas déjà fait, placez les 6 cubes sur les villes d'Atlanta, Lima, London, Khartoum, Delhi et Hong Kong.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "93", 
+	         "hintID" : "", 
+	         "message" : "Seule la ville de Riyadh est directement connectée à une ville infectée par le variant bleu (Khartoum) ET à une ville infectée par le variant rouge (Delhi). Utilisez le bouton dédié pour vous y rendre et scannez le QR code du remède violet (90).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "94", 
+	         "hintID" : "", 
+	         "message" : "Durant votre recherche du patient zéro, vous avez croisé sur votre route la cellule d'urgence de Hong Kong (16), ville infectée par le variant rouge. Avec la scientifique (32), faites alors un prélèvement sur les malades présents.", 
+	         "cards" : "48", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "2", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "69", 
+	         "cardsToDiscard" : "", 
+	         "message" : "C'est le bon code ! Vous ouvrez délicatement le coffre…"
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "23", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous entendez quelques cliquetis provenant de l'intérieur du disque maya. Après un bref instant de silence, le milieu du disque se déclipse…"
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La mise en place de votre protocole de diffusion des remèdes est un franc succès. Grâce aux talents de votre équipe, la pandémie est totalement sous contrôle. Après quelques semaines la maladie est intégralement éradiquée. Vous avez sauvé l’humanité. FÉLICITATIONS !"
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "11", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Après quelques manipulations sur l'A.D.N. du variant rouge, vous parvenez à élaborer un remède."
+	      }, 
+	      { 
+	         "number" : "79", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "90", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Après un bon coup de poignet, vous obtenez un mélange homogène violet."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "11111", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "32", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous prenez place à bord de votre premier avion en direction de St. Petersburg. Après quelques heures de vol, vous voilà sur le chantier du laboratoire.", 
+	         "messageID" : "city_st_petersburg", 
+	         "cardsToTake" : "33", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "ad3_island", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous vous rendez à Londres et prenez la direction de l'appartement de Graham Cook.", 
+	         "messageID" : "city_london", 
+	         "cardsToTake" : "17", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "Point_Of_Safe_Return", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Sans plus attendre, vous partez sur les traces de Graham Cook, le patient zéro, en embarquant dans le 1er avion pour Hong Kong.", 
+	         "messageID" : "city_hong_kong", 
+	         "cardsToTake" : "16", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous tentez de rattraper Graham Cook en vous rendant à Miami.", 
+	         "messageID" : "city_hong_miami", 
+	         "cardsToTake" : "15", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "La traque du patient zéro se poursuit en direction d'Istanbul. ", 
+	         "messageID" : "city_hong_istanbul", 
+	         "cardsToTake" : "5", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Espérant mettre enfin la main sur Graham Cook, vous vous envolez vers la ville d'Essen.", 
+	         "messageID" : "city_hong_essen", 
+	         "cardsToTake" : "6", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Le remède jaune a bien été inoculé. Données immunitaires en cours d'analyse. Vous pouvez continuer.", 
+	         "messageID" : "city_mexico", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Le remède bleu a bien été inoculé. Données immunitaires en cours d'analyse…", 
+	         "messageID" : "city_algiers", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Alors que les trois remèdes aux trois variants de la maladie ont bien été inoculés, vous apprenez que Graham Cook, hospitalisé, voit son état de santé se dégrader de façon très inquiétante.", 
+	         "messageID" : "city_kolkata", 
+	         "cardsToTake" : "3", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Beau boulot ! Votre réactivité a permis de freiner au plus vite la propagation du variant violet. Vous touchez au but.", 
+	         "messageID" : "city_riyadh", 
+	         "cardsToTake" : "37", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous récupérez les données immunitaires du remède jaune. ", 
+	         "messageID" : "machine_70_download_yellow", 
+	         "cardsToTake" : "27", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "71", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous récupérez les données immunitaires du remède bleu.", 
+	         "messageID" : "machine_70_download_blue", 
+	         "cardsToTake" : "28", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

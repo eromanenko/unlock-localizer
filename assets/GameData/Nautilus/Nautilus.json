@@ -1,0 +1,817 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Nautilus", 
+	   "number" : "5", 
+	   "displayName" : "Les Pièges du Nautilus", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "Auto", 
+	   "skinName" : "Naut", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "ad5_nautresp.mp3", 
+	   "maxTime" : "2100", 
+	   "totalTime" : "6600", 
+	   "penaltyTime" : "3", 
+	   "wrongCodePenaltyTime" : "2", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "1111", 
+	         "locale" : "", 
+	         "type" : "Extra", 
+	         "extraNumber" : "35", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_breath.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous récupérez quelques minutes d'oxygène ! Regardez attentivement dans le Nautilus et vous trouverez peut-être d'autres bouteilles."
+	      }, 
+	      { 
+	         "number" : "1234", 
+	         "locale" : "", 
+	         "type" : "Sound", 
+	         "extraNumber" : "-706", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "ad5_sonar.mp3"
+	      }, 
+	      { 
+	         "number" : "2971", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_hatch.wav", 
+	         "musicName" : "ad5_nautilus.mp3", 
+	         "cardsToTake" : "M", 
+	         "cardsToDiscard" : "", 
+	         "message" : "L'écoutille s'ouvre."
+	      }, 
+	      { 
+	         "number" : "3764", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "N", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous vous faufilez dans le dédale de grottes étroites. Enfin de la lumière ! Vous voyez la surface !"
+	      }, 
+	      { 
+	         "number" : "4235", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_door.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "P", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La porte s'ouvre."
+	      }, 
+	      { 
+	         "number" : "4444", 
+	         "locale" : "", 
+	         "type" : "Extra", 
+	         "extraNumber" : "20", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_breath.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous récupérez quelques minutes d'oxygène !"
+	      }, 
+	      { 
+	         "number" : "5476", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_pannel.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "92", 
+	         "cardsToDiscard" : "72,J75,79", 
+	         "message" : "Le panneau s'ouvre. Vous trouvez un manomètre."
+	      }, 
+	      { 
+	         "number" : "6843", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_hatch2.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "98", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le sous-marin de secours est accessible."
+	      }, 
+	      { 
+	         "number" : "7251", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_door.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "R", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le mécanisme ouvre la porte."
+	      }, 
+	      { 
+	         "number" : "7745", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_organ.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "54", 
+	         "cardsToDiscard" : "3,J7,9", 
+	         "message" : "Les notes déclenchent l'ouverture d'un panneau secret."
+	      }, 
+	      { 
+	         "number" : "8352", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_hatch.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "K", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La porte s'ouvre."
+	      }, 
+	      { 
+	         "number" : "9999", 
+	         "locale" : "", 
+	         "type" : "Extra", 
+	         "extraNumber" : "20", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_breath.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous récupérez quelques minutes d'oxygène !"
+	      }, 
+	      { 
+	         "number" : "2538", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_hatch.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "K", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La porte s'ouvre."
+	      }, 
+	      { 
+	         "number" : "2284", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Aucun code à entrer pour le moment."
+	      }, 
+	      { 
+	         "number" : "7050", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Cette écoutille ne semble pas s'ouvrir avec un code."
+	      }, 
+	      { 
+	         "number" : "1526", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_hatch.wav", 
+	         "musicName" : "ad5_nautilus.mp3", 
+	         "cardsToTake" : "M", 
+	         "cardsToDiscard" : "", 
+	         "message" : "L'écoutille s'ouvre."
+	      }, 
+	      { 
+	         "number" : "2416", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_hatch.wav", 
+	         "musicName" : "ad5_nautilus.mp3", 
+	         "cardsToTake" : "M", 
+	         "cardsToDiscard" : "", 
+	         "message" : "L'écoutille s'ouvre."
+	      }, 
+	      { 
+	         "number" : "1486", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_hatch.wav", 
+	         "musicName" : "ad5_nautilus.mp3", 
+	         "cardsToTake" : "M", 
+	         "cardsToDiscard" : "", 
+	         "message" : "L'écoutille s'ouvre."
+	      }, 
+	      { 
+	         "number" : "3261", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_hatch.wav", 
+	         "musicName" : "ad5_nautilus.mp3", 
+	         "cardsToTake" : "M", 
+	         "cardsToDiscard" : "", 
+	         "message" : "L'écoutille s'ouvre."
+	      }, 
+	      { 
+	         "number" : "1383", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_hatch.wav", 
+	         "musicName" : "ad5_nautilus.mp3", 
+	         "cardsToTake" : "M", 
+	         "cardsToDiscard" : "", 
+	         "message" : "L'écoutille s'ouvre."
+	      }, 
+	      { 
+	         "number" : "6043", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_hatch.wav", 
+	         "musicName" : "ad5_nautilus.mp3", 
+	         "cardsToTake" : "M", 
+	         "cardsToDiscard" : "", 
+	         "message" : "L'écoutille s'ouvre."
+	      }, 
+	      { 
+	         "number" : "8367", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_hatch.wav", 
+	         "musicName" : "ad5_nautilus.mp3", 
+	         "cardsToTake" : "M", 
+	         "cardsToDiscard" : "", 
+	         "message" : "L'écoutille s'ouvre."
+	      }, 
+	      { 
+	         "number" : "6901", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_hatch.wav", 
+	         "musicName" : "ad5_nautilus.mp3", 
+	         "cardsToTake" : "M", 
+	         "cardsToDiscard" : "", 
+	         "message" : "L'écoutille s'ouvre."
+	      }, 
+	      { 
+	         "number" : "6971", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_hatch.wav", 
+	         "musicName" : "ad5_nautilus.mp3", 
+	         "cardsToTake" : "M", 
+	         "cardsToDiscard" : "", 
+	         "message" : "L'écoutille s'ouvre."
+	      }, 
+	      { 
+	         "number" : "2105", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd5_hatch.wav", 
+	         "musicName" : "ad5_nautilus.mp3", 
+	         "cardsToTake" : "M", 
+	         "cardsToDiscard" : "", 
+	         "message" : "L'écoutille s'ouvre."
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "240", 
+	         "nextObject" : "False", 
+	         "message" : "Il faut fouiller la grotte à la recherche de 4 numéros. L'un d'entre eux est sur le poisson de droite."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "12", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les données techniques du Nautilus devraient être utiles. Pensez au \"moins\"."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "3", 
+	         "message" : "Une note de chaque ligne à taper sur l'orgue."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "2", 
+	         "message" : "Il faut prendre ces 4 livres."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour choisir les bonnes notes, il faut une partition et l'un des livres de la bibliothèque."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque note identifiée sur le livre correspond à un chiffre sur l'orgue. "
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce livre vous aidera sûrement à choisir les bonnes notes sur la partition pour l'orgue."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "4 de ces chiffres seront parfaitement indiqués par la lanterne."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez la carte de la lanterne au-dessus de celle-ci. Déplacez-la jusqu'à ce que chaque lumière se place exactement sur un chiffre."
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait un outil pour l'ouvrir."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les mots manquants sur la plaque sont la clé pour obtenir les 4 chiffres du code : quoi « de neuf »…"
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Quoi « de neuf »… quand sa lumière « s'éteint ». Faites 4 chiffres avec ces mots.  "
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La hauteur des sons est la clé. Il y a 4 bips et 4 colonnes de trois boutons."
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un son aigu indique la ligne du haut et un son grave celle du bas. Le premier bip n'est ni grave ni aigu..."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut reconstituer le panneau des fils pour trouver ce code."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez exactement les fils comme l'indique la carte 41 en les tournant et en les superposant. Vous ferez ainsi correspondre chaque symbole avec son chiffre."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a un monstre derrière. Mieux vaut ne pas le provoquer..."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut superposer les fils pour former 4 lignes continues."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez exactement les fils comme l'indique la carte 41 en les tournant et en les superposant. Vous ferez ainsi correspondre chaque symbole avec son chiffre."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Seul, il ne sert à rien. En duo, son aiguille vous indiquera un chiffre."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utile pour ouvrir les portes récalcitrantes et pour dévisser."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut connecter un fil de la carte 27 à chaque embout."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut connecter un fil de la carte 74 à chaque embout."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les mots manquants sont la clé pour obtenir les 4 chiffres du code : Quoi « de neuf »…"
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Quoi « de neuf »… quand sa lumière « s'éteint ». Faites 4 chiffres avec ces mots.  "
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les données techniques du Nautilus devraient être utiles. Pensez au \"moins\"."
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut reconstituer cette machine. Regardez bien la position des chiffres, cela vous aidera."
+	      }, 
+	      { 
+	         "number" : "49", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La lanterne bien positionnée donnera 4 chiffres. La porte donne l'ordre."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Altimètre +1 puis +2 puis +3 et enfin +4."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Mieux vaut s'arrêter là. Cela semble dangereux !"
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Seul, il ne sert à rien. En duo, son aiguille vous indiquera un chiffre."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il sert à électrifier la coque. Tournez chaque bouton dans la bonne position pour savoir quelle carte prendre."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez les indications du manuel de la bibliothèque. En tournant, les lettres deviendront des chiffres et des symboles. Faites alors l'opération pour trouver une carte."
+	      }, 
+	      { 
+	         "number" : "61", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est magnifique, mais vous n'avez pas beaucoup d'air. Mieux vaut chercher ailleurs dans la grotte."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'écran indique, dans l'ordre, comment positionner les manomètres W, X, Y et Z."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez les cartes en vous servant des \"guides\". Suivez l'aiguille et vous trouverez à chaque fois un chiffre."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut suivre ces indications précisément quand vous aurez la carte du monde « Premier voyage »."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut superposer les fils pour former 4 lignes continues."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez exactement les fils comme l'indique la carte 41 en les tournant et en les superposant. Vous ferez ainsi correspondre chaque symbole avec son chiffre."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut suivre un itinéraire précis avec le compas, ce qui donnera un code de 4 chiffres."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ne touchez jamais la terre et souvenez-vous que le dernier voyage est plus court."
+	      }, 
+	      { 
+	         "number" : "79", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce compas est bien adapté pour suivre une route sur une carte du monde. Mais il y a plusieurs cartes à bord du Nautilus."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La lanterne, bien positionnée au-dessus d'une carte, vous indiquera précisément 4 chiffres."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez la carte de la lanterne au-dessus de la carte 10. Déplacez-la jusqu'à ce que chaque lumière se place exactement sur un chiffre."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les 4 positions de l'altimètre sont la solution. Mais attention au message d'Alphonse !"
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Seul, il ne sert à rien. En duo, son aiguille vous indiquera un chiffre."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut positionner le gros engrenage sans chiffre. Chaque engrenage tournera et indiquera un chiffre. "
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un engrenage change le sens de rotation du suivant. Une courroie conserve le sens du suivant. Le gros engrenage doit tourner de deux crans vers la gauche."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Seul, il ne sert à rien. En duo, son aiguille vous indiquera un chiffre."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "7", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "7745"
+	      }, 
+	      { 
+	         "hintNumber" : "10", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "4235"
+	      }, 
+	      { 
+	         "hintNumber" : "13", 
+	         "message" : "", 
+	         "cards" : "43", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "16", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "2971"
+	      }, 
+	      { 
+	         "hintNumber" : "19", 
+	         "message" : "1 Milieu / 2 Haut / 3 Milieu / 4 Bas", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "20", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "6843"
+	      }, 
+	      { 
+	         "hintNumber" : "37", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "2971"
+	      }, 
+	      { 
+	         "hintNumber" : "49", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "4235"
+	      }, 
+	      { 
+	         "hintNumber" : "55", 
+	         "message" : "", 
+	         "cards" : "23", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "message" : "", 
+	         "cards" : "20", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "65", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "8352"
+	      }, 
+	      { 
+	         "hintNumber" : "72", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "5476"
+	      }, 
+	      { 
+	         "hintNumber" : "75", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "5476"
+	      }, 
+	      { 
+	         "hintNumber" : "88", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "4235"
+	      }, 
+	      { 
+	         "hintNumber" : "91", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "3764"
+	      }, 
+	      { 
+	         "hintNumber" : "95", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "7251"
+	      }, 
+	      { 
+	         "hintNumber" : "40", 
+	         "message" : "", 
+	         "cards" : "20", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "19", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "99", 
+	         "cardsToDiscard" : "V19", 
+	         "message" : "Un compartiment s'ouvre dans le sonar !"
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

@@ -1,0 +1,613 @@
+{ 
+	   "visible" : "True", 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "SevenWonders", 
+	   "displayName" : "", 
+	   "difficulty" : "3", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "SevenWonders", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Grece_Ljosalfheimr_V", 
+	   "maxTime" : "5400", 
+	   "totalTime" : "5400", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "101", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les ressources présentes sur cette carte sont visibles à un autre endroit."
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Servez vous des notes pour savoir au-dessus de quel dieu doit être insérer la bonne colonne."
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez les représentations des dieux vu durant votre aventure ainsi que les couronnes de lauriers visible sur la boite."
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "ID" : "94_part2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Scannez d'abords le toit, puis cherchez la constellation du cerf dans vos notes."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Servez-vous des indications de cette carte pour trouver le numéro de la carte menant à Rhodes."
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez jeté une seule chose depuis le début de l'aventure. "
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez les ressources présentes sur la seule chose que vous avez jetées durant votre aventure."
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Olympie, Halicarnasse et Rhodes ont toutes les trois les mêmes symboles pour représenter leur force militaire. "
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "À Gizeh, vous avez récupéré des pièces d'or que vous n'avez pas encore utilisées pour prendre une carte."
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pouvez placer cette carte sur le plan pour compléter le cadre."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pouvez placer cette carte sur le plan pour compléter le cadre."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pouvez placer cette carte sur le plan pour compléter le cadre."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_75", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ouvrez les vannes de sorte à arroser toutes les plantes sans arroser deux fois le même ou perdre de l'eau."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez récupéré un compas durant votre aventure et vous déjà vu quelque part la mention d'Ipomée et de Pourpier. "
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans la guilde des architectes, les mots Ipomée et Pourpier sont chacun reliés à un chiffre, cette information est importante pour trouver ses plantes sur le schéma. "
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pouvez placer cette carte sur le plan pour compléter le cadre."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le berger vous aide à savoir comment vous placer face aux trois pyramides."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Comparez les merveilles du Colosse de Rhodes et du Zeus d'Olympie pour trouver leur point commun pour prouver à la navigatrice qu'elle se trompe."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le point commun n'est pas dans l'illustration des cartes, mais vous permettra de récupérer une nouvelle carte."
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Manipulez la carte et votre appareil de sorte à voir le phare allumé. "
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez toutes les informations nécessaires pour retranscrire ces symboles en ressources quand vous les verrez. "
+	      }, 
+	      { 
+	         "number" : "89", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La forme qu'auront les caisses que vous devez placer forme un nombre en 3D."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une des personnes qui vous accompagne a une solution pour ce genre d'attaque."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Selon la navigatrice (51), il vous faut inverser la position des deux parties de l'équipage. Inverser donc deux éléments de la carte 12 avant de l'ajouter à la carte 70."
+	      }, 
+	      { 
+	         "number" : "212", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les architectes font mention d'une distance à parcourir avec votre navire."
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Même si cela ne semble pas des plus logique, vous pouvez additionner cette carte à une carte rouge."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut chercher 9 cartes dont leurs valeurs correspondent aux poids demandés.  "
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une partie des villes listée par Pythagore (14) est cachée par ses autres notes. "
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Faites attention aux initiales de chaque ville pour tracer votre trajet jusqu'à Halicarnasse."
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut utiliser de la lumière pour vous repérer."
+	      }, 
+	      { 
+	         "number" : "39", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour commencer les travaux, vous devez d'abord placer la première pierre. "
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pouvez donner quelque chose à ce berger."
+	      }, 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Servez-vous du plan pour reconstituer la scène."
+	      }, 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Placer le navire (12) sur le plan de sorte qu'il soit au milieu de la mer méditerranée. Cherchez ensuite les ressources."
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez les cartes sur le plan, pour faire le trajet de ce marchand et ainsi trouver le numéro de la carte suivante. "
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez les notes de la navigatrice, pour savoir comment quitter le port (20) à l'aide de votre navire (12)."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Servez-vous des notes de la prêtresse (78) pour trouver le numéro de la carte menant à Rhodes."
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous achetez tous les outils à ce marchand, vous les aurez tous en double."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pouvez placer cette carte sur le plan pour compléter le cadre."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "101", 
+	         "hintID" : "", 
+	         "message" : "Les ressources présentent dans le cadre bois, bois, bois et tissu, sont les mêmes ressources que celles sur le dos de la carte 12. ", 
+	         "cards" : "12", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "94", 
+	         "hintID" : "", 
+	         "message" : "Superposez vos notes 31, 83 et 95 de sorte à reproduire le symbole sur la carte 8. Le symbole de Poséidon est visible sur la carte 53 , insérer les cartes 49 et 81 pour former la constellation du poisson au-dessus de la sculpture de Poséidon. Le symbole de Zeus est visible sur la carte 68 , placez les cartes 9 et 25 pour former la constellation de l’oiseau au-dessus de la sculpture de Zeus. Le symbole d’Hélios est visible sur la carte 34 , placez les cartes 16 et 64 pour former la constellation de l’arc au-dessus de la sculpture d’Hélios. Le symbole d’Athéna est sur la carte 8, placez les cartes 4 et 36 pour former la constellation de la balance au-dessus de la sculpture d’Athéna. Entrez les symboles au-dessus de chaque colonne avec une couronne de laurier.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "94", 
+	         "hintID" : "94_part2", 
+	         "message" : "Reliez les étoiles de sorte à retracer la constellation du cerf visible sur la carte 95.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "78", 
+	         "hintID" : "", 
+	         "message" : "D'après les indications de prêtresse, Rhodes est à égale distance des merveilles d'Halicarnasse (26) et d'Olympie (68). Le nombre pile entre 26 et 68 est 47.", 
+	         "cards" : "47", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "21", 
+	         "hintID" : "", 
+	         "message" : "Vous n'avez défaussé qu'une seule carte depuis le début de votre aventure (23). Au dos de cette carte se trouve les ressources minerai, pierre, or et papyrus. Une autre carte a les mêmes ressources sur son dos, la carte 31.", 
+	         "cards" : "31", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "47", 
+	         "hintID" : "", 
+	         "message" : "Les forces militaires de Rhodes, Halicarnasse et Olympie sont représentées par les symboles des deux épées croisées. Rhodes en a 8, Olympie 2 et Halicarnasse 3. La différence entre Rhodes et Olympie, 8-2, est 6 et la différence entre Rhodes et Halicarnasse 8-3, est 5.", 
+	         "cards" : "65", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "66", 
+	         "hintID" : "", 
+	         "message" : "En plaçant la carte 11 sur le plan, vous avez eu quatre pièces d'or. Aucune carte n'a au dos ces quatre pièces. Le marchand vous permet d'échanger des pièces d'or contre de la pierre. Vous pouvez donc échanger vos quatre pièces contre quatre symboles de pierre. Une seule a sur son dos quatre pierre, la carte 89.", 
+	         "cards" : "89", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "69", 
+	         "hintID" : "", 
+	         "message" : "Placez cette carte sur l'emplacement du plan \"Phare d'Alexandrie\". Le cadre complété, prenez la carte avec les symboles verre, verre, verre et bois sur son dos.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "26", 
+	         "hintID" : "", 
+	         "message" : "Placez cette carte sur l'emplacement du plan \"Mausolée d'Halicarnasse\". Le cadre complété, prenez la carte avec les symboles bois, bois, pierre et tissu sur son dos.", 
+	         "cards" : "21", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "75", 
+	         "hintID" : "", 
+	         "message" : "Placez cette carte sur l'emplacement du plan \"Jardins suspendus de Babylone\". Le cadre complété, prenez la carte avec les symboles papyrus, tissu, brique et pierre sur son dos.", 
+	         "cards" : "84", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_75", 
+	         "message" : "Pour arroser les plantes, sans gaspiller d'eau, appuyez quatre fois sur la vanne centrale, une fois sur la vanne en haut à gauche, une fois sur la vanne en bas à gauche, deux fois sur la vanne en haut à droite et une fois sur la vanne en bas à droite. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "90", 
+	         "hintID" : "", 
+	         "message" : "Sur le tableau de la guilde des architectes (84), il est noté Ipomée 2 et Pourpier 1. Ces chiffres indiquent le nombre de connections qu'on chacune des pousses sur le schéma (90). Placez le compas (50) de sorte que ces deux pointes indiquent les deux poussent les plus en haut de la carte. Le compas et le tracé du schéma forment un 8.", 
+	         "cards" : "8", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "68", 
+	         "hintID" : "", 
+	         "message" : "Placez cette carte sur l'emplacement du plan \"Zeus d'Olympie\". Le cadre complété, prenez la carte avec les symboles tissu, verre, tissu et pierre sur son dos.", 
+	         "cards" : "27", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "74", 
+	         "hintID" : "", 
+	         "message" : "Suivez les indications du berger pour trouver le marché. Ouvrez la machine 11 et alignez les 3 pyramides de sorte que leurs sommets se rejoignent en un point. ", 
+	         "cards" : "17,95", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "33", 
+	         "hintID" : "", 
+	         "message" : "La prêtresse indique qu'une personne à Rhodes dit un mensonge (78), les merveilles d'Olympie et de Rhodes ont un point commun les ressources verre et tissu. Prenez la carte avec les ressources verre, verre, tissu et tissu. ", 
+	         "cards" : "51", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "44", 
+	         "hintID" : "", 
+	         "message" : "Placer la lumière de votre appareil sur le dos de la carte 69, de sorte que la lumière passe au travers de la carte à l'endroit du sommet du phare. Vous verrez un 69 apparaitre.", 
+	         "cards" : "69", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "hintID" : "", 
+	         "message" : "Utilisez les symboles les cartes 14, 78, 53 et 8 pour associer une ressource à chaque symbole visible dans la machine 75, une fois que vous l'aurez résolue.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "89", 
+	         "hintID" : "", 
+	         "message" : "Si vous placez des caisses dans les emplacements vides de la cale, ces caisses forment en 3D d'un côté un 3 et de l'autre un 7.", 
+	         "cards" : "37", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "70", 
+	         "hintID" : "", 
+	         "message" : "Selon la navigatrice (51), il vous faut inverser la position des deux parties de l'équipage. Inversez donc les deux chiffres du navire (12) et additionnez-les à cette carte (70). 70+21=91", 
+	         "cards" : "91", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "212", 
+	         "hintID" : "", 
+	         "message" : "Les architectes (C), vous indiquent qu'il vous faut parcourir 31 miles marins. Additionnez donc cette distance à votre navire (12). 12+31=43", 
+	         "cards" : "43", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "0", 
+	         "hintID" : "", 
+	         "message" : "Le sculpteur (0) fait des copies, vous pouvez donc lui donner votre tablette (55) pour copier la partie manquante. Vous avez deux cartes numérotées 55 dans votre paquet, il n'y a donc aucun problème. 55+0=55", 
+	         "cards" : "55", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "48", 
+	         "hintID" : "", 
+	         "message" : "La guilde des architectes vous demande 9 blocs dont les poids sont carrés, prenez les cartes dont le numéro est un carré.\\n\\nPrenez les cartes 1,4,9,16,25,36,49,64 et 81. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "Pythagore (14) a listé des villes à rejoindre dont les premières lettres sont mises en avant. Cet ordre permet de former le mot Halicarnasse. Sur le plan, reliez les villes Harpasa, Attuda, Labranda, Idyina, Caunos, Astyra, Razilli, Nisyros, Alinda, Sina, Samos puis Enos. Ce tracé forme un 26.", 
+	         "cards" : "26", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "41", 
+	         "hintID" : "", 
+	         "message" : "Observer le dos de la carte 41, vous pourrez y voir une pièce de puzzle rouge. Additionner donc cette carte au feu (3) pour vous repérer. 41 + 3 = 44", 
+	         "cards" : "44", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "39", 
+	         "hintID" : "", 
+	         "message" : "Pour commencer les travaux, vous devez d'abord placer la relique (55) dans le temple. 39 + 55 = 94", 
+	         "cards" : "94", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "91", 
+	         "hintID" : "", 
+	         "message" : "Donnez les chèvres (7) à ce berger (+67). 7 + 67 = 74", 
+	         "cards" : "74", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "1", 
+	         "hintID" : "", 
+	         "message" : "Placez le navire (12) sur le plan de sorts à ce qu'il soit au centre la mer méditerranée. Les quatre coins de la carte indiquent les ressources bois, tissu, tissu et bois. La carte 39 a ces ressources au dos.", 
+	         "cards" : "39", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "67", 
+	         "hintID" : "", 
+	         "message" : "Le marchand a un trajet précis, il va d'abord à Olympie (68), puis à Alexandrie (69), le petit cran de plus dont il fait mention et le fait d'ajouter 1 à chaque fois. 68 + 1 = 69 69 + 1 = 70", 
+	         "cards" : "70", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "53", 
+	         "hintID" : "", 
+	         "message" : "Les notes de la navigatrice font mention de la force des vagues. Comptez le nombre de vagues sur le plan, puis ajoutez ce nombre (9) à l'addition de votre navire (12) et du port (20). 12 + 20 +9 = 41", 
+	         "cards" : "41", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "27", 
+	         "hintID" : "", 
+	         "message" : "D'après les indications de prêtresse, Rhodes est à égale distance des merveilles d'Halicarnasse (26) et d'Olympie (68). Le nombre pile entre 26 et 68 est 47.", 
+	         "cards" : "47", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "59", 
+	         "hintID" : "", 
+	         "message" : "Pour connaitre le prix des 3 outils, vous pouvez additionner tous ce que vend ce commerçant, ce qui fait 100 pour avoir les trois outils en double. Si vous ne voulez qu'un outil de chaque, vous pouvez donc payer que la moitié c’est-à-dire 50.", 
+	         "cards" : "50", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "34", 
+	         "hintID" : "", 
+	         "message" : "Placez cette carte sur l'emplacement du plan \"Le Colosse de Rhodes\". Le cadre complété, prenez la carte avec les symboles verre, pierre, pierre et bois sur son dos.", 
+	         "cards" : "20", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "11", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "17,95", 
+	         "cardsToDiscard" : "", 
+	         "message" : "En vous plaçant au bon endroit vous voyez un marché au loin et analysez l'architecture des pyramides."
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

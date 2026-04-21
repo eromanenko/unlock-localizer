@@ -1,0 +1,975 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Ragnarok", 
+	   "displayName" : "Ragnarök", 
+	   "difficulty" : "3", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Ragnarok", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Grece_The_Argonauts", 
+	   "maxTime" : "5400", 
+	   "totalTime" : "5400", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o1", 
+	         "time" : "180", 
+	         "nextObject" : "False", 
+	         "message" : "Peut être que cette grotte vous fournira un abri."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hintName" : "o2", 
+	         "time" : "300", 
+	         "nextObject" : "False", 
+	         "message" : "Ce puits est bien sombre."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "61", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pouvez utiliser vos outils de navigation pour connaitre la bonne direction."
+	      }, 
+	      { 
+	         "number" : "61", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "À travers la pierre de soleil, vous pouvez distinguer un chemin."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les augures ne sont pas toujours clairs, d'autres présages tout autour de vous sont surement cachés."
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez vos deux armes pour abattre ce monstre !"
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette créature a surement un point faible et il faut l'empêcher de détruire le navire."
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faudrait du feu pour allumer cette forge."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pourrez surement forger des outils utiles à votre aventure malgré cette barre."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vos armes peuvent vous aider à avoir ce bois et déloger cet objet de là."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a une fente fine dans cette porte."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette torche pourrait aider à s'éclairer ou allumer un feu."
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette croix ne semble ni être un chiffre ni une lettre."
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Placé au bon endroit, ce symbole prend un sens plus mathématique."
+	      }, 
+	      { 
+	         "number" : "83", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Maintenant que la forge est allumée, vous pouvez forger."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Écoutez bien le son de la forge, les coups ont un rythme particulier."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les coups de marteau doivent forger quelque chose de très spécifique."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce poignard a une lame fine et acérée, mais vos armes sont bien assez pour vous défendre."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette porte à symbole particulier gravé en son centre, surement pour y placer quelque chose."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le cadre de cette porte cache deux chiffres, mais il manque quelque chose pour les unir."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il fait trop sombre pour avancer sans risque."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "« Maintenant Lif, il est temps de déposer tes armes », cette phrase doit avoir un sens."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois vos armes aux bons endroits, deux noms devraient apparaitre."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a un symbole au-dessus de la tête de chaque dieu."
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour rejoindre Odin, il vous faudra voyager dans Asgard."
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le soleil vous montre le chemin, notamment des lieux très spécifiques du royaume de morts."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L’arbre que vous avez trouvé dans la forêt vous guidera pour retrouver votre route."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce poème met en avant quatre mots, ce n'est pas un hasard."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un arbre à trois branches, une flèche, un œil et une table pliée sont des symboles et non de vrais objets."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La forêt ne semble pas être ce qu'elle est. Le conseil d'Yggadrasil devrait vous aider à trouver le chemin."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Si la forêt est dans le bon sens, quelque chose change et vous mène à un autre chemin."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Loki a des runes près de lui, mais c'est presque trop facile."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La dernière rune ne ressemble à aucune autre. C'est encore une illusion, mais elle ressemble beaucoup à (RUNE12) ."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut attaquer Loki avant qu'il ne s'échappe, mais des armes de mortel ne le blesseront pas."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les illusions de Loki s'étendaient sur tout Asgard. Avec son casque en votre possession vous ne vous perdrez plus en cherchant Odin."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vos simples armes n'arriveront pas à bout de ces monstres, mais en les utilisant autrement c'est possible."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vos armes retournées et placées vous montre un tracé, une piste pour vous mener vers la victoire."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vos simples armes n'arriveront pas à bout de ses monstres, mais en l'utilisant autrement c'est possible."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vos armes retournées et placées vous montre un tracé, une piste pour vous mener vers la victoire. "
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'armée de Surt est sur le Bifröst, utilisez la lumière du pont pour trouver Surt dans son armée."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut frapper Surt avec la lance, mais quelle est la couleur de celui-ci ?"
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le bouclier de Surt renferme surement une puissance cachée par Odin."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour détruire le Bifröst, il faut réaliser un rituel avec de puissants trésors d'Asgard."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le voyage du premier viking l'a inspiré pour tracer la première rune."
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez déjà pu voir le reste de la mue du serpent Jörmungand."
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les nœuds du serpent ont un ordre spécifique, il doit bien y avoir un moyen de trier les cinq nœuds."
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "En reformant intégralement le serpent d'or, la troisième rune apparaitra dans la forêt."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_72", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Qui que cela puisse être, il vous faut lui répondre oralement. Vous êtes ?"
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_72", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut vous rendre à l'évidence, il est difficile de sortir indemne des évènements auxquels vous avez fait face. Vous êtes donc ?"
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_55_part1", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Retracez le voyage du premier viking pour tracer la première rune."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_55_part2", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez déjà pu voir le reste de la mue du serpent Jörmungand durant votre voyage."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_55_part2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les nœuds du serpent ont chacun un chiffre spécifique pour vous aider à trouver le bon ordre."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_55_part3", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "En reformant intégralement le serpent d'or, la troisième rune apparaitra dans la forêt."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_55_part4", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Loki doit se cacher dans les cartes que vous n’avez pas encore utilisées."
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Des morceaux de bois coupés cachent trois runes pour un rituel magique."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "61", 
+	         "hintID" : "", 
+	         "message" : "En regardant la mer (61) à travers la pierre de soleil (47), vous verrez les runes de l'augure (5) qui vous guideront.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "5", 
+	         "hintID" : "", 
+	         "message" : "En regardant la mer (61) à travers la pierre de soleil (47), vous verrez les runes de l'augure (5) qui vous guideront.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "43", 
+	         "hintID" : "", 
+	         "message" : "En coupant le tentacule à la hache, vous trouvez 91 et en tirant une flèche dans son œil vous trouvez 78.", 
+	         "cards" : "91,78", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "73", 
+	         "hintID" : "", 
+	         "message" : "Utilisez la torche (10) pour allumer la forge (73).", 
+	         "cards" : "83", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "48", 
+	         "hintID" : "", 
+	         "message" : "Utilisez votre hache pour couper du bois, et tirez une flèche dans l'objet pour le faire tomber.", 
+	         "cards" : "M,17", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "17", 
+	         "hintID" : "", 
+	         "message" : "Si vous placez le symbole (17) sur la porte (63), vous pouvez lire 5X7.", 
+	         "cards" : "35", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "34", 
+	         "hintID" : "", 
+	         "message" : "Vous insérez le poignard (29) fabriqué dans la forge (86) dans la porte (34) pour l’ouvrir. 29 + 34 = 63", 
+	         "cards" : "63", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "63", 
+	         "hintID" : "", 
+	         "message" : "Après avoir utilisé votre arc dans la forêt (48) pour récupérer le symbole (17), placez ce dernier sur la porte (63) pour y lire 5X7.", 
+	         "cards" : "35", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "83", 
+	         "hintID" : "", 
+	         "message" : "Utilisez le marteau (3) sur la forge (83).", 
+	         "cards" : "86", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "86", 
+	         "hintID" : "", 
+	         "message" : "Les coups de marteau (3) forge (86) trois runes, un coup pour (RUNE5), cinq coups pour (RUNE6) et deux coups pour (RUNE2). Pour finaliser votre rituel de forge, vous utilisez la rune (RUNE1).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "29", 
+	         "hintID" : "", 
+	         "message" : "Insérez le poignard (29) dans la fente de la porte de pierre (34).", 
+	         "cards" : "63", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "35", 
+	         "hintID" : "", 
+	         "message" : "Vous éclairez l'obscurité du puits (+62) avec votre torche (10).", 
+	         "cards" : "72", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "En plaçant vos armes sur les emplacements du plancher (4), vous lisez Loki et Odin, en reliant ces dieux aux symboles du parchemin (72) vous trouvez 31.", 
+	         "cards" : "31", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "31", 
+	         "hintID" : "", 
+	         "message" : "Après avoir observé le Valhalla (Y et Z) avec votre Pierre de Soleil (47) depuis votre position vers le point le plus éloigné, vous trouvez les éléments Eau, Feu, Glace et Bois. Activez les runes associées dans cet ordre pour poursuivre votre chemin.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "hintID" : "", 
+	         "message" : "Le poème met en avant les mots Arbre, Flèche, Œil et Table. Ils font référence à la forme des runes Bois, Combat, Création et Cheval. Activez les runes dans cet ordre.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "2", 
+	         "hintID" : "", 
+	         "message" : "En retournant la forêt (88), le chemin 99 devient 66.", 
+	         "cards" : "66", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "66", 
+	         "hintID" : "", 
+	         "message" : "Les runes tracées par Loki sont des runes et leur miroir, il faut donc faire (RUNE2) (RUNE7) (RUNE8) (RUNE12).  Cette fois, vous ne vous laissez pas prendre au tour de Loki !", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "hintID" : "", 
+	         "message" : "Vous brandissez la lance d'Odin (22) et la lancez sur Loki (11).", 
+	         "cards" : "33", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "64", 
+	         "hintID" : "", 
+	         "message" : "Vos armes retournées et placées judicieusement dans la bataille (64) vous montrent la voie N vers la victoire.", 
+	         "cards" : "N", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "65", 
+	         "hintID" : "", 
+	         "message" : "Vos armes retournées et placées judicieusement dans la bataille (65) vous montrent la voie N vers la victoire.", 
+	         "cards" : "N", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "74", 
+	         "hintID" : "", 
+	         "message" : "Vous jetez la lance d'Odin (22) sur le cavalier rouge Surt (23).", 
+	         "cards" : "45", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "45", 
+	         "hintID" : "", 
+	         "message" : "Yggdrasil, le casque de Loki et le bouclier de Surt cachent les runes (RUNE3), (RUNE6) et (RUNE11) combinés à la rune de mort (RUNE10), le pont du Bifröst s’écroule ! Odin mourant, s’en est fini d’Asgard. Mais se peut-il que le père des dieux, dans sa grande sagesse, vous ait donné les moyens de tout recommencer ?", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "55", 
+	         "hintID" : "", 
+	         "message" : "En retraçant le chemin du premier viking, vous tracez Ansu, la rune d’Odin, le père.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "87", 
+	         "hintID" : "", 
+	         "message" : "Récupérez les cartes du serpent d'argent dans la défausse et placez-les sur le plan. Reliez les cinq nœuds de la mue du Serpent dans l'ordre chronologique, vous tracez Dagaz, la rune du jour.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "59", 
+	         "hintID" : "", 
+	         "message" : "Récupérez les cartes du serpent d'or dans la défausse et placez-les sur le plan. La troisième rune se dessine dans la forêt. Vous tracez Berkana, la rune des nouveaux départs.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_72", 
+	         "message" : "Vous êtes morts. Dites-le à haute voix.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_55_part1", 
+	         "message" : "Vous devez relier les points.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_55_part2", 
+	         "message" : "Vous devez prendre les cartes avec les morceaux du serpent d’argent dans votre défausse et les placez sur la carte en respectant les éléments communs. Relier ensuite les nœuds dans l’ordre de 1 à 5 pour tracer la rune.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_55_part3", 
+	         "message" : "Vous devez prendre les cartes avec les morceaux du serpent d’or dans votre défausse et les placez sur la carte en respectant les éléments communs. La forêt visible fait la forme de la troisième rune à tracer.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_55_part4", 
+	         "message" : "Vous devez prendre les cartes L, O, K et I dans votre pioche. Une fois les cartes assemblées, la constellation forme la quatrième rune.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "100", 
+	         "hintID" : "", 
+	         "message" : "Les morceaux de bois cachent les runes Bois, Combat et Glace. Activez ces runes et finissez par la rune Feu pour enflammer le bois.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_Ragnarok_Runes", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous tracez enfin Raido, la rune de Freya, la mère. La quatrième rune, prend forme et rejoint ses sœurs. Le rituel est accompli. Autour de vous, le monde se convulse, se trouble, disparait puis renait. Vous avez réussi à donner un nouvel espoir à cette terre. C’est un nouveau départ.\\n\\nFélicitations."
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "21", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Après des heures de lutte, exténué, vous sombrez. Vous reprenez connaissance sur un rivage étrange."
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "4", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La brume noire se dissipe. Hell disparait dans un rire : « Maintenant Lif, il est temps déposer tes armes ». Vous vous réveillez sur un plancher usé. Était-ce un rêve ?"
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Soudain, votre torche est soufflée. Une présence glacée tourbillonne autour de vous et étreint votre cœur gelé.", 
+	         "messageID" : "event_dead", 
+	         "cardsToTake" : "1", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "the-great-dawn", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Grâce à la pierre de soleil vous trouvez votre route dans la brume. Mais alors que la nuit tombe des coups résonnent sous le navire. Un monstre marin !", 
+	         "messageID" : "event_rune_1", 
+	         "cardsToTake" : "43", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Grâce à la puissance des runes, vous parvenez à allumer un feu bienfaiteur.", 
+	         "messageID" : "event_rune_2", 
+	         "cardsToTake" : "10", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Un objet se matérialise sous vos yeux !", 
+	         "messageID" : "event_rune_3", 
+	         "cardsToTake" : "29", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Non. L’ordre des runes est sûrement sans importance, ce qui compte c’est le nombre de coups.", 
+	         "messageID" : "event_rune_3_almost", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "ad4_0", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Encore une fois, les runes vous montrent la voie.", 
+	         "messageID" : "event_rune_4", 
+	         "cardsToTake" : "88", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Le paysage autour de vous semble fondre.", 
+	         "messageID" : "event_rune_5", 
+	         "cardsToTake" : "2", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Cette fois, vous ne vous laissez pas prendre au tour de Loki !", 
+	         "messageID" : "event_rune_6", 
+	         "cardsToTake" : "11", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "C’est trop évident. Loki ricane tout en s’admirant dans le reflet de sa dague.", 
+	         "messageID" : "event_rune_6_almost", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Le pont du Bifrost s’écroule ! Odin mourant, s’en est fini d’Asgard. Mais se peut-il que le père des dieux, dans sa grande sagesse, vous ait donné les moyens de tout recommencer ?", 
+	         "messageID" : "event_rune_7", 
+	         "cardsToTake" : "55", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous tracez Ansu, la rune d’Odin, le père.", 
+	         "messageID" : "event_card_87", 
+	         "cardsToTake" : "87", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous tracez Dagaz, la rune du jour.", 
+	         "messageID" : "event_card_59", 
+	         "cardsToTake" : "59", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous tracez Berkana, la rune des nouveaux départs.", 
+	         "messageID" : "event_card_42", 
+	         "cardsToTake" : "42", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "the-great-dawn", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Sans les illusions de Loki, vous trouvez facilement votre chemin jusqu’à la halle d’Odin. Mais alors que vous approchez, le bruit d’une terrible bataille parvient à vos oreilles.", 
+	         "messageID" : "event_card_64", 
+	         "cardsToTake" : "64,65", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

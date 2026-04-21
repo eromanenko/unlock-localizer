@@ -1,0 +1,170 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Tuto", 
+	   "number" : "0", 
+	   "displayName" : "Tutoriel", 
+	   "difficulty" : "0", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "Manual", 
+	   "skinName" : "Tuto", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "ad0_tuto.mp3", 
+	   "maxTime" : "600", 
+	   "totalTime" : "600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "7239", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Non. Ce sont les bons chiffres mais ils ne sont pas dans le bon ordre. Réfléchissez : les couleurs doivent vous guider."
+	      }, 
+	      { 
+	         "number" : "9372", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Bravo ! Vous avez terminé le tutoriel ! Vous pouvez maintenant regarder votre score et votre temps."
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "0", 
+	         "nextObject" : "False", 
+	         "message" : "Il y a un numéro caché au fond du coffre."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "11", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une clé. Idéal pour ouvrir le coffre."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce fil de 10 cm semble pouvoir s'insérer sur la machine."
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous avez trouvé les chiffres, vous devriez vous intéresser au texte EXIT"
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avec du courant, l'écran fonctionnerait sûrement."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avant tout, il vous faut une clé pour l'ouvrir !"
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il n'y aura rien à en tirer tant qu'il n'y aura pas de courant."
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a un numéro caché au fond du coffre. Et ce motif sur le côté gauche rappelle beaucoup la machine."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce sont les 4 chiffres du digicode de la porte. Reste à les mettre dans le bon ordre avec les couleurs."
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il manque un élément pour que la machine fonctionne. Ensuite il faudra le placer au bon endroit."
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez chercher dans la pièce pour trouver un schéma vous montrant quels sont les bons picots. Ensuite entrez le numéro de la machine sur l'application."
+	      }
+	   ], 
+	   "answers" : [ 
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "21", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "9", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "name" : "Machine_Tuto_69", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "9", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

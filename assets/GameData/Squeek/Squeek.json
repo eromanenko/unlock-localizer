@@ -1,0 +1,914 @@
+{ 
+	   "visible" : "True", 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Squeek", 
+	   "displayName" : "Squeek and Sausage", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Squeek", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "ad2_squeek.mp3", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "3", 
+	   "wrongCodePenaltyTime" : "2", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "1247", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "4", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "32", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous ouvrez le garde-manger et pouvez prendre le fromage, qui est caché sous une nuée de mouches."
+	      }, 
+	      { 
+	         "number" : "1232", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "4", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "32", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous ouvrez le garde-manger et pouvez prendre le fromage, qui est caché sous une nuée de mouches."
+	      }, 
+	      { 
+	         "number" : "2411", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous appuyez sur le bouton et le dispositif maléfique de Noside s'arrête après avoir émis quelques éclairs. Bravo, vous avez sauvé le monde ! That's all folks !"
+	      }, 
+	      { 
+	         "number" : "3154", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "6", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "36", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le laboratoire de Noside contient un écran géant montrant une image de la Terre, vers laquelle sont pointés une centaine de missiles. Comment l'arrêter ? Oui ! Regardez au plafond !"
+	      }, 
+	      { 
+	         "number" : "3434", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "F", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La porte s'ouvre en grinçant sur une nouvelle pièce."
+	      }, 
+	      { 
+	         "number" : "5555", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "F", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La porte s'ouvre en grinçant sur une nouvelle pièce."
+	      }, 
+	      { 
+	         "number" : "5800", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous appuyez sur le bouton et le dispositif maléfique de Noside s'arrête après avoir émis quelques éclairs. Bravo, vous avez sauvé le monde ! That's all folks !"
+	      }, 
+	      { 
+	         "number" : "5801", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous appuyez sur le bouton et le dispositif maléfique de Noside s'arrête après avoir émis quelques éclairs. Bravo, vous avez sauvé le monde ! That's all folks !"
+	      }, 
+	      { 
+	         "number" : "5802", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous appuyez sur le bouton et le dispositif maléfique de Noside s'arrête après avoir émis quelques éclairs. Bravo, vous avez sauvé le monde ! That's all folks !"
+	      }, 
+	      { 
+	         "number" : "5803", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous appuyez sur le bouton et le dispositif maléfique de Noside s'arrête après avoir émis quelques éclairs. Bravo, vous avez sauvé le monde ! That's all folks !"
+	      }, 
+	      { 
+	         "number" : "5805", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous appuyez sur le bouton et le dispositif maléfique de Noside s'arrête après avoir émis quelques éclairs. Bravo, vous avez sauvé le monde ! That's all folks !"
+	      }, 
+	      { 
+	         "number" : "5806", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous appuyez sur le bouton et le dispositif maléfique de Noside s'arrête après avoir émis quelques éclairs. Bravo, vous avez sauvé le monde ! That's all folks !"
+	      }, 
+	      { 
+	         "number" : "5807", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous appuyez sur le bouton et le dispositif maléfique de Noside s'arrête après avoir émis quelques éclairs. Bravo, vous avez sauvé le monde ! That's all folks !"
+	      }, 
+	      { 
+	         "number" : "5808", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous appuyez sur le bouton et le dispositif maléfique de Noside s'arrête après avoir émis quelques éclairs. Bravo, vous avez sauvé le monde ! That's all folks !"
+	      }, 
+	      { 
+	         "number" : "5809", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous appuyez sur le bouton et le dispositif maléfique de Noside s'arrête après avoir émis quelques éclairs. Bravo, vous avez sauvé le monde ! That's all folks !"
+	      }, 
+	      { 
+	         "number" : "7656", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "9", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le tiroir coulisse en silence. Il déborde de papiers et documents divers."
+	      }, 
+	      { 
+	         "number" : "6034", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous appuyez sur le bouton et le dispositif maléfique de Noside s'arrête après avoir émis quelques éclairs. Bravo, vous avez sauvé le monde ! That's all folks !"
+	      }, 
+	      { 
+	         "number" : "5599", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous appuyez sur le bouton et le dispositif maléfique de Noside s'arrête après avoir émis quelques éclairs. Bravo, vous avez sauvé le monde ! That's all folks !"
+	      }, 
+	      { 
+	         "number" : "8238", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous appuyez sur le bouton et le dispositif maléfique de Noside s'arrête après avoir émis quelques éclairs. Bravo, vous avez sauvé le monde ! That's all folks !"
+	      }, 
+	      { 
+	         "number" : "5804", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous appuyez sur le bouton et le dispositif maléfique de Noside s'arrête après avoir émis quelques éclairs. Bravo, vous avez sauvé le monde ! That's all folks !"
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "300", 
+	         "nextObject" : "False", 
+	         "message" : "On dirait que quelque chose est coincé dans ce vieux magnétoscope."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hintName" : "o2", 
+	         "time" : "120", 
+	         "nextObject" : "False", 
+	         "message" : "Vous ne trouverez que quatre objets utiles dans le tiroir."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "hintName" : "o3", 
+	         "time" : "120", 
+	         "nextObject" : "True", 
+	         "message" : "Il y a une souris dans la cuisine."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "hintName" : "o4", 
+	         "time" : "300", 
+	         "nextObject" : "False", 
+	         "message" : "Où cache-t-on généralement les clés ?"
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Noside a fait installer son portrait sur la porte. Le code est sûrement lié à une image de lui."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il est parfois utile de regarder le trou d'une serrure."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez bien les instructions : il faut assembler ce labyrinthe puis additionner la souris avec le bon trou pour gagner à ce jeu."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut une clé. Où cache-t-on généralement les clés ?"
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une gélule capable d'assommer un cheval… Ou tout autre animal qui accepterait de l'avaler."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La porte s'ouvre. Vous pouvez donc jeter des choses dans le jardin."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "3", 
+	         "message" : "Vous ne trouverez que quatre objets utiles dans ce tiroir."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut rembobiner la cassette manuellement. Donc 18 va devenir..."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Où cache-t-on généralement les clés ?"
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Difficile de se planter avec cet objet (rires enregistrés). Sans terre, ça ne sert à rien !"
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est un labyrinthe pour rongeurs : un seul trou mène à la saucisse. Reste à trouver le bon orifice."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "1", 
+	         "message" : "Il faut rembobiner la cassette manuellement. Donc 18 va devenir..."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "4", 
+	         "message" : "Il y a une souris dans ce trou. Mais comment l'inciter à s'aventurer à l'extérieur ?"
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est un labyrinthe pour rongeurs : un seul trou mène à la saucisse. Reste à trouver le bon orifice."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'eau, c'est la vie… On peut même en faire des sorbets."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce labyrinthe pour souris est assez complexe… Il faudrait trouver un courageux rongeur pour se risquer à l'intérieur. Quelqu'un se dévoue ?"
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "De quelle forme pourriez-vous avoir actuellement besoin ? Et surtout… Pour quoi faire ?"
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Du cheddar… Quel animal raffole traditionnellement du fromage ?"
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Un engrenage change le sens. Une courroie conserve le même sens. Droite ou gauche ?"
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette mélodie est connue… mais pourquoi chaque note correspond-elle à un chiffre ?"
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Si on vous disait que le bon trou est sur cette carte, est-ce que vous le croiriez ?"
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette cage fait penser à un code… Avec des barres. Où trouve-t-on généralement des codes-barres ?"
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cherchez la réponse sur la boîte d'Unlock!"
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Combien dans chaque couleur ?"
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "5", 
+	         "message" : "Une clé ordinaire… Qui ouvre une serrure. Pas de serrure, pas besoin de clé (et inversement)."
+	      }, 
+	      { 
+	         "number" : "49", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous voyez en entrouvrant la porte qu'il y a un chien dont il faut vous débarrasser. Reste à savoir comment."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "4", 
+	         "message" : "Cette souris est trop mignonne… Reste à l'insérer dans le bon trou du labyrinthe."
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est dingue comme cette glace tête de mort ressemble à une clé."
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "5", 
+	         "message" : "La forme des tuyaux peut vous aider à raccorder les flèches."
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a une souris dans la cuisine."
+	      }, 
+	      { 
+	         "number" : "58", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "5", 
+	         "message" : "Dommage que Noside soit si maléfique… la terre de son jardinet semble bien nourricière… des carottes et des choux pourraient s'y épanouir."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Quelle astuce a trouvé la cuisinière de Noside pour qu'il n'accède au gruyère qu'au moment où il en aura besoin ?"
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "5", 
+	         "message" : "Il faudrait désormais arroser tout cela."
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le cheddar doit être ajouté à un moment précis. Ne ratez pas cette fournée !"
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "4", 
+	         "message" : "Cette saucisse devrait être rapidement dévorée par le chien… mais ce serait un peu trop gentil, non ? À quoi pourrait-elle bien servir d'autre ?"
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le secret d'un gâteau réussi, c'est la cuisson. On ne respecte pas assez les étapes et le temps de cuisson."
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "1", 
+	         "message" : "La cassette peut être lue désormais. Quel appareil pourrait l'accueillir ?"
+	      }, 
+	      { 
+	         "number" : "83", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "4", 
+	         "message" : "Cette saucisse pourrait assommer un molosse ! Reste à trouver un moyen de la lui donner."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "5", 
+	         "message" : "Les fleurs semblent danser au son d'une douce mélodie. Vous trouverez un objet utile dans le tiroir."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La position des fleurs bleues sur la partition vous donnera le code."
+	      }, 
+	      { 
+	         "number" : "89", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La cuisson a débuté à 12h17, donc..."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ne voyez-vous pas quelque chose de coincé dans ce vieux magnétoscope ?"
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "1", 
+	         "message" : "L'infâme Noside va vous mettre la tête à l'envers ! Cela vous mènera-t-il au code de la porte ?"
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En tournant la carte vous verrez le code à 4 chiffres de la porte."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Quatre cylindres de trois couleurs… quel moyen mnémotechnique Noside pourrait-il bien utiliser pour se souvenir de son code ?"
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "5", 
+	         "message" : "La petite fleur qui orne ce cadenas est très mignonne. Inattendue, mais mignonne."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La position des fleurs bleues sur la partition vous donnera le code."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez vraiment besoin de nos lumières pour allumer cet interrupteur ? Prenez juste la bonne carte."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "2", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "3434"
+	      }, 
+	      { 
+	         "hintNumber" : "5", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "46", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "9", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "4", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "81", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "46", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "18", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "81", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "32", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "52", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "36", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "D", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "40", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "5802"
+	      }, 
+	      { 
+	         "hintNumber" : "54", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "57", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "57", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "20", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "58", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "72", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "63", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "1247"
+	      }, 
+	      { 
+	         "hintNumber" : "72", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "88", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "77", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "83", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "78", 
+	         "hintID" : "", 
+	         "message" : "+30 minutes", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "81", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "92", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "83", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "90", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "88", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "3154"
+	      }, 
+	      { 
+	         "hintNumber" : "89", 
+	         "hintID" : "", 
+	         "message" : "12:47", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "91", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "18", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "92", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "3434"
+	      }, 
+	      { 
+	         "hintNumber" : "95", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "7656"
+	      }, 
+	      { 
+	         "hintNumber" : "98", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "3154"
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "1", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "31", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "35,30,47", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "16", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "1,25,16,9", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

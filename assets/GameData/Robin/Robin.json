@@ -1,0 +1,605 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Robin", 
+	   "number" : "26", 
+	   "displayName" : "Robin des Bois : mort ou vif !", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "Manual", 
+	   "skinName" : "Robin", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Celtic_Morning", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette pièce est gravée d'une flèche. Sans doute l'œuvre de l'un des compagnons de Robin des Bois. Assurez-vous qu'elle ne tombe pas entre de mauvaises mains. "
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces gardes sont trop nombreux. Vous ne pourrez ni les combattre ni les semer. Il faut trouver comment les bloquer."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez un moyen de faire descendre la herse."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez la broche (8) dans un sens puis dans l'autre pour tenter de crocheter la serrure."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette broche vous sera utile dans les cachots. "
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Robin s'est très certainement rendu au tournoi des archers (18). Vous avez maintenant de quoi vous payer le nécessaire pour y participer vous aussi. "
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cherchez littéralement ce qu'il y a au milieu du « CHÂTEAU »."
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez bien le luth avant de prendre votre décision…"
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le ménestrel vous indique à travers son chant comment trouver les compagnons. Mais seul un mot de chaque phrase vous sera utile."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Répartissez chaque zone de l'écran entre les joueurs pour ne pas vous emmêler les pinceaux. Si toutefois vous ne parvenez pas à enchaîner les parades, persistez. Votre assaillant finira par s'épuiser et ralentir.  "
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Sans arc, vous ne pourrez jamais mettre les pieds à l'intérieur."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette clef doit pouvoir ouvrir quelque chose dans la chambre du Shérif. "
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez avec vous un reliquat de vos péripéties."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Prêtez attention à la disposition des pierres tombales."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les pierres tombales sont disposées comme les touches du clavier de l'orgue (81) : la 1re rangée représente les 7 touches blanches et la 2e rangée les 5 touches noires.  "
+	      }, 
+	      { 
+	         "number" : "39", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "En coupant l'arbre au bord de la rivière, vous pourriez rejoindre l'autre rive."
+	      }, 
+	      { 
+	         "number" : "39", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez l'ombre de l'arbre dans l'eau. Elle forme un +7 bleu."
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Entre « ici » et l'entrée de Sherwood, il y a 9 possibilités. Prenez la bonne carte."
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Certains de ces symboles sont ceux du blason de Nottingham. "
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le blason de Nottingham apparaît souvent sur les documents officiels. "
+	      }, 
+	      { 
+	         "number" : "58", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Robin s'est très certainement rendu au tournoi des archers (18). Vous avez maintenant de quoi acheter un arc pour y participer vous aussi. "
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La clef de cette armoire est très certainement celle que le Shérif (67) tient fermement dans sa main. "
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'avez pas de pièce d'argent, mais peut-être que cette bonne bouteille saura triompher des esprits simples."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour pouvoir acheter des armes à ce marchand, il vous faut d'abord trouver de l'or."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Robin a été enfermé dans les cachots. Difficile d'accéder aux geôles sans se faire repérer par la garde. Sauf si c'est elle qui vous y emmène…"
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Menacez le garde de l'entrée de Nottingham (20) avec votre hache (9). Prenez la carte 29. "
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le Shérif a un sommeil perturbé. Vous avez sans doute déjà entendu parler d'une technique pour calmer un ronfleur agité."
+	      }, 
+	      { 
+	         "number" : "71", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Commencez par mettre le fond de la boîte debout, puis positionnez correctement le sol avec les repères (verso de l'avis de recherche). Placez ensuite les personnages un à un en suivant les indications du plan (98). De gauche à droite : Petit Jean, le bourreau, Marianne, le Shérif, frère Tuck et le prêtre. Pour toucher la corde, il va vous falloir ricocher sur un objet. Pour l'identifier, fermez un œil et observez la forme lumineuse en arrière-plan. Ensuite rapprochez-vous de l'objet pour effectuer ce tir."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet arc est un laissez-passer."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les gravures du cachot vous aideront à trouver votre chemin vers la sortie des catacombes. Les traces de pas vous indiquent dans quel sens circuler."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce dédale débute au niveau de la COUPE (77). Déplacez ensuite les cartes une à une pour former le chemin en suivant l'ordre des gravures du cachot (24). Prêtez attention aux positions des cartes."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les gravures du cachot vous aideront à trouver votre chemin vers la sortie des catacombes. Les traces de pas vous indiquent dans quel sens circuler."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce dédale débute au niveau de la COUPE (77). Déplacez ensuite les cartes une à une pour former le chemin en suivant l'ordre des gravures du cachot (24). Prêtez attention aux positions des cartes."
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Allez vous balader près des tombes en face de la chapelle (34) pour trouver l'inspiration musicale."
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les pierres tombales sont disposées comme les touches du clavier de l'orgue : la 1re rangée représente les 7 touches blanches et la 2e rangée les 5 touches noires.  3 notes sont nécessaires pour ouvrir le compartiment secret, mais lesquelles ?"
+	      }, 
+	      { 
+	         "number" : "84", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La serrure est un peu différente de la précédente, mais la méthode de crochetage reste la même. "
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces vitraux éclairés par la lumière du soleil attirent votre attention. Il vous semble avoir déjà vu ces symboles quelque part."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un cœur, une hirondelle et un ange. Ces 3 symboles sont également présents sur 3 des pierres tombales devant la chapelle (34). Les emplacements de ces 3 tombes vous serviront à accéder au compartiment secret de l'orgue (81)."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "2", 
+	         "message" : "Utilisez l'arc de Robin (87) pour viser et sectionner la corde qui retient la herse. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "5", 
+	         "message" : "Glissez la broche (8) dans la serrure pour la crocheter. En insérant la broche vers la gauche, vous obtenez un 9. En l'insérant vers la droite, vous obtenez un 6. ", 
+	         "cards" : "96", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "10", 
+	         "message" : "Donnez cette pièce d'or (10) au marchand d'armes (64) pour vous procurer un arc. ", 
+	         "cards" : "74", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "message" : "Au centre du mot « CHÂTEAU » se trouve la lettre T. ", 
+	         "cards" : "T", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "13", 
+	         "message" : "Sur le luth est gravée la même flèche que sur la pièce (13). Cet homme est sans doute un proche des compagnons lui aussi. Donnez à ce ménestrel (13) votre pièce (1) pour l'écouter chanter. ", 
+	         "cards" : "14", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "14", 
+	         "message" : "Les premiers mots de chaque vers vous disent comment trouver les compagnons « A-SHERWOOD-RETIREZ-UN-POUR-TROUVER-LES-COMPAGNONS ». Soustrayez donc 1 à Sherwood (40) : 40-1=39. ", 
+	         "cards" : "39", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "16", 
+	         "message" : "Le plus important est que vous ayez fait de votre mieux. ", 
+	         "cards" : "50", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "message" : "Ouvrez l'armoire du Shérif (59) en utilisant cette clef (23). ", 
+	         "cards" : "82", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "26", 
+	         "message" : "Présentez la broche brisée (36) aux compagnons (26) comme preuve de vos mésaventures dans les cachots. ", 
+	         "cards" : "62", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "34", 
+	         "message" : "Les vitraux de la chapelle (90) vous donnent 3 symboles également présents sur les pierres tombales : un cœur, une hirondelle et un ange. Les emplacements de ces tombes vous indiquent alors quelles notes jouer sur l'orgue : en partant de la gauche, appuyez sur la 1re touche noire (do#), la 3e touche blanche (mi), puis la 4e note noire (sol#). ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "39", 
+	         "message" : "Coupez l'arbre (+7) avec votre hache (9) pour pouvoir traverser la rivière. ", 
+	         "cards" : "16", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "50", 
+	         "message" : "Trouvez parmi vos cartes la seule dont le numéro est compris entre 40 (l'entrée de Sherwood) et 50 (« ici »). ", 
+	         "cards" : "43", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "56", 
+	         "message" : "Observez le sceau de cire présent sur l'avis de recherche. Il est marqué du blason de Nottingham : une croix sur laquelle sont placées 3 couronnes. Enfoncez alors le bouton avec la croix et déplacez les couronnes dans les mêmes positions que sur le blason : celle du milieu vers le bas et les 2 autres vers le haut.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "58", 
+	         "message" : "Lady Marianne doit très certainement être au tournoi des archers. C'est là-bas que Robin a dû se rendre.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "60", 
+	         "message" : "Proposez cette bouteille (60) au garde de Nottingham (20 ou 29). Peut-être acceptera-t-il de vous laisser passer ? Prenez la carte 80 ou 89.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "66", 
+	         "message" : "Après avoir menacé une première fois le garde avec votre hache (29), celui-ci vous menace de vous enfermer au cachot si vous recommencez. Menacez-le à nouveau avec votre hache (9) pour rejoindre Robin dans les cachots. ", 
+	         "cards" : "38", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "67", 
+	         "message" : "Sifflez pour tenter d'apaiser le sommeil du Shérif et ainsi récupérer la clé.", 
+	         "cards" : "23", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "71", 
+	         "message" : "Une fois chacun à son poste (98), c'est à vous d'agir pour sectionner la corde (71). Placez-vous au bon endroit pour reconstituer la scène. De là, la corde est malheureusement cachée par la belle Marianne. Il va falloir tenter de faire ricocher votre flèche ! Mais sur quoi tirer ? Fermez un œil et observez la forme lumineuse en arrière-plan. Voilà l'inspiration de votre tir légendaire : la hache du bourreau. Visez alors la hache du bourreau avec l'arc (87) pour faire ricocher le tir jusqu'à sectionner la corde de la potence. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "74", 
+	         "message" : "Montrez votre arc (74) à l'entrée du tournoi des archers (18) afin qu'on vous laisse y participer. ", 
+	         "cards" : "92", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "77", 
+	         "message" : "Partez de la COUPE (77) et placez la carte 78 à angle droit de façon à prolonger le chemin vers l'OS. Déplacez ensuite la carte 77 de façon à prolonger le chemin vers le CASQUE. Faites de même pour le BOUCLIER et enfin la sortie (SOLEIL) des catacombes. Les déplacements successifs des deux cartes des catacombes forment un 2. ", 
+	         "cards" : "2", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "78", 
+	         "message" : "Partez de la COUPE (77) et placez la carte 78 à angle droit de façon à prolonger le chemin vers l'OS. Déplacez ensuite la carte 77 de façon à prolonger le chemin vers le CASQUE. Faites de même pour le BOUCLIER et enfin la sortie (SOLEIL) des catacombes. Les déplacements successifs des deux cartes des catacombes forment un 2. ", 
+	         "cards" : "2", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "81", 
+	         "message" : "Les vitraux de la chapelle (90) vous donnent 3 symboles également présents sur les pierres tombales (34) : un cœur, une hirondelle et un ange. Les emplacements de ces tombes vous indiquent alors quelles notes jouer sur l'orgue : en partant de la gauche, appuyez sur la 1re touche noire (do#), la 3e touche blanche (mi), puis la 4e note noire (sol#). ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "84", 
+	         "message" : "Glissez la broche (8) dans la serrure pour la crocheter. En insérant la broche vers la gauche, vous obtenez un 3. En l'insérant vers la droite, vous obtenez un 6. ", 
+	         "cards" : "36", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "90", 
+	         "message" : "Les pierres tombales sont disposées comme les touches du clavier de l'orgue (81) : la 1re rangée représente les 7 touches blanches et la 2e rangée les 5 touches noires.  Les emplacements des 3 tombes (cœur, hirondelle et ange) vous indiquent alors quelles notes jouer sur l'orgue : en partant de la gauche, appuyez sur la 1re touche noire (do#), la 3e touche blanche (mi), puis la 4e note noire (sol#). ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "14", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "50", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Belles parades !"
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "77,78", 
+	         "cardsToDiscard" : "56", 
+	         "message" : "Le passage s'ouvre sur un sombre dédale de tunnels."
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "23", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Votre sifflements apaise le shériff. Sa main se relâche. Vous en profitez pour saisir délicatement la clé."
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "55", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Soudainement les ronflements s'interrompent. Vous entendez quelqu'un approcher…"
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "66", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Félicitation ! Vous arrivez 2è de cette compétition juste derrière un certain Biron. Ce dernier, en tentant d'approcher la belle Lady Marianne, se fait capturer par les gardes. Biron n'était autre que Robin... Vous vous dirigez alors à votre tour vers Lady Marianne."
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous sectionnez la corde qui tenait la herse. Celle-ci chute alors juste devant les gardes, les stoppant net dans leur course.", 
+	         "messageID" : "machine_87_rope", 
+	         "cardsToTake" : "26", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Les gardes sont trop nombreux ! Vous ne réussirez pas à tous les éliminer à temps . Il faut trouver un autre moyen de les arrêter...", 
+	         "messageID" : "machine_87_guards", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Pour toucher la corde, il va vous falloir ricocher sur un objet. Pour l'identifier, fermez un oeil et observez la forme lumineuse en arrière-plan. Ensuite rapprochez-vous de l'objet pour effectuer ce tir.", 
+	         "messageID" : "machine_87_endFailed", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

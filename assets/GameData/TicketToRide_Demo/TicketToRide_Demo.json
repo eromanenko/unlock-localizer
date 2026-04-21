@@ -1,0 +1,286 @@
+{ 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "TicketToRide_Demo", 
+	   "number" : "98", 
+	   "displayName" : "", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "TicketToRide_Demo", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Go_Diego", 
+	   "maxTime" : "1800", 
+	   "totalTime" : "1800", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez bien le train et vous trouverez comment poursuivre votre aventure."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il n'y a plus qu'une seule issue vers l'extérieur."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Barnes n'hésitera pas à vous descendre. Répliquez vite !"
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour vous barricader, vous pouvez utiliser un meuble lourd."
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez trouver un moyen de faire sauter ce cadenas."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut étouffer ce feu avec une étoffe."
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le train est rapide, mais vous possédez un cheval."
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'un des wagons présente une caractéristique qui vous permettra de vous hisser plus facilement."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'avez pas le temps de fouiller mais, à défaut, cette armoire fournira une excellente barricade."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Barnes a inscrit la combinaison sur le papier que vous avez sauvé du feu."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le papier semble faire référence à certains éléments du tableau. Observez leurs orientations."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "En déplaçant la bibliothèque, il semble qu'un élément caché sur le mur ait été révélé."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez déclenché un mécanisme d'ouverture. Le coffre est sûrement caché derrière l'un des objets du wagon."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre fidèle Diablo est sûrement encore à proximité. Trouvez le moyen de l'appeler."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "1", 
+	         "message" : "L'une des fenêtres du train contient un numéro caché.", 
+	         "cards" : "40", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "2", 
+	         "message" : "Ouvrez la machine 20 (colt) et visez la fenêtre, puis tirez.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "5", 
+	         "message" : "Ouvrez la machine 20 (colt) et visez votre adversaire.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "message" : "Utilisez la bibliothèque (60) sur la porte (15).", 
+	         "cards" : "75", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "17", 
+	         "message" : "Ouvrez la machine 20 (colt) et visez le cadenas, puis tirez.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "22", 
+	         "message" : "Utilisez votre foulard (30) sur le feu (22)", 
+	         "cards" : "52", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "40", 
+	         "message" : "Ajoutez Diablo (10) à la carte du train (40).", 
+	         "cards" : "50", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "50", 
+	         "message" : "Le wagon central (+7) possède une échelle. Menez-y Diablo.", 
+	         "cards" : "17", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "66", 
+	         "message" : "Chaque élément pointe une direction à reproduire sur le coffre. D'abord la baguette (11), puis le bras (9) et enfin l'épée (5).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "75", 
+	         "message" : "Observez le mur de gauche, là où était la bibliothèque. Il y a un numéro caché (90).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "90", 
+	         "message" : "Ajoutez le modificateur (+11) au tableau (55) pour accéder au coffre.", 
+	         "cards" : "66", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "message" : "Si vous sifflez, Diablo va accourir.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "20", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "2", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous trouvez les documents de la mine. Une note implique un membre de la famille Baker dans le vol…"
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Répondant à votre appel, Diablo se place sous la fenêtre. D'un bond, vous l'enfourchez et disparaissez au grand galop. Le cri de rage de Barnes parvient à vos oreilles tandis que vous regagnez la ville, les précieuses concessions en poche. Victoire !"
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "2", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "", 
+	         "messageID" : "", 
+	         "cardsToTake" : "99", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "", 
+	         "messageID" : "", 
+	         "cardsToTake" : "15", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous vous glissez dans le wagon en espérant que cela n'a pas attiré l'attention.", 
+	         "messageID" : "card_17", 
+	         "cardsToTake" : "5", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	      "English"
+	   ]
+	}

@@ -1,0 +1,453 @@
+{ 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "Momie", 
+	   "displayName" : "", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Momie", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "", 
+	   "maxTime" : "2400", 
+	   "totalTime" : "2400", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La boule peut vous permettre de créer une sortie. Utilisez-la."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Sarah Jones connait un passage qui nous permettra de rentrer dans la pyramide."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le passage doit être pas loin de l'entrée de la pyramide."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La salle funèraire est sombre, vous aurez besoin de lumière pour éclairer le fond. Les braséros peuvent vous y aider."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut une torche pour éclairer le fond."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Un bâton, avec quoi vous pouvez le combiner ?"
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les objets sont dans la pénombre, comment mieux les voir ?"
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La tablette contient un code, elle doit se combiner avec d'autres éléments."
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous récupérez les bandelettes, elles peuvent servir !"
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Déplacez l'épais mur de droite vers le centre pour simuler le mouvement des murs."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ceci peut vous servir de torche."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette torche peut vous permettre d'éclairer des zones sombres."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Lorsque vous échangez avec Sarah Jones, écoutez le vent."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Nous avons avancé de trente mètres de trop. Il faut revenir en arrière."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La tablette (17) pourrait vous aider à résoudre cette énigme."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous trouvé les cartouches ? Elles se complètent avec la tablette (17)."
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez déjà vu cette disposition quelque part."
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les statues de pharaons devant l'entrée de la pyramide ressemblent mais ne sont pas identiques à celles sur la portes."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre amie est de retour ! Qu'est-ce qu'elle peut bien nous raconter ?"
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette porte est solidement fermée ne peut pas être brisée. Comment faire ?"
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Donne-t-elle sur l'extérieur ? Est-ce les portes de l'entrée ?"
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce scarabée ailé symbolise la renaissance dans l'égypte antique."
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce genre de symbole se trouve souvent sur la face extérieure et intérieure des portes d'entrée d'une pyramide."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "En suivant la voix, vous pourrez vous orienter dans ce labyrinthe."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Recomposez la carte du labyrinthe pour trouver une piste. Les dalles peuvent vous y aider."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Un scarabée gêne votre inspection. Essayez de le faire fuir."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "2", 
+	         "hintID" : "", 
+	         "message" : "Utilisez la pente (91) pour qu'elle gagne en vitesse et en puissante.", 
+	         "cards" : "93", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "Sarah Jones (7) vous mène vers un passage dans la pyramide rouge (4).", 
+	         "cards" : "11", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "7", 
+	         "hintID" : "", 
+	         "message" : "Sarah Jones (7) vous mène vers un passage dans la pyramide rouge (4).", 
+	         "cards" : "11", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "hintID" : "", 
+	         "message" : "Plongez la torche (29) dans le braséro (8) pour allumer la torche.", 
+	         "cards" : "37", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "10", 
+	         "hintID" : "", 
+	         "message" : "Enroulez les bandelettes (19) au bâton (10) pour vous fabriquez une torche de fortune.", 
+	         "cards" : "29", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "hintID" : "", 
+	         "message" : "Mettez votre torche (37) près du sol (15) afin d'illuminer la zone où vous avez trébuché.", 
+	         "cards" : "52", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "17", 
+	         "hintID" : "", 
+	         "message" : "En combinant les informations de la tablettes (17) et des cartouches (52), vous remarquez que la cartouche Scarabée (celle qui se trouve aussi sur toutes les cartes) vous indique quelle combinaison pour utiliser pour déverrouiller le mécanisme (74).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "19", 
+	         "hintID" : "", 
+	         "message" : "Enroulez les bandelettes (19) au bâton (10) pour vous fabriquez une torche de fortune.  Pour découvrir la salle secrète du labyrinthe (C, R, 95). Prenez la carte la plus à droite du labyrinthe puis glissez-la vers le centre en la superposant sur les deux autres. Vous verrez un huit se former.", 
+	         "cards" : "8", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "29", 
+	         "hintID" : "", 
+	         "message" : "Plongez la torche (29) dans le braséro (8) pour allumer la torche.", 
+	         "cards" : "37", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "37", 
+	         "hintID" : "", 
+	         "message" : "Eclairez avec la torche (37) la zone sombre dans salle funéraire modificateur + 62 = le sarcophage (99). Vous avez aussi un autre endroit où vous pouvez utilisez votre torche (37), là où vous avez trébuché (15) pour avoir les cartouches (52).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "45", 
+	         "hintID" : "", 
+	         "message" : "Lors de votre dialogue avec Sarah Jones, dans le vent vous pouvez entendre un murmure, cette voix vous demande de prendre la carte (55).", 
+	         "cards" : "55", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "55", 
+	         "hintID" : "", 
+	         "message" : "Rebroussez chemin de trente mètres. 55 - 30 = 25.", 
+	         "cards" : "25", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "74", 
+	         "hintID" : "", 
+	         "message" : "Prenez les symboles de la cartouche Scarabée et trouvez les sur la tablette (17). Vous aurez les 4 symboles à rentrer dans la machine (74).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "81", 
+	         "hintID" : "", 
+	         "message" : "Vous remarquez que sur les statues des pharaons (4), il manque un élément sur trois d'entre eux. Celle au fond à droite, elle lui manque son bras gauche, celle au fond à gauche, elle lui manque sa jambe inférieure droite et sur celle en premier plan à gauche, elle lui manque son nez. Dans la machine (81), sélectionnez sur les représentations des pharaons, les parties manquantes des statues.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "91", 
+	         "hintID" : "", 
+	         "message" : "Vous venez de retrouver Sarah, allez sur le bouton dédié pour lui parler.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "93", 
+	         "hintID" : "", 
+	         "message" : "En regardant la porte d'entrée (94) vous verrez une fissure sur le mur de droite. Sachant que la porte (93) correspond à la porte d'entrée mais de l'intérieur, il faut viser sur cette carte le mur à gauche pour détruire le mur fragile.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "94", 
+	         "hintID" : "", 
+	         "message" : "Cette porte est liée à la porte (93).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "95", 
+	         "hintID" : "", 
+	         "message" : "Assemblez la carte du labyrinthe pour avoir le numéro 19 qui apparaît.", 
+	         "cards" : "19", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "hintID" : "", 
+	         "message" : "Pour s'échapper utiliser le labyrinthe (C, R et 95). Suivez les instructions de la machine.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "99", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "91", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "2", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Attention, une énorme boule en pierre roule dans votre direction."
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "C,R,95", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous vous lancez dans l’exploration du labyrinthe en laissant Sarah Jones derrière vous."
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "11111", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "66", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "", 
+	         "messageID" : "", 
+	         "cardsToTake" : "15", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	      "French", 
+	      "English", 
+	      "German", 
+	      "Italian", 
+	      "Dutch", 
+	      "Spanish", 
+	      "Hungarian", 
+	      "Korean", 
+	      "Chinese", 
+	      "Ukrainian"
+	   ]
+	}

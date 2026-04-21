@@ -1,0 +1,734 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Alice", 
+	   "number" : "14", 
+	   "displayName" : "À la poursuite du lapin blanc", 
+	   "difficulty" : "3", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Alice", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "ad9_1", 
+	   "maxTime" : "5400", 
+	   "totalTime" : "5400", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "5210", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "ad9_3", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "V30", 
+	         "message" : "Vous traversez la forêt et arrivez au château de la reine. Tournez la page au chapitre III. Défaussez la carte « Par ici »."
+	      }, 
+	      { 
+	         "number" : "2135", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "M", 
+	         "cardsToDiscard" : "", 
+	         "message" : "A peine la trace du lapin retrouvée que ce dernier bondit vers le fond du terrier. Alice glissa dans ce trou qui s'élargit soudain."
+	      }, 
+	      { 
+	         "number" : "2153", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ce sont les bons chiffres, mais pas l'ordre de l'histoire."
+	      }, 
+	      { 
+	         "number" : "2513", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ce sont les bons chiffres, mais pas l'ordre de l'histoire."
+	      }, 
+	      { 
+	         "number" : "2531", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ce sont les bons chiffres, mais pas l'ordre de l'histoire."
+	      }, 
+	      { 
+	         "number" : "2315", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ce sont les bons chiffres, mais pas l'ordre de l'histoire."
+	      }, 
+	      { 
+	         "number" : "2351", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ce sont les bons chiffres, mais pas l'ordre de l'histoire."
+	      }, 
+	      { 
+	         "number" : "7832", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Alice entendit un écho lointain :\\n« Réveillez-vous ! » Sa sœur la secouait comme un pommier.\\n« Oh ! J'ai fait un si drôle de rêve », dit Alice. Et elle raconta à sa sœur, autant qu'elle put s'en souvenir, toutes les étranges aventures que vous venez de vivre."
+	      }, 
+	      { 
+	         "number" : "7833", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Alice entendit un écho lointain :\\n« Réveillez-vous ! » Sa sœur la secouait comme un pommier.\\n« Oh ! J'ai fait un si drôle de rêve », dit Alice. Et elle raconta à sa sœur, autant qu'elle put s'en souvenir, toutes les étranges aventures que vous venez de vivre."
+	      }, 
+	      { 
+	         "number" : "1832", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Alice entendit un écho lointain :\\n« Réveillez-vous ! » Sa sœur la secouait comme un pommier.\\n« Oh ! J'ai fait un si drôle de rêve », dit Alice. Et elle raconta à sa sœur, autant qu'elle put s'en souvenir, toutes les étranges aventures que vous venez de vivre."
+	      }, 
+	      { 
+	         "number" : "1833", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Alice entendit un écho lointain :\\n« Réveillez-vous ! » Sa sœur la secouait comme un pommier.\\n« Oh ! J'ai fait un si drôle de rêve », dit Alice. Et elle raconta à sa sœur, autant qu'elle put s'en souvenir, toutes les étranges aventures que vous venez de vivre."
+	      }, 
+	      { 
+	         "number" : "3278", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ce sont les bons chiffres, mais avez-vous bien regardé les yeux du chat du Cheshire ?"
+	      }, 
+	      { 
+	         "number" : "3378", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ce sont les bons chiffres, mais avez-vous bien regardé les yeux du chat du Cheshire ?"
+	      }, 
+	      { 
+	         "number" : "3218", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ce sont les bons chiffres, mais avez-vous bien regardé les yeux du chat du Cheshire ?"
+	      }, 
+	      { 
+	         "number" : "3318", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ce sont les bons chiffres, mais avez-vous bien regardé les yeux du chat du Cheshire ?"
+	      }, 
+	      { 
+	         "number" : "2580", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "30", 
+	         "cardsToDiscard" : "1,J41,D,T", 
+	         "message" : "Le lapin s'adresse à vous : « Merci pour votre aide, vous pouvez garder l'invitation au croquet de la reine. Son château est par là, au-delà de la forêt. »"
+	      }, 
+	      { 
+	         "number" : "4761", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "65", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Un coup droit au but. La Reine de Cœur pesta : « Si vous gagnez, c'est que vous avez dû tricher ! Bourreau, emmenez cette jeune fille ! »"
+	      }, 
+	      { 
+	         "number" : "8476", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "65", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Un coup droit au but. La Reine de Cœur pesta : « Si vous gagnez, c'est que vous avez dû tricher ! Bourreau, emmenez cette jeune fille ! »"
+	      }, 
+	      { 
+	         "number" : "1674", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Commencer par le drapeau ? Vous vous y prenez à rebours."
+	      }, 
+	      { 
+	         "number" : "6748", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Commencer par le drapeau ? Vous vous y prenez à rebours."
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o1", 
+	         "time" : "120", 
+	         "nextObject" : "False", 
+	         "message" : "Ce M a une drôle de forme et qu'est-ce qui se cache dans son ombre ? "
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hintName" : "o2", 
+	         "time" : "600", 
+	         "nextObject" : "False", 
+	         "message" : "La fumée de la chenille vous révélera un secret. "
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a quatre cartes qui possèdent une partie surlignée en jaune. Remettez les parties jaunes dans l'ordre pour former une phrase."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Comme l'indique la lettre cachée, cette boisson vous fera rapetisser. Mais quelle taille voulez-vous atteindre ? Servez-vous de la toise."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pliez les 6 cartes mises de côté. Seulement trois d'entre elles vous seront utiles pour retracer le trajet du hérisson. Ce dernier démarre sur la carte 8, passe tous les obstacles orange et finit au niveau du drapeau."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le dos de cette carte vous semble bien singulier. Les pieds d'Alice s'y trouvent, mais ce n'est pas la seule différence avec le côté face."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La différence entre les numéros de la face et du dos est la clef pour retrouver les pieds d'Alice."
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Comme l'indique la lettre cachée, ce biscuit vous fera grandir. Mais quelle taille voulez-vous atteindre ? Servez-vous de la toise."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Maintenant qu'Alice a rétréci, elle peut passer par la toute petite porte."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un grand coup d'éventail pourrait ventiler une pièce entière."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet endroit aurait bien besoin d'un bon coup d'aération. Il vous manque un unique objet pour ça."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces trois jardiniers figurent au dos d'une autre carte."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Entrez le numéro de cette machine et passez votre téléphone sur la carte 30. Que voyez-vous ?"
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Comment prendre le T ?"
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces échelons correspondent à différentes tailles d'Alice. Si vous êtes amenés à grandir ou à rapetisser, ajoutez-y le modificateur de la taille à atteindre."
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Après avoir trouvé les trois accusés, superposez-les de manière à couper la tête à deux d'entre eux."
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a quatre cartes qui possèdent une partie surlignée en jaune. Remettez les parties jaunes dans l'ordre pour former une phrase."
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le chiffre des minutes sur l'horloge est la clef. Par exemple, pour 5h40, le chiffre des minutes est sur 8."
+	      }, 
+	      { 
+	         "number" : "49", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Et si vous cherchiez un hérisson au dos des cartes ?"
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Tout ce qui est blanc en rouge... Que pourriez-vous repeindre sur l'autre carte des jardiniers ?"
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce que la reine hurle vous semble bizarre. Il manque trois lettres à son alphabet."
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Prenez les cartes K, R et Z. Puis montez le château de cartes en suivant les instructions des rois."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Après avoir trouvé les trois accusés, superposez-les de manière à couper la tête à deux d'entre eux."
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette clef a une forme triangulaire, trouvez la porte correspondante."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait faire rétrécir Alice jusqu'à la plus petite taille pour qu'elle puisse passer par cette porte."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La part manquante et les miettes dessinent une étrange forme. Un indice pour trouver le coupable ?"
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Visez vraiment le plafond."
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Après avoir trouvé les trois accusés, superposez-les de manière à couper la tête à deux d'entre eux."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "« HEEEEEEIIIIIIIIIIN ? »"
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cherchez au dos des cartes non défaussées les objets qui ne sont représentés qu'une fois. Vous pouvez retourner ces cartes."
+	      }, 
+	      { 
+	         "number" : "89", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les pieds d'Alice pointent ce numéro. Quelle différence avec la face ?"
+	      }, 
+	      { 
+	         "number" : "89", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La différence entre les numéros de la face et du dos est la clef pour retrouver les pieds d'Alice."
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un numéro se dessine dans la fumée ! Prenez la carte 88."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une seule serrure correspond à la forme de la clef. Servez-vous de la toise pour atteindre la bonne taille et attraper la clef."
+	      }, 
+	      { 
+	         "number" : "111", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Formez un château de cartes avec les 6 éléments pliables en suivant les instructions des rois. Attention : les faces des rois doivent être dirigées vers le sol, le 9 de cœur et le 8 de pique servent de repères."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "Le seul moyen de passer la porte est d'attendre la plus petite taille possible. Grâce à la toise (carte 33), vous combinez cette dernière (+11) avec la potion (4).", 
+	         "cards" : "15", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "hintID" : "", 
+	         "message" : "Suivez le schéma de la carte 8 en ne vous servant que des cartes pliables avec les obstacles oranges. La balle passe d'abord par le 4 de cœur, puis par le 7 de cœur puis le 6 de pique et enfin par le trou 1.", 
+	         "cards" : "", 
+	         "code" : "4761"
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "hintID" : "", 
+	         "message" : "Il manque à Alice quelque chose pour retrouver ses pieds. Le dos de la carte porte le numéro 89, la face le numéro 12. Faites la différence entre les deux : 89-12.", 
+	         "cards" : "77", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "13", 
+	         "hintID" : "", 
+	         "message" : "Mangez le biscuit (13) pour grandir et atteindre ainsi la taille nécessaire (placez la toise à côté de la table portant la clé). Le modificateur adéquat est le plus élevé, +55.", 
+	         "cards" : "68", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "Comme la chenille vous l'a indiqué, vous pouvez trouver des objets au dos des cartes, du moment que l'objet choisi est unique. C'est le cas de l'éventail, au dos de la carte 18. Prenez cette carte, puis combinez-là avec la pièce (23).", 
+	         "cards" : "41", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "29", 
+	         "hintID" : "", 
+	         "message" : "Souvenez-vous, la chenille vous a indiqué qu'il était possible de prendre une carte du paquet si son dos arbore un dessin unique. Dans ce cas, les cartes portées par les jardiniers se retrouvent sur un dos.", 
+	         "cards" : "53", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "32", 
+	         "hintID" : "", 
+	         "message" : "Lorsque vous prononcez thé, vous entendez T. Prendre le thé veut donc dire prendre la carte T.", 
+	         "cards" : "T", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "41", 
+	         "hintID" : "", 
+	         "message" : "L'ordre des cartes est D, puis 1, puis 41 et enfin T. Sur la première carte (D) le chiffre sur l'horloge des minutes est 2, sur la seconde c'est 5, puis 8 et enfin 0.", 
+	         "cards" : "", 
+	         "code" : "2580"
+	      }, 
+	      { 
+	         "hintNumber" : "53", 
+	         "hintID" : "", 
+	         "message" : "Aidez les jardiniers et peignez la carte 29 en rouge. De cette façon, vous pourrez la combinez avec cette carte (53).", 
+	         "cards" : "82", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "54", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "7832"
+	      }, 
+	      { 
+	         "hintNumber" : "65", 
+	         "hintID" : "", 
+	         "message" : "Vous souhaitez sauver Alice. Elle va donc tout en haut. Ensuite, placez le Valet puis la dernière accusée de façon à ce que la tête des deux condamnés soit cachée. Les chiffres 5 et 4 apparaissent alors.", 
+	         "cards" : "54", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "68", 
+	         "hintID" : "", 
+	         "message" : "Regardez attentivement la carte 95. La porte du bas est la seule dont la serrure est triangulaire. C'est la bonne, ajoutez la clé (68) au numéro de cette porte (6).", 
+	         "cards" : "74", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "74", 
+	         "hintID" : "", 
+	         "message" : "Pour passer, il faut d'abord qu'Alice boive la potion (4) pour atteindre la taille nécessaire (la carte 15), puis combiner cette dernière à la porte (74).", 
+	         "cards" : "89", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "75", 
+	         "hintID" : "", 
+	         "message" : "Mis l'un avec l'autre, les dos des cartes J et V forment un cœur. Comme la forme des miettes de la part de tarte manquante.", 
+	         "cards" : "J,V", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "86", 
+	         "hintID" : "", 
+	         "message" : "Que de bla-bla… Mais un seul nombre est cité. Plusieurs fois. Un.", 
+	         "cards" : "1", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "88", 
+	         "hintID" : "", 
+	         "message" : "Il y a plusieurs objets à trouver, commençons par le champignon. Regardez le dos des cartes et trouvez le champignon unique, sur la carte D.", 
+	         "cards" : "D", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "89", 
+	         "hintID" : "", 
+	         "message" : "Il manque à Alice quelque chose pour retrouver ses pieds. Le dos de la carte porte le numéro 89, la face le numéro 12. Faites la différence entre les deux : 89-12.", 
+	         "cards" : "77", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "30", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "5210", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "36", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le procès est vite expédié : le valet de cœur est déclaré coupable."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "name" : "", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "12,V77", 
+	         "message" : "Alice réussit à s'échapper par le toit et découvre un pays merveilleux. Tournez la page et passez au Chapitre II."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "1", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

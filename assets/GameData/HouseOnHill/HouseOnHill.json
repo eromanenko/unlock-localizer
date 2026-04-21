@@ -1,0 +1,694 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "HouseOnHill", 
+	   "number" : "4", 
+	   "displayName" : "La Maison sur la Colline", 
+	   "difficulty" : "1", 
+	   "useMachine" : "False", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Haunt", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "ad4_0.mp3", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "3", 
+	   "wrongCodePenaltyTime" : "3", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "1243", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd4_mhcoffre.wav", 
+	         "musicName" : "ad4_3.mp3", 
+	         "cardsToTake" : "78", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Les boutons sont dans la bonne position. Le coffre s'ouvre."
+	      }, 
+	      { 
+	         "number" : "1348", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd4_armoire.wav", 
+	         "musicName" : "ad4_1.mp3", 
+	         "cardsToTake" : "45", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Bravo ! La porte de l'armoire est déverrouillée."
+	      }, 
+	      { 
+	         "number" : "1815", 
+	         "locale" : "", 
+	         "type" : "Flag", 
+	         "extraNumber" : "3", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd4_livre.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "En prononçant les mots, il vous semble que le livre tremble, mais rien ne se passe. Il faut absolument trouver comment l'ouvrir !"
+	      }, 
+	      { 
+	         "number" : "3726", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "1", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd4_cadenas.wav", 
+	         "musicName" : "ad4_5.mp3", 
+	         "cardsToTake" : "82", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le cadenas du livre s'ouvre."
+	      }, 
+	      { 
+	         "number" : "4829", 
+	         "locale" : "", 
+	         "type" : "Flag", 
+	         "extraNumber" : "3", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd4_livre.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "En prononçant les mots, il vous semble que le livre tremble, mais rien ne se passe. Il faut absolument trouver comment l'ouvrir !"
+	      }, 
+	      { 
+	         "number" : "5181", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd4_fin.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "1", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous avez brisé la malédiction !"
+	      }, 
+	      { 
+	         "number" : "6812", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd4_coffrefort.wav", 
+	         "musicName" : "ad4_2.mp3", 
+	         "cardsToTake" : "69", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le coffre-fort s'ouvre..."
+	      }, 
+	      { 
+	         "number" : "7361", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd4_bibli.wav", 
+	         "musicName" : "ad4_4.mp3", 
+	         "cardsToTake" : "38", 
+	         "cardsToDiscard" : "J40,44,78,89", 
+	         "message" : "La bibliothèque pivote, révélant un passage secret !"
+	      }, 
+	      { 
+	         "number" : "1581", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd4_fin.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "1", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous avez brisé la malédiction !"
+	      }, 
+	      { 
+	         "number" : "6813", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd4_coffrefort.wav", 
+	         "musicName" : "ad4_2.mp3", 
+	         "cardsToTake" : "69", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le coffre-fort s'ouvre..."
+	      }, 
+	      { 
+	         "number" : "3728", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "1", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd4_cadenas.wav", 
+	         "musicName" : "ad4_5.mp3", 
+	         "cardsToTake" : "82", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le cadenas du livre s'ouvre."
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "420", 
+	         "nextObject" : "False", 
+	         "message" : "Avez-vous examiné le papier peint, près du guéridon ?"
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hintName" : "o2", 
+	         "time" : "666", 
+	         "nextObject" : "False", 
+	         "message" : "Avez-vous cherché dans la cheminée ?"
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le code est sûrement quelque part dans la pièce. Peut-être sur le masque ?"
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une odeur de citron se dégage de la feuille. De l'encre invisible ?"
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La bougie allumée vous aidera à voir le message. "
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cela pourrait être utile pour démonter un appareil."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La pierre indique sans doute un point de départ, d'autant qu'il y a une rose des vents."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez dans la pièce un message indiquant des orientations Nord Sud Est Ouest et suivez ce chemin en notant les chiffres."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'une de ces cartes doit indiquer le bon marque-page. La page du vieux livre et la feuille devraient vous aider."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut trouver quels mots prononcer. Les signes de l'amulette vous seront d'une grande aide."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois que vous aurez trouvé les signes et leurs couleurs, notez les dates."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utile pour planter un clou… ou briser une vitre."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce tableau est trop poussiéreux pour qu'on y distingue quelque chose."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut une clé."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait éclairer ce trou."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utile pour allumer quelque chose."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut des piles pour la faire fonctionner."
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Quelque chose est écrit sur le masque, mais c'est vraiment trop petit."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces triangles rappellent beaucoup le casse-tête du bureau. Il doit donc donner 4 chiffres."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le nombre de points dans le petit triangle indique le premier chiffre, celui du triangle suivant indique le second chiffre, etc."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "A  défaut de pouvoir ouvrir le cadenas, il faudrait casser cette vitre. "
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette clé est très particulière. Examinez-la de près."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Des épingles de couleur sont plantées dans plusieurs parties de son corps. Cinq d'entre elles sont très utiles."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Odorat=Nez, Goût=Bouche, Ouïe=Oreille, Toucher=Main et Vue=Œil."
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut sélectionner certains livres. Un élément dans la pièce vous aidera pour l'ordre des couleurs et un autre pour celui des lettres."
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'ordre des lettres est donné par le message à l'encre invisible. Celui des couleurs par les symboles des éléments.  "
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "1", 
+	         "message" : "Il y a beaucoup de poussière sur le tableau…"
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "1", 
+	         "message" : "Le tableau n'est pas loin, il contient peut-être l'indice pour ouvrir le coffre-fort ? "
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le message sur le tableau n'est pas un appel à l'aide. Ce sont des coordonnées géographiques. "
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce sont les 4 éléments. Mais cela donne surtout 4 couleurs dans l'ordre."
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Elle fonctionne. Il faudrait la démonter pour récupérer les piles."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Même si la clé ne rentre pas, elle pourrait être très utile. Regardez-la de plus près."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'extrémité de la clé est le code à 4 chiffres qui ouvrira le coffre."
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces piles pourraient être utiles dans la lampe."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "1", 
+	         "message" : "Ce n'est pas forcément un message de détresse. Cela pourrait être des coordonnées."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Sud Ouest Sud."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous trouvez un texte trop petit, cette loupe vous sera utile."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Elle est éteinte, et c'est bien dommage."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette forme triangulaire rappelle celle du loquet de l'armoire. On peut faire quatre triangles avec cet objet."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utile pour éclairer les coins sombres..."
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Quelque chose est écrit, mais il faut voir cela sous le bon angle."
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez la carte de façon rasante en fermant un œil. Un texte apparaîtra."
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les couleurs du 666 signifient probablement quelque chose."
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Symbole noir puis blanc puis noir. Mais il faudra « réciter » les chiffres à l'envers."
+	      }, 
+	      { 
+	         "number" : "83", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a quelque chose sur l'un des rebords de la cheminée."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une bonne source de lumière, mais surtout de chaleur, peut révéler un texte invisible."
+	      }, 
+	      { 
+	         "number" : "89", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces lettres vous désigneront certains livres de la bibliothèque."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque ligne correspond à un des cinq sens. Il faut choisir la bonne couleur."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Par exemple, Parfum=Odorat. De quelle couleur est l'épingle qui est sur le nez de l'homme de la carte 35 ? Notez ces deux lettres et poursuivez..."
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "3", 
+	         "message" : "Les signes sur l'amulette donnent sûrement l'ordre des mots à prononcer pour stopper la malédiction. "
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour trouver le bon marque-page, il faut trouver la bonne carte de tarot. Cela vous indiquera un numéro de carte."
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez bien : il y a quelque chose dans le papier peint."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "2", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "3726"
+	      }, 
+	      { 
+	         "hintNumber" : "3", 
+	         "message" : "", 
+	         "cards" : "89", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "6", 
+	         "message" : "Sud/Ouest/Sud", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "7", 
+	         "message" : "", 
+	         "cards" : "8", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "5181"
+	      }, 
+	      { 
+	         "hintNumber" : "10", 
+	         "message" : "", 
+	         "cards" : "40", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "18", 
+	         "message" : "", 
+	         "cards" : "92", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "message" : "", 
+	         "cards" : "86", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "25", 
+	         "message" : "", 
+	         "cards" : "80", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "29", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "1348"
+	      }, 
+	      { 
+	         "hintNumber" : "32", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "1243"
+	      }, 
+	      { 
+	         "hintNumber" : "35", 
+	         "message" : "TEMPERANCE", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "40", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "7361"
+	      }, 
+	      { 
+	         "hintNumber" : "41", 
+	         "message" : "", 
+	         "cards" : "52", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "42", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "6812"
+	      }, 
+	      { 
+	         "hintNumber" : "46", 
+	         "message" : "", 
+	         "cards" : "50", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "48", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "1243"
+	      }, 
+	      { 
+	         "hintNumber" : "50", 
+	         "message" : "", 
+	         "cards" : "74", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "72", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "1348"
+	      }, 
+	      { 
+	         "hintNumber" : "80", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "3726"
+	      }, 
+	      { 
+	         "hintNumber" : "82", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "5181"
+	      }, 
+	      { 
+	         "hintNumber" : "83", 
+	         "message" : "", 
+	         "cards" : "18", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "91", 
+	         "message" : "TEMPERANCE", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "93", 
+	         "message" : "", 
+	         "cards" : "8", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "94", 
+	         "message" : "", 
+	         "cards" : "42", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

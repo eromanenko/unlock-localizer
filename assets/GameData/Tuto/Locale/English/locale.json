@@ -1,0 +1,20 @@
+﻿{ 
+    "language" : "English", 
+    "localizations" : { 
+       "title" : "Tutorial", 
+       "hiddenObject_1" : "There is a number hidden in the bottom of the chest.", 
+       "code_7239" : "No. These are the correct numbers but they aren't in the right order. Think it over: the colors will help you.", 
+       "code_9372" : "Well done! You have finished the tutorial. You can now check your score, your time and the penalties incurred. ", 
+       "hint_11" : "A key. Ideal for opening the chest.", 
+       "hint_16" : "This 10-cm wire could be inserted into the machine.", 
+       "hint_21" : "If you have found the numbers, you should look at the way EXIT is written.", 
+       "hint_25" : "With electricity, the screen would probably work.", 
+       "hint_35" : "First, you need a key to open it.", 
+       "hint_42" : "There's nothing to be learned while there is no electrical current.", 
+       "hint_46" : "There is a number hidden in the bottom of the chest. And this design on the left side looks a lot like the machine.", 
+       "hint_48" : "These are the 4 numbers of the door's digital code. Now you just need to put them in the correct order using the colors to help you.", 
+       "hint_67" : "There is an element missing so that the machine can start, then it needs to be put into the correct place.", 
+       "hint_69" : "There is an element missing so that the machine can start, then it needs to be put into the correct place.", 
+       "machine01_help" : "To use this machine, you must press the buttons matching the right pins and press OK.\nYou lose one minute per error. It is best to first understand which are the right pins before using it."
+    }
+ }

@@ -1,0 +1,664 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Cinema", 
+	   "displayName" : "7e Art et Décès", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Cinema", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette pâtée ne laisserait aucun canidé indifférent."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ah ! Il semblerait qu'il y ait bel et bien une place de libre sur la gauche."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Dommage qu'une tête vous cache le numéro de la place libre dans la rangée des 40."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une simple clé devrait avoir raison de cette porte."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Que fait-on avant d'entrer chez un inconnu ?"
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez de quoi vous aider à descendre ou vous allez être dans de beaux draps."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Toutes ces péripéties ne vous ont-elles pas donné un petit creux ?"
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le seau à popcorn autour du numéro de la carte est totalement vide !"
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Choisissez bien ce que vous souhaitez couper avec cette hache."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'autre groupe possède des informations concernant l'ouverture de cette porte derrière le tableau de « Mon petit loup »."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les 4 symboles de lune sur la porte correspondent à des emplacements (ligne et colonne) que l'autre équipe doit vous communiquer."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Que pourriez-vous accrocher à cette poulie ?"
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette clé ouvre la pièce hantée dont vous a parlé le majordome. Combinez-la avec la pièce quand vous l'aurez trouvée."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris la carte P ? Oh ! quelle jolie pleine lune !"
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez de quoi réduire ce monstre en poussière."
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce drap est bel et bien une preuve que la maison n'est pas hantée. Il a l'air plutôt résistant."
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce magnet est assez puissant pour aimanter un objet métallique à travers une paroi."
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pourrez accéder à cette cave après avoir débroussaillé l'entrée, mais pas à mains nues."
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cela vous aidera sûrement pour le grand final."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous pris la carte 13 ? Utilisez le plan du manoir pour trouver la pièce hantée."
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris les cartes 14 et R ?"
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le majordome a des airs de lycanthrope."
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce rideau est une vraie patinoire. Parfait pour faire tomber quelqu'un."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'aspirateur peut faire office d'arme face à certaines créatures."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Des gants avec des lames au bout des doigts… Flippant ! Mais ça pourrait servir."
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'autre équipe vous dira quoi faire de ce tableau."
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le message « Au dos du loup » vous indique de regarder au dos du tableau… Mais comment faire ?"
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris la carte 11 ?"
+	      }, 
+	      { 
+	         "number" : "61", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez sûrement une carte à portée de main pour faire asseoir ce malotru."
+	      }, 
+	      { 
+	         "number" : "62", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le mécanisme du piège est en place. Il faut maintenant trouver de quoi appâter le vilain loup-garou."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le loup-garou est sûrement trop éloigné et ne semble pas flairer l'appât. Il faut diffuser l'odeur."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris les cartes 17, 28 et K ?"
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce n'est pas la première fois que vous croisez ces bougies."
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Référez-vous aux bougies de l'affiche du film et au message dans le miroir pour trouver les 2 bougies à allumer."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il est toujours bon de savoir que vous pourrez trouver de quoi grignoter, si besoin."
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous trouverez plus loin dans cette aventure de quoi attirer cette clé hors du vase."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris les cartes 12 et X ?"
+	      }, 
+	      { 
+	         "number" : "79", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a un message similaire sur certaines cartes du paquet."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'aimez pas cette fin ? Se pourrait-il qu'il y ait une autre fin cachée dans cette aventure ?"
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il doit bien y avoir une serrure qui peut accueillir cette clé."
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Alors que le loup-garou poursuit ce pauvre enfant, les astres continuent à se mouvoir paisiblement."
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En faisant défiler le haut du paquet côté dos, vous voyez la lune dessiner quelque chose dans le ciel."
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris les cartes 8, 50 et 67 ?"
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'autre groupe aura besoin d'informations concernant ces symboles."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Certaines de ces lunes indiquent les bons emplacements (ligne et colonne) pour ouvrir la porte de l'autre groupe."
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le groupe de gauche voit sûrement à quoi sont reliés ces 3 câbles. Un seul d'entre eux vous intéresse."
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez bien la position des câbles : le câble double est devant les autres. Qu'en est-il pour l'autre équipe ?"
+	      }, 
+	      { 
+	         "number" : "666", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut regarder littéralement « derrière lui » pour accéder à la porte de la maison."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "La place entre la 42 et la 44 est la seule qui est libre.", 
+	         "cards" : "43", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "5", 
+	         "hintID" : "", 
+	         "message" : "Ouvrez la porte (5) en utilisant la clé (92) récupérée dans le vase.", 
+	         "cards" : "97", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "6", 
+	         "hintID" : "", 
+	         "message" : "Toquez 3 fois à la porte en tapotant sur l'écran afin de signaler votre présence.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "hintID" : "", 
+	         "message" : "En utilisant le drap bien résistant (17), vous vous échappez par la fenêtre (8).", 
+	         "cards" : "25", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "9", 
+	         "hintID" : "", 
+	         "message" : "Allez remplir votre seau à popcorn (9) à la machine (70). Prenez la carte 79 et continuez cette épique aventure.", 
+	         "cards" : "79", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "hintID" : "", 
+	         "message" : "Les 4 emplacements sont : 2e ligne, 4e colonne (croissant de lune tourné vers la droite) / 2e ligne, 1re colonne (demi-lune tournée vers la gauche) / 3e ligne, 3e colonne (demi-lune tournée vers la droite) / 1re ligne, 2e colonne  (croissant de lune tourné vers la gauche). ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "hintID" : "", 
+	         "message" : "Pour monter votre piège, commencez par accrocher le rideau de bain (50) à cette poulie (12).", 
+	         "cards" : "62", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "13", 
+	         "hintID" : "", 
+	         "message" : "Tout droit, première à droite, à gauche puis à droite, puis tout droit : cela mène à la pièce +2 à ouvrir avec la clé (13).", 
+	         "cards" : "15", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "hintID" : "", 
+	         "message" : "Utilisez l'aspirateur (51) pour vous débarrasser du fantôme (15).", 
+	         "cards" : "66", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "17", 
+	         "hintID" : "", 
+	         "message" : "Montrez le drap (17) au majordome (30) pour lui prouver que la pièce n'était pas hantée.", 
+	         "cards" : "47", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "19", 
+	         "hintID" : "", 
+	         "message" : "Ce magnet (19) vous permet d'aimanter la clé à travers la paroi du vase (73).", 
+	         "cards" : "92", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "25", 
+	         "hintID" : "", 
+	         "message" : "Utilisez les gants munis de lames (52) pour débroussailler la porte de la cave (25).", 
+	         "cards" : "77", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "30", 
+	         "hintID" : "", 
+	         "message" : "Montrez le drap (17) au majordome (30) pour lui prouver que la pièce n'était pas hantée.", 
+	         "cards" : "47", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "47", 
+	         "hintID" : "", 
+	         "message" : "Traînez le majordome (47) sous l'éclat de la pleine lune (14) pour révéler sa véritable nature.", 
+	         "cards" : "61", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "54", 
+	         "hintID" : "", 
+	         "message" : "Dirigez l'écran de votre appareil vers le sol pour regarder au dos du tableau.", 
+	         "cards" : "99", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "61", 
+	         "hintID" : "", 
+	         "message" : "Il y a une carte dans le paquet au dos de laquelle est écrit « Chut, asseyez-vous ! » Prenez cette carte pour faire asseoir le spectateur.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "62", 
+	         "hintID" : "", 
+	         "message" : "Installez la pâtée (1) sur le piège (62) pour appâter le loup-garou.", 
+	         "cards" : "63", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "63", 
+	         "hintID" : "", 
+	         "message" : "En diffusant l'odeur de la pâtée pour chien (63) avec le ventilateur (28), vous attirerez le loup-garou.", 
+	         "cards" : "91", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "67", 
+	         "hintID" : "", 
+	         "message" : "« Sang et Grenouille » font référence aux bougies rouge et verte de l'affiche. En observant bien leur forme, vous en déduisez qu'il faut uniquement allumer la 2e et la 5e bougie.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "79", 
+	         "hintID" : "", 
+	         "message" : "Observez avec attention le sens des lettres. On distingue le mot « ODILE » avec le « D » et le « E » retournés. Prenez la carte correspondante.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "91", 
+	         "hintID" : "", 
+	         "message" : "Cherchez dans le paquet la carte « C'est vraiment ça la fin ? », puis retournez-la.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "93", 
+	         "hintID" : "", 
+	         "message" : "La lune dessine un 2, un 6 puis un 0. Tapez le code 260 pour remettre le film dans le bon ordre.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "100", 
+	         "hintID" : "", 
+	         "message" : "Le lustre placé au-dessus des zombies est celui du câble de gauche (+50). Coupez-le avec la hache (10).", 
+	         "cards" : "60", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "666", 
+	         "hintID" : "", 
+	         "message" : "L'accès à la maison se trouve « derrière moi »… c'est-à-dire derrière la carte ! Retournez-la. Un 6 est visible sur la porte.", 
+	         "cards" : "6", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "6", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "L", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Après une courte attente, vous entendez des bruits de pas qui se rapprochent. Quelqu'un vient vous ouvrir la porte."
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "99", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous retournez le tableau et y découvrez d'étranges inscriptions."
+	      }, 
+	      { 
+	         "number" : "79", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "1", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous allumez les 2 bonnes bougies qui activent un mécanisme derrière le miroir."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "9", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ces 4 touches débloquent le loquet, la porte s'ouvre."
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "1", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Devant le cinéma vous trouvez l'affiche du film de ce soir. Prenez l'affiche dans la boîte et dépliez-la.", 
+	         "messageID" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

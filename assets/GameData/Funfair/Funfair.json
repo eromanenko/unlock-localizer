@@ -1,0 +1,992 @@
+{ 
+	   "visible" : "True", 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Funfair", 
+	   "displayName" : "La course au jouet", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Funfair", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Cinema_4_5", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "60", 
+	         "nextObject" : "False", 
+	         "message" : "Une fois le grillage bien assemblé, vous pouvez remarquer qu'il y a des morceaux de grillage manquants."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "84", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour récupérer le coupon, il faut bien assembler le grillage et repérer un trou."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour récupérer le coupon, il faut bien assembler le grillage et repérer un trou."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Dès que vous trouvez de l'argent, échangez-le ici contre des coupons."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait un objet long et collant pour attraper le coupon à travers le trou."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce chewing gum est bien collant. Bien associé, il pourrait fixer le coupon derrière le grillage. "
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous laissera passer si vous lui montrez un coupon."
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pouvez le montrer au garde pour entrer dans la fête foraine."
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le singe a pris un accessoire esthétique à la foraine. Il faut le retrouver, mais il n'est pas loin."
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le singe a dérobé la seconde boucle d'oreille de la foraine et l'a accrochée au-dessus du stand. C'est trop haut pour l'attraper, mais vous avez l'équipement adéquat pour la faire tomber !"
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut la rendre à la foraine."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le point de départ de la boule est à gauche. Ensuite, elle part tout à droite, au milieu et ainsi de suite. Suivez son déplacement avec attention."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Après chaque étape, le singe avance les gobelets vers vous. La boule dans son gobelet suit donc une trajectoire qui forme un numéro."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette attraction coûte 1 coupon. Autant commencer ici."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut un canard orange. Positionner bien votre canne à pêche en visant ce canard et en maintenant le fil droit."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois la canne en place, les canards oranges visibles forment un numéro."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut un canard orange. Positionner bien votre canne à pêche en visant ce canard et en maintenant le fil droit."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois la canne en place, les canards oranges visibles forment un numéro."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le bouton sur le torse de cet ours en peluche vous indique une carte."
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Impossible de faire marcher cette machine. Il faut trouver comment la débloquer."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce bouton a la taille et la forme d'une pièce de monnaie !"
+	      }, 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut trouver un moyen de pousser cette pièce. Un objet ressemblant à une pièce ferait l'affaire."
+	      }, 
+	      { 
+	         "number" : "89", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez de l'argent ! Vous pouvez l'échanger contre des coupons."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette carte représente 3 coupons, il vous faut en détacher 2 sur les 3."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le nombre de la carte est un multiple de 3. Vous pouvez déterminer le nombre correspondant à 2 coupons, et l'utiliser au stand de tir."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour faire cette attraction , il vous faut EXACTEMENT 2 coupons."
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez quelque chose qui ne conduit pas l'électricité pour déplacer les fils."
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Maintenant que vous avez réparé l'électricité, vous pouvez assembler les 2 cartes de la zone privée de courant avec celle-ci."
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Assemblez les cartes concernées en vous aidant du fil électrique. Une fois correctement assemblées, les cartes forment une figure distincte."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Voici la solution pour faire fonctionner la machine à pince. Vous avez besoin d'un aimant."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'avez pas la force pour actionner ce gros marteau, mais vous avez une sarbacane pour accomplir ce que demande le forain."
+	      }, 
+	      { 
+	         "number" : "79", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est sûrement le fameux Louka, le propriétaire de la roulotte. Vous avez déjà vu ces dinosaures à divers endroits de la fête foraine."
+	      }, 
+	      { 
+	         "number" : "79", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez les ballons disséminés dans la fête foraine, notez leurs couleurs. La position de chaque dinosaure sur l'épaule de Louka a de l'importance."
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En trouvant Louka, vous trouverez aussi le moyen d'ouvrir cette roulotte."
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet œil au-dessus du mot Zoltar… il est sous vos yeux depuis le début de l'aventure."
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Appuyez longuement sur le bouton \"Voir Indice\" de l'application pour obtenir votre prédiction."
+	      }, 
+	      { 
+	         "number" : "111", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces crayons feraient plaisir à une petite fille en pleurs."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ashley a plusieurs coupons. C'est peut être le moment d'essayer une attraction pour 2 !"
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette attraction est pour deux personnes. Vous devez trouver une partenaire !"
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour entrer, il vous faut consulter Zoltar dans la roulotte !"
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez bien la position des cœurs, les lettres des phrases et le logo de Zoltar, et vous trouverez une instruction."
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Reliez les wagons avec un objet approprié."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pouvez deviner le numéro des cabines qui viennent de passer."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "72 et 73 sont passées prenez la suivante. "
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Grâce à l'annonce sonore, vous pouvez repérer le petit garçon perdu, car vous l'avez croisé au stand des lots."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les ballons vous permettent de le retrouver. Puis, suivez le seul chemin qui mène du petit garçon au stand de barbe à papa. Ce chemin trace un dessin coupé par l'arche et donne un nombre."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez les instructions de la mère du petit garçon pour obtenir votre dernier badge."
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devriez commencer par aider ce vieil homme qui a perdu un objet, puis chercher le grand 8."
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez de l'argent ! Vous pouvez l'échanger contre des coupons."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pas de négociation, il vous faut EXACTEMENT 8 coupons à donner à la dame."
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez votre sarbacane, vous pourriez détruire les ballons"
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Attention, il faut tenir compte de votre vitesse à bord du wagon. Visez un peu à gauche du ballon."
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'avez pas votre robot, mais vous pouvez sûrement faire un cadeau à Ashley."
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Visiblement, elle aime les licornes. Vous en avez vu une, très recemment."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Même s'il vous manque une balle, vous avez toujours votre fidèle sarbacane. Visez sur la carte !"
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les bruits que vous entendez vous guident dans vos choix."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque bruit est associé à l'un des objets présents sur la carte. Son emplacement sur celle-ci vous indique où aller lorsque vous entendez le bruit correspondant."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour accélérer un peu le temps, faites tourner la roue."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "84", 
+	         "hintID" : "", 
+	         "message" : "Une fois assemblées correctement, les deux cartes montrent un trou dans le grillage. Dans cet orifice, les bouts de grillage restants forment un 9.", 
+	         "cards" : "9", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "22", 
+	         "hintID" : "", 
+	         "message" : "Une fois assemblées correctement, les deux cartes montrent un trou dans le grillage. Dans cet orifice, les bouts de grillage restants forment un 9.", 
+	         "cards" : "9", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "9", 
+	         "hintID" : "", 
+	         "message" : "Superposez la carte (9) au grillage (84) et (22), le numéro 22 devient un 29. Combinez la canne (18) avec le trou du grillage (29). 18 + 29 = 47.", 
+	         "cards" : "47", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "5", 
+	         "hintID" : "", 
+	         "message" : "Associez le chewing gum (5) à la canne (13) pour obtenir une canne au bout collant. 5+13 = 18", 
+	         "cards" : "18", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "42", 
+	         "hintID" : "", 
+	         "message" : "Associez la boucle (42) à la foraine (19). 42+19 = 61", 
+	         "cards" : "61", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "Les mouvements du gobelet contenant la boule dessinent un 3. ", 
+	         "cards" : "3", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "30", 
+	         "hintID" : "", 
+	         "message" : "Associez le coupon (47) au stand (30). 47+30 = 77", 
+	         "cards" : "77", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "77", 
+	         "hintID" : "", 
+	         "message" : "Une fois que l'hameçon de la canne à pêche est bien positionnée sur le dernier d'entre eux, les canards oranges forment un 2. ", 
+	         "cards" : "2", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "78", 
+	         "hintID" : "", 
+	         "message" : "Une fois que l'hameçon de la canne à pêche est bien positionnée sur le dernier d'entre eux, les canards oranges forment un 2.", 
+	         "cards" : "2", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "2", 
+	         "hintID" : "", 
+	         "message" : "Sur le bouton au centre du torse de l'ours, vous pouvez lire le numéro 88.", 
+	         "cards" : "88", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "88", 
+	         "hintID" : "", 
+	         "message" : "Insérez le bouton (88) dans le monnayeur (1). 88+1=89", 
+	         "cards" : "89", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "89", 
+	         "hintID" : "", 
+	         "message" : "Donnez la pièce (89) au guichet des coupons (10). 89+10=99.", 
+	         "cards" : "99", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "hintID" : "", 
+	         "message" : "Puisque 99 représente 3 coupons, le nombre 66 correspond à 2 coupons. Vous disposez donc d'un 66 rouge à utiliser quand ce sera utile.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "69", 
+	         "hintID" : "", 
+	         "message" : "Avec votre canne (18), sortez le fil électrique de l'eau (69). 18+69=87.", 
+	         "cards" : "87", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "87", 
+	         "hintID" : "", 
+	         "message" : "Les 3 cartes du puzzle, une fois assemblée, forment un J.", 
+	         "cards" : "J", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "111", 
+	         "hintID" : "", 
+	         "message" : "Donnez les crayons (+6) à Ashley (69). 6+69 = 75", 
+	         "cards" : "75", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "16", 
+	         "hintID" : "", 
+	         "message" : "Donnez les coupons d'Ashley (75) à l'entrée de la maison hantée (16). 75+16 = 91.", 
+	         "cards" : "91", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "91", 
+	         "hintID" : "", 
+	         "message" : "Sur la carte (A) les lettres placées juste sous les cœurs forme le mot « Retirez ». Le mot « Zoltar » est partiellement effacé formant un 70. Retirez 70 à cette carte. 91 - 70 = 21", 
+	         "cards" : "21", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "75", 
+	         "hintID" : "", 
+	         "message" : "Donnez les coupons d'Ashley (75) à l'entrée de la maison hantée (16). 75+16 = 91.", 
+	         "cards" : "91", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "21", 
+	         "hintID" : "", 
+	         "message" : "Jetez la corde (14) à Ashley (21). 14+21=35.", 
+	         "cards" : "35", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "26", 
+	         "hintID" : "", 
+	         "message" : "La navette du bas révèle le chiffre : un 7. Sur celle du haut on voit le 2 à l’unité. Les nacelles sont donc la 72 puis la 73 (que vous ne devez pas prendre). La bonne nacelle est la 74.", 
+	         "cards" : "74", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "74", 
+	         "hintID" : "", 
+	         "message" : "Du petit garçon avec le ballon, tracez le chemin sans obstacles. Cela forme un 5. Passez l'arche, puis tracez son chemin jusqu'au stand. Cela forme un 1.", 
+	         "cards" : "51", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "82", 
+	         "hintID" : "", 
+	         "message" : "Donnez la canne (13) au vieil homme (+18). 13+18=31. Puis, cherchez la carte avec un 8 de grande taille ! ", 
+	         "cards" : "8,31", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "31", 
+	         "hintID" : "", 
+	         "message" : "Donnez les billets (31) au guichet des coupons (10). 31+10=41.", 
+	         "cards" : "41", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "hintID" : "", 
+	         "message" : "Donnez 7 coupons (41) ET un coupon (47) au guichet (8). 41+47+8=96.", 
+	         "cards" : "96", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "44", 
+	         "hintID" : "", 
+	         "message" : "Le stand des lots vend une jolie licorne. Vous pouvez en acheter une en y retournant.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "70", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "92", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Bip ! C'est la bonne combinaison ! Vous pénétrez à l'intérieur de la roulotte. "
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "35", 
+	         "message" : "C'est le bon chemin ! Vous terminez le train fantôme et à la sortie le clown vous remet un badge de courage."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "26", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Après quelques minutes de patience, vous arrivez au pied de la roue."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "3,11,80", 
+	         "message" : "Bien joué. Vous attrapez le gros lot ! C'est un badge chance."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Joli tir ! L'objet tombe et vous le ramassez.", 
+	         "messageID" : "machine_70_card_19", 
+	         "cardsToTake" : "42", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Paf ! A l'abri des regards, vous faites éclater le dernier ballon. Le forain vous récompense avec le badge de Précision.", 
+	         "messageID" : "machine_70_card_86_1", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous contemplez fièrement votre premier badge. Mais soudain des pleurs venant de l'autre côté des stands attirent votre attention. Vous décidez de vous faufiler.", 
+	         "messageID" : "machine_70_card_86_2", 
+	         "cardsToTake" : "69", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "Croquemitaine", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Ding ! Au moment où l'enfant laisse tomber le marteau, la cloche retentit ! Complètement abasourdi, le vieux forain remet des badges de force aux témoins de la scène.", 
+	         "messageID" : "machine_70_card_24", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "24"
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Paf ! Vous calculez parfaitement votre tir et vous touchez le ballon qui explose. Ashley réceptionne les badges. En descendant, vous courez la rejoindre.", 
+	         "messageID" : "machine_70_card_96", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "82,96"
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "À cause de la vitesse, vous tirez à coté !", 
+	         "messageID" : "machine_70_card_96_error", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Pour s'excuser de la fermeture de cette partie du parc, la grande roue est gratuite ce soir. Tout le monde s'est rué dessus. Au vu de la file, il serait plus judicieux de repasser plus tard.", 
+	         "messageID" : "machine_45_1", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Il y a encore un peu d'attente mais pas sûr que vous puissiez espérer mieux pour ce soir. Vous rejoignez le bout de la file.", 
+	         "messageID" : "machine_45_2", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous utilisez votre badge pour acheter une boite de crayons. Le mégatron peut bien attendre un peu, vous en récupérerez un autre.", 
+	         "messageID" : "machine_60_achat_crayons", 
+	         "cardsToTake" : "C", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Félicitations ! Vous utilisez finalement vos badges pour cette superbe licorne. De retour sur la colline, vous vous asseyez près d'Ashley, lui faites fermer les yeux et placez la licorne dans ses mains. Ouvrant les yeux, elle se jette à votre cou avant de déposer un baiser sur votre joue. Main dans la main, vous contemplez la vue en attendant le feu d'artifice qui doit cloturer la fête. Vous n'auriez pu rêver mieux !", 
+	         "messageID" : "machine_60_achat_licorne", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Non, ne nous dispersons pas ! Seul le Mégatron compte !", 
+	         "messageID" : "machine_60_achat_autres", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Impuissant, vous regardez vos badges s'envoler.", 
+	         "messageID" : "machine_60_badges_lost", 
+	         "cardsToTake" : "82", 
+	         "cardsToDiscard" : "51"
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Ah désolé p'tit. Je n'ai plus ton robot, un sale gamin vient de me le voler !", 
+	         "messageID" : "machine_60_achat_megatron1", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous repartez, la déception au ventre. Les mains dans les poches, vous décidez de vous isoler en haut de la petite colline qui surplombe la fête. Au sommet, vous tombez sur Ashley qui ne vous a pas entendu approcher.", 
+	         "messageID" : "machine_60_achat_megatron2", 
+	         "cardsToTake" : "44", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "Funfair_annonce", 
+	         "musicType" : "Temporary", 
+	         "resourceName" : "", 
+	         "message" : "Votre attention s'il vous plait ! Le petit Adam est attendu par ses parents au stand de Barbe à Papa. Adam porte une casquette et des chaussures rouges. Si vous l'apercevez, merci de l'accompagner jusqu'à sa famille.", 
+	         "messageID" : "machine_45_annonce", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

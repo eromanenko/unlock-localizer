@@ -1,0 +1,908 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "TourDuMonde", 
+	   "displayName" : "", 
+	   "difficulty" : "3", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "Manual", 
+	   "skinName" : "TourDuMonde", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "", 
+	   "maxTime" : "4800", 
+	   "totalTime" : "4800", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "0", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez votre prochaine destination dans le carnet de voyage. Vous aurez ainsi une idée plus précise de l'heure qu'il est."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Posée au bon endroit, cette peau pourrait vous sauver la mise."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La banane (3) est le résultat d'une combinaison bleu (la banane) + rouge (la peau). Pour les séparer l'une de l'autre, il n'existe qu'une addition possible."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "55 000 £, de quoi financer toutes vos extravagances !"
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans quel document tamponne-t-on habituellement un visa ?"
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces hommes qui vous poursuivent sont engagés sur un terrain très escarpé. Il ne faudrait pas grand-chose pour tous les faire tomber."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois cette carte bien placée, vous pourrez grimper à un arbre pour tenter de retrouver le guide."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez la carte 10 au-dessus de la carte 11. Qu'observez-vous alors ?"
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre chute vous a fait perdre la mémoire. Comment êtes-vous arrivé ici ? Saisissez-vous du carnet de voyage pour retrouver le point de départ de votre aventure."
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Dès que vous serez à l'étranger, ce visa vous sera utile pour attester de votre voyage."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour ne pas vous blesser sur les clous, vous devez toujours répartir votre poids sur au moins 3 appuis."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Malgré la barrière de la langue, vous devriez être à même de distinguer quelque chose dans ce que raconte cet homme."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet éléphant très têtu refuse de suivre la route principale, mais il a d'autres qualités. Saviez-vous que la trompe d'un éléphant est un vrai couteau suisse ? Elle lui sert entre autres à respirer, mais aussi à barrir, à boire, à s'asperger d'eau ou de poussière, à se gratter..."
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Combien de jours se sont écoulés depuis votre départ ?"
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Maintenant que vous êtes pieds nus, vous ne devriez plus être embêté."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chacune des quatre étapes de votre trajet vous donnera une partie du télégramme à envoyer (point ou trait)."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez la forme des 4 visas obtenus jusqu'ici."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous vous sentez observés…"
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Qui a bien pu voler les clefs de ce pauvre serviteur ?"
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "En observant plus attentivement, vous remarquez la présence de quelques singes. Se pourrait-il que l'un d'eux ait quelque chose à voir avec cette affaire de clefs ?"
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce sont les clefs du portail."
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous disposez d'arguments auxquels cet homme ne saura résister."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut que vous vous rappeliez tout ce qui s'est passé jusqu'à la chute de Passepartout avant de choisir une direction à suivre avec cette boussole."
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Si d'aventure le besoin s'en faisait sentir, cette eau pourrait sauver une vie."
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous lui retirez ses chaussures, que reste-t-il de Passepartout ?"
+	      }, 
+	      { 
+	         "number" : "58", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez lu une annonce concernant une montre à vendre. Pensez à rapporter la monnaie à Mr. Fogg."
+	      }, 
+	      { 
+	         "number" : "61", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour réellement faire le tour du monde, ce navire doit relier New York à votre point de départ : Londres. Mais comment le retranscrire sur votre carnet ?"
+	      }, 
+	      { 
+	         "number" : "62", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez bien le bateau qui s'apprête à accoster."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ici il n'est pas possible de payer ses billets en livres sterling. Allez d'abord faire du change."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous détenez une preuve irréfutable de votre périple."
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez ce que dessinent les lumières une fois le train lancé à pleine vitesse."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous lui retirez ses chaussures, que reste-t-il de Passepartout ?"
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez bien la forme des flammes et trouvez un moyen d'acheminer de l'eau des rapides de Brahma avec l'éléphant."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les flammes forment un 40. Observez bien la photo des rapides."
+	      }, 
+	      { 
+	         "number" : "79", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois tout le bois rassemblé et parti en fumée dans la chaudière, que reste-t-il du bateau ?"
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre chute vous a bien sonné. Vous voyez vraiment double."
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "À en croire votre montre, cela fait effectivement 81 jours que vous êtes partis de Londres. Ce soir, c'est pourtant la dernière représentation de Hamlet…"
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut délester le ballon avant de pouvoir s'envoler."
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Retirez le lest du numéro de la carte pour décoller. Quel est alors le numéro de la machine ?"
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois tout le bois rassemblé et parti en fumée dans la chaudière, que reste-t-il du bateau ?"
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est au moment précis où le guide expliquait son plan à Passepartout que ce dernier chuta et perdit la mémoire. Comment avez-vous pu tomber ?"
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Remettez les événements dans l'ordre. Les dos vous permettront de retracer votre chemin depuis Hong-Kong."
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Commencez par placer le dos de la carte 97 sur le carnet de façon à faire coïncider le point de départ du trajet en pointillé et la ville de Hong Kong, en prenant soin de bien orienter la boussole vers le nord. Placez ensuite la carte 98, puis la carte 96, à la suite de la 97 en respectant également leur orientation."
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Remettez les événements dans l'ordre. Les dos vous permettront de retracer votre chemin depuis Hong-Kong."
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Commencez par placer le dos de la carte 97 sur le carnet de façon à faire coïncider le point de départ du trajet en pointillé et la ville de Hong Kong, en prenant soin de bien orienter la boussole vers le nord. Placez ensuite la carte 98, puis la carte 96, à la suite de la 97 en respectant également leur orientation."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Remettez les événements dans l'ordre. Les dos vous permettront de retracer votre chemin depuis Hong-Kong."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Commencez par placer le dos de la carte 97 sur le carnet de façon à faire coïncider le point de départ du trajet en pointillé et la ville de Hong Kong, en prenant soin de bien orienter la boussole vers le nord. Placez ensuite la carte 98, puis la carte 96, à la suite de la 97 en respectant également leur orientation."
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Retirez les sons « ka » et assemblez les sons restants pour former un numéro. SOI (ka), SAN (ka)..."
+	      }, 
+	      { 
+	         "number" : "111", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois le paquet coupé, la moitié supérieure passera en-dessous de la moitié inférieure. Le D qui apparaît sur la tranche laissera alors place à une autre lettre…"
+	      }, 
+	      { 
+	         "number" : "122", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque autre joueur semble trahir sa main : l'un a un as, l'autre une reine et le dernier un valet. Quant à votre carte, vous l'avez devant vous."
+	      }, 
+	      { 
+	         "number" : "122", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous êtes Fogg et possédez un roi (K). Les autres joueurs se trahissent en mentionnant leur carte. À votre gauche, Stuart possède une reine. À votre droite, Flanagan détient un valet. Face à vous se trouve donc Fallentin, votre coéquipier, qui semble avoir un as."
+	      }, 
+	      { 
+	         "number" : "133", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'éléphant n'en faisant qu'à sa tête et ne suivant pas la route, il vous fait découvrir des lieux que vous n'auriez jamais vus autrement. Certains vous ont tellement plu que vous aviez décidé d'y immortaliser votre passage."
+	      }, 
+	      { 
+	         "number" : "133", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez les photos présentes dans le carnet de voyage pour retracer votre itinéraire."
+	      }, 
+	      { 
+	         "number" : "144", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez des livres sterling et ici, en Amérique, il vous faut des dollars. Lisez la bonne ligne, et dans le bon sens, et vous saurez comment changer votre argent."
+	      }, 
+	      { 
+	         "number" : "155", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans quelle direction faut-il marcher pour rejoindre la fumée, et ainsi retrouver votre guide ? Le soleil couchant vous donne un point de repère."
+	      }, 
+	      { 
+	         "number" : "200", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Soyez attentifs au rythme du message que le phare vous envoie."
+	      }, 
+	      { 
+	         "number" : "300", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez bien la foule à gauche, près des étals…"
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "0", 
+	         "hintID" : "", 
+	         "message" : "Grâce à votre carnet de voyage, vous savez que Suez est votre prochaine destination. Le train part à 20 h 45, dans 5 minutes selon Mr. Fogg. Il est donc 20 h 40. Profitez-en pour régler votre montre sur 20 h 40.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "2", 
+	         "hintID" : "", 
+	         "message" : "Jetez cette peau de banane (2) aux hommes qui vous poursuivent (9) pour les faire chuter.", 
+	         "cards" : "11", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "3", 
+	         "hintID" : "", 
+	         "message" : "La seule façon d'obtenir 3 en combinant un numéro bleu et un numéro rouge est d'additionner 2 et 1.", 
+	         "cards" : "1,2", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "hintID" : "", 
+	         "message" : "Présentez votre passeport (13) au consul (8) pour qu'il puisse le tamponner.", 
+	         "cards" : "21", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "10", 
+	         "hintID" : "", 
+	         "message" : "Placez cette carte au-dessus de la carte (11) pour compléter la végétation. Un arbre en forme de Y semble monter haut vers la canopée.", 
+	         "cards" : "Y", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "hintID" : "", 
+	         "message" : "En lisant la 1re page du carnet (Jour 1), vous découvrirez un 4 entre les lignes.", 
+	         "cards" : "4", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "14", 
+	         "hintID" : "", 
+	         "message" : "Pour démarrer, touchez simultanément les 4 points d'appui. Chaque doigt est ainsi associé à une couleur. Repérez ensuite la couleur du prochain appui et déplacez uniquement le doigt correspondant à cette même couleur. Continuez ainsi jusqu'à avoir traversé la planche.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "16", 
+	         "hintID" : "", 
+	         "message" : "Dans l'injonction de l'homme se cache le numéro 56.", 
+	         "cards" : "56", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "18", 
+	         "hintID" : "", 
+	         "message" : "Si le besoin s'en fait sentir, récupérez de l'eau aux rapides de Brahma (+36 bleu caché) grâce à la trompe de l'éléphant (18).", 
+	         "cards" : "54", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "21", 
+	         "hintID" : "", 
+	         "message" : "Vous êtes partis de Londres (Jour 1) le 2 octobre 1872 selon le journal. Grâce à votre carnet de voyage, vous savez que votre passage à Suez a eu lieu le Jour 8, soit 7 jours après votre départ. La date de votre passage au consulat est donc le 9 octobre 1872. Réglez le tampon à cette date.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "30", 
+	         "hintID" : "", 
+	         "message" : "Vous avez retiré vos chaussures (30) comme l'homme du temple semblait vous l'indiquer (16). Tentez à présent de pénétrer dans le temple sacré.", 
+	         "cards" : "46", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "34", 
+	         "hintID" : "", 
+	         "message" : "La forme des visas de votre passeport vous donne soit un point soit un trait. Dans l'ordre de votre trajet : Suez (point), Bombay (trait), Calcutta (trait) et Hong-Kong (trait). Saisissez donc point/trait/trait/trait dans le télégraphe. Vous obtiendrez alors la prochaine carte à prendre.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "42", 
+	         "hintID" : "", 
+	         "message" : "Attirez les singes (42) en leur tendant une banane (1).", 
+	         "cards" : "43", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "43", 
+	         "hintID" : "", 
+	         "message" : "Donnez ces clés (43) au serviteur (42) afin qu'il vous ouvre l'accès à la montgolfière.", 
+	         "cards" : "85", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "46", 
+	         "hintID" : "", 
+	         "message" : "Tentez de convaincre ce cornac (46) en le soudoyant (7).", 
+	         "cards" : "53", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "56", 
+	         "hintID" : "", 
+	         "message" : "Passepartout chausse apparemment du 40. Soustrayez 40 à Passepartout pour lui retirer ses chaussures (70-40=30).", 
+	         "cards" : "30", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "58", 
+	         "hintID" : "", 
+	         "message" : "Mr. Fogg vous a donné 100 livres. La montre du journal en vaut 73. Après l'avoir achetée, il vous restera 27 livres à rapporter à Mr. Fogg.", 
+	         "cards" : "27", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "61", 
+	         "hintID" : "", 
+	         "message" : "Repliez les 2 côtés de la mappemonde vers l'arrière afin de reconnecter les 2 extrémités de la carte. Placez ensuite le bateau (61) au bon endroit pour faire apparaître le nombre 81.", 
+	         "cards" : "81", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "62", 
+	         "hintID" : "", 
+	         "message" : "Repérez les deux drapeaux accrochés au mât du bateau. Selon le code maritime présent dans votre carnet, ils correspondent aux chiffres 1 et 4.", 
+	         "cards" : "14", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "64", 
+	         "hintID" : "", 
+	         "message" : "En passant de la livre (£) au dollar ($), le 7 devient un 5 (2e ligne). Payez le vendeur de la gare de San Francisco (64) en lui ajoutant 5 ($) et non pas 7 (£).", 
+	         "cards" : "69", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "66", 
+	         "hintID" : "", 
+	         "message" : "Montrez votre passeport (13) au capitaine (66) pour lui prouver votre bonne foi.", 
+	         "cards" : "79", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "69", 
+	         "hintID" : "", 
+	         "message" : "Les lumières forment un F.", 
+	         "cards" : "F", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "70", 
+	         "hintID" : "", 
+	         "message" : "Passepartout chausse apparemment du 40. Soustrayez 40 à Passepartout pour lui retirer ses chaussures (70-40=30).", 
+	         "cards" : "30", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "72", 
+	         "hintID" : "", 
+	         "message" : "Une fois l'eau récupérée par l'éléphant (+36 caché + 18 = 54), projetez-la sur les flammes (40) pour éteindre le brasier et sauver la jeune femme.", 
+	         "cards" : "94", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "79", 
+	         "hintID" : "", 
+	         "message" : "Selon le plan du navire (79), le bois représente 29 tonnes sur les 90 au total. Une fois tout le bois brûlé, il ne reste que la carcasse métallique, soit 61 tonnes (90-29).", 
+	         "cards" : "61", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "80", 
+	         "hintID" : "", 
+	         "message" : "Les bulles 33 et 99 sont en fait des doubles bulles 3 et 9.", 
+	         "cards" : "3,9", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "81", 
+	         "hintID" : "", 
+	         "message" : "Votre montre affiche dimanche 22 décembre, soit 81 jours depuis votre départ de Londres. Mais selon le journal, la dernière représentation de Hamlet devait avoir lieu le samedi 21 décembre. Se pourrait-il que vous n'ayez en fait mis que 80 jours pour accomplir le tour du monde ? Remontez les aiguilles de votre montre de 24 h pour le savoir...", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "85", 
+	         "hintID" : "", 
+	         "message" : "Pour vous envoler, il faut retirer 70 kilos à la montgolfière (machine 85). Entrez alors la machine 15 (85-70) dans l'application.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "90", 
+	         "hintID" : "", 
+	         "message" : "Selon le plan du navire (79), le bois représente 29 tonnes sur les 90 au total. Une fois tout le bois brûlé, il ne reste que la carcasse métallique, soit 61 tonnes (90-29).", 
+	         "cards" : "61", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "94", 
+	         "hintID" : "", 
+	         "message" : "Observez le caillou, aux pieds de Passepartout, responsable de sa chute. Le numéro 37 y est dissimulé.", 
+	         "cards" : "37", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "96", 
+	         "hintID" : "", 
+	         "message" : "Une fois les 3 cartes placées correctement sur le carnet, les pointillés vous mènent jusqu'à la lettre C de Pacific.", 
+	         "cards" : "C", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "97", 
+	         "hintID" : "", 
+	         "message" : "Une fois les 3 cartes placées correctement sur le carnet, les pointillés vous mènent jusqu'à la lettre C de Pacific.", 
+	         "cards" : "C", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "98", 
+	         "hintID" : "", 
+	         "message" : "Une fois les 3 cartes placées correctement sur le carnet, les pointillés vous mènent jusqu'à la lettre C de Pacific.", 
+	         "cards" : "C", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "100", 
+	         "hintID" : "", 
+	         "message" : "SOI-SAN-TEU-DOU-ZEU. Prenez la carte 72.", 
+	         "cards" : "72", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "111", 
+	         "hintID" : "", 
+	         "message" : "Une fois la moitié inférieure du paquet posée au-dessus de l'autre, un K apparaîtra sur la tranche.", 
+	         "cards" : "K", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "122", 
+	         "hintID" : "", 
+	         "message" : "Fallentin remporte la 13e manche grâce à son as. Le score final est donc de 5 pour l'équipe 1 et de 8 pour l'équipe 2.", 
+	         "cards" : "58", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "133", 
+	         "hintID" : "", 
+	         "message" : "En suivant les photos dans l'ordre, vous partez du village chamanique en direction de la grotte de Vishnu, puis gagnez le campement central, le village de Ganesh et enfin les rapides de Brahma. Cet itinéraire dessine un M.", 
+	         "cards" : "M", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "144", 
+	         "hintID" : "", 
+	         "message" : "En passant de la livre (£) au dollar ($), le 7 devient un 5 (2e ligne). Payez le vendeur de la gare de San Francisco (64) en lui ajoutant 5 ($) et non pas 7 (£).", 
+	         "cards" : "69", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "155", 
+	         "hintID" : "", 
+	         "message" : "Le soleil étant en train de se coucher (Y), il indique l'ouest. Avec la boussole (48), vous pouvez déduire que le signal de fumée se situe au nord-ouest. Orientez alors la boussole (48) vers le nord-ouest, puis appuyez sur OK.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "200", 
+	         "hintID" : "", 
+	         "message" : "La lumière du phare clignote 3 fois consécutivement, puis 2 fois. Prenez la carte 32.", 
+	         "cards" : "32", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "14", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "16", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Impressionné par votre performance, le fakir tient parole et vous conduit à l'entrée d'un temple sacré. L'homme qui pourrait vous aider se tient dans ce temple."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "62", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Une fois votre passeport visé, vous quittez le consulat et rejoignez le canal de Suez afin de poursuivre votre aventure."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "T", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Une fois votre télégramme envoyé, vous montez à bord du prochain navire qui vous mènera au continent américain."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "42", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Après quelques minutes de marche à travers la végétation dense, vous retrouvez votre guide, qui se charge de vous dénicher un abri pour la nuit. Le lendemain, vous rejoignez la ville de Calcutta à dos d'éléphant. Une fois sur place, votre guide vous trouve votre prochain moyen de locomotion."
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "200", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "300", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "90", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous retrouvez Fix dans la foule new-yorkaise et le contraignez à laisser le bateau partir pour Londres."
+	      }, 
+	      { 
+	         "number" : "11111", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "77", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Une fois la montre réglée, vous montez à bord de votre train à destination de Suez.", 
+	         "messageID" : "machine_77_step_1", 
+	         "cardsToTake" : "8", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

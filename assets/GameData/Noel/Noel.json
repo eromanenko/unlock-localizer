@@ -1,0 +1,328 @@
+{ 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "Noel", 
+	   "number" : "96", 
+	   "displayName" : "Noël en juillet", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Noel", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Noel", 
+	   "maxTime" : "1800", 
+	   "totalTime" : "1800", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "7431", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous ouvrez le cadenas du Père Noël… Le voici libre, bravo ! Il va pouvoir se reposer sur la côte bretonne avant d'entamer sa prochaine tournée. Joyeux Noël à tous !"
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "180", 
+	         "nextObject" : "False", 
+	         "message" : "Ce fil électrique a une drôle de forme."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o2", 
+	         "time" : "0", 
+	         "nextObject" : "True", 
+	         "message" : "Rien n'a été laissé au hasard dans la disposition des cadeaux, en particulier les paquets verts."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hintName" : "o3", 
+	         "time" : "60", 
+	         "nextObject" : "False", 
+	         "message" : "Les barreaux de la porte recouvrent une partie du HELP ME, ne voyez-vous pas un numéro dans la partie restante ?"
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette horrible créature devrait pouvoir chasser les nuisibles de manière impitoyable."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez bien la forme de cette prise pour comprendre où la brancher."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le crochet métallique de cette boule est fin, mais solide."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Quelqu'un a pris le temps de dessiner ces trois personnages dans un ordre précis. "
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette liste est écrite au dos d'une page de livre. Essayez d'obtenir son numéro."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La musique du 78 tours devrait vous aider à trouver ce code. Écoutez bien les paroles."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "« Et tu souris jaune vert l'abeille. »"
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Tournez la fiche que vous avez pour la faire rentrer dans la bonne prise."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce téléphone a plusieurs utilités. Observez bien les animaux des touches et leurs initiales."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Et si vous commenciez par taper NOEL (7836) ?"
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait la force de deux animaux pour briser cette barricade."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette mignonnerie doit absolument êre protégée de l'ignoble créature qui jouait avec le fil."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez les traces que font les deux animaux… Ils pourraient casser quelque chose."
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Remplissez bien les mots-croisés. Vous devriez voir apparaître un nombre : prenez la carte correspondante."
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Essayez de forcer cette porte avec un objet crochu."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les paroles vous donnent le code final. Qu'entendez-vous comme mots ?"
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "« Et tu souris jaune vert l'abeille. »"
+	      }, 
+	      { 
+	         "number" : "84", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez la première lettre du nom de chaque animal. Mettez-les en rapport avec le clavier du téléphone."
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Tournez la boule grâce aux boutons. Les amis du Père Noël vous donneront la bonne séquence."
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La bonne séquence vous sera donnée par les amis du Père noël. Écoutez bien ce qu'ils ont à vous dire."
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez bien les cadeaux verts au centre… et prenez la carte correspondante."
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez le fil électrique pour mettre chaque paire d'ampoules de la bonne couleur."
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez les étoiles du bonnet du chat pour trouver la bonne séquence."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Certains noms de cette liste seront à appeler. Encore faut-il joindre le Père Noël en tout premier."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "35", 
+	         "message" : "", 
+	         "cards" : "84", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "42", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "7431"
+	      }, 
+	      { 
+	         "hintNumber" : "50", 
+	         "message" : "", 
+	         "cards" : "97", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "65", 
+	         "message" : "", 
+	         "cards" : "69", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "67", 
+	         "message" : "", 
+	         "cards" : "51", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "69", 
+	         "message" : "", 
+	         "cards" : "92", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "92", 
+	         "message" : "2 à gauche / 1 en bas / 3 à droite.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "97", 
+	         "message" : "Rouge / Bleu / Vert / Jaune / Rouge / Bleu / Vert / Jaune en suivant le fil.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "51", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "42", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous ouvrez la porte ! Que se cache-t-il derrière ?"
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "19", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Tout s'éclaire !"
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	      "French"
+	   ]
+	}

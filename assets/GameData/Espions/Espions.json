@@ -1,0 +1,845 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Espions", 
+	   "displayName" : "Mission #07", 
+	   "difficulty" : "3", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Espions", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "", 
+	   "maxTime" : "5400", 
+	   "totalTime" : "5400", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o1", 
+	         "time" : "360", 
+	         "nextObject" : "False", 
+	         "message" : "Observez la grille de ventilation du Bureau ovale."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La clé est introuvable, il faut chercher un autre moyen de voir l'intérieur de ce tiroir."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Parker est un agent expérimenté, il faudra unir vos forces pour le neutraliser."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez bien la pièce de puzzle dans le coin supérieur droit. Elle peut connecter 2 pièces rouges et 2 pièces bleues."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Sheryl vous aidera à voir où mènent les conduits depuis cette bouche d'aération. Observez bien cette partie du bureau."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Des éléments noirs forment un chiffre à gauche et les blancs un chiffre à droite."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce plan des conduits d'aération permet de pouvoir s'y orienter sans s'y perdre. Quand Jin sera dans les conduits, donnez-le-lui."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'un de vos agents pourrait peut-être vous aider à comprendre ces lignes de codes informatiques."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le chef de la sécurité dort profondément à cause du gaz, mais le secouer un peu devrait suffire à le réveiller."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut une clé pour ouvrir cette porte."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le mécanisme de cette bague est le même que sur les coffres-forts à molette. Soyez attentifs au cliquetis."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour ouvrir la bague, tournez le cercle extérieur jusqu'au cliquetis, puis faites de même avec le cercle intérieur."
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette caméra miniaturisée s'infiltre partout et permet de visualiser des zones inaccessibles."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous pris les cartes 13 et 17 ?"
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'un de ces objets ne pourrait-il pas vous aider à écarter l'un des agents suspectés ?"
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois déployé, ce parapluie est un bouclier redoutable. Il vous protégera en cas de besoin."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Posez les 3 disquettes sur cette carte dans le bon ordre grâce aux repères de couleur, et alignez-les à l'aide des flèches. Vous pourrez ainsi lire un nombre."
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette clé sert sans doute à ouvrir une porte."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans un premier temps, il faut trouver qui est la taupe. Pour l'identifier, récoltez tous les indices et procédez par élimination jusqu'à ce qu'il n'en reste qu'un."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le contenu du tiroir, le casier, les diapositives, le faux passeport et le message codé vous permettront d'éliminer un à un 5 suspects dans le dossier."
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Un seul des agents serait capable de se faufiler dans ces conduits. Mais cet agent aura sûrement besoin d'un coup de main pour atteindre la bouche d'aération."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce SOS est-il vraiment un appel au secours ?"
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le chef de la sécurité encore tout endormi a mal articulé son message. Ce SOS est en fait un 505."
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si la pièce est effectivement protégée par des lasers, il faudrait pouvoir les détecter."
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les lunettes de Sheryl détectent les lasers. Mais qui pourrait les franchir sans encombre ?"
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce coffre fait référence à un visage présent dans la planque."
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois le visage trouvé, il faudra « regarder » au-delà des apparences."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les fils rouges relient différentes destinations. Seuls certains trajets vous seront utiles, mais lesquels ?"
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les symboles correspondent aux vignettes de la valise. Mais sans les informations contenues dans la bague, cela ne sera guère utile."
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Jin a pris de la hauteur, que voulez-vous atteindre dans le Bureau ovale ?"
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'un d'entre vous possède des compétences qui vous aideront à décoder ce message crypté."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le code de cette valise a un lien avec les vignettes collées dessus.  L'agent a sûrement caché ailleurs des informations indispensables concernant ces trajets. "
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour trouver le code de la valise, il faut utiliser le papier trouvé dans la bague et la forme des vignettes. Chaque ligne correspond à un trajet. Tracez-les sur la carte 42."
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez de quoi occuper ces carnivores pour récupérer la disquette."
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La disquette ne vous servira à rien sans l'accès au compartiment à disquette."
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le message a été codé en changeant la position des lettres. La clé de décryptage vous aidera à les remettre dans le bon ordre."
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Aidez-vous des « … » et du « ! » pour placer correctement la clé sur le message. Vous pouvez alors observer que chaque demi-cercle relie 2 lettres entre elles. Échangez-les."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'aurez pas le temps de vous échapper avant l'explosion. Trouvez de toute urgence un moyen de vous en protéger."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Quel est l'agent qui n'a PAS été envoyé sur ces trois missions ?"
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les positions des lettres de ce clavier sont surprenantes."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "N'arrivez-vous pas à lire quelque chose de cohérent sur ce clavier ?"
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette porte n'a pas l'air très solide…"
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il va falloir manipuler le boîtier nucléaire : commencez par retirer le couvercle, puis le plastique de rangement. Référez-vous ensuite au manuel des missiles nucléaires."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le boîtier a exactement les mêmes dimensions que la boîte de votre jeu favori. "
+	      }, 
+	      { 
+	         "number" : "71", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut donner à Jin un moyen de s'orienter dans ces conduits. Sheryl vous aidera à visualiser les conduits qui traversent LES MURS DU BUREAU OVALE."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Bien que ce passeport soit un faux, le prénom vous en apprend un peu plus sur l'identité de la taupe et vous permet d'éliminer l'un des suspects."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce casier est fermé, mais vous devez avoir un moyen de visualiser son contenu. En outre, avez-vous repéré la valise au-dessus du casier ?"
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Grâce au gadget de Sheryl, vous découvrez la veste militaire. Les dates de service au Vietnam vous donnent une idée plus claire de l'âge de la taupe et cela vous permet d'éliminer un suspect."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous apercevez la page arrachée de l'annuaire du président, mais à cette distance, impossible de lire quoi que ce soit."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce manuel n'a pas l'air complet. Retrouvez les pages manquantes."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce bout de viande a l'air vraiment appétissant."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce morceau de papier est la page qui a été arrachée de l'annuaire présidentiel. Mais qui faut-il appeler ?"
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Elvis a résolu l'erreur en changeant un des composants. Placez cette carte correctement dans la boîte, puis suivez le circuit depuis le « OK » jusqu'au cœur."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce mini-ordinateur des années 70 vous permettra de désactiver le boîtier nucléaire, mais malheureusement il n'est pas tactile."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les fils du câble semblent correspondre aux boutons de volume de l'ordinateur d'Elvis."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cela vous indique comment les 3 parties du bureau ovale se repositionnent entres elles. L'entrée du bunker se trouve à l'intersection de ces 3 cartes."
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il ne faut pas se fier aux apparences. Regardez au-delà."
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez les lunettes de Sheryl pour voir des éléments dissimulés dans l'affiche. Cela vous aidera pour le coffre."
+	      }, 
+	      { 
+	         "number" : "200", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces formes rappellent celles sur la valise de la taupe. Elles indiquent des trajets à suivre."
+	      }, 
+	      { 
+	         "number" : "200", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En suivant les lignes rouges, le plus court chemin de chaque trajet dessine un chiffre."
+	      }, 
+	      { 
+	         "number" : "300", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut suivre le circuit depuis le détonateur jusqu'au cœur en respectant les consignes du manuel."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "2", 
+	         "hintID" : "", 
+	         "message" : "Observez l'intérieur du tiroir (2) en y insérant la caméra miniaturisée (13).", 
+	         "cards" : "15", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "3", 
+	         "hintID" : "", 
+	         "message" : "Envoyez simultanément les 4 agents Sheryl (14), Jin (23), Tommy (20) et Elvis (10) neutraliser l'agent Parker (3) en les additionnant tous les 5.", 
+	         "cards" : "70", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "5", 
+	         "hintID" : "", 
+	         "message" : "Passez les lunettes à rayons X sur l'ensemble du panorama du Bureau ovale pour visualiser le cheminement des conduits. Les conduits forment un 2+5.", 
+	         "cards" : "7", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "6", 
+	         "hintID" : "", 
+	         "message" : "Les éléments noirs forment un 6. Les blancs forment un 5.", 
+	         "cards" : "65", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "7", 
+	         "hintID" : "", 
+	         "message" : "Une fois que Tommy aura aidé Jin à atteindre les conduits (71), donnez-lui le plan dessiné par Sheryl (7).", 
+	         "cards" : "78", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "hintID" : "", 
+	         "message" : "Le code informatique (8) n'a rien de compliqué pour Elvis (10).", 
+	         "cards" : "18", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "9", 
+	         "hintID" : "", 
+	         "message" : "Demandez à Tommy (20) de secouer le chef de la sécurité (9) pour le réveiller.", 
+	         "cards" : "29", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "hintID" : "", 
+	         "message" : "Le tiroir de la planque de la taupe contient un peigne. D'après sa photo, le « Lézard » n'est alors plus un suspect potentiel.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "18", 
+	         "hintID" : "", 
+	         "message" : "En posant la disquette verte, puis la bleue, puis la jaune dans cet ordre et au bon endroit, le nombre 26 apparaît.", 
+	         "cards" : "26", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "21", 
+	         "hintID" : "", 
+	         "message" : "Cette clé (21) ouvre la porte (11).", 
+	         "cards" : "32", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "26", 
+	         "hintID" : "", 
+	         "message" : "Après élimination, il ne reste que le « Renard », c'est donc lui la taupe. Entrez son code agent RE2587.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "28", 
+	         "hintID" : "", 
+	         "message" : "Tommy porte Jin sur ses épaules (20 + 23 = 43) pour lui permettre d'atteindre la bouche d'aération (28).", 
+	         "cards" : "71", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "29", 
+	         "hintID" : "", 
+	         "message" : "Composez le numéro d'urgence 505 sur le téléphone rouge du président.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "32", 
+	         "hintID" : "", 
+	         "message" : "Passez les lunettes à rayons X sur cette carte (32), qui devient rouge. Envoyez Jin (23) se faufiler entre les lasers.", 
+	         "cards" : "55", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "38", 
+	         "hintID" : "", 
+	         "message" : "En passant les lunettes sur l'affiche, vous voyez les chiffres 8 sur la bouche, 3 sur l'oeil, 1 sur le nez et 9 sur l'oreille qui font référence aux symboles sur le coffre. Tapez le code 8319 pour l'ouvrir.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "43", 
+	         "hintID" : "", 
+	         "message" : "Tommy porte Jin sur ses épaules (43) pour lui permettre d'atteindre la bouche d'aération (28).", 
+	         "cards" : "71", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "47", 
+	         "hintID" : "", 
+	         "message" : "Elvis (10) est un expert en code. Donnez-lui ce message crypté (47).", 
+	         "cards" : "57", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "48", 
+	         "hintID" : "", 
+	         "message" : "En se référant au papier présent dans la bague et aux vignettes de la valise, les trajets sont : ovale orange (opéra de Sydney) > carré bleu (mont Fuji) / rectangle bleu (tour Eiffel) > rectangle rouge (Kilimandjaro) / triangle rouge (statue de la Liberté) > rond violet (Voortrekker Monument). Ces trajets dessinent respectivement les chiffres 4, 3 et 2 sur la carte 42. Entrez le code 432 pour ouvrir la valise.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "50", 
+	         "hintID" : "", 
+	         "message" : "Donnez le morceau de viande (+6) du réfrigérateur aux piranhas (50) pour récupérer la disquette verte.", 
+	         "cards" : "56", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "57", 
+	         "hintID" : "", 
+	         "message" : "En intervertissant les lettres reliées par les arcs de cercle, on obtient : « Soyez vigilant ! Le gorille se méfie. » Le message étant écrit à l'attention de la taupe par l'organisation Raccoon, il écarte le gorille de la liste des suspects.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "63", 
+	         "hintID" : "", 
+	         "message" : "Déployez le parapluie blindé de l'agence (17) pour vous protéger de l'autodestruction (63).", 
+	         "cards" : "80", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "65", 
+	         "hintID" : "", 
+	         "message" : "Tous les agents suspectés sont allés en mission en France (Paris), en Russie (Moscou) et en Australie (Sydney) sauf un : le Faisan. Il n'est pas donc pas la taupe.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "66", 
+	         "hintID" : "", 
+	         "message" : "Le mot « HUIT » est lisible dans les touches de ce clavier. C'est le mot de passe de l'ordinateur.", 
+	         "cards" : "8", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "68", 
+	         "hintID" : "", 
+	         "message" : "Enfoncez la porte (68) avec Tommy (20).", 
+	         "cards" : "88", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "70", 
+	         "hintID" : "", 
+	         "message" : "Le boîtier nucléaire est en fait la boîte de jeu Unlock! Seule la partie inférieure de la boîte vous sera nécessaire. Retirez tous les autres éléments (couvercle, règles, plastique thermoformé, etc.). Utilisez ensuite le Manuel des missiles nucléaires.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "71", 
+	         "hintID" : "", 
+	         "message" : "Une fois que Sheryl aura repéré avec ses lunettes les conduits du Bureau ovale, donnez le plan (7)  à Jin pour qu'elle puisse s'orienter (71).", 
+	         "cards" : "78", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "72", 
+	         "hintID" : "", 
+	         "message" : "Le prénom masculin présent sur ce faux passeport indique clairement que la taupe n'est pas une femme. Vous pouvez donc retirer le Colibri de vos suspects.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "75", 
+	         "hintID" : "", 
+	         "message" : "La veste contenue dans le casier indique que la taupe a servi l'armée américaine entre 1965 et 1970. Le Merlu est le seul qui était encore un enfant à ces dates-là (9 à 14 ans). Il n'est alors plus suspecté d'être l'agent double.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "78", 
+	         "hintID" : "", 
+	         "message" : "Utilisez la caméra miniaturisée (13) pour visualiser les numéros sur la feuille arrachée (78).", 
+	         "cards" : "91", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "86", 
+	         "hintID" : "", 
+	         "message" : "Il manque les pages I (1) et V (5) du manuel.", 
+	         "cards" : "I,V", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "90", 
+	         "hintID" : "", 
+	         "message" : "En observant le morceau de viande, vous distinguez un modificateur +6 rouge. À quoi l'associer ?", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "97", 
+	         "hintID" : "", 
+	         "message" : "Depuis l'écran « OK », suivez dans cet ordre : bleu continu, orange pointillé, bleu continu, jaune continu. Puis entrez la combinaison dans la machine 98.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "98", 
+	         "hintID" : "", 
+	         "message" : "Utilisez les boutons de volume de votre appareil pour entrer la bonne combinaison du boîtier nucléaire. Le bouton « + » pour orange et le « - » pour bleu.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "hintID" : "", 
+	         "message" : "Placez les cartes 5 et 9 côte à côte (5 à gauche et 9 à droite), puis la carte d'introduction centrée juste en dessous. Vous voyez un « X » apparaître.", 
+	         "cards" : "X", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "200", 
+	         "hintID" : "", 
+	         "message" : "En se référant aux formes des vignettes de la valise (42),  les trajets sont : ovale orange (opéra de Sydney) > carré bleu (mont Fuji) / rectangle bleu (tour Eiffel) > rectangle rouge (Kilimandjaro) / triangle rouge (statue de la Liberté) > rond violet (Voortrekker Monument). Ces trajets dessinent respectivement les chiffres 4, 3 et 2 sur la carte 42. Entrez le code 432 dans la machine 48 pour ouvrir la valise.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "300", 
+	         "hintID" : "", 
+	         "message" : "Partez du détonateur. Vous rencontrez un cercle rouge. Selon les instructions de la carte I, suivez le circuit rouge. Vous rencontrez ensuite un carré creux bleu, donc il faut suivre le circuit orange continu, etc. Le circuit s'arrête au triangle rouge donnant la combinaison orange/orange/bleu/orange/bleu.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "12", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "D", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La bague s'ouvre. Un petit papier plié est logé dedans."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "name" : "", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "63", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le code agent du Renard fonctionne. La taupe était donc le Renard ! Il s'agit plus exactement de l'agent Parker. Vous commencez à examiner ses fichiers afin d'en apprendre plus sur son prochain mouvement."
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "R", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le coffre-fort s'ouvre. Une disquette est logée dedans."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "E", 
+	         "cardsToDiscard" : "", 
+	         "message" : "C'est la bonne combinaison. La valise s'ouvre."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "99", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Cela fonctionne. Les murs et le sol se mettent à trembler…"
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

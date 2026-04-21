@@ -1,0 +1,988 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Tombstone", 
+	   "number" : "8", 
+	   "displayName" : "Tombstone Express", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "West", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "ad8_train.mp3", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3960", 
+	   "penaltyTime" : "3", 
+	   "wrongCodePenaltyTime" : "2", 
+	   "scoreOvertime" : "False", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "6342", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "1", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd4_cadenas.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "T", 
+	         "cardsToDiscard" : "18,JH", 
+	         "message" : "Le cadenas s'ouvre ! Au moment où vous pénétrez dans le wagon de marchandises, il vous semble entendre un bruit étouffé. "
+	      }, 
+	      { 
+	         "number" : "8511", 
+	         "locale" : "", 
+	         "type" : "Early", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous faites des progrès, c'est indéniable ! Cela servira sans doute plus tard !"
+	      }, 
+	      { 
+	         "number" : "1878", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd4_coffrefort.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "37", 
+	         "cardsToDiscard" : "J16,24,86", 
+	         "message" : "Le coffre est ouvert !"
+	      }, 
+	      { 
+	         "number" : "7826", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "4", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous arrêtez Nock, mais ne trouvez pas le cœur de Geronimo sur lui. Il finit par vous avouer qu'il est le complice du marshal John, qu'il a aidé par sa diversion. Mais John a disparu, et tout espoir de paix avec lui..."
+	      }, 
+	      { 
+	         "number" : "2930", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "4", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous arrêtez Nock, mais ne trouvez pas le cœur de Geronimo sur lui. Il finit par vous avouer qu'il est le complice du marshal John, qu'il a aidé par sa diversion. Mais John a disparu, et tout espoir de paix avec lui..."
+	      }, 
+	      { 
+	         "number" : "5847", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "5", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous arrêtez le marshal John et son complice Nock. La blessure est fausse et dans sa botte vous trouvez le cœur de Geronimo ! Le traité de paix est sauvé. Vous devenez une légende de l'Ouest !"
+	      }, 
+	      { 
+	         "number" : "6910", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "5", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous arrêtez le marshal John et son complice Nock. La blessure est fausse et dans sa botte vous trouvez le cœur de Geronimo ! Le traité de paix est sauvé. Vous devenez une légende de l'Ouest !"
+	      }, 
+	      { 
+	         "number" : "168", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Wako  se récrie : \"C'est une injustice !\" Après une fouille minutieuse, vous devez vous rendre à l'évidence, il ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "4759", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Wako  se récrie : \"C'est une injustice !\" Après une fouille minutieuse, vous devez vous rendre à l'évidence, il ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "1031", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Awea se récrie : \"C'est une injustice !\" Après une fouille minutieuse, vous devez vous rendre à l'évidence, elle ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "5719", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Awea se récrie : \"C'est une injustice !\" Après une fouille minutieuse, vous devez vous rendre à l'évidence, elle ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "5126", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Jack se récrie : \"C'est une injustice !\" Après une fouille minutieuse, vous devez vous rendre à l'évidence, il ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "4850", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Jack se récrie : \"C'est une injustice !\" Après une fouille minutieuse, vous devez vous rendre à l'évidence, il ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "9317", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Sean se récrie : \"C'est une injustice !\" Après une fouille minutieuse, vous devez vous rendre à l'évidence, il ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "1937", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Sean se récrie : \"C'est une injustice !\" Après une fouille minutieuse, vous devez vous rendre à l'évidence, il ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "5173", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Jane se récrie : \"C'est une injustice !\" Après une fouille minutieuse, vous devez vous rendre à l'évidence, elle ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "3817", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Jane se récrie : \"C'est une injustice !\" Après une fouille minutieuse, vous devez vous rendre à l'évidence, elle ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "4176", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Hank se récrie : \"C'est une injustice !\" Après une fouille minutieuse, vous devez vous rendre à l'évidence, il ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "2039", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Hank se récrie : \"C'est une injustice !\" Après une fouille minutieuse, vous devez vous rendre à l'évidence, il ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "9780", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Snow se récrie : \"C'est une injustice !\" Après une fouille minutieuse vous devez vous rendre à l'évidence, il ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "5820", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Snow se récrie : \"C'est une injustice !\" Après une fouille minutieuse vous devez vous rendre à l'évidence, il ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "8511", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd8_dixie.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "B", 
+	         "cardsToDiscard" : "J38,V85", 
+	         "message" : "La porte s'ouvre comme par magie !"
+	      }, 
+	      { 
+	         "number" : "690", 
+	         "locale" : "", 
+	         "type" : "Early", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous faites des progrès, c'est indéniable ! Cela servira sans doute plus tard !"
+	      }, 
+	      { 
+	         "number" : "1668", 
+	         "locale" : "", 
+	         "type" : "Early", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous faites des progrès, c'est indéniable ! Cela servira sans doute plus tard !"
+	      }, 
+	      { 
+	         "number" : "9999", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "F", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous terminez votre enquête dans le wagon, puis vous repassez par le toit pour atteindre les wagons suivants."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Trop tard ! Les Apaches prennent les choses en main, mais le Cœur de Geronimo a bel et bien disparu. La paix est désormais menacée !"
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Trop tard ! Les passagers s'évanouissent dans la nature. Le coeur de Géronimo a bel et bien disparu. La paix est désormais menacée !"
+	      }, 
+	      { 
+	         "number" : "4362", 
+	         "locale" : "", 
+	         "type" : "Penal", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Non, cela ne marche pas. Mais après tout, vous regardez dans un miroir... "
+	      }, 
+	      { 
+	         "number" : "690", 
+	         "locale" : "", 
+	         "type" : "Penal", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Rien ne se passe. Cet air n'est sans doute pas le bon..."
+	      }, 
+	      { 
+	         "number" : "1668", 
+	         "locale" : "", 
+	         "type" : "Penal", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Rien ne se passe. Cet air n'est sans doute pas le bon..."
+	      }, 
+	      { 
+	         "number" : "1880", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "sd4_coffrefort.wav", 
+	         "musicName" : "", 
+	         "cardsToTake" : "37", 
+	         "cardsToDiscard" : "J16,24,86", 
+	         "message" : "Le coffre est ouvert !"
+	      }, 
+	      { 
+	         "number" : "134", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "1", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Wako  se récrie : \"C'est une injustice !\" Après une fouille minutieuse, vous devez vous rendre à l'évidence, il ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "1941", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "1", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Awea se récrie : \"C'est une injustice !\" Après une fouille minutieuse, vous devez vous rendre à l'évidence, elle ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "5813", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "1", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Jack se récrie : \"C'est une injustice !\" Après une fouille minutieuse, vous devez vous rendre à l'évidence, il ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "5497", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "1", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Sean se récrie : \"C'est une injustice !\" Après une fouille minutieuse, vous devez vous rendre à l'évidence, il ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "5879", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "1", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Jane se récrie : \"C'est une injustice !\" Après une fouille minutieuse, vous devez vous rendre à l'évidence, elle ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "9573", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "1", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Hank se récrie : \"C'est une injustice !\" Après une fouille minutieuse, vous devez vous rendre à l'évidence, il ne possède pas le bijou ! C'est un échec."
+	      }, 
+	      { 
+	         "number" : "3263", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "1", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Snow se récrie : \"C'est une injustice !\" Après une fouille minutieuse vous devez vous rendre à l'évidence, il ne possède pas le bijou ! C'est un échec."
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o2", 
+	         "time" : "300", 
+	         "nextObject" : "True", 
+	         "message" : "Il y a une carte coincée dans la porte du wagon de voyageurs."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hintName" : "o3", 
+	         "time" : "300", 
+	         "nextObject" : "False", 
+	         "message" : "Avez-vous observé le fauteuil du wagon-bar ?"
+	      }, 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "300", 
+	         "nextObject" : "False", 
+	         "message" : "Ne voyez-vous rien en refermant la mallette ?"
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "8", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En refermant cette mallette, quelque chose se dessine sur le côté."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "13 étoiles pour les 13 états sudistes."
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "HANK peut vous apprendre son air et deux hymnes. Un seul vous servira, mais lequel ?"
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utile pour allumer un feu."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut faire sauter la serrure."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut trouver quelque chose pour l'allumer."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut comprendre le papier codé pour l'ouvrir. Celui qui est en lien avec la mort de Lincoln."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La date de la mort de Lincoln est indiquée dans le journal. Il faut y additionner les étoiles du drapeau."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les chiffres se reflètent dans le miroir. Le IV est donc un VI, et inversement."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Parfois plus efficace qu'un insigne pour faire parler les hommes."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "2", 
+	         "message" : "En assemblant la bonne main de 5 cartes, vous devriez battre un joueur au poker."
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avec une couverture, vous devriez pouvoir faire des signaux de fumée."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Seule la force pourrait l'impressionner."
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un élément dans le coffre vous indiquera un chemin à suivre."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cela impressionne souvent les femmes…"
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les X semblent isoler certains mots d'un message codé."
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Prenez les mots indiqués par les X sur la lettre (47) pour comprendre le vrai message."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En assemblant la bonne main de 5 cartes, vous devriez battre ce joueur au poker."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il est pauvre. Peut-être qu'une pièce pourrait le rendre plus coopératif ?"
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La ligne de train A suit un chemin partant du texAs."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comptez le nombre de A dans chaque étape du chemin."
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut jouer le bon air à l'harmonica pour passer."
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Quel air jouer ? A priori pas l'hymne nordiste…"
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En assemblant la bonne main de 5 cartes, vous devriez battre JACK au poker."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "1", 
+	         "message" : "Un code étrange lié à la mort de Lincoln. Reste à trouver les éléments liés."
+	      }, 
+	      { 
+	         "number" : "49", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utile pour faire des signaux de fumée."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "3", 
+	         "message" : "Pour certains, c'est le début de la fortune."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Un peu d'autorité devrait vous permettre de parvenir à vos fins."
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En assemblant la bonne main de 5 cartes, vous devriez battre JACK au poker."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut envoyer le bon nombre. La dernière phrase du journal (J) devrait vous y aider."
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre regard est attiré par le miroir derrière le barman."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "3", 
+	         "message" : "En assemblant la bonne main de 5 cartes, vous devriez battre un joueur au poker."
+	      }, 
+	      { 
+	         "number" : "111", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le code vous sera donné par le gilet du barman."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "38", 
+	         "message" : "", 
+	         "cards" : "B", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "52", 
+	         "message" : "", 
+	         "cards" : "82", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "10", 
+	         "message" : "", 
+	         "cards" : "25", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "message" : "", 
+	         "cards" : "31", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "16", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "1878"
+	      }, 
+	      { 
+	         "hintNumber" : "18", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "6342"
+	      }, 
+	      { 
+	         "hintNumber" : "25", 
+	         "message" : "", 
+	         "cards" : "74", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "26", 
+	         "message" : "", 
+	         "cards" : "46", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "43", 
+	         "message" : "", 
+	         "cards" : "14", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "53", 
+	         "message" : "", 
+	         "cards" : "14", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "22", 
+	         "message" : "", 
+	         "cards" : "14", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "33", 
+	         "message" : "", 
+	         "cards" : "14", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "88", 
+	         "message" : "", 
+	         "cards" : "14", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "81", 
+	         "message" : "", 
+	         "cards" : "18", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "51", 
+	         "message" : "", 
+	         "cards" : "85", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "12", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "A,V12", 
+	         "message" : "La locomotive repart ! Vous pouvez reprendre le cours de votre enquête."
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "name" : "", 
+	         "objectNumber" : "99", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "32", 
+	         "cardsToDiscard" : "V28,37", 
+	         "message" : "Un panneau caché derrière la carte s'ouvre ! Aucune trace du Cœur, mais vous trouvez un télégramme. Il faut faire vite, Tombstone est proche !"
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "De jolis panaches de fumée. Rien ne se passe. Enfin on ne sait jamais dans l'Ouest..."
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "180", 
+	         "nextEvent" : "2", 
+	         "soundName" : "sys_boom.wav", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Dans votre dos, une explosion secoue le train, puis des coups de feu retentissent ! Le wagon blindé est attaqué !  ", 
+	         "messageID" : "", 
+	         "cardsToTake" : "C", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "600", 
+	         "nextEvent" : "3", 
+	         "soundName" : "", 
+	         "musicName" : "ad8_fight.mp3", 
+	         "musicType" : "Temporary", 
+	         "resourceName" : "", 
+	         "message" : "De multiples coups de feu retentissent autour de vous ! Les vitres du train volent en éclats !", 
+	         "messageID" : "", 
+	         "cardsToTake" : "Y", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "600", 
+	         "nextEvent" : "-1", 
+	         "soundName" : "", 
+	         "musicName" : "ad8_end.mp3", 
+	         "musicType" : "Final", 
+	         "resourceName" : "", 
+	         "message" : "Le train ralentit puis s'arrête au milieu de nulle part ! ", 
+	         "messageID" : "", 
+	         "cardsToTake" : "A", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "type" : "End", 
+	         "extraNumber" : "5", 
+	         "time" : "60", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "ad8_end.mp3", 
+	         "musicType" : "Final", 
+	         "resourceName" : "", 
+	         "message" : "Des dizaines d'Indiens armés entourent le train ! Le traité de paix est menacé...", 
+	         "messageID" : "", 
+	         "cardsToTake" : "G", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "type" : "End", 
+	         "extraNumber" : "10", 
+	         "time" : "90", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "ad8_end.mp3", 
+	         "musicType" : "Final", 
+	         "resourceName" : "", 
+	         "message" : "Le train arrive en gare de Tombstone. Les passagers commencent à descendre. Il faut retrouver le Cœur avant qu'il ne disparaisse à jamais. ", 
+	         "messageID" : "", 
+	         "cardsToTake" : "S", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

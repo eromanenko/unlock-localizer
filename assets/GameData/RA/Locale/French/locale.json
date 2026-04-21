@@ -1,0 +1,31 @@
+﻿{ 
+    "language" : "French", 
+    "localizations" : { 
+       "title" : "Le temple de RA", 
+       "hiddenObject_1" : "Sur la coiffe du dieu.", 
+       "hiddenObject_2" : "Avez vous examiné le sarcophage ?", 
+       "code_1247" : "Vous appuyez sur les 4 hiéroglyphes et le mur pivote. Il fait sombre, mais vous distinguez une salle secrète !", 
+       "code_4233" : "Le sarcophage s'ouvre...il est vide ! Au fond, vous distinguez un message.", 
+       "code_6815" : "Le double fond s'ouvre ! Vous trouvez un papyrus étrange. Vous allez pouvoir prouver au monde que vous aviez raison. Bravo !", 
+       "hint_6" : "Il faut faire passer le temps pour comprendre.", 
+       "hint_8_first" : "Il faut épeler le nom de RA.", 
+       "hint_8" : "Vous avez déjà le R, il manque donc la seconde moitié.", 
+       "hint_9" : "Ce n'est pas un numéro ou une lettre, c'est un hiéroglyphe.", 
+       "hint_15" : "Ces gravures ne sont pas anodines. Mais cela n'a pas d'utilité dans l'antichambre... ", 
+       "hint_20" : "C'est un hiéroglyphe. Cela doit avoir un rapport avec le mur.", 
+       "hint_22" : "Il faut regarder de près ces hiéroglyphes. ", 
+       "hint_23" : "Ces motifs rappellent ceux du dallage.", 
+       "hint_24" : "Sur la coiffe du dieu, ce n'est pas l'infini...", 
+       "hint_28" : "+1/-2/+1/+3/-1/+2/+1/+3/-1", 
+       "hint_55" : "Il y a 9 lignes. Il faut appuyer sur 4 hieroglyphes dans un certain ordre coloré. Il faut les trouver dans la pièce.", 
+       "hint_60_first" : "Il faut décaler ces groupes de 9 lettres. Le schéma de décalage doit être inscrit sur un mur.", 
+       "hint_60" : "Une fois que vous aurez 3 mots, vous trouverez ce que vous cherchez dans la défausse.", 
+       "hint_85" : "Trois de ces hiéroglyphes sont présents sur l'ânkh, qui se glisse parfaitement dans les trous.", 
+       "hint_111_first" : "Cette pyramide a 26 degrés...et quelques blocs sont colorés. Un par ligne.", 
+       "hint_111" : "26, comme l'alphabet. Partez du bas et vous formerez un mot.", 
+       "hint_222" : "C'est un hiéroglyphe. Cela doit avoir un rapport avec le mur.", 
+       "answer_hint_23_code" : "4233", 
+       "answer_hint_55_code" : "1247", 
+       "answer_hint_60_code" : "6815"
+    }
+ }

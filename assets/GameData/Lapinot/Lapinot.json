@@ -1,0 +1,869 @@
+{ 
+	   "visible" : "True", 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Lapinot", 
+	   "displayName" : "Les aventures de Lapinot", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Lapinot", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Leaving_Naples", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o1", 
+	         "time" : "60", 
+	         "nextObject" : "False", 
+	         "message" : "Regardez bien le tableau, vous trouverez un plan."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les deux épées de l'homme-statue sont cassées. Vous en avez récupéré les morceaux manquants précédemment."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'homme-statue croise ses épées d'une manière bien précise."
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois que vous aurez les 4 câbles, il faudra les connecter pour former un carré de deux par deux."
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'entrée du square est visible, mais le panneau est à l'envers."
+	      }, 
+	      { 
+	         "number" : "62", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'intérieur de la maison que vous cherchez est visible dans la galerie du téléphone."
+	      }, 
+	      { 
+	         "number" : "62", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La maison que vous cherchez a une fenêtre avec des rideaux bleus, quatre carreaux, dont un cassé, et une vue dégagée."
+	      }, 
+	      { 
+	         "number" : "404", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : " Lisez les photos de la galerie du téléphone une à une. "
+	      }, 
+	      { 
+	         "number" : "404", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En regardant bien, vous pouvez voir des chiffres et des symboles mathématiques. Il ne reste plus qu'à faire une opération. "
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Quand vous aurez les 4 câbles, vous devrez les connecter les uns aux autres."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'intérieur de la maison que vous cherchez est visible dans la galerie du téléphone."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La maison que vous cherchez a une fenêtre avec des rideaux bleus, quatre carreaux, dont un cassé, et une vue dégagée."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Quand vous aurez les 4 câbles, vous devrez les connecter les uns aux autres."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce livre de solution peut être utilisé dans le jeu Road Tripes."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez trouvé Camille, mais elle semble avoir perdu son téléphone."
+	      }, 
+	      { 
+	         "number" : "39", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La fumée verte a une forme très caractéristique. "
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez déjà vu les mouvements de ce chien sur le téléphone. "
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez sa routine dans l'ordre, il se trouve que son maître a pris des photos du chien les exécutants. "
+	      }, 
+	      { 
+	         "number" : "76", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'intérieur de la maison que vous cherchez est visible dans la galerie du téléphone."
+	      }, 
+	      { 
+	         "number" : "76", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La maison que vous cherchez a une fenêtre avec des rideaux bleus, quatre carreaux, dont un cassé, et une vue dégagée."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous regardez le tableau d'affichage de plus près, vous allez sans doute trouver comment entrer dans la bibliothèque. "
+	      }, 
+	      { 
+	         "number" : "202", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La fumée verte a une forme très caractéristique. "
+	      }, 
+	      { 
+	         "number" : "58", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Quand vous aurez les 4 câbles, vous devrez les connecter les uns aux autres."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les trois conversations des gens du parc cachent quelque chose, il faut les recouper pour mieux comprendre."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En emboîtant les trois conversations, vous devriez avoir un décors uniforme."
+	      }, 
+	      { 
+	         "number" : "305", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les flammes vertes ont une forme très caractéristique."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'intérieur de la maison que vous cherchez est visible dans la galerie du téléphone."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La maison que vous cherchez a une fenêtre avec des rideaux bleus, quatre carreaux, dont un cassé, et une vue dégagée."
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "En donnant quelque chose à manger à Richard, vous pourriez obtenir son aide. "
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les chocolats ne sont pas pour le chien, mais l'os dans la poubelle devrait faire l'affaire."
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'intérieur de la maison que vous cherchez est visible dans la galerie du téléphone."
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La maison que vous cherchez a une fenêtre avec des rideaux bleus, quatre carreaux, dont un cassé, et une vue dégagée."
+	      }, 
+	      { 
+	         "number" : "101", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "À l'intérieur du sac poubelle, vous ne voyez rien de comestible, mais un os dépasse de l'autre côté. "
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La fumée verte a une forme très caractéristique, mais un étrange engrenage sort du téléphone. "
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les chiffres et l'engrenage sont tous verts."
+	      }, 
+	      { 
+	         "number" : "71", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'interphone ne semble pas bien fonctionner. Il y a une information quelque part qui permet d'entrer."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le mot de passe n'est pas vraiment caché, mais il faut trouver le nom de pseudonyme de cet expert de Road Tripes."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_66_part1", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le téléphone est trop chaud pour être ramassé. Il va falloir trouver un moyen de le refroidir."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_66_part2", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La coque du téléphone (73) et l'écran de verrouillage ont des étoiles identiques. "
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_66_part2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'une des formes sur la coque du téléphone (73) est la seule faisable sur l'écran. Regardez bien la petite l'étoile brillante en bas de chaque schéma, elle indique une orientation."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_roadtripes", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Jouer à la loyale ne mène à rien, il va falloir demander de l'aide à Richard ou tricher."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_crottepassion", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a beaucoup de crotte sur cette application, vous avez déjà vu l'une de ces crottes autre part, mais où ?"
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_crottepassion", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Après avoir identifié la crotte du chien, il vous faut le plan de la ville sur le panneau d'affichage (99) pour trouver la bonne rue et vous y rendre en taxi."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_85_part1", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez les instructions (F) qui vous sont données si la lumière bleue est allumée."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_85_part2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les nouvelles instructions (G) sont des schémas indiquant que : si un 1 apparaît, vous devez activer un élément avec un hexagone ; si un 2 apparaît vous devez activer un élément rose ; et si un 3 apparaît, vous devez activer un élément gris."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_85_part3", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si toutes les lumières sont allumées, vous devez ignorer les autres instructions (F)"
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_85_part4", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les nouvelles instructions (P) sont en un chemin de pensée : si un peut-être apparaît, il faut activer n'importe quel élément qui ne l'est pas déjà ; si un non apparaît, il faut activer un élément avec un octogone ; et si un oui apparaît, il faut activer un élément avec un triangle."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_85_part5", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les nouvelles instructions (T) ont des symboles indiquant, dans l'ordre, une variation graduelle d'une lumière, le clignotement d'une lumière, le clignotement à trois reprises d'une lumière et l'alternance de deux lumières. "
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_85_part6", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'instruction (J) ne vous interdit pas d'appuyer sur le bouton rouge."
+	      }, 
+	      { 
+	         "number" : "89", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "En aspirant Camille, le téléphone dessine une forme étrange."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une option Bluetooth est apparu sur le téléphone."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "26", 
+	         "hintID" : "", 
+	         "message" : "Prenez les cartes des morceaux d'épées cassées (47) et (55) et croisez-les là où elles sont brisées. La (47) est par-dessus la (55), conformément à l'angle des épées cassées de la carte (26). Vous pourrez ainsi voir un 64.", 
+	         "cards" : "64", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "43", 
+	         "hintID" : "", 
+	         "message" : "Assembler les cartes (43), (48), (22) et (58). Placez la carte (22) à droite de la carte (43), la carte (58) sous la carte (43) pivotée à 180° et la carte (48) sous la carte (22) et pivotée à 180°. Vous pourrez ainsi voir un 20.", 
+	         "cards" : "20", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "32", 
+	         "hintID" : "", 
+	         "message" : "Le panneau marquant l'entrée du square est à l'envers et porte le numéro 18. En remettant le mot square dans le bon sens, les chiffres s'inversent donnant ainsi 81.", 
+	         "cards" : "81", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "62", 
+	         "hintID" : "", 
+	         "message" : "Le seul lieu ayant une fenêtre avec des rideaux bleus, quatre carreaux, dont un cassé, une vue dégagée et n'ayant ni un panneau indiquant qu'il est en construction ou l'interdiction de chien est la maison du 90 ter.", 
+	         "cards" : "90ter", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "404", 
+	         "hintID" : "", 
+	         "message" : "En regardant les photos dans le sens de lecture et en commençant en haut à gauche, vous pourrez voir 230 sur la photo 1, + sur la photo 6, 100 sur les photos 7 et 8, + sur la photo 9, 2 sur la photo 12, - sur la photo 13 et 300 (écrit Troissant) sur la photo 14. 230 + 100 + 2 - 300 = 32", 
+	         "cards" : "32", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "65", 
+	         "hintID" : "", 
+	         "message" : "Le seul lieu ayant une fenêtre avec des rideaux bleus, quatre carreaux, dont un cassé, une vue dégagée et n'ayant ni un panneau indiquant qu'il est en construction ou l'interdiction de chien est la maison 90 ter.", 
+	         "cards" : "90ter", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "51", 
+	         "hintID" : "", 
+	         "message" : "Ouvrez le livre de solutions (51) à la page de Road Tripes à l'aide du +18 en rouge présent sur l'application Road Tripes. 51 + 18 = 69", 
+	         "cards" : "69", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "16", 
+	         "hintID" : "", 
+	         "message" : "Donnez le téléphone que vous avez trouvé (73) à Camille (16). 73 + 16 = 89", 
+	         "cards" : "89", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "39", 
+	         "hintID" : "", 
+	         "message" : "La fumée forme un A.", 
+	         "cards" : "A", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "29", 
+	         "hintID" : "", 
+	         "message" : "Dans la galerie du téléphone, en reliant chaque photo dans l'ordre des actions du chien (29), vous verrez un 17.", 
+	         "cards" : "17", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "76", 
+	         "hintID" : "", 
+	         "message" : "Le seul lieu ayant une fenêtre avec des rideaux bleus, quatre carreaux, dont un cassé, une vue dégagée et n'ayant ni un panneau indiquant qu'il est en construction ou l'interdiction de chien est la maison 90 ter.", 
+	         "cards" : "90ter", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "hintID" : "", 
+	         "message" : "La note \"Pour entrer, sonnez 3 fois.\" vous indique qu'il faut appuyer 3 fois de suite sur l'interphone (71) et le plan est partiellement masqué, formant un 6.", 
+	         "cards" : "6", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "202", 
+	         "hintID" : "", 
+	         "message" : "La fumée forme la lettre C.", 
+	         "cards" : "C", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "64", 
+	         "hintID" : "", 
+	         "message" : "Assemblez les cartes (64), (21) et (82) de sorte à n'avoir qu'un seul personnage entier. La conversation ainsi formée vous demande d'aller dans le store du téléphone et d'y chercher l'application Crotte Passion.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "305", 
+	         "hintID" : "", 
+	         "message" : "Les flammes vertes forment le chiffre 8.", 
+	         "cards" : "8", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "72", 
+	         "hintID" : "", 
+	         "message" : "Le seul lieu ayant une fenêtre avec des rideaux bleus, quatre carreaux, dont un cassé, une vue dégagée et n'ayant ni un panneau indiquant qu'il est en construction ou l'interdiction de chien est la maison 90 ter.", 
+	         "cards" : "90ter", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "44", 
+	         "hintID" : "", 
+	         "message" : "Donnez les chocolats (7) à Richard (44). 44 + 7 = 51", 
+	         "cards" : "51", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "28", 
+	         "hintID" : "", 
+	         "message" : "Prenez l'os (+8) qui sort de l'autre côté de la poubelle (O) et donnez-le au chien (28). 28 + 8 = 36", 
+	         "cards" : "36", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "59", 
+	         "hintID" : "", 
+	         "message" : "Le seul lieu ayant une fenêtre avec des rideaux bleus, quatre carreaux, dont un cassé, une vue dégagée et n'ayant ni un panneau indiquant qu'il est en construction ou l'interdiction de chien est la maison 90 ter.", 
+	         "cards" : "90ter", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "101", 
+	         "hintID" : "", 
+	         "message" : "Prenez l'os (+8) qui sort de l'autre côté de la poubelle (O) et donnez-le au chien (28). 28 + 8 = 36", 
+	         "cards" : "36", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "hintID" : "", 
+	         "message" : "Assemblez la conversation entre Lapinot et Richard (39, A, C et 8). Les fumées et flammes vertes forment un 85 et un engrenage vert apparaît. Ouvrez la machine 85.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "71", 
+	         "hintID" : "", 
+	         "message" : "Appuyez trois fois sur l'interphone comme indiqué sur le panneau d'affichage (99). ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "hintID" : "", 
+	         "message" : "En gagnant au jeu Road Tripes, vous trouvez que le meilleur joueur a le pseudonyme Turbochad et le mot de passe 1234 est noté partout autour de l'ordinateur.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_66_part1", 
+	         "message" : "Soufflez sur le téléphone pour le refroidir.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_66_part2", 
+	         "message" : "La coque et l'écran du téléphone (73) ont des étoiles identiques, et la seule constellation pouvant être reproduite avec les neuf points est celle au milieu de la coque. Reproduisez cette forme en la plaçant avec l'étoile brillante en bas. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_roadtripes", 
+	         "message" : "Ouvrez le livre de solutions (51) que vous avez récupéré de Richard (44) à la page de Road Tripes à l'aide du +18 en rouge présent sur l'application Road Tripes. 51 + 18 = 69", 
+	         "cards" : "69", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_crottepassion", 
+	         "message" : "En suivant le chemin de crottes identiques à celles vues dans la galerie, vous trouvez la rue où vit la personne que vous cherchez. Le nom de la rue est visible sur le plan de la ville (6) accrochée sur le panneau d'affichage (99). Ouvrez l'application taxi et rendez-vous à la rue de l'esquive.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_85_part1", 
+	         "message" : "En suivant les instructions reçues (F), la lumière bleue étant allumée, vous devez appuyer sur l'interrupteur au symbole jaune.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_85_part2", 
+	         "message" : "En suivant les instructions reçues (F) et (G), vous devez baisser le premier levier sur le rond et le troisième sur l'hexagone.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_85_part3", 
+	         "message" : "En suivant les instructions reçues (F) et (G), vous devez connecter un câble à la prise pentagonale et un autre à la prise grise. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_85_part4", 
+	         "message" : "En suivant les instructions reçues (F), (G) et (P), vous devez appuyer sur les interrupteurs aux symboles jaune, rose et octogonal.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_85_part5", 
+	         "message" : "En suivant les instructions reçues (F), (G), (P) et (T), vous devez connecter le câble à la prise au symbole hexagonal, baisser le premier levier sur le triangle et le deuxième levier sur le bleu.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_85_part6", 
+	         "message" : "L'instruction (J) ne vous interdit pas d'appuyer sur le bouton rouge. Appuyez sur le bouton rouge. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "89", 
+	         "hintID" : "", 
+	         "message" : "L'aspiration de Camille dans le téléphone dessine un 66.", 
+	         "cards" : "66", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "20", 
+	         "hintID" : "", 
+	         "message" : "Un symbole Bluetooth est apparu dans le coin supérieur gauche du téléphone appuyez dessus et cherchez l'ordinateur central.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "71", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "60", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La porte s’ouvre dans un grésillement électronique."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "B", 
+	         "cardsToDiscard" : "", 
+	         "message" : "En le déverrouillant, le téléphone sonne à tue-tête. Et on vous chasse de la bibliothèque."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_Lapinot_Bluetooth", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "39", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le téléphone est connecté à l'ordinateur central."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_Lapinot_Gallery", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_Lapinot_Taxi", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_Lapinot_Store", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_Lapinot_Runner", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_Lapinot_Poop", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "98", 
+	         "cardsToDiscard" : "", 
+	         "message" : "L’ordinateur se déverrouille."
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "L’écran du téléphone pivote pour faire apparaître un panneau de contrôle, et l’ordinateur central se met à imprimer un document.", 
+	         "messageID" : "machine_85_step_1", 
+	         "cardsToTake" : "F", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Le panneau pivote et l’ordinateur central continue d’imprimer des documents.", 
+	         "messageID" : "machine_85_step_2", 
+	         "cardsToTake" : "G", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Le panneau pivote de nouveau et l’ordinateur central continue d’imprimer des documents.", 
+	         "messageID" : "machine_85_step_3", 
+	         "cardsToTake" : "J", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Le panneau pivote encore et l’ordinateur central imprime un nouveau document.", 
+	         "messageID" : "machine_85_step_4", 
+	         "cardsToTake" : "P", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Le panneau pivote une cinquième fois et l’ordinateur central imprime un dernier document.", 
+	         "messageID" : "machine_85_step_5", 
+	         "cardsToTake" : "T", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

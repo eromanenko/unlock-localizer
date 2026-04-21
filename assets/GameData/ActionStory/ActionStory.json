@@ -1,0 +1,653 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "ActionStory", 
+	   "number" : "25", 
+	   "displayName" : "Action Story", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "Manual", 
+	   "skinName" : "ActionStory1", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Spy_Hunt", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "5", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Stella s'enfuit à travers le portail. Trouvez un moyen de la poursuivre dans les airs. "
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudra vous servir deux fois de cette puissante arme pour désarçonner Stella."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le cadenas de la boîte à gants ressemble à un chiffre. Mais comment l'ouvrir ?"
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utile pour sécher des choses diverses et variées."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'esprit d'eau libéré, il ne reste qu'à le ramener sur sa terre natale."
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette route semble être le meilleur moyen de vous rapprocher du ballon de Stella."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Stella est tout juste hors de portée. Il va falloir accélérer pour ne pas la laisser s'échapper."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'eau et le papier ne font pas bon ménage. Et vous n'avez pas le temps d'attendre que l'avion sèche."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette catapulte menaçante ne vous sera pas utile tout de suite. Attendez d'avoir un ennemi à couler."
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce train doit être arrêté même s'il est trop gros et puissant. Servez-vous donc de l'environnement. "
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ramenez l'eau sur ces terres. Et avez-vous pris les cartes 80 et K ?"
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Stella doit être retenue. Votre voiture possède un moyen de le faire. Et avez-vous bien pris la carte 41 ?"
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'avion fonctionne ! Mais où est Stella ?"
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Un des quatre wagons de ce jouet contient les lingots d'or du shérif, mais comment savoir lequel ?"
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est bien connu, la pierre bat les ciseaux. Il ne reste plus qu'à trouver des ciseaux à battre."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce miroir est très joli, mais il ne vous servira pas avant la fin de l'aventure."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez le miroir pour construire votre robot. Trouvez comment il pourrait contrer l'une des armes dévastatrices du robot de Stella."
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le ballon de Stella est de nouveau en vue. N'oubliez pas de prendre la carte 16. "
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris les cartes 10, 20, 30, 57 et 95 ?"
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Voilà une situation qui s'annonce mal. Il faut sortir de cette voiture avant qu'elle ne s'écrase dans le ravin."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Petit Ourson est bien armé, mais que sont vraiment ces épées dans le monde réel ?"
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "N'oubliez pas que Petit Ourson n'est qu'une peluche avec des ciseaux. Qu'est-ce qui bat généralement les ciseaux ?"
+	      }, 
+	      { 
+	         "number" : "39", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'avez pas grand-chose d'autre que vos mains pour essuyer ce pare-brise."
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le papier bat la pierre. Mais vous n'avez pas besoin de battre la pierre."
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Commencez par trouver un moyen d'agripper la voiture de Stella. "
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Maintenant que votre grappin est projeté, faites-le glisser depuis le dessous de cette carte. Que lisez-vous ?"
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce magnifique avion plane dans les airs. C'est désormais un bien meilleur moyen de rattraper Stella que votre voiture."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les pirouettes de l'avion dessinent un nombre dans les airs. "
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette bouteille est bien remplie, mais elle vous servira surtout vers la fin de l'aventure."
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez la bouteille pour construire votre robot. Trouvez comment elle pourrait contrer l'une des armes dévastatrices du robot de Stella."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'un des wagons du train contient l'or du shérif, mais il faut d'abord trouver le moyen d'arrêter sa course."
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce couvercle de poubelle ferait un excellent bouclier, mais il ne vous servira qu'à la fin de l'aventure."
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez ce couvercle pour construire votre robot. Trouvez comment il pourrait contrer l'une des armes dévastatrices du robot de Stella."
+	      }, 
+	      { 
+	         "number" : "58", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces vils pirates ne méritent qu'une chose : se faire couler."
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Voilà l'infâme robot de Stella. Chacune de ses armes peut être contrée par un objet en votre possession. À vous de trouver lesquels."
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez la carte 98 pour construire votre robot. Ensuite, sur chaque carte constituant votre robot, un indice vous donnera la couleur des gemmes à trouver."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris les cartes 13, 18, 48, 54 et 87 ?"
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour rattraper Stella, il faudra tirer sur deux choses dans cette scène. "
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois le pliage effectué, regardez bien les ailes de l'avion. Et avez-vous pris la carte 5 ?"
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il suffit de retirer un seul bout de bois pour que cette structure s'effondre. Lequel choisir ?"
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous retirez celui qui est branlant, que voyez-vous apparaître parmi les bouts de bois rouges ?"
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette machine vous servira à plusieurs reprises. La première chose à faire est de rattraper la voiture de Stella."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois le turbo activé, le grappin pourra servir pour empêcher Stella de s'enfuir. Le siège éjectable est là en cas de coup dur."
+	      }, 
+	      { 
+	         "number" : "71", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut faire glisser cette voiture. Pour commencer, trouvez un moyen de répandre un liquide devant elle."
+	      }, 
+	      { 
+	         "number" : "71", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Maintenant que la route est inondée, faites passer la voiture par-dessus la flaque sur la carte de la route. Que voyez-vous apparaître ?"
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pouvez orienter le vent à l'aider de votre doigt. N'hésitez pas à donner de nombreux à-coups pour faire bouger le parachute."
+	      }, 
+	      { 
+	         "number" : "76", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris les cartes 59 et 98 ?"
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les ciseaux battent le papier. Mais vous n'avez pas besoin de battre le papier."
+	      }, 
+	      { 
+	         "number" : "79", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Faites glisser le grappin vers l'avant depuis le dessous de votre voiture. Que lisez-vous ?"
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Où peut bien être passée l'eau ? Et à quoi retirer les « h » et les « n » ?"
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Après avoir tiré sur la voiture de Stella, faites-la glisser sur cette flaque visqueuse. "
+	      }, 
+	      { 
+	         "number" : "83", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien pris les cartes 19, 55, 67 et 90 ?"
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce petit aimant puissant ne vous servira qu'à la fin de l'aventure."
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez l'aimant pour construire votre robot. Trouvez comment il pourrait contrer l'une des armes dévastatrices du robot de Stella."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Tournez le petit remontoir mécanique. Que forme-t-il ? "
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez le moyen de couper cet aspirateur. "
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a peu de chances que ce peigne vous soit d'une quelconque utilité."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez et positionnez ici les 4 parties du corps de votre robot. Chacune d'entre elles devra contrer celles du robot de Stella. "
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "5", 
+	         "message" : "Envoyez votre avion en papier (47) à travers le portail (5) pour rattraper Stella.", 
+	         "cards" : "52", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "message" : "Le cadenas fermé forme un 8. Ouvert, il forme un 6.", 
+	         "cards" : "6", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "message" : "Ramenez l'esprit de l'eau (12) sur les terre arides (20) pour redonner vie à cet endroit et récupérer votre avion.", 
+	         "cards" : "32", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "13", 
+	         "message" : "Prenez votre voiture (+24) et poursuivez Stella (13).", 
+	         "cards" : "37", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "message" : "Allumez le turbo (+48) et coursez Stella (15).", 
+	         "cards" : "63", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "16", 
+	         "message" : "Séchez l'avion (16) avec le sèche-cheveux (10).", 
+	         "cards" : "26", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "24", 
+	         "message" : "Utilisez le grappin (« ajoutez 12 ») sur la voiture de Stella (24) pour l'empêcher de fuir.", 
+	         "cards" : "36", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "26", 
+	         "message" : "Utilisez l'avion (26) pour poursuivre le ballon de Stella (32).", 
+	         "cards" : "58", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "28", 
+	         "message" : "Sur la carte 19, repérez l'or dans le 3e wagon. Ramenez-le (+5) au shérif (55).", 
+	         "cards" : "60", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "36", 
+	         "message" : "Utilisez le siège éjectable (+13) pour vous sauver de cette voiture (36).", 
+	         "cards" : "49", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "37", 
+	         "message" : "Repérez la correspondance entre les épées de cette carte et les ciseaux du tapis de jeu. Puis utilisez la carte pierre (29) pour battre les ciseaux de Petit Ourson (37).", 
+	         "cards" : "66", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "39", 
+	         "message" : "Frottez l'écran avec votre doigt pour le nettoyer.", 
+	         "cards" : "24", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "52", 
+	         "message" : "Suivez la trajectoire de l'avion. En retournant la carte, vous pouvez lire le nombre 35.", 
+	         "cards" : "35", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "58", 
+	         "message" : "Bombardez les pirates (58) avec votre catapulte (18).", 
+	         "cards" : "76", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "59", 
+	         "message" : "Utilisez le miroir (30) pour réfléchir le laser, le couvercle (57) pour vous protéger de l'épée, la bouteille (54) pour éteindre le feu du dragon et l'aimant (87) pour attirer la jambe métallique. Ensuite, repérez la tête bleue du robot sur le dessin. Utilisez enfin les couleurs de chaque carte pour allumer les gemmes dans la machine. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "63", 
+	         "message" : "Tirez avec le pistolet (6) sur la voiture de Stella (+65) et sur le camion-citerne (+76).", 
+	         "cards" : "71,82", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "66", 
+	         "message" : "Pliez le plan du robot selon les 3 instructions. Vous pouvez lire le nombre 47 sur le dessus des ailes.", 
+	         "cards" : "47", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "67", 
+	         "message" : "Retirez le morceau rouge branlant. Vous pouvez lire un +9 rouge parmi les morceaux restants. Combinez-le au train (19).", 
+	         "cards" : "28", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "71", 
+	         "message" : "Tirez également sur le camion-citerne. Puis faites passer cette carte sur la carte 82. Vous pouvez lire les chiffres 3 et 9 grâce aux pneus sur la flaque d'huile.", 
+	         "cards" : "39", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "75", 
+	         "message" : "En poussant le parachute, vous pouvez voir un nombre se dessiner au niveau de la ville. ", 
+	         "cards" : "93", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "79", 
+	         "message" : "En glissant cette carte depuis le dessous de la voiture (41), vous pouvez lire « ajoutez douze ». Ajoutez donc 12 à la voiture de Stella (24).", 
+	         "cards" : "36", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "80", 
+	         "message" : "L'eau se trouve dans la bouteille. Retirez les lettres « h » et « n » de l'inscription sur l'étiquette. Il vous reste les lettres « douze ».", 
+	         "cards" : "12", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "82", 
+	         "message" : "Tirez également sur la voiture de Stella. Puis faites passer cette dernière sur la carte 82. Vous pouvez lire les chiffres 3 et 9 grâce aux pneus sur la flaque d'huile.", 
+	         "cards" : "39", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "93", 
+	         "message" : "Débranchez la prise de l'aspirateur dans l'application.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "39", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "24", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le temps d'essuyer le pare-brise de votre voiture, vous vous retrouvez nez à nez avec Stella."
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Cette énorme bouche n'était que l'aspirateur. On a encore eu de la chance ! Apparemment, votre chambre n'était pas très propre. Tout est rentré dans l'ordre maintenant qu'il est débranché, vous allez pouvoir reprendre votre aventure. Mais d'ailleurs, où en étions-nous ?", 
+	         "messageID" : "aspirateur", 
+	         "cardsToTake" : "83", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

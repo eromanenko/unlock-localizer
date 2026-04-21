@@ -1,0 +1,388 @@
+{ 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "RalphAzham", 
+	   "number" : "87", 
+	   "displayName" : "Ralph Azham : Le foie de l'axolotl", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Ralph", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "RalphAzham.mp3", 
+	   "maxTime" : "1800", 
+	   "totalTime" : "1800", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "3284", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "42", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Prenant leur courage à quatre mains, Ralph et Yassou plongent dans les profondeurs du fleuve. Prenez la carte 42 dans le paquet."
+	      }, 
+	      { 
+	         "number" : "4395", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "42", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Prenant leur courage à quatre mains, Ralph et Yassou plongent dans les profondeurs du fleuve. Prenez la carte 42 dans le paquet."
+	      }, 
+	      { 
+	         "number" : "3274", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous n'êtes pas loin, mais il manque un poisson (vous avez dû en \"sauter\" un)."
+	      }, 
+	      { 
+	         "number" : "4385", 
+	         "locale" : "", 
+	         "type" : "Error", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous n'êtes pas loin, mais il manque un poisson (vous avez dû en \"sauter\" un)."
+	      }, 
+	      { 
+	         "number" : "3518", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Après une courte marche, Ralph Azham et Yassou reviennent au village des magiciens. Ouf ! Pile à temps pour donner le foie de l'axolotl géant aux guérisseurs. Ceux-ci s'empressent de concocter un remède qui, s'il s'accompagne de quelques effets secondaires indésirables, permet de sauver le patriarche ! Les restes de l’amphibien sont cuits. Ralph et Yassou mangent en essayant d’oublier le doux regard de l’animal. Les magiciens, reconnaissants, les gratifient d'un immense merci avant de leur demander de quitter rapidement les lieux. Dès le lendemain, l’aventure continuera pour eux."
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "180", 
+	         "nextObject" : "False", 
+	         "message" : "Regardez bien le cœur du médaillon de Ralph."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "7", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ralph Azham a un super pouvoir. Pour le déclencher, appuyez sur le bouton « Machine » (engrenage) dans l'application et entrez le numéro de la carte : 7. Vous pourrez ensuite scanner différentes cartes pour déclencher (ou non) son pouvoir dévastateur. Ah ! oui : observez attentivement cette carte."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Seuls les assassins peuvent être visés par le pouvoir de Ralph. Vous ne devriez en croiser que deux dans cette aventure : scannez leur carte et regardez-les se faire dépecer avec délectation. De plus, avez-vous trouvé le numéro caché sur cette carte ?"
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce collier réduit les minéraux en poudre : les pierres utilisées pour faire des murs sont des minéraux."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette carte nécessite un code à entrer dans l'application. Il va falloir jouer (avec) les poissons et les mettre dans le bon ordre. "
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Et si vous comptiez les poissons de même couleur ? Le pêcheur du village qui fait sécher ses prises sur un fil pourra vous aider à les mettre dans le bon ordre : c'est celui du code."
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet homme ne vous sera visiblement d'aucune aide, mais ses poissons colorés semblent être suspendus dans un ordre qui pourrait vous aider."
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'ordre dans lequel sont accrochés les poissons colorés permet de résoudre un code qui vous sera bien utile lorsque vous voudrez plonger dans un lac. "
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette hache a vraiment un manche très solide. Plus solide que son fer, à vue de main."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Elle devrait permettre de soulever des poids très lourds… comme des pierres, par exemple."
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'avez rien d'autre à faire ici que de prendre la carte 41."
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette carte nécessite un code à entrer dans l'application. Pour le trouver, regardez bien les noms écrits sur les stèles. Ne vous font-ils pas penser à des suites de chiffres ?"
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Yassou vous dit que Tanghor vous indiquera le chemin. Quel symbole correspond à Tanghor ? La solution est entre vos mains ! Une fois trouvés, entrez les 4 chiffres de la bonne pierre tombale dans l'application."
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette cage devrait pouvoir tomber en poussière grâce à un objet qui est en possession de Ralph Azham… Regardez bien sa carte."
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le collier de Ralph Azham transforme la pierre en poussière. Trouvez-le (c'est un numéro caché sur la carte de Ralph qui vous permettra de l'obtenir) et utilisez-le sur la cage."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Comment dégager les pierres ? Cette carte rouge a besoin d'un élément bleu… En avez-vous beaucoup à votre disposition ?"
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait trouver un outil - ou une arme - pour faire levier et pousser ces pierres."
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Rien à signaler ici : prenez simplement les cartes 32 et 80 dans le paquet."
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Rien à signaler ici : prenez simplement les cartes 7 et 46 dans le paquet."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Libérez Yassou (en prenant la carte 64) : il devrait vous aider à vite arrêter le pêcheur très énervé qui fonce sur vous !"
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'un des sorts de Yassou pourrait être très utile pour arrêter cet homme sans faire davantage de dégâts dans le village."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez chaque sort de Yassou à bon escient. Vous ne devriez pas avoir trop de mal à savoir quand faire appel à lui."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Figus Figitus peut stopper net un assaillant. Explosion cataclysmique peut produire une explosion... cataclysmique. Attention, cette dernière est vraiment très (trop) puissante."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Rien à signaler ici : prenez simplement les cartes 27 et 35 dans le paquet."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette carte comporte un nombre caché."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez bien dans l'eau, au niveau des ondes."
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces hommes ne plaisantent pas, ils ont vraiment des têtes d'assassins et ont dû faire de nombreuses victimes."
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le pouvoir de Ralph Azham devrait être particulièrement approprié pour vaincre ces meurtriers."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Rien à signaler ici : prenez simplement la carte 38 dans le paquet."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "7", 
+	         "message" : "Scannez la carte 80 avec votre smartphone ou votre tablette. Les esprits des victimes des deux assassins les tueront et l'application vous dira quoi faire pour avancer. Et regardez le collier de Ralph pour prendre la carte 19 dans le paquet.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "19", 
+	         "message" : "Utilisez ce collier (19) sur la cage dans laquelle est enfermé Yassou (41). Prenez la carte 60 dans le paquet.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "27", 
+	         "message" : "Le bon ordre des poissons est jaune, rouge, vert et bleu (c'est indiqué sur la carte du pêcheur (32)). Après avoir compté les poissons (n'oubliez pas le poisson vert caché dans l'arbre) et les avoir remis dans l'ordre, vous obtenez le code 3284. Entrez-le dans l'application (icône « Code »).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "32", 
+	         "message" : "L'élément important ici est l'ordre des poissons : jaune, rouge, vert et bleu. Associez chaque couleur à un chiffre lorsque vous devrez résoudre une carte jaune pour obtenir le bon code.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "35", 
+	         "message" : "Faites levier avec la hache (35) pour écarter les pierres qui obstruent l'entrée de la grotte (42). Prenez la carte 77 dans le paquet.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "38", 
+	         "message" : "Regardez le dos des cartes. Tanghor y apparaît, associé à un symbole. Observez maintenant les pierres tombales et trouvez celle qui propose le même symbole. Le mot associé est BISE. Une fois retourné, cela vous donne le code 3518. Entrez-le dans l'application (icône « Code »).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "41", 
+	         "message" : "Utilisez le collier de Ralph (19) sur la pierre de la cage (41). Prenez la carte 60 dans le paquet.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "42", 
+	         "message" : "Utilisez la hache (35) sur ces pierres (42). Prenez la carte 77 dans le paquet.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "60", 
+	         "message" : "Utilisez le sort « Figus Figitus » de Yassou (+14) avec cette carte (60). Prenez la carte 74 dans le paquet.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "64", 
+	         "message" : "Figus Figitus (+14) va vous servir à arrêter l'homme armé d'une hache (60) qui fonce sur vous. Prenez la carte 74 dans le paquet.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "77", 
+	         "message" : "Un 88 est caché dans l'eau. Prenez la carte 88 dans le paquet.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "80", 
+	         "message" : "Appuyez sur le bouton « Machine » (engrenage) dans l'application et entrez le 7 (Ralph Azham). Ensuite, scannez cette carte et regardez le spectacle. L'application vous dira quoi faire.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "7", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Les fantômes se jettent sur leurs assassins et les attaquent. Prenez la carte 36 dans le paquet."
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	      "French"
+	   ]
+	}

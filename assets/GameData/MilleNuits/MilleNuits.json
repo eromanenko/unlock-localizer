@@ -1,0 +1,481 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "MilleNuits", 
+	   "number" : "11", 
+	   "displayName" : "Le dernier conte de Shéhérazade", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "MilleNuits", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "MilleNuits.mp3", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "3", 
+	   "wrongCodePenaltyTime" : "2", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "1421", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "74", 
+	         "cardsToDiscard" : "J48,52", 
+	         "message" : "Après un clic encourageant, la porte s'ouvre en grinçant."
+	      }, 
+	      { 
+	         "number" : "1827", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "70", 
+	         "cardsToDiscard" : "13,46,56,66,J87", 
+	         "message" : "La pierre des sables vous révèle le chemin de la grotte."
+	      }, 
+	      { 
+	         "number" : "8127", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "70", 
+	         "cardsToDiscard" : "13,46,56,66,J87", 
+	         "message" : "La pierre des sables vous révèle le chemin de la grotte."
+	      }, 
+	      { 
+	         "number" : "84711", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "43", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Ce 1001e conte a ravi le vizir. Shéhérazade est sauvée !"
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "300", 
+	         "nextObject" : "True", 
+	         "message" : "Observez bien la fenêtre ouverte du souk."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o2", 
+	         "time" : "1500", 
+	         "nextObject" : "False", 
+	         "message" : "La lampe magique recèle de nombreux secrets."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le premier singe joue de la flûte, le second n'entend pas le tigre et le troisième est habile de ses mains."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce serpent vous laisserait facilement passer si vous trouviez un objet pour le charmer."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'inscription est votre point de départ. Énoncez à voix haute les cartes de l'escalier en le remontant."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette flûte produit un son hypnotique."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'inscription est votre point de départ. Énoncez à voix haute les cartes de l'escalier en le remontant."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'inscription est votre point de départ. Énoncez à voix haute les cartes de l'escalier en le remontant."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Frottez la lampe jusqu'à ce que le génie apparaisse."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous reviendrez voir Shéhérazade une fois que aurez trouvé une solution pour son dernier conte."
+	      }, 
+	      { 
+	         "number" : "13", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les chevrons des cartes du désert se superposent sur ceux de cette pierre."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'inscription est votre point de départ. Énoncez à voix haute les cartes de l'escalier en le remontant."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "88 - 44 - 22 - ??"
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le premier singe joue de la flûte, le second n'entend pas le tigre et le troisième est habile de ses mains."
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez bien le côté de la lampe. Ne voyez-vous pas un numéro s'y dessiner ?"
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un message se cache parmi ces dalles. Les couleurs vous aideront à y remettre de l'ordre."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce tapis magique vous pemettra de vous rendre dans plusieurs lieux de cette aventure."
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un seul moyen d'atteindre cette fenêtre : par les airs !"
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Superposez les trois tapis en vous intéressant aux étranges traces blanches."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Superposez les trois tapis en vous intéressant aux étranges traces blanches."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Superposez les trois tapis en vous intéressant aux étranges traces blanches."
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comment pourriez-vous vous rendre au souk depuis cette fenêtre ?"
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez bien le pied de la lampe."
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le chevron dans le coin vous sera utile une fois la pierre des sables trouvée."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les étoiles noires sont les étoiles mortes, et combien y a-t-il d'étoiles au total ?"
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comment pourriez-vous vous rendre dans le quartier riche depuis cette fenêtre ?"
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien compté TOUTES les étoiles ?"
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le chevron dans le coin vous sera utile une fois la pierre des sables trouvée."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comment pourriez-vous vous rendre dans le désert depuis cette fenêtre ?"
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devriez relier d'un trait tous ces symboles entre eux. Reste à trouver le bon ordre."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Baleine, roc, cyclope, lotus, œuf, diamant, hommes-oiseaux. Quel numéro cela dessine-t-il ?"
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez l'objet pour recoudre votre tapis."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le chevron dans le coin vous sera utile une fois la pierre des sables trouvée."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faudrait un coup de génie pour crocheter la serrure. Ou simplement le bon outil."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le cyclope reproduit vos mouvements avec un temps de retard."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Foncez dans le mur à l'est si vous voulez prendre de l'avance sur le cyclope."
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Volez au secours de Shéhérazade !"
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le chevron dans le coin vous sera utile une fois la pierre des sables trouvée."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez bien le couvercle de la lampe."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une seule lettre de chaque ligne de la formule est importante."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ne lisez que la première lettre de chaque ligne de la formule. Quel chiffre forment ces lettres ?"
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Shéhérazade vous dévoile un bracelet au symbole mystérieux."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "13", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "1827"
+	      }, 
+	      { 
+	         "hintNumber" : "22", 
+	         "message" : "", 
+	         "cards" : "11", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "33", 
+	         "message" : "", 
+	         "cards" : "27", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "34", 
+	         "message" : "", 
+	         "cards" : "27", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "35", 
+	         "message" : "", 
+	         "cards" : "27", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "48", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "1421"
+	      }, 
+	      { 
+	         "hintNumber" : "63", 
+	         "message" : "", 
+	         "cards" : "13", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "90", 
+	         "message" : "", 
+	         "cards" : "7", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "70", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "72", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous échappez aux griffes du cyclope !"
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "name" : "", 
+	         "objectNumber" : "-1", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "18", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Merci maître ! J'apparaîtrai au cours de ta quête pour t'aider à franchir les obstacles. Accepte ce modeste présent, il te sera plus utile qu'il n'y paraît."
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

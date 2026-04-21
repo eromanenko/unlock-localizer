@@ -1,0 +1,356 @@
+{ 
+	   "visible" : "True", 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "GhostStone", 
+	   "displayName" : "", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "GhostStone", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Cinema_2_3", 
+	   "maxTime" : "1800", 
+	   "totalTime" : "1800", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "60", 
+	         "nextObject" : "False", 
+	         "message" : "Voyez-vous les lettres LE décrochées de la boîte ?"
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce texte n'a pas beaucoup de sens. Il en manque peut-être un morceau."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les capitales ont sûrement une importance… capitale. Assemblez ce message avec l'autre afin de créer une phrase et ignorez les minuscules."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce texte n'a pas beaucoup de sens. Il en manque peut-être un morceau."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les capitales ont sûrement une importance… capitale. Assemblez ce message avec l'autre afin de créer une phrase et ignorez les minuscules. Les formes dessinées peuvent vous aider."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cet outil peut ouvrir presque tout et n'importe quoi. Ce n'est pas subtil, mais ça marche."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'endroit est bien éclairé. Mais peut-être trouverez-vous quelque chose de sombre à dévoiler ?"
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Rien à signaler ici, prenez bien la carte 21."
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le fantôme semble tracer un symbole dans la buée. Peut-être devriez-vous l'imiter. Et trouver comment faire de la buée !"
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Aucune indication supplémentaire à vous donner, demandez les indices dans la machine !"
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Impossible de trouver le code au hasard. Peut-être que quelqu'un pourra vous aider."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Sous un certain angle, les lettres ressemblent beaucoup à des chiffres…"
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une clé, une porte… Vous allez trouver quoi faire."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'avez pas de cravate. Mais peut-être que cet objet peut se glisser dans des endroits très petits."
+	      }, 
+	      { 
+	         "number" : "39", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a un moyen de pousser cette clé hors de la serrure."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'avez pas de clef. Il va falloir recourir à une méthode plus brutale."
+	      }, 
+	      { 
+	         "number" : "58", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Prenez les cartes 11, 39 et 22. Et retenez bien ce que le fantôme vous dit !"
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Trois chiffres à l'envers… où donc pourriez-vous les utiliser ?"
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce tableau est vraiment très sombre. Si seulement vous aviez de quoi l'éclairer !"
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Prenez les cartes 68 et 73."
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez vos doigts sur l'objet en bois posé sur la tablette. Vous pourrez ainsi communiquer avec l'esprit du lieu."
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez au moins deux doigts sur l'objet et regardez ce qui se passe ! Il se dirige vers des lettres… il tente de vous parler !"
+	      }, 
+	      { 
+	         "number" : "76", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pourriez sans doute tirer le tapis sous la porte afin de récupérer la clé."
+	      }, 
+	      { 
+	         "number" : "79", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "N'oubliez pas de prendre la carte dont le numéro est visible. Et gardez bien ce tableau en vue, il a sûrement une utilité."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "5", 
+	         "hintID" : "", 
+	         "message" : "Une fois les deux pièces du message (2 et 5) bien placées, vous devriez pouvoir lire une phrase en capitales : La couleur de mon chapeau. Regardez le tableau ! En outre, une forme se dessine nettement.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "29", 
+	         "hintID" : "", 
+	         "message" : "Retournez la carte. Le LE de LETTERS devient un 37.", 
+	         "cards" : "37", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "31", 
+	         "hintID" : "", 
+	         "message" : "Utilisez la clef (31) dans la serrure de la porte (39).", 
+	         "cards" : "70", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "39", 
+	         "hintID" : "", 
+	         "message" : "Pour pousser la clef hors de la serrure (39), utilisez l'épingle (37). Gardez bien la carte 39, elle vous resservira !", 
+	         "cards" : "76", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "51", 
+	         "hintID" : "", 
+	         "message" : "Utilisez le pied-de-biche (7) pour ouvrir la porte (51).", 
+	         "cards" : "58", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "66", 
+	         "hintID" : "", 
+	         "message" : "Les chiffres sont dans le miroir, il faut donc lire 459. C'est la combinaison pour ouvrir le coffre (22) !", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "68", 
+	         "hintID" : "", 
+	         "message" : "Utilisez la lanterne (11) sur le tableau (68).", 
+	         "cards" : "79", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "70", 
+	         "hintID" : "", 
+	         "message" : "Rien de plus ici !", 
+	         "cards" : "68,73", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "73", 
+	         "hintID" : "", 
+	         "message" : "L'objet pointe les lettres D O U Z et E.", 
+	         "cards" : "12", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "76", 
+	         "hintID" : "", 
+	         "message" : "Faites lentement glisser la carte du tapis (76) sous la porte (39). Des chiffres apparaissent.", 
+	         "cards" : "31", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "21", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "66", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous avez tracé le cercle sur le miroir, un message s'affiche."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous avez trouvé le joyau ! Victoire ! Sortez vite de ce manoir et… maintenant que vous savez jouer à Unlock!, pourquoi ne pas essayer une aventure complète ?"
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "12", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le fantôme vous guide en vous indiquant q'une porte est cachée derrière la bibliothèque."
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "22", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Excellent ! Le coffre est ouvert. Il ne vous reste plus qu'à trouver la bonne pierre précieuse.", 
+	         "messageID" : "machine_22_open", 
+	         "cardsToTake" : "5", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	      "French", 
+	      "English", 
+	      "German", 
+	      "Italian", 
+	      "Dutch", 
+	      "Spanish", 
+	      "Korean", 
+	      "Chinese", 
+	      "Swedish", 
+	      "Danish", 
+	      "Finnish", 
+	      "Norwegian"
+	   ]
+	}

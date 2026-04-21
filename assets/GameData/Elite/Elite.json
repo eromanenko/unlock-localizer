@@ -1,0 +1,395 @@
+{ 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "Elite", 
+	   "number" : "90", 
+	   "displayName" : "L'élite", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "Auto", 
+	   "skinName" : "Tuto", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "ad0_tuto.mp3", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "1800", 
+	   "penaltyTime" : "3", 
+	   "wrongCodePenaltyTime" : "2", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "1111", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous coupez le dernier fil et... le compte à rebours s'arrête ! Bien joué !"
+	      }, 
+	      { 
+	         "number" : "1769", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "C", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Code bon."
+	      }, 
+	      { 
+	         "number" : "2002", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "3", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "47", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Code bon."
+	      }, 
+	      { 
+	         "number" : "4058", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous coupez le dernier fil et... le compte à rebours s'arrête ! Bien joué !"
+	      }, 
+	      { 
+	         "number" : "4679", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous coupez le dernier fil et... le compte à rebours s'arrête ! Bien joué !"
+	      }, 
+	      { 
+	         "number" : "4760", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous coupez le dernier fil et... le compte à rebours s'arrête ! Bien joué !"
+	      }, 
+	      { 
+	         "number" : "6503", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous coupez le dernier fil et... le compte à rebours s'arrête ! Bien joué !"
+	      }, 
+	      { 
+	         "number" : "6504", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous coupez le dernier fil et... le compte à rebours s'arrête ! Bien joué !"
+	      }, 
+	      { 
+	         "number" : "6534", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous coupez le dernier fil et... le compte à rebours s'arrête ! Bien joué !"
+	      }, 
+	      { 
+	         "number" : "6666", 
+	         "locale" : "", 
+	         "type" : "Penal", 
+	         "extraNumber" : "30", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous devez désamorcer cette bombe ! Il n'y a plus beaucoup de temps !"
+	      }, 
+	      { 
+	         "number" : "9753", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous coupez le dernier fil et... le compte à rebours s'arrête ! Bien joué !"
+	      }, 
+	      { 
+	         "number" : "9999", 
+	         "locale" : "", 
+	         "type" : "Sound", 
+	         "extraNumber" : "-1100", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "ad90_morse.mp3"
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o1", 
+	         "time" : "240", 
+	         "nextObject" : "False", 
+	         "message" : "Je crois qu'il y a une photo sous le permis de conduire."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "4", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "2", 
+	         "message" : "Il ressemble à la photo de l'ordinateur. Visiblement, il avait 7 ans en 2009."
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il semble manquer des cartes. Et qu'essaye de nous dire le Joker ?"
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "4 cartes manquent : une par couleur. Cela vous donnera le code du placard."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il doit bien y avoir des vis quelque part..."
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Elle ne sert à rien sans téléphone."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut le brancher avant toute chose..."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cela ressemble à la serrure de la bombe !"
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a un fichier sur l'écran. Et ce fond d'écran est étrange : 1 et 0, ce sont peut être des positions ?"
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Je crois qu'il y a une photo sous le permis de conduire."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Peut-être que le code Morse peut vous aider à choisir ?"
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a peut-être quelque chose derrière, il faut dévisser cette grille."
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a 4 groupes : d'abord Trait Trait Trait puis Point Trait Point et encore 2 autres."
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Notre suspect semble aimer beaucoup son enfant. Le code a sûrement un rapport avec cela... "
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il semble manquer des cartes. Et qu'essaye de nous dire le Joker ?"
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "4 cartes manquent : une par couleur. Cela vous donnera le code du placard."
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut sûrement baisser certains de ces interrupteurs pour obtenir un nombre rouge, mais lesquels ?"
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'écran de l'ordinateur vous aidera à choisir les bons interrupteurs."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "4", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "2002"
+	      }, 
+	      { 
+	         "hintNumber" : "21", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "1769"
+	      }, 
+	      { 
+	         "hintNumber" : "22", 
+	         "message" : "", 
+	         "cards" : "85", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "35", 
+	         "message" : "", 
+	         "cards" : "67", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "50", 
+	         "message" : "", 
+	         "cards" : "4", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "60", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "6504"
+	      }, 
+	      { 
+	         "hintNumber" : "73", 
+	         "message" : "", 
+	         "cards" : "4", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "80", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "1769"
+	      }, 
+	      { 
+	         "hintNumber" : "85", 
+	         "message" : "Off/On/On/Off/Off", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "85", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "18,27", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	      "French", 
+	      "English", 
+	      "German", 
+	      "Italian", 
+	      "Polish", 
+	      "Dutch", 
+	      "Greek", 
+	      "Portuguese", 
+	      "Spanish", 
+	      "Japanese", 
+	      "Russian", 
+	      "Korean"
+	   ]
+	}

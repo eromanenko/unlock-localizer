@@ -1,0 +1,977 @@
+{ 
+	   "visible" : "True", 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Altipia", 
+	   "displayName" : "La couronne d'Altipia", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Altipia", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "300", 
+	         "nextObject" : "False", 
+	         "message" : "Pour votre lance-pierre, vous avez besoin de cailloux."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette photo avec cette chouette et papi pourrait nous servir plus tard. "
+	      }, 
+	      { 
+	         "number" : "111", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Des dos de cartes contiennent des informations sur le temps."
+	      }, 
+	      { 
+	         "number" : "111", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut revenir quelques années en arrière pour connaître le début de l'histoire de papi."
+	      }, 
+	      { 
+	         "number" : "134", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez besoin d'un caillou pour votre lance-pierres afin de faire diversion."
+	      }, 
+	      { 
+	         "number" : "134", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Près de l'entrée du manoir, il y a un rocher. "
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il va vous falloir des cailloux pour tirer."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce caillou peut vous servir à faire diversion. "
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Que pouvez-vous viser pour faire diversion ? En tirant sur les invités, vous allez attirer l'attention sur vous. "
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce couteau suisse peut vous servir plus tard. "
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous allez pouvoir l'utiliser pour couper. "
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "En regardant bien les deux faces de la carte (51) vous verrez des rayures semblables à celles de la serrure (87)."
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En plaçant la clé verticalement pour l'insérer puis faire un demi-tour de clé, cela vous permettra d'ouvrir le coffre. "
+	      }, 
+	      { 
+	         "number" : "291", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce poème vous servira bien plus tard. "
+	      }, 
+	      { 
+	         "number" : "291", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez les indications du poème, et votre progression se fera en toute sécurité. "
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "En regardant bien les deux faces de la carte (51) vous verrez des rayures semblables à celles de la serrure (87)."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En plaçant la clé verticalement pour l'insérer puis faire un demi-tour de clé, cela vous permettra d'ouvrir le coffre. "
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Rick a toujours mis des bâtons dans les roues de papi. Et cela depuis qu'il est tout petit. "
+	      }, 
+	      { 
+	         "number" : "76", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Attention, il y a un calcul à faire concernant le moment où papi raconte l'histoire et le moment où il est parti pour chercher le temple. "
+	      }, 
+	      { 
+	         "number" : "421", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Papi a réalisé tant d'acrobaties pour sortir du trou. Cela ne vous étonne-t-il pas ?"
+	      }, 
+	      { 
+	         "number" : "230", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Du drapeau à la croix qui symbolise le trésor, il n'y a que quatre pas et demi. "
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cela va vous aider à compter chacun de vos pas."
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Assemblez le panorama pour reconstituer ce que vous voyez sur la carte au trésor (M). "
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Assemblez le panorama pour reconstituer ce que vous voyez sur la carte au trésor (M). "
+	      }, 
+	      { 
+	         "number" : "551", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Assemblez le panorama pour reconstituer ce que vous voyez sur la carte au trésor (M). "
+	      }, 
+	      { 
+	         "number" : "39", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avant de prendre la barque, vous remarquez que les colonnes possèdent des traits lumineux. "
+	      }, 
+	      { 
+	         "number" : "643", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Après avoir pris la barque, vous remarquez que de l'autre côté les colonnes possèdent aussi des traits lumineux. "
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour ouvrir la porte, il va falloir regarder de plus près les colonnes. "
+	      }, 
+	      { 
+	         "number" : "84", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut creuser à l'endroit précis où se trouve le trésor. Comptez bien les pas pour l'atteindre. "
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette pierre bleue est sans doute l'une des clés du temple de la reine d'Altipia."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "72_step_1", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Tant que vous n'aurez pas tous les symboles, vous n'arriverez pas à ouvrir la porte. "
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "72_step_1", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a quatre symboles que vous avez vus au fur et à mesure de votre aventure."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "72_step_2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez franchi la porte. Il y a un moyen de la refermer sans faire la combinaison avec les symboles. "
+	      }, 
+	      { 
+	         "number" : "756", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Rick et ses sbires n'ont pas encore passé le pas de la porte. "
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ligotés, vous ne pouvez rien faire. Il va falloir les couper."
+	      }, 
+	      { 
+	         "number" : "203", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez les cartes pour former un visage en mosaïque. Les dessins à la craie peuvent vous aider. Cette partie coulisse pour créer un passage. "
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez les cartes pour former un visage en mosaïque. Cette partie est figée. "
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez les cartes pour former un visage en mosaïque. Les dessins à la craie peuvent vous aider. Cette partie coulisse pour créer un passage. "
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si seulement vous aviez en votre possession de quoi connaître le trajet le plus sûr. "
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans ce cul-de-sac, une statue d'araignée, une barre en fer, un squelette et une petite alcôve. "
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ayant la tête en bas, les débris sont au sol, mais aucun d'eux n'est à défausser."
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Étant la tête en bas, les débris sont au sol, mais aucun d'eux n'est à défausser. "
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut lancer le grappin en hauteur afin de l'accrocher solidement. "
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Sélectionnez une statue puis définissez sa particularité en choisissant le symbole qui lui correspond le mieux. Il n'y a pas trois, mais quatre symboles à entrer. Quel est le quatrième ? "
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Claire vous donne une explication sur la particularité des statues représentant des rois. "
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Claire vous donne une explication sur la particularité des statues représentant des rois. "
+	      }, 
+	      { 
+	         "number" : "49", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Claire vous donne une explication sur la particularité des statues représentant des rois. "
+	      }, 
+	      { 
+	         "number" : "173", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est un ronflement, papi est en train de dormir. Il faut le réveiller. "
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une statue de Poisson représente la salle du temple. C'est un symbole qui manquait pour la salle au trésor. "
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez en haut de la caverne, vous pouvez remarquer une stalactite fissurée."
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez les objets en votre possession pour créer une arme qui vous permettra de faire tomber la stalactite."
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les aventuriers sont posés sur la stalactite que vous venez de faire tomber. L'arrière-plan ressemble à s'y méprendre à celui de la carte (17)"
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En superposant la carte (92) sur la carte (17) vous verrez Claire essayer d'attraper la couronne, alors que la lave continue de monter."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour l'instant pas besoin d'arme, mais en combinant le bâton avec un autre objet, vous pourrez fabriquer l'arme de prédilection de papi. "
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces liens peuvent vous aider à créer un objet que papi avait toujours sur lui."
+	      }, 
+	      { 
+	         "number" : "567", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est la fin de l'aventure, papi a dû choisir son trésor le plus précieux."
+	      }, 
+	      { 
+	         "number" : "999", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La lave monte au niveau des pieds de Claire. "
+	      }, 
+	      { 
+	         "number" : "999", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Faites monter la lave (F) au-dessus de la carte (92). "
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Papi doit choisir de sauver la couronne ou Claire ! Quel dilemme ! "
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce lance-pierres va vous mettre en sécurité face à la lave."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "1", 
+	         "hintID" : "", 
+	         "message" : "Cette photo contient un oiseau. Celui-ci fait partie de la combinaison de symboles à entrer sur la porte (72). Il vous faut obtenir les cartes (2), (3) et (4). ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "111", 
+	         "hintID" : "", 
+	         "message" : "Regardez les dos de vos cartes. Papi déclare que tout a commencé il y a 30 ans.\n\nPrenez la carte « 30 ans plus tôt ».", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "134", 
+	         "hintID" : "", 
+	         "message" : "Pour faire diversion, visez la fenêtre du manoir (+9 rouge) avec le lance-pierres (11) armé du caillou (23) caché. ", 
+	         "cards" : "43", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "hintID" : "", 
+	         "message" : "Récupérez un caillou sur le numéro caché de la carte (T). Puis faites la combinaison du caillou (23) et du le lance-pierres (11)", 
+	         "cards" : "34", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "Faites la combinaison du caillou (23) et du lance-pierres (11) pour charger votre arme.", 
+	         "cards" : "34", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "34", 
+	         "hintID" : "", 
+	         "message" : "Pour faire diversion, visez la fenêtre du manoir (+9 rouge) avec le lance-pierres (11) armé du caillou (23) caché. ", 
+	         "cards" : "43", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "44", 
+	         "hintID" : "", 
+	         "message" : "Il sert à couper les liens de Claire (+13 rouge) et de papi (+13 rouge). 26 + 44 = 70", 
+	         "cards" : "70", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "87", 
+	         "hintID" : "", 
+	         "message" : "Placez la clé (51) à la verticale comme si vous l'insériez dans la serrure (87). Vous verrez que les marques sur la face de la carte (51) et de la carte (87) forment un 9. Ensuite faites un demi-tour de clé en restant bien dans la serrure. Sur le dos de la carte (51), d'autres marques s'alignent avec celles qui se trouvent en bas de la serrure (87),  formant un 5. Cela fait 95. ", 
+	         "cards" : "95", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "291", 
+	         "hintID" : "", 
+	         "message" : "Utilisez ce poème sur la machine de la carte (57) : mettez-vous en bas face à la statue brisée sans toucher de dalle. Puis avancez de deux dalles vers elle. Allez à gauche (en vous éloignant donc du rubis qui correspond à des vaines richesse) jusqu'au bord du gouffre. Déplacez-vous d'une dalle vers le haut pour vous placer entre les deux feux. Décalez-vous d'une dalle à droite pour ne plus être dans l'aura de chaleur du brasero de gauche. Avancez vers la statue de gauche, puis décalez-vous d'une dalle vers la droite et enfin allez tout droit pour entrer dans la salle suivante. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "51", 
+	         "hintID" : "", 
+	         "message" : "Placez la clé (51) à la verticale comme si vous l'insériez dans la serrure (87). Vous verrez que les marques sur la face de la carte (51) et de la carte (87) forment un 9. Ensuite opérez un demi-tour de clé en restant bien dans la serrure. Sur le dos de la carte (51), d'autres marques s'alignent avec celles qui se trouvent en bas de la serrure (87),  formant un 5. Cela fait 95. ", 
+	         "cards" : "95", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "95", 
+	         "hintID" : "", 
+	         "message" : "« Depuis ma plus tendre enfance » : il faut prendre la carte qui remonte le plus loin dans le temps, il y a 60 ans.\n\nPrenez la carte « 60 ans plus tôt ».", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "76", 
+	         "hintID" : "", 
+	         "message" : "Papi a cherché le plan du temple il y a 30 ans. Son départ pour le temple est donc plus récent. S'il est parti 32 ans après sa première chasse au trésor, son départ a eu lieu 28 ans plus tôt.\n\nPrenez la carte « 28 ans plus tôt ».", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "421", 
+	         "hintID" : "", 
+	         "message" : "Pour réaliser tant d'acrobaties, il faut être un gymnaste olympique,  ce qui n'est clairement pas le cas de papi. Tout ça, c'est n'importe quoi !\n\nPrenez la carte « Mais papi c’est n’importe quoi ! ».", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "230", 
+	         "hintID" : "", 
+	         "message" : "Assemblez le panorama des cartes (97, 52 et Q), prenez les chaussures (73) et placez l'arrière de la chaussure gauche sur le bas du drapeau d'immunité de la carte (97), puis comptez 4,5 pas. 1 pas est égal à une chaussure. Respectez bien la distance des deux chaussures, ne comptez pas avec les bords de la carte. Cela vous fait arriver sur la carte (Q) sous le symbole de la caverne aux pirates. Ensuite utilisez la pelle (83) pour creuser au bon endroit. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "73", 
+	         "hintID" : "", 
+	         "message" : "Assemblez le panorama des cartes (97, 52 et Q), prenez les chaussures (73) et placez l'arrière de la chaussure gauche sur le bas du drapeau d'immunité de la carte (97), puis comptez 4,5 pas. 1 pas est égal à une chaussure. Respectez bien la distance des deux chaussures, ne comptez pas avec les bords de la carte. Cela vous fait arriver sur la carte (Q) sous le symbole de la caverne aux pirates. Ensuite utilisez la pelle (83) pour creuser au bon endroit. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "97", 
+	         "hintID" : "", 
+	         "message" : "Assemblez le panorama des cartes (97, 52 et Q), prenez les chaussures (73) et placez l'arrière de la chaussure gauche sur le bas du drapeau d'immunité de la carte (97), puis comptez 4,5 pas. 1 pas est égal à une chaussure. Respectez bien la distance des deux chaussures, ne comptez pas avec les bords de la carte. Cela vous fait arriver sur la carte (Q) sous le symbole de la caverne aux pirates. Ensuite utilisez la pelle (83) pour creuser au bon endroit. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "52", 
+	         "hintID" : "", 
+	         "message" : "Assemblez le panorama des cartes (97, 52 et Q), prenez les chaussures (73) et placez l'arrière de la chaussure gauche sur le bas du drapeau d'immunité de la carte (97), puis comptez 4,5 pas. 1 pas est égal à une chaussure. Respectez bien la distance des deux chaussures, ne comptez pas avec les bords de la carte. Cela vous fait arriver sur la carte (Q) sous le symbole de la caverne aux pirates. Ensuite utilisez la pelle (83) pour creuser au bon endroit. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "551", 
+	         "hintID" : "", 
+	         "message" : "Assemblez le panorama des cartes (97, 52 et Q), prenez les chaussures (73) et placez l'arrière de la chaussure gauche sur le bas du drapeau d'immunité de la carte (97), puis comptez 4,5 pas. 1 pas est égal à une chaussure. Respectez bien la distance des deux chaussures, ne comptez pas avec les bords de la carte. Cela vous fait arriver sur la carte (Q) sous le symbole de la caverne aux pirates. Ensuite utilisez la pelle (83) pour creuser au bon endroit. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "39", 
+	         "hintID" : "", 
+	         "message" : "Sur l'avant et l'arrière des colonnes des cartes (39) et (G) se trouvent des traits lumineux. En combinant ces traits, vous obtiendrez les numéros 3, 8, 9 et 5. Vous pouvez les entrer dans la porte (91) pour pénétrer dans le temple. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "643", 
+	         "hintID" : "", 
+	         "message" : "Sur l'avant et l'arrière des colonnes des cartes (39) et (G) se trouvent des traits lumineux. En combinant ces traits, vous obtiendrez les numéros 3, 8, 9 et 5. Vous pouvez les entrer dans la porte (91) pour pénétrer dans le temple. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "91", 
+	         "hintID" : "", 
+	         "message" : "Sur l'avant et l'arrière des colonnes des cartes (39) et (G) se trouvent des traits lumineux. En combinant ces traits, vous obtiendrez les numéros 3, 8, 9 et 5. Vous pouvez les entrer dans la porte (91) pour pénétrer dans le temple. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "84", 
+	         "hintID" : "", 
+	         "message" : "Assemblez le panorama des cartes (97, 52 et Q), prenez les chaussures (73) et placez l'arrière de la chaussure gauche sur le bas du drapeau d'immunité de la carte (97), puis comptez 4,5 pas. 1 pas est égal à une chaussure. Respectez bien la distance des deux chaussures, ne comptez pas avec les bords de la carte. Cela vous fait arriver sur la carte (Q) sous le symbole de la caverne aux pirates. Ensuite utilisez la pelle (83) pour creuser au bon endroit. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "5", 
+	         "hintID" : "", 
+	         "message" : "Cette pierre bleutée est la clé pour continuer à avancer. Dans la salle (2), placez la pierre (5) dans l'alcôve contre le mur gauche (le modificateur +91 rouge). 5+91 = 96", 
+	         "cards" : "96", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "72", 
+	         "hintID" : "72_step_1", 
+	         "message" : "Les animaux se trouvant sur les cartes (1) Oiseau, (2) Araignée, (3) Serpent et (4) Poisson correspondent à la combinaison à entrer dans cette porte. L'ordre est lié au numéro des cartes. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "72", 
+	         "hintID" : "72_step_2", 
+	         "message" : "Rick et ses sbires (N) tentent d'entrer dans la salle au trésor. Il faut fermer la porte (72) en appuyant sur le levier qui se trouve à sa droite.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "756", 
+	         "hintID" : "", 
+	         "message" : "Rick et ses sbires (N) tentent d'entrer dans la salle au trésor. Il faut fermer la porte (72) en appuyant sur le levier qui se trouve à sa droite.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "26", 
+	         "hintID" : "", 
+	         "message" : "Prenez le couteau suisse (44) dans votre poche. Il sert à couper les liens de Claire (+13 rouge) et de papi (+13 rouge). 13+13 + 44 = 70", 
+	         "cards" : "70", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "203", 
+	         "hintID" : "", 
+	         "message" : "Placez la carte (D) à gauche de la (46) et la carte (63) à sa droite pour former un visage en mosaïque. Faites glisser la carte (D) sur la carte (46) jusqu'à ce que la partie sale recouvre la partie propre de gauche de la carte (46). Un 5 se forme. Faites de même pour la carte (63) pour la partie propre à droite. Un 7 se forme.  ", 
+	         "cards" : "57", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "46", 
+	         "hintID" : "", 
+	         "message" : "Placez la carte (D) à gauche de la (46) et la carte (63) à sa droite pour former un visage en mosaïque. Faites glisser la carte (63) sur la carte (46) jusqu'à ce que la partie sale recouvre la partie propre de la carte (46). Un 7 se forme. Faites de même pour la carte (46) et un 5 se forme.", 
+	         "cards" : "57", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "63", 
+	         "hintID" : "", 
+	         "message" : "Placez la carte (D) à gauche de la (46) et la carte (63) à sa droite pour former un visage en mosaïque. Faites glisser la carte (63) sur la carte (46) jusqu'à ce que la partie sale recouvre la partie propre de la carte (46). Un 7 se forme. Faites de même pour la carte (46) et un 5 se forme.", 
+	         "cards" : "57", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "57", 
+	         "hintID" : "", 
+	         "message" : "Utilisez ce poème sur la machine de la carte (57) : mettez-vous en bas face à la statue brisée sans toucher de dalle. Puis avancez de deux dalles vers elle. Allez à gauche (en vous éloignant donc du rubis qui correspond à des veines richesse) jusqu'au bord du gouffre. Déplacez-vous d'une dalle vers le haut pour vous placer entre les deux feux. Décalez-vous d'une dalle à droite pour ne plus être dans l'aura de chaleur du brasero de gauche. Avancez vers la statue de gauche, puis décalez-vous d'une dalle vers la droite et enfin allez tout droit pour entrer dans la salle suivante. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "2", 
+	         "hintID" : "", 
+	         "message" : "Dans la salle (2), placez la pierre (5) dans l'alcôve contre le mur gauche (le modificateur +91 rouge). 5 + 91 = 96", 
+	         "cards" : "96", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "96", 
+	         "hintID" : "", 
+	         "message" : "Ayant la tête en bas, la défausse est elle aussi en bas. En cherchant, vous ne trouvez pas les cartes à défausser. Vous pouvez créer un objet avec les débris (défausse) en jouant avec les numéros. 8 X 6 = 48", 
+	         "cards" : "48", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "69", 
+	         "hintID" : "", 
+	         "message" : "Ayant la tête en bas, la défausse est elle aussi en bas. En cherchant, vous ne trouvez pas les cartes à défausser. Vous pouvez créer un objet avec les débris (défausse) en jouant avec les numéros. 8 X 6 = 48", 
+	         "cards" : "48", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "48", 
+	         "hintID" : "", 
+	         "message" : "Utilisez le grappin (48) sur la barre qui dépasse (modificateur + 12 rouge) de la carte (2). 48 +12 = 60", 
+	         "cards" : "60", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "55", 
+	         "hintID" : "", 
+	         "message" : "Chaque statue représente un roi ayant une particularité. Dans la machine (55), choisissez le roi (37) et assignez le symbole lié au vent et au déluge. Le texte est noté sur sa carte. Pour la deuxième divinité (85), prenez le symbole de l'oiseau qui monte vers les cieux. Pour la troisième divinité (49), prenez le symbole du père (homme). Pour le quatrième symbole, il faut prendre celui de sa fille, la reine Altipia. Il se trouve en haut de l'entrée du temple (3).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "37", 
+	         "hintID" : "", 
+	         "message" : "Sur la machine 55, vous allez pouvoir utiliser la description de Claire pour trouver le premier symbole à entrer dans la machine. Les vagues et le vent.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "85", 
+	         "hintID" : "", 
+	         "message" : "Sur la machine 55, vous allez pouvoir utiliser la description de Claire pour trouver le deuxième symbole à entrer dans la machine. L'oiseau vers les cieux.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "49", 
+	         "hintID" : "", 
+	         "message" : "Sur la machine 55, vous allez pouvoir utiliser la description de Claire pour trouver le troisième symbole à entrer dans la machine : le père, l'homme. Pour le quatrième symbole, il faut prendre celui de sa fille, la reine Altipia. Il se trouve en haut de l'entrée du temple (3).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "173", 
+	         "hintID" : "", 
+	         "message" : "Papi s'est endormi, il faut le réveiller. Secouez le téléphone. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "Dans la machine 72, les animaux se trouvant sur les cartes (1) Oiseau, (2) Araignée, (3) Serpent et (4) Poisson, correspondent à la combinaison à rentrer dans cette porte. L'ordre est lié au numéro des cartes. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "41", 
+	         "hintID" : "", 
+	         "message" : "Combinez les liens (18) et la branche (15) pour créer le lance-pierres de papi. 18+15 = 33. Puis utilisez-le pour tirer sur la stalactite. ", 
+	         "cards" : "33", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "92", 
+	         "hintID" : "", 
+	         "message" : "Placez cette carte au-dessus de la carte (17) de façon que l'arrière-plan des cartes se fonde l'un sur l'autre. Ensuite placez la lave (F) par-dessus et faites-la glisser jusqu'aux pieds de Claire. Si vous regardez bien l'assemblage des cartes, l'éclat de la couronne forme un K.", 
+	         "cards" : "K", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "18", 
+	         "hintID" : "", 
+	         "message" : "Combinez les liens (18) et la branche (15) pour créer le lance-pierres de papi. 18+15 = 33", 
+	         "cards" : "33", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "hintID" : "", 
+	         "message" : "Combinez les liens (18) et la branche (15) pour créer le lance-pierres de papi. 18+15 = 33", 
+	         "cards" : "33", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "567", 
+	         "hintID" : "", 
+	         "message" : "Vous devez utiliser la machine (7) et viser la grand-mère sur la carte (98). En effet, c'est Claire que papi a sauvée. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "999", 
+	         "hintID" : "", 
+	         "message" : "Placez cette carte au-dessus de la carte (17) de façon que l'arrière-plan des cartes se fonde l'un sur l'autre. Ensuite placez la lave (F) par-dessus et faites-la glisser jusqu'aux pieds de Claire. Si vous regardez bien l'assemblage des cartes, l'éclat de la couronne forme un K.", 
+	         "cards" : "K", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "7", 
+	         "hintID" : "", 
+	         "message" : "Visez la grand-mère sur la carte (98). En effet, c'est Claire que papi a sauvée.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "33", 
+	         "hintID" : "", 
+	         "message" : "Utilisez-le pour tirer sur la stalactite en haut de la caverne (41).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "84", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "R", 
+	         "cardsToDiscard" : "", 
+	         "message" : "« Je creusai au bon emplacement, mais il n’y avait rien... Comment ça, rien ? C'est à ce moment-là que j'entendis un bruit derrière moi, mais c'était trop tard… »"
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "81", 
+	         "cardsToDiscard" : "", 
+	         "message" : "« Avec l'aide de Claire, nous dessinâmes les numéros sur le sable. Ensuite, nous entendîmes la porte du temple d'Altipia s'ouvrir… »"
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "2", 
+	         "cardsToDiscard" : "", 
+	         "message" : "« Nous nous engouffrâmes dans les ténèbres de la prochaine salle. »"
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "4", 
+	         "cardsToDiscard" : "", 
+	         "message" : "« Le centre de la roue s'enfonça pour laisser place à une plus petite statue. »"
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "F,92", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La stalactite tombe dans la lave. Elle devient une plate-forme idéale pour échapper à la lave qui monte."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "« Bravo, vous avez tout à fait raison, c'est mamie que j'ai sauvée. Malheureusement, nous n'avons pas pu sauver la couronne, qui est tombée dans la lave. Quant à cet anguille de Rick, je ne sais  par quel miracle il a réussi à s'enfuir. Il a ainsi continué à me mettre des bâtons dans les roues à chaque fois que j'ai décidé de partir à l'aventure. Heureusement, ces fois-là Claire était là pour m'épauler. Comme la fois où j'ai dû me déguiser pour lui échapper. Vous ai-je déjà raconté cette histoire ? »"
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "« La porte s'ouvrit. Claire avait raison. Au loin, sur un piédestal se trouvait la couronne de la reine Altipia. »", 
+	         "messageID" : "machine_72_step_1", 
+	         "cardsToTake" : "B", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "emergency", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous réveillez votre papi en le secouant, mais il ne se souvient pas à quel moment de l'histoire il s'est endormi.", 
+	         "messageID" : "machine_72_continue", 
+	         "cardsToTake" : "N,7", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "« Malgré notre hâte à refermer la porte, nous ne pûmes l'arrêter. »", 
+	         "messageID" : "machine_72_step_2", 
+	         "cardsToTake" : "26", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

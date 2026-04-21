@@ -1,0 +1,775 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "DiaDeMuertos", 
+	   "displayName" : "Día de los Muertos", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "DiaDeMuertos", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "tex-mex-sabor", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "5400", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o1", 
+	         "time" : "180", 
+	         "nextObject" : "False", 
+	         "message" : "Ces chouettes sur les toits de la ville cachent sûrement quelque chose."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hintName" : "o2", 
+	         "time" : "180", 
+	         "nextObject" : "False", 
+	         "message" : "Les recoins de la bibliothèque recèlent certainement des secrets de Vargas."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour savoir quel cristal manque à Lechuza, il va falloir fouiller dans ses affaires."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'avez pas le temps d'ouvrir votre mallette, il faut vous protéger !"
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Lechuza va vous transformer en chouette si vous ne lui montrez pas que votre famille est liée à cette déesse chouette."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette statuette a un étrange symbole."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En plaçant la statuette correctement, le cercle est séparé en deux."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il fait sombre dans ce grenier, il vous faudrait un petit coup de pouce pour y voir plus clair."
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un os cassé ne sert pas à grand-chose même chez les morts."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Maquillé en calaveras, il va être difficile de prouver que vous n'êtes pas mort."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un peu d'eau suffirait à vous démaquiller."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Tout est en place, il ne reste plus qu'à démarrer l'invocation."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Si la crypte est secrète, c'est sûrement à cet endroit qu'il cache le talisman."
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si Hector n'aime pas l'or, il doit bien avoir quelque chose qu'il aime plus que tout."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut mettre cette créature hors d'état de nuire, sans trop s'approcher."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il doit bien y avoir quelque chose dans votre mallette, qui vous permettrait de stopper cette créature à distance."
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le coffre a quatre verrous, comme les quatre symboles sur cette stèle."
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les symboles de la stèle ressemblent à la disposition de certains livres de la bibliothèque."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre petite sœur et votre petit frère se sont préparés de manière très méticuleuse."
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous êtes arrivés au cimetière, le rituel peut commencer."
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vos ancêtres sont là, il ne vous reste plus qu'à placer les bougies, comme indiqué dans le rituel."
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le bec ardent d'un Pic-Verre peut faire fondre n'importe quoi, peu importe sa taille."
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vargas a caché le talisman dans un endroit encore plus secret que ceux listés ici."
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut faire une suite de touches pour indiquer l'endroit où vous souhaitez aller."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces chaines sont trop résistantes pour que vous puissiez les briser."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut que les pattes du Pic-Verre puissent se glisser en dehors de ces chaines."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Maintenant que cet os est réparé, il doit avoir une plus grande valeur marchande."
+	      }, 
+	      { 
+	         "number" : "62", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans votre vision lors du rituel, l'eau sous le pont montait."
+	      }, 
+	      { 
+	         "number" : "62", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Si l'eau monte assez haut, de nouvelles choses peuvent se révéler."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous voulez un de ces cristaux, il va falloir contenter ce squelette avec un os en moins."
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le tambour est hors d'état, mais faire résonner 3 coups doit bien être faisable sans celui-ci."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Des traces sur le pont montrent que la rivière en dessous n'a pas toujours été à cette hauteur."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Abuela a précisé dans son grimoire jusqu'à la dernière goutte, il faudra donc être sûr de bien tout renverser."
+	      }, 
+	      { 
+	         "number" : "76", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Seuls les esprits savent comment passer cette porte."
+	      }, 
+	      { 
+	         "number" : "76", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'heure de mourir est venue."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un simple souffle dans cette sarbacane pourrait faire dormir n'importe qui."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les chouettes sont les serviteurs de Lechuza, ils doivent savoir où elle se cache."
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce cristal semble briller d'une lueur magique."
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour vous rendre au cimetière, utilisez les dos des cartes avec des pétales de votre défausse."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Reliez les symboles identiques, pour ouvrir le grimoire."
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour trouver le bon cercle magique, il vous faut déjà connaitre la malédiction que Vargas a lancée sur vos ancêtres."
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Mee Shee Ki peut vous révéler quelle malédiction est à l'œuvre."
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre petit frère et votre petite sœur piétinent d'impatience dans votre chambre."
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre petit frère et votre petite sœur ont accordé leur maquillage avec leurs vêtements. Faites de même."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette disposition de couleur ressemble à une date."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La date de naissance et de mort de Vargas se trouvent au cimetière et son âge à sa mort dans le livre d’Abuela."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_57", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les crânes sur le coffre ont les mêmes couleurs que les gemmes dans la bibliothèque de Vargas."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_57", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les dessins gravés sur la tablette ressemblent à la disposition des livres de la bibliothèque."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_88", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Indiquez au rituel de clairvoyance que vous cherchez Vargas."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_88", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Abuela avait dessiné les symboles de ce rituel dans son grimoire."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "12", 
+	         "hintID" : "", 
+	         "message" : "Votre esprit protecteur Mee Shee Ki repousse Vargas avant qu'il ne vous attrape.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "16", 
+	         "hintID" : "", 
+	         "message" : "Vous montrez la sarbacane (15) décorée des plumes de Lechuza (16), avant que celle-ci ne vous change en chouette.", 
+	         "cards" : "31", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "18", 
+	         "hintID" : "", 
+	         "message" : "Vous placez la statuette Mee Shee Ki (18) au centre du cercle (94), (95) et en face de son symbole.", 
+	         "cards" : "34", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "24", 
+	         "hintID" : "", 
+	         "message" : "Vous montez dans le grenier avec Mee Shee Ki.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "29", 
+	         "hintID" : "", 
+	         "message" : "Vous (91) vous démaquillez dans la flaque en face de la porte des morts (+2).", 
+	         "cards" : "93", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "34", 
+	         "hintID" : "", 
+	         "message" : "Vous demandez à votre Abuela (3) de faire l'invocation (34).", 
+	         "cards" : "37", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "36", 
+	         "hintID" : "", 
+	         "message" : "Vous offrez la fleur à Hector, qu'il accepte comme paiement.", 
+	         "cards" : "85", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "Vous mettez les épines Fédodo (+62) de votre mallette (75) dans votre sarbacane (17) et lancez une épine sur la créature (4).", 
+	         "cards" : "77,81", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "41", 
+	         "hintID" : "", 
+	         "message" : "En comparant les symboles de la stèle (41) à la disposition des livres dans la bibliothèque (53), vous trouvez le code du coffre (57).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "50", 
+	         "hintID" : "", 
+	         "message" : "Vous placez une bougie (2) devant la tombe de vos chacun de vos ancêtres (50).", 
+	         "cards" : "70", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "57", 
+	         "hintID" : "", 
+	         "message" : "Vous demandez au Pic-Verre (+31) de faire fondre la cloche de glace (10) et libérez la stèle.", 
+	         "cards" : "41", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "59", 
+	         "hintID" : "", 
+	         "message" : "Pour descendre dans la crypte indiquée sur le plan (35), vous entrez la séquence de touches nécessaires pour écrire le mot.", 
+	         "cards" : "6", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "6", 
+	         "hintID" : "", 
+	         "message" : "Vous donnez la potion Rikiki (+51) au Pic-Verre (6), qui rétrécit d'un seul coup.", 
+	         "cards" : "57", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "60", 
+	         "hintID" : "", 
+	         "message" : "Vous donnez l'os (60) au marchand (63) en échange d'une pierre bleue (+27).", 
+	         "cards" : "87", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "62", 
+	         "hintID" : "", 
+	         "message" : "Vous faites monter le niveau de l'eau sous le pont (62) jusqu'à révéler l'entrée du repaire de Vargas. Vous pouvez accéder à la machine 33.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "69", 
+	         "hintID" : "", 
+	         "message" : "Vous frappez 3 fois dans vos mains et une silhouette se dessine doucement dans le tunnel.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "70", 
+	         "hintID" : "", 
+	         "message" : "Vous retournez complètement la fiole (9) sur les tombes de vos ancêtres (70).", 
+	         "cards" : "76", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "76", 
+	         "hintID" : "", 
+	         "message" : "Une fois que vous semblez vraiment mort (Pénalité), la porte de monde des morts (76) s'ouvre et vous (91) la passez.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "86", 
+	         "hintID" : "", 
+	         "message" : "Les chouettes vous guident jusqu'à leur maitresse.", 
+	         "cards" : "16", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "87", 
+	         "hintID" : "", 
+	         "message" : "Vous donnez le cristal (87) à Lechuza afin de préparer le rituel de clairvoyance.", 
+	         "cards" : "88", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "hintID" : "", 
+	         "message" : "Reliez les symboles avec leurs paires, sans que leurs forces se croisent. Faites la forme présente sur le médaillon d'Abuela avec les points orange et reliez le reste.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "17", 
+	         "hintID" : "", 
+	         "message" : "Après que Mee Shee Ki (37) vous ait révélé quelle malédiction touchait vos ancêtres (98), vous faites le cercle comme indiqué dans le grimoire d'Abuela.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "33", 
+	         "hintID" : "", 
+	         "message" : "Bleu / Vert / Violet / Orange / Jaune / Vert / Vert / Vert", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_57", 
+	         "message" : "Les dessins sur la tablette font chacun référence à une disposition de livre de la bibliothèque et donc à la couleur de la gemme présente à côté. Vous devez donc faire la séquence suivante sur le coffre CYAN - VIOLET - ROUGE - BLEU.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_88", 
+	         "message" : "Illuminez les symboles du rituel pour écrire VARGAS et en vous servant du grimoire d'Abuela, vous activez les symboles dans cet ordre MASQUE / ÂNE / SERPENT / TORTUE / ÂNE / OISEAU", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "11", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le grimoire s’ouvre ! Prenez le livret dans la boite de jeu, vous pouvez à présent le consulter."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "14", 
+	         "cardsToDiscard" : "", 
+	         "message" : "C’est la bonne combinaison. Le coffre s’ouvre !"
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La malédiction est levée ! Grâce à vous, le plan de l’infâme Vargas a échoué. Tout revient à la normale et vous pouvez désormais profiter de la fête des morts avec votre famille.\\n\\nFélicitations !"
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "En illuminant les symboles du rituel pour écrire VARGAS, vous avez une vision."
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Les enfants !\\nC’est une catastrophe.\\nOn a volé notre Talisman et jeté une malédiction sur la famille !\\nVenez vite au salon !"
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "10", 
+	         "nextEvent" : "0", 
+	         "soundName" : "evil-shreik-45560", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Alors que vous vous réjouissez d’avoir enfin mis la main sur le talisman que vous contemplez dans vos mains, une ombre apparait soudainement au sol. Vous levez les yeux...", 
+	         "messageID" : "vargas_attack", 
+	         "cardsToTake" : "12", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Aveuglé, Vargas s’effondre. Vous en profitez pour prendre la fuite. Poursuivi par le démon, vous sautez dans une gondole et arrivez à bout de souffle devant la porte du monde.", 
+	         "messageID" : "scan_card_12", 
+	         "cardsToTake" : "29", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Voilà qui pourrait être utile.", 
+	         "messageID" : "scan_card_24_cruche", 
+	         "cardsToTake" : "9", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Une arme ça pourra toujours servir.", 
+	         "messageID" : "scan_card_24_sarbacane", 
+	         "cardsToTake" : "15", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Le grimoire d’Abuela !!", 
+	         "messageID" : "scan_card_24_grimoire", 
+	         "cardsToTake" : "11", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous entendez un sifflement joyeux provenant du fond de la grotte. Une embarcation s'approche lentement de vous.", 
+	         "messageID" : "event_drum", 
+	         "cardsToTake" : "36", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

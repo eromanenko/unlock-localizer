@@ -1,0 +1,591 @@
+{ 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "Pieuvre", 
+	   "number" : "301", 
+	   "displayName" : "", 
+	   "difficulty" : "3", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Pieuvre", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "ad6_1", 
+	   "maxTime" : "3000", 
+	   "totalTime" : "3000", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous cherchez à regarder plus en détail ce portrait de la Pieuvre, sachez que vous l'avez déjà vu quelque part avant le début de votre aventure..."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "S'il vous prend l'envie de dérober quelque chose, vous pourrez compter sur Baron Samedi. Il est très doué en la matière !"
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est une jolie fleur, mais vous n'y connaissez pas grand-chose en plantes. Continuez de voguer parmi ces mers et, qui sait, vous croiserez peut-être plus expert que vous en la matière."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'avez pas un sou, mais la bourse que le soldat porte à la taille ne vous a pas échappé. Trouvez un moyen de la dérober."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre singe ne saurait pas s'en tenir à l'écart bien longtemps."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ah ! votre singe est têtu, mais vous le connaissez bien. Trouvez-lui une petite collation et il rappliquera immédiatement."
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut trouver un moyen de communiquer ce navire. Continuez d'explorer les environs pour trouver davantage d'informations au sujet de la Compagnies des Indes."
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les lumières de ce navire ne cessent de s'éteindre et de s'allumer. Cela fait penser à un genre de CODE. Si ce n'est pas déjà fait, utilisez votre longue-vue (80) et naviguez jusqu'à la petite île déserte. Vous trouverez une lampe à huile (73) et un message (13) mentionnant l'EDOC de la Compagnies des Indes."
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Plus de taxe de passage à payer, mais cet argent pourrait vous servir à faire des affaires le moment venu."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous n'avez pas d'argent, il va falloir en trouver et et peut-être même en voler."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait vous procurer une barque. Il vous semble d'ailleurs en avoir aperçu une derrière l'un des navires."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut emporter cette préparation dans un lieu situé au plus proche de la Pieuvre. Où a-t-il pris la décision de mettre fin à ses jours ?"
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le contenu de ce parchemin semble être une confession des différents péchés de la Pieuvre, des différentes souffrances qu'il a causées autour de lui. Vous avez son premier et son dernier péché : avoir ôté la vie au pirate le Requin et s'être donné la mort. À vous de découvrir les autres..."
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez attentivement la forme du jet de lumière. "
+	      }, 
+	      { 
+	         "number" : "39", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avec une barque comme celle-ci vous êtes maintenant en mesure d'accéder à des territoires interdits à votre navire."
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est une marchande de plantes et de fleurs. Si d'aventure vous aviez besoin de conseils dans ce domaine, vous savez maintenant à qui vous adresser."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "3 péchés, 3 cartes. Révélez-les !"
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces péchés sont tout ce qu'il vous reste, c’est-à-dire les 3 dernières cartes que vous n'avez pas encore révélées. Révélez les cartes 75, 85, et 95. Chacun de ces crânes représente l'un des 4 péchés de la Pieuvre. Une fois remis dans l'ordre de l'histoire, ces 4 crânes vous donneront la combinaison du coffre (99)."
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez trouvé la fleur sur l'île déserte (70). Déplacez la commercante (56) sur cette île et positionnez-la correctement devant la plante en question."
+	      }, 
+	      { 
+	         "number" : "62", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Que savez-vous à propos de cette île vaudoue ?"
+	      }, 
+	      { 
+	         "number" : "62", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le message du naufragé (13) fait référence à cette île. Son nom n'a pas l'air tout à fait anodin."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le coffre (99) est à présent désenvoûté. Il faut maintenant manipuler les 3 tentacules pour les orienter correctement. Les 3 tentacules du coffre font référence à 3 objets liés à Abagnale."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez croisé le premier en mer. Les deux autres se rapportent aux souvenirs que la Vaudou a gardés de la Pieuvre."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un homme semble avoir été abandonné sur cette île. Celle-ci semble très fréquentée par les perroquets."
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette lampe pourrait vous être utile pour tenter de communiquer avec le navire de Compagnie des Indes. Mais encore faut-il connaître les bons signaux à envoyer."
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les lumières du navire de la Compagnie des Indes ne cessent de s'éteindre et de s'allumer. Cela fait penser à un genre de CODE.  Le message du naufragé (13) fait mention de l'EDOC de la Compagnies des Indes. Cela a sans doute un rapport."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chacun des crânes représente l'un des 4 péchés de la Pieuvre. Une fois remis dans l'ordre de l'histoire, ces 4 crânes vous donneront la combinaison du coffre (99)."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Repérez la dent en or et l'insigne sur le chapeau de ce crâne : un perroquet. Ce crâne fait référence à l'abandon de l'équipage sur l'île des Perroquets (13)."
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chacun des crânes représente l'un des 4 péchés de la Pieuvre. Une fois remis dans l'ordre de l'histoire, ces 4 crânes vous donneront la combinaison du coffre (99)."
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Repérez la dent en or et l'insigne sur le chapeau de ce crâne : un serpent. Ce crâne fait référence au cœur brisé de la Vaudou (90)."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La vaudou a elle aussi subi les foudres de la Pieuvre, qui lui a brisé le cœur avant de la laisser seule ici, avec son serpent."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chacun des crânes représente l'un des 4 péchés de la Pieuvre. Une fois remis dans l'ordre de l'histoire, ces 4 crânes vous donneront la combinaison du coffre (99)."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Repérez la dent en or et l'insigne sur le chapeau de ce crâne : un requin. Ce crâne fait référence au meurtre du capitaine Rickon, alias le Requin (31)."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le coffre (99) est à présent désenvoûté. Il faut maintenant manipuler les 3 tentacules pour les orienter correctement. Les 3 tentacules du coffre font référence à 3 objets liés à la Pieuvre, le pirate."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez croisé le premier en mer. Les deux autres se rapportent aux souvenirs que la Vaudou a gardés de la Pieuvre."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "1", 
+	         "hintID" : "", 
+	         "message" : "Ce portrait est le même que celui de l'étui de cartes. Un élément présent sur ce portrait vous aidera à ouvrir le coffre (99).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "6", 
+	         "hintID" : "", 
+	         "message" : "Utilisez votre longue-vue (80) et naviguez jusqu'à Port-Royal. Vous y ferez la recontre d'une commerçante (50). Montrez-lui cette jolie fleur (6).", 
+	         "cards" : "56", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "7", 
+	         "hintID" : "", 
+	         "message" : "Envoyez votre singe (4) voler la bourse du soldat (7).", 
+	         "cards" : "11", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "hintID" : "", 
+	         "message" : "Une fois que votre singe aura pris la fuite, apportez-ces cacahuètes (8) à Port-Royal pour le faire revenir.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "hintID" : "", 
+	         "message" : "Lorsque vous aurez trouvé les cacahuètes, rapportez-les en ville (11) pour faire rappliquer votre singe.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "17", 
+	         "hintID" : "", 
+	         "message" : "L'EDOC de la Compagnies des Indes n'est autre que le CODE à l'envers. Ce CODE est celui produit par les lumières de leur navire (80) : lumière courte, lumière longue, lumière courte puis lumière courte. Leur EDOC est donc : lumière courte, lumière courte, lumière longue et lumière courte. Faites donc cela avec votre lampe à huile (73) pour communiquer avec la Compagnies des Indes (17).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "19", 
+	         "hintID" : "", 
+	         "message" : "Lorsque vous rencontrerez le capitaine du navire de la Compagnies des Indes, donnez-lui cette bourse (19) pour lui acheter la chaloupe.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "20", 
+	         "hintID" : "", 
+	         "message" : "Une fois la bourse du soldat de Port-Royal récupérée, vous n'aurez plus qu'à l'offrir à ce capitaine de la Compagnies des Indes (20) pour lui acheter sa chaloupe.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "27", 
+	         "hintID" : "", 
+	         "message" : "Selon ses derniers écrits (31), la Pieuvre était à Port-Royal lorsqu'il s'est donné la mort. Apportez la préparation (27) dans la ville de Port-Royal (11).", 
+	         "cards" : "38", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "38", 
+	         "hintID" : "", 
+	         "message" : "Le jet de lumière de la préparation forme deux « 5 » à la suite.", 
+	         "cards" : "55", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "39", 
+	         "hintID" : "", 
+	         "message" : "Si ce n'est pas déjà fait, utilisez votre longue-vue (80) et naviguez jusqu'aux abords de l'île vaudoue protégée par les récifs (23). Utilisez alors votre barque (39) pour vous faufiler entres les rochers et atteindre l'île. ", 
+	         "cards" : "62", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "50", 
+	         "hintID" : "", 
+	         "message" : "Utilisez votre longue-vue (80) et naviguez jusqu'à la petite île déserte. Vous y trouverez une jolie fleur jaune (6). Rapportez-la à cette commercante (50).", 
+	         "cards" : "56", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "55", 
+	         "hintID" : "", 
+	         "message" : "Lors de ses aventures, la Pieuvre a commis 4 péchés. Il a d'abord tué John Rickon, le Requin (31 et 95), puis a abandonné l'équipage sur l'île des Perroquets (13 et 75), avant de rencontrer et de briser de la cœur de la Vaudou au Serpent (90 et 85), et enfin de mettre fin à ses jours à Port-Royal (31 et 55). La combinaison des dents en or sur le coffre (99) est donc : Requin, Perroquet, Serpent puis Pieuvre.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "56", 
+	         "hintID" : "", 
+	         "message" : "Positionnez la commercante (50) sur l'île déserte (70) de façon à faire coincider le motif à fleurs de sa cape avec les fleurs de l'île. Les petites fleurs jaunes forment maintenant un 8. ", 
+	         "cards" : "8", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "62", 
+	         "hintID" : "", 
+	         "message" : "NONSENSE Island. Le nom de cette île vous indique les directions à suivre : nord, ouest, nord, sud, est, nord, sud, est.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "66", 
+	         "hintID" : "", 
+	         "message" : "Vous avez croisé le premier en mer. Les deux autres se rapportent aux souvenirs que la Vaudou a gardés de la Pieuvre.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "73", 
+	         "hintID" : "", 
+	         "message" : "L'EDOC de la Compagnies des Indes n'est autre que le CODE à l'envers. Ce CODE est celui produit par les lumières de leur navire (80) : lumière courte, lumière longue, lumière courte puis lumière courte. Leur EDOC est donc : lumière courte, lumière courte, lumière longue et lumière courte. Faites donc cela avec votre lampe à huile (73) pour communiquer avec la Compagnies des Indes (17).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "75", 
+	         "hintID" : "", 
+	         "message" : "Lors de ses aventures, la Pieuvre a commis 4 péchés. Il a d'abord tué John Rickon, le Requin (31 et 95), puis a abandonné l'équipage sur l'île des Perroquets (13 et 75), avant de rencontrer et de briser de la cœur de la Vaudou au Serpent (90 et 85), et enfin de mettre fin à ses jours à Port-Royal (31 et 55). La combinaison des dents en or sur le coffre (99) est donc : Requin, Perroquet, Serpent puis Pieuvre.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "85", 
+	         "hintID" : "", 
+	         "message" : "Lors de ses aventures, la Pieuvre a commis 4 péchés. Il a d'abord tué John Rickon, le Requin (31 et 95), puis a abandonné l'équipage sur l'île des Perroquets (13 et 75), avant de rencontrer et de briser de la cœur de la Vaudou au Serpent (90 et 85), et enfin de mettre fin à ses jours à Port-Royal (31 et 55). La combinaison des dents en or sur le coffre (99) est donc : Requin, Perroquet, Serpent puis Pieuvre.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "95", 
+	         "hintID" : "", 
+	         "message" : "Lors de ses aventures, la Pieuvre a commis 4 péchés. Il a d'abord tué John Rickon, le Requin (31 et 95), puis a abandonné l'équipage sur l'île des Perroquets (13 et 75), avant de rencontrer et de briser de la cœur de la Vaudou au Serpent (90 et 85), et enfin de mettre fin à ses jours à Port-Royal (31 et 55). La combinaison des dents en or sur le coffre (99) est donc : Requin, Perroquet, Serpent puis Pieuvre.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "hintID" : "", 
+	         "message" : "La proue du navire de la Pieuvre (80), le collier de la Vaudou (66) et la pipe de la Pieuvre (étui). Orientez les 3 tentacules du coffre (99) de la même façon pour l'ouvrir.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "62", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "81", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous mettez le cap sur cette île peu rassurante.", 
+	         "messageID" : "machine_80_voodoo", 
+	         "cardsToTake" : "23", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous tentez de vous approcher du Tentacule, mais la mer se déchaîne et vous repousse.", 
+	         "messageID" : "machine_80_tentacle", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "83", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Intrigués par ces jeux de lumière, vous levez l'ancre et vous dirigez vers ce grand navire.", 
+	         "messageID" : "machine_80_EastIndiaCompany", 
+	         "cardsToTake" : "17", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "84", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Le vent en poupe, vous naviguez jusqu'aux abords de cette petite île.", 
+	         "messageID" : "machine_80_desertIsland", 
+	         "cardsToTake" : "70", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Cap sur Port-Royal !", 
+	         "messageID" : "machine_80_PortRoyal", 
+	         "cardsToTake" : "26", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	      "French", 
+	      "English", 
+	      "German", 
+	      "Italian", 
+	      "Dutch", 
+	      "Spanish", 
+	      "Hungarian"
+	   ]
+	}

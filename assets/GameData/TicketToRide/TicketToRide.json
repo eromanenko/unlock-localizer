@@ -1,0 +1,619 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "TicketToRide", 
+	   "displayName" : "Les Aventuriers du rail", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "TicketToRide", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "TourDuMonde_SNOWFLAKES", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "900", 
+	         "nextObject" : "False", 
+	         "message" : "Observez bien cette pochette d'allumettes."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o2", 
+	         "time" : "300", 
+	         "nextObject" : "False", 
+	         "message" : "Regardez la partie sombre entre les deux wagons 17 et 19."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Embrasez un objet inflammable."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez déjà vu ces chaussures."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce jeune chien fou n'aurait besoin que d'une excuse pour entraîner son maître un peu plus loin."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Au cours de cette aventure, vous devrez prendre en photo plusieurs détails sur différentes cartes. L'œil du reporter vous guidera !"
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a un chiffre caché sur cette pochette d'allumettes."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Prenez ce pied en photo avant que son propriétaire ne s'enfuie !"
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez trouver un moyen de créer une diversion pour vous approcher de cette mallette !"
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Tandis que vous admirez cet aigle majestueux, vous vous dites que ce conduit d'aération grand ouvert serait idéal pour créer une diversion."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous pris les cartes 10 et 34 ? Pas de numéro caché ici."
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous accolé cette carte à la 19 pour en lire le texte ? Il vous faut enquêter sur ce bruit étrange entre les wagons au plus vite !"
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Fixez votre regard sur la partie sombre qui sépare les deux wagons : n'y voyez-vous rien s'y dessiner ?"
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Peut-être avez-vous encore quelque chose à montrer à Grace et à Roy ? Il vous faut néanmoins enquêter sur ce bruit étrange entre les wagons au plus vite !"
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous pris les cartes R et K ? Sur la carte R, la portion Salt Lake City - Las Vegas est d'une couleur bien particulière. Ne l'avez-vous pas vue ailleurs ?"
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Peut-être qu'une des photos que vous avez prises intéressera Grace ?"
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Qui pourrait être intéressé par cette photo d'aigle ?"
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Seul un de ces sujets intéressera votre rédac' chef. Peut-être que le titre de cette aventure peut vous mettre sur la voie ?"
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Comment accéder à cette locomotive ? Peut-être devriez revenir dans le wagon de tête pour vous en rapprocher…"
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous remarqué la trace de rouge à lèvres sur la tasse ? Mais ne vous y trompez pas : les biscuits sont très certainement ce qui vous intéressera le plus ici."
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous pris les cartes 17 et 19 ? Que va faire Miss Smith de ce chloroforme ? Pas de numéro caché ici."
+	      }, 
+	      { 
+	         "number" : "39", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Walter est intéressé par les oiseaux. Vous pourriez peut-être en immortaliser un ?"
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une preuve pour confronter les protagonistes de cet échange ?"
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous êtes un reporter, non ? Qu'attendez-vous ? Prenez en photo l'échange entre l'homme et la femme."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "N'avez-vous pas déjà croisé cette femme rousse ?"
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les nouvelles du journal ne sont pas très fraîches. Il n'est plus bon qu'à être brûlé…"
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une épaisse fumée se dégage du journal. Cela pourrait se révéler utile pour créer une diversion."
+	      }, 
+	      { 
+	         "number" : "49", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Un des trois sujets de la carte 31 intéressera votre rédac' chef. Peut-être que le titre de cette aventure peut vous mettre sur la voie ?"
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien placé la carte 7 à droite de celle-ci ? Une scène dans le fond attire votre œil de journaliste. Prenez-la en photo."
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Intéressant : cet accord indique que les lignes ROSES de Roy ne font plus qu'un avec les lignes JAUNES de Walter."
+	      }, 
+	      { 
+	         "number" : "62", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous aurez besoin d'informations de la part de Walter pour ouvrir cette mallette."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette histoire paraît banale, mais elle est mémorable pour Walter. Certains mots-clés pourraient vous aider à ouvrir sa mallette."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette partie du plan est le début du trajet (Salt Lake City) : placez la carte 95 à sa droite et à l'horizontale. Quant à la carte 78, mettez-la aussi à l'horizontale en dessous des cartes 64 et 95 afin de reconstituer le plan."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous pris les cartes 14, 15, 16 et B ? Pas de numéro caché ici."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Deux chemins sont possibles en partant de Saint Louis sans passer par du vert : comptez le nombre de rectangles de chaque trajet."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette partie de plan est le milieu du trajet : elle se place horizontalement en dessous des deux autres. Une fois le plan reconstitué, entrez dans la machine 20 (locomotive) pour accéder aux commandes…"
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous pris les cartes 9, 86 et T ? Pas de numéro caché ici."
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Prenez en photo la bouteille qui dépasse du sac avant que la femme ne disparaisse…"
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Certaines de vos cartes portent les initiales du trajet."
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "1, 3, 6, 10, 15… Combien de ponts comprendra la pyramide suivante ?"
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette partie du plan est la dernière du trajet (Salt Lake City - Las Vegas). Placez-la horizontalement à droite de 64."
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous pris les cartes 31 et 49 ? Pas de numéro caché ici."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez trouver la place 57, probablement dans un des wagons suivants."
+	      }, 
+	      { 
+	         "number" : "111", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous n'aurez pas le temps de lire le document avant que les hommes de main de Walter ne reviennent… Comment en garder une trace ?"
+	      }, 
+	      { 
+	         "number" : "222", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les voyelles ont disparu de ce message."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "1", 
+	         "hintID" : "", 
+	         "message" : "Allumez le journal (46) avec cette allumette : 46+1=47.", 
+	         "cards" : "47", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "7", 
+	         "hintID" : "", 
+	         "message" : "Lancez les biscuits (34) au chien pour l'attirer plus loin : 34+7=41.", 
+	         "cards" : "41", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "10", 
+	         "hintID" : "", 
+	         "message" : "C'est un numéro caché.", 
+	         "cards" : "1", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "18", 
+	         "hintID" : "", 
+	         "message" : "C'est un numéro caché.", 
+	         "cards" : "33", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "19", 
+	         "hintID" : "", 
+	         "message" : "Montrez la photo (4) à Grace et à Roy : 19+4=23.", 
+	         "cards" : "23", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "20", 
+	         "hintID" : "", 
+	         "message" : "Prenez les trois cartes dont le dos comporte un wagon bleu.", 
+	         "cards" : "64,78,95", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "21", 
+	         "hintID" : "", 
+	         "message" : "Montrez la photo de l'accord (53) à Grace pour la faire réagir : 21+53=74.", 
+	         "cards" : "74", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "24", 
+	         "hintID" : "", 
+	         "message" : "Montrez cette photo à Walter (39) : 24+39=63.", 
+	         "cards" : "63", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "31", 
+	         "hintID" : "", 
+	         "message" : "Soumettez l'article sur le décès de Carrie Baker à votre rédac' chef (49) : 49+31=80.", 
+	         "cards" : "80", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "33", 
+	         "hintID" : "", 
+	         "message" : "14, 15, 16, 17, 18, 19, ce dernier étant le wagon de tête. La locomotive doit être juste après.", 
+	         "cards" : "20", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "39", 
+	         "hintID" : "", 
+	         "message" : "Prenez en photo l'aigle dans la cabine 15 (carte 24) et montrez-la à Walter : 24+39=63.", 
+	         "cards" : "63", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "42", 
+	         "hintID" : "", 
+	         "message" : "Montrez la photo de l'échange (40) à Miss Smith : 40+42=82.", 
+	         "cards" : "82", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "47", 
+	         "hintID" : "", 
+	         "message" : "Placez le journal près du conduit d'aération de la cabine 15 pour enfumer la cabine voisine : 15+47=62.", 
+	         "cards" : "62", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "49", 
+	         "hintID" : "", 
+	         "message" : "Soumettez l'article sur le décès de Carrie Baker (+31) à votre rédac' chef : 49+31=80.", 
+	         "cards" : "80", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "53", 
+	         "hintID" : "", 
+	         "message" : "Les lignes jaunes et roses sur la carte M dessinent un 51.", 
+	         "cards" : "51", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "62", 
+	         "hintID" : "", 
+	         "message" : "L'histoire de la carte 63 vous donne les mots-clés : CHASSEUR, CERF, FEUILLE puis PERDRIX. Entrez ces symboles dans l'appli.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "74", 
+	         "hintID" : "", 
+	         "message" : "Le chemin le plus court est Saint Louis / Omaha / Kansas City / Oklahoma City / Dallas / Santa Fe, qui compte 12 rectangles.", 
+	         "cards" : "12", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "86", 
+	         "hintID" : "", 
+	         "message" : "Les initiales du trajet sont NY-LA.", 
+	         "cards" : "NY-LA", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "87", 
+	         "hintID" : "", 
+	         "message" : "On ajoute une base de 6 ponts à la pyramide précédente : 15+6=21.", 
+	         "cards" : "21", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "98", 
+	         "hintID" : "", 
+	         "message" : "Le wagon 71 contient les places 41 à 50, et le wagon 72 contient les places 51 à 60.", 
+	         "cards" : "72", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "222", 
+	         "hintID" : "", 
+	         "message" : "« Déblocage vitesse tous les boutons sauf blanc », cela vous servira une fois que vous aurez accédé aux commandes de la locomotive.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "11111", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous arrivez in extremis à stopper le train avant Las Vegas. Jamais vous n'auriez imaginé que vous deviendriez un héros aujourd’hui. Mais pas de repos pour les braves : il vous faut encore rédiger votre article. Le boss n’attend pas !"
+	      }, 
+	      { 
+	         "number" : "62", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "F", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Un clic engageant résonne, et la mallette s’ouvre."
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "41", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "10", 
+	         "nextEvent" : "0", 
+	         "soundName" : "ad8_restart", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "The_ballad_singer_of_the_silver_lake", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Tous en voiture. Départ pour Santa Fe.", 
+	         "messageID" : "machine_9_event1", 
+	         "cardsToTake" : "C", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "10", 
+	         "nextEvent" : "0", 
+	         "soundName" : "ad8_restart", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Tous en voiture. Départ pour Los Angeles. ", 
+	         "messageID" : "machine_9_event2", 
+	         "cardsToTake" : "42", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "Go_Diego", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Le volant qui contrôle la vitesse est débloqué.", 
+	         "messageID" : "machine_20_wheel", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "K"
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

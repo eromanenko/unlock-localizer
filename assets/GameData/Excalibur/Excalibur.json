@@ -1,0 +1,1008 @@
+{ 
+	   "visible" : "True", 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Excalibur", 
+	   "displayName" : "La Malédiction de Camelot", 
+	   "difficulty" : "3", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Excalibur", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Excalibur_Camelot", 
+	   "maxTime" : "4500", 
+	   "totalTime" : "4500", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o1", 
+	         "time" : "180", 
+	         "nextObject" : "False", 
+	         "message" : "Dans l'auberge, une silhouette vous observe depuis votre droite."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "71", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Sur l'une des pierres se trouve un symbole bien étrange."
+	      }, 
+	      { 
+	         "number" : "71", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Deux chiffres se mélangent dans ce symbole."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez le trajet du feu-follet, pour reconstituer la forêt dans le bon ordre."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La forêt reconstituée donne une formule mathématique."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez le trajet du feu-follet, pour reconstituer la forêt dans le bon ordre."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La forêt reconstituée donne une formule mathématique."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez le trajet du feu-follet, pour reconstituer la forêt dans le bon ordre."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La forêt reconstituée donne une formule mathématique."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez le trajet du feu-follet, pour reconstituer la forêt dans le bon ordre."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La forêt reconstituée donne une formule mathématique."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le poème vous aidera à décoder les symboles du cercle formé avec sa seconde partie."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans le poème, \"elle\" fait référence à un élément spécifique. Tracez le chemin indiqué."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le poème vous aidera à décoder les symboles du cercle formé avec sa seconde partie."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans le poème, \"elle\" fait référence à un élément spécifique. Tracez le chemin indiqué."
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les trois portes se trouvent dans votre pioche."
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'une des visions de Merlin fait référence à ces portes. Une seule porte dit la vérité et les deux autres mentent."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Plusieurs objets peuvent être pris et placés à d'autres endroits."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Deux éléments du décor de la pièce vous rappellent un symbole que vous avez vu dans la salle du trône."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez suivre la silhouette sans vous faire remarquer avec des cachettes qui peuvent vous couvrir complètement."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Que pouvez-vous faire de cette hache ? Un sort vous aidera."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Merlin fait mention d'une hache dans ses visions."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La créature possède deux faiblesses que vous devez identifier."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez vu cette créature au début de votre aventure."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces symboles correspondent à un sort de dissimulation lancé par Morgane. Il faut désactiver le sort afin de faire apparaitre Excalibur."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Morgane a parcouru les ruelles de Tintagel, elle en a profité pour lancer ce sort en écrivant les symboles."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les chemins de Viviane s'arrêtent sur la côte, mais continuent ailleurs."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Merlin a eu une vision à ce sujet."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'épée ne vous servira à rien contre lui. Le général porte une armure d'or."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un sort pourra vous aider à vous débarrasser du général."
+	      }, 
+	      { 
+	         "number" : "49", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Impossible de se déplacer sans lever le sort."
+	      }, 
+	      { 
+	         "number" : "49", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous avez l'œil du dragon, vous pouvez lancer un sort ou sa version inversée."
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Au cours de votre aventure, des corbeaux ont surveillé vos faits et gestes."
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Divisez chacun des 3 corbeaux pour rompre le sort."
+	      }, 
+	      { 
+	         "number" : "452", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Tordez la réalité du lac en utilisant les deux faces sans la plier."
+	      }, 
+	      { 
+	         "number" : "452", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez les deux côtés de la carte."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le sol a les mêmes runes que celles dessinées par Merlin"
+	      }, 
+	      { 
+	         "number" : "79", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Merlin dessine des runes qui ressemblent à celles du sol de son laboratoire."
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Faites glisser deux salles dans la boite de jeu pour placer cette nouvelle salle."
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La nouvelle salle se place devant la salle 78."
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette cire est assez molle pour être insérée dans des trous."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez la magie pour vous faufiler sans être vu et sans alerter les soldats."
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut un sort pour traverser, mais un autre sorcier a déjà utilisé un tel sort."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut une piste pour ne pas vous perdre dans la forêt."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette fumée rouge révèle la couleur de la carte, même si elle gêne un peu pour déchiffrer son numéro."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut quelque chose de modelable pour boucher ces trous. Utilisez ce que vous avez dans les autres salles du donjon pour cela."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une créature est cachée dans la montagne, sa force vous servira le moment venu."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Morgane a laissé une information sur l'emplacement d'Excalibur."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le brasero présent dans cette salle peut vous servir à faire fondre un objet."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut créer un sort sur cette fontaine comme dans les visions de Merlin."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour créer de l'eau, vous pouvez créer un nouveau sort à l'aide de deux sorts que vous avez déjà utilisés."
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour activer le mécanisme, il faut transformer la hache et l'orbe de la gravure, en modifiant d'autres salles du donjon."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_25_part1", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les Saxons et Morgane souhaitaient capturer quelqu'un et récupérer Excalibur. Ces deux informations sont liées."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_25_part2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour contrer le sort de Morgane, il vous faut utiliser son sort contre elle."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_59_part1", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Examinez la tablette de pierre pour savoir comment utiliser Excalibur."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_59_part2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La tablette de pierre fait mention d'un dragon à guider vers l'ennemi. Un dragon se cache sur l'une des cartes."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "71", 
+	         "hintID" : "", 
+	         "message" : "Sur la pierre, est gravée un 6 et un 9", 
+	         "cards" : "6,9", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "hintID" : "", 
+	         "message" : "Placez les cartes de la forêt dans cet ordre : 5, 12, 72 puis 3. Formant la formule mathématique 5 X 12 - 3. 5 X 12 - 3 = 57", 
+	         "cards" : "57", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "72", 
+	         "hintID" : "", 
+	         "message" : "Placez les cartes de la forêt dans cet ordre : 5, 12, 72 puis 3. Formant la formule mathématique 5 X 12 - 3. 5 X 12 - 3 = 57", 
+	         "cards" : "57", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "5", 
+	         "hintID" : "", 
+	         "message" : "Placez les cartes de la forêt dans cet ordre : 5, 12, 72 puis 3. Formant la formule mathématique 5 X 12 - 3. 5 X 12 - 3 = 57", 
+	         "cards" : "57", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "3", 
+	         "hintID" : "", 
+	         "message" : "Placez les cartes de la forêt dans cet ordre : 5, 12, 72 puis 3. Formant la formule mathématique 5 X 12 - 3. 5 X 12 - 3 = 57", 
+	         "cards" : "57", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "6", 
+	         "hintID" : "", 
+	         "message" : "En utilisant le poème de Merlin (91), reliez dans le cercle de pierre (6 et 9), les symboles Lune, Arbre, Soleil, Cœur puis Lune (sous-entendu par \"elle\"), Dragon, Soleil, Épée, Cœur. Ce tracé forme un 43.", 
+	         "cards" : "43", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "9", 
+	         "hintID" : "", 
+	         "message" : "En utilisant le poème de Merlin (91), reliez dans le cercle de pierre (6 et 9), les symboles Lune, Arbre, Soleil, Cœur puis Lune (sous-entendu par \"elle\"), Dragon, Soleil, Épée, Cœur. Ce tracé forme un 43.", 
+	         "cards" : "43", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "57", 
+	         "hintID" : "", 
+	         "message" : "Une des visions de Merlin mentionne \"Une seule dit la vérité\", une seule porte dit donc la vérité et les autres mentent. La porte pouvant dire la vérité seule est la porte indiquant \"Pas la porte de droite\". Prenez la carte où figure cette porte.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "18", 
+	         "hintID" : "", 
+	         "message" : "Dans la salle du trône (62), un blason est gravé. Reconstituez ce blason : prenez le chandelier et mettez-le dans la cheminée, puis prenez l'épée et mettez-la dans la cheminée.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "63", 
+	         "hintID" : "", 
+	         "message" : "Merlin fait mention dans ses visions (98) d'une hache d'or. Vous pouvez, avec un sort, transformer la hache de pierre en or. Utilisez l'œil du dragon et dites à haute voix \"Rokus Aurok\".", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "hintID" : "", 
+	         "message" : "Pour tuer la créature, imitez la statue de celle-ci présente dans le laboratoire de Merlin (38). Coupez avec votre épée (29), la patte avant (+42) et son cou (+15). 29 + 42 + 15 = 86", 
+	         "cards" : "86", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "27", 
+	         "hintID" : "", 
+	         "message" : "Ces symboles sont les runes dessinées par Morgane, dans Tintagel. Ouvrez la machine 45 et effacez les 3 runes présentes sur cette carte.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "10", 
+	         "hintID" : "", 
+	         "message" : "Pour boucher les trous de cette salle, faites fondre la bougie (20) avec le brasero présent dans la salle précédente (+48). La fumée recouvre le bandeau de la carte (10) la transformant en carte rouge, vous pouvez donc la combiner avec la cire fondue (68). 10 + 68 = 78", 
+	         "cards" : "78", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "64", 
+	         "hintID" : "", 
+	         "message" : "La carte de Viviane est incomplète, à l'aide des visions de Merlin (98), vous pouvez compléter les traces de pas manquantes. En plaçant les cartes de manière à compléter le trajet, un 52 est visible.", 
+	         "cards" : "52", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "52", 
+	         "hintID" : "", 
+	         "message" : "Pour vous débarrasser du général saxon, changer son armure d'or en pierre. Utilisez l'œil du dragon et dites à haute voix \"Rokus Aurok\".", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "49", 
+	         "hintID" : "", 
+	         "message" : "Dans l'œil du dragon, vous disposez du sort \"Magika Brumis\" qui permet de créer de la brume. Ce sort est indiqué comme étant réversible. Pour faire disparaitre la brume, utilisez donc l'œil du dragon et dites \"Magika Brumis\".", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "41", 
+	         "hintID" : "", 
+	         "message" : "Pour briser le maléfice, il vous faut couper les corbeaux en deux. Les corbeaux sont sur les cartes 62, 4, et 52. Divisiez la valeur de ces cartes en deux et additionnez-les. 62/2 + 4/2 + 52/2 = 59", 
+	         "cards" : "59", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "452", 
+	         "hintID" : "", 
+	         "message" : "Pour tordre les deux faces de la réalité, tordez cette carte de sorte à voir la face et le dos et obtenir ainsi un 82.", 
+	         "cards" : "82", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "Placez la carte de Merlin (79), sur le sol de runes de façon à compléter son tracé, formant ainsi un 35.", 
+	         "cards" : "35", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "79", 
+	         "hintID" : "", 
+	         "message" : "Placez la carte de Merlin (79), sur le sol de runes de façon à compléter son tracé, formant ainsi un 35.", 
+	         "cards" : "35", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "73", 
+	         "hintID" : "", 
+	         "message" : "Pour placer la salle secrète, faites glisser les salles 63 et 65 vers l'escalier pour le recouvrir et placez la salle de façon à ce que toutes les portes se connectent", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "68", 
+	         "hintID" : "", 
+	         "message" : "Avec la cire fondue, vous pouvez boucher les trous dégageant le gaz. La fumée recouvre le bandeau de la carte (10) la transformant en carte rouge, vous pouvez donc la combiner avec la cire fondue (68). 10 + 68 = 78", 
+	         "cards" : "78", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "14", 
+	         "hintID" : "", 
+	         "message" : "Pour traverser le camp saxon, lancez un sort pour créer de la brume. Utilisez l'œil du dragon et dites à haute voix \"Brumis Magika \".", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "36", 
+	         "hintID" : "", 
+	         "message" : "Pour traverser l'eau, utilisez le même sort que Viviane (B) emploie pour marcher sur l'eau. Utilisez l'œil du dragon et dites à haute voix \"Aqua Ambula\".", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "Utilisez les traces de pas obtenues en résolvant la machine 45 (+10) pour vous guider dans le forêt (4). 4 + 10 = 14", 
+	         "cards" : "14", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "86", 
+	         "hintID" : "", 
+	         "message" : "Les symboles de l'artefact (27) sont les runes, dessinées par Morgane, dans Tintagel. Ouvrez la machine 45 et effacez les 3 runes présentes sur cette carte.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "60", 
+	         "hintID" : "", 
+	         "message" : "Pour obtenir de la cire fondue et boucher les trous, approchez la bougie (20) du brasero (+48). 20 +48 = 68.", 
+	         "cards" : "68", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "65", 
+	         "hintID" : "", 
+	         "message" : "Merlin fait mention dans ses visions (98) d'un orbe d'eau. Cet orbe est présent sur la gravure que la fontaine (65). Pour créer de l'eau, il vous faut créer un nouveau sort à l'aide de ceux que vous connaissez déjà. Magika sert à créer et Aqua signifie eau. Utilisez l'œil du dragon et dites à haute voix \"Aqua Magika \".", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_25_part1", 
+	         "message" : "La seule personne capable de sortir l'épée de la pierre est Elaine, la jeune femme que Morgane a tenté de capturer. Scannez Elaine (47) avec votre téléphone.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_25_part2", 
+	         "message" : "Pour contrer le sort de Morgane, vous pouvez lancer un trait d'eau. Aqua signifiant eau et Belia attaque, utilisez l'œil du dragon et dites à haute voix \"Aqua Belia\".", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_59_part1", 
+	         "message" : "Quand Elaine tenait Excalibur (1), des runes étaient visibles. Ces runes peuvent se traduire, à l'aide de la tablette de pierre (88), en \"Lève Excalibur et dit dragon réveille-toi\". Levez le téléphone et dites à haute voix \"Dragon, réveille-toi\".", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_59_part2", 
+	         "message" : "La Dragon que vous pouvez contrôler se cache dans la montagne (88) et peut être envoyé sur les Saxons pour stopper l'invasion (41). Avec votre appareil scannez les cartes 88 puis 41.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "18", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "29,38", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous insérez l’épée dans la cheminée et un passage secret s’ouvre."
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "11", 
+	         "cardsToDiscard" : "56,60,63,65,73,78", 
+	         "message" : "Vous atteignez la sortie du donjon et arrivez dans le laboratoire de Morgane."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "1,22", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous contrez le sort de Morgane, et Elaine en profite pour lui asséner un coup d’épée."
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Les Saxons fuyant le royaume de Pendragon face au déluge de feu du dragon, Arthur revient sur son trône. Les chevaliers de la Table ronde reprennent leur place et vous invitent à les rejoindre, alors que l'ombre de Morgane plane toujours sur le royaume."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_Excalibur_Spell", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous perdez de vue la silhouette, mais ses traces de pas quittent Tintagel.", 
+	         "messageID" : "machine_45_1", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "En effaçant les symboles, le sort de Morgane est brisé et Excalibur apparait au centre de Tintagel.", 
+	         "messageID" : "machine_45_2", 
+	         "cardsToTake" : "25", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "Excalibur_Tintagel", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "La brume disparait et vous quittez le château de Camelot.", 
+	         "messageID" : "machine_spell_1", 
+	         "cardsToTake" : "34", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "En marchant dans la brume pour contourner le camp, vous vous perdez dans Broceliande.", 
+	         "messageID" : "machine_spell_2", 
+	         "cardsToTake" : "3,5,12,72", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "Excalibur_Avalon", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous changez l’armure d’or du général saxon en pierre.", 
+	         "messageID" : "machine_spell_3", 
+	         "cardsToTake" : "36,47", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "À l’aide du sort de Viviane, vous marchez sur l’eau pour rejoindre Avalon.", 
+	         "messageID" : "machine_spell_4", 
+	         "cardsToTake" : "71", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous créez un feu pour vous éclairer dans le donjon. Enlever l’insert au fond de la boite, prenez le jeton lumière et placez la carte 60 au fond la boite", 
+	         "messageID" : "machine_spell_5", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "La hache gravée au sol se change en or.", 
+	         "messageID" : "machine_spell_63", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous créez de l’eau, remplissant ainsi la fontaine.", 
+	         "messageID" : "machine_spell_65", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "La pièce est plongée dans l'obscurité.", 
+	         "messageID" : "machine_43_intro", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "La salle est vide, en la quittant pour explorer la salle suivante un piège se déclenche.", 
+	         "messageID" : "machine_43_card_61", 
+	         "cardsToTake" : "10", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Les mains de la gravure brillent, mais il ne se passe rien.", 
+	         "messageID" : "machine_43_card_56_1", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "En entrant dans la salle un déclic se fait entendre. Les pièces autour de vous glissent pour mener à une salle secrète.", 
+	         "messageID" : "machine_43_card_56_2", 
+	         "cardsToTake" : "73", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Une hache est gravée dans le sol de la pierre.", 
+	         "messageID" : "machine_43_card_63", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "La fontaine est sèche.", 
+	         "messageID" : "machine_43_card_65", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

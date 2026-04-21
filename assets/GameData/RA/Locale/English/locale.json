@@ -1,0 +1,31 @@
+﻿{ 
+    "language" : "English", 
+    "localizations" : { 
+       "title" : "The Temple of RA", 
+       "hiddenObject_1" : "On the god's headdress.", 
+       "hiddenObject_2" : "Did you examine the sarcophagus?", 
+       "code_1247" : "You press the 4 hieroglyphs and the wall pivots. It is dark but still you can see a hidden room.", 
+       "code_4233" : "The sarcophagus opens…. It is empty. At the bottom, you see a message.", 
+       "code_6815" : "The false bottom opens! You find a strange papyrus. You’ll be able to prove how right you were to everyone. Hooray! ", 
+       "hint_6" : "You must spend time to understand.", 
+       "hint_8_first" : "You must spell the name of RA.", 
+       "hint_8" : "You already have the R, so you still need to find the second half.", 
+       "hint_9" : "It is not a number or a letter, it is a hieroglyph.", 
+       "hint_15" : "These engravings are not trivial. But it has no usefulness whatsoever in the anteroom.", 
+       "hint_20" : "It is a hieroglyph. It must have something to do with the wall.", 
+       "hint_22" : "You must take a good look at these hieroglyphs.", 
+       "hint_23" : "This pattern looks like the tiling's pattern.", 
+       "hint_24" : "On the god's headdress, it is not the infinity.", 
+       "hint_28" : "+1/-2/+1/+3/-1/+2/+1/+3/-1", 
+       "hint_55" : "There are 9 lines. You must press the 4 hieroglyphs in a specific color sequence. You must find them in the room.", 
+       "hint_60_first" : "You must shift these groups of 9 letters. The diagram of the shift is engraved somewhere on the wall.", 
+       "hint_60" : "Once you'll have these three words, you'll find what you are looking for in the discard pile.", 
+       "hint_85" : "Three of these hieroglyphs are on the ankh, which perfectly slides in the gaps.", 
+       "hint_111_first" : "This pyramid has 26 steps... and several colored blocks.", 
+       "hint_111" : "26, as the alphabet, starting at the top. The blocks form a six-letter word.", 
+       "hint_222" : "It is a hieroglyph. It must have something to do with the wall.", 
+       "answer_hint_23_code" : "4233", 
+       "answer_hint_55_code" : "1247", 
+       "answer_hint_60_code" : "6815"
+    }
+ }

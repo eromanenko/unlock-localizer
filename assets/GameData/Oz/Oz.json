@@ -1,0 +1,915 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Oz", 
+	   "number" : "9", 
+	   "displayName" : "Les Aventuriers du pays d'Oz", 
+	   "difficulty" : "3", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "Auto", 
+	   "skinName" : "Oz", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "ad9_1.mp3", 
+	   "maxTime" : "5400", 
+	   "totalTime" : "5400", 
+	   "penaltyTime" : "3", 
+	   "wrongCodePenaltyTime" : "2", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "2", 
+	      "6"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "2143", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "ad9_2.mp3", 
+	         "cardsToTake" : "36", 
+	         "cardsToDiscard" : "29,44,86,J91", 
+	         "message" : "Le palais vous ouvre ses portes, mais le puissant Oz n'accorde que de brèves audiences..."
+	      }, 
+	      { 
+	         "number" : "3412", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "ad9_2.mp3", 
+	         "cardsToTake" : "36", 
+	         "cardsToDiscard" : "29,44,86,J91", 
+	         "message" : "Le palais vous ouvre ses portes, mais le puissant Oz n'accorde que de brèves audiences…"
+	      }, 
+	      { 
+	         "number" : "3467", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "24", 
+	         "cardsToDiscard" : "J68,70,93,96", 
+	         "message" : "Les gardes se laissent convaincre et vous laissent passer. Il est temps d'affronter la sorcière !"
+	      }, 
+	      { 
+	         "number" : "2895", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "ad9_3.mp3", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "J85", 
+	         "message" : "Vous trouvez un extrait de GRIMOIRE intéressant. Prenez cette carte dans le paquet mis de côté."
+	      }, 
+	      { 
+	         "number" : "6887", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "21", 
+	         "cardsToDiscard" : "9,17,J74,89,97", 
+	         "message" : "Tout n'était qu'illusion ! À la place d'Oz se tient un vieux monsieur derrière un paravent."
+	      }, 
+	      { 
+	         "number" : "1111", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "5", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Comme par magie, vous voilà de retour au Kansas ! C'est à se demander si vous n'avez pas rêvé..."
+	      }, 
+	      { 
+	         "number" : "1939", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "6", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous voilà de retour au Kansas ! Mais vous n'oublierez jamais vos amis et cette extraordinaire aventure !"
+	      }, 
+	      { 
+	         "number" : "2148", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "ad9_2.mp3", 
+	         "cardsToTake" : "36", 
+	         "cardsToDiscard" : "29,44,86,J91", 
+	         "message" : "Le palais vous ouvre ses portes, mais le puissant Oz n'accorde que de brèves audiences…"
+	      }, 
+	      { 
+	         "number" : "8412", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "ad9_2.mp3", 
+	         "cardsToTake" : "36", 
+	         "cardsToDiscard" : "29,44,86,J91", 
+	         "message" : "Le palais vous ouvre ses portes, mais le puissant Oz n'accorde que de brèves audiences…"
+	      }, 
+	      { 
+	         "number" : "8472", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "ad9_2.mp3", 
+	         "cardsToTake" : "36", 
+	         "cardsToDiscard" : "29,44,86,J91", 
+	         "message" : "Le palais vous ouvre ses portes, mais le puissant Oz n'accorde que de brèves audiences…"
+	      }, 
+	      { 
+	         "number" : "2748", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "ad9_2.mp3", 
+	         "cardsToTake" : "36", 
+	         "cardsToDiscard" : "29,44,86,J91", 
+	         "message" : "Le palais vous ouvre ses portes, mais le puissant Oz n'accorde que de brèves audiences…"
+	      }, 
+	      { 
+	         "number" : "3472", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "ad9_2.mp3", 
+	         "cardsToTake" : "36", 
+	         "cardsToDiscard" : "29,44,86,J91", 
+	         "message" : "Le palais vous ouvre ses portes, mais le puissant Oz n'accorde que de brèves audiences…"
+	      }, 
+	      { 
+	         "number" : "2743", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "ad9_2.mp3", 
+	         "cardsToTake" : "36", 
+	         "cardsToDiscard" : "29,44,86,J91", 
+	         "message" : "Le palais vous ouvre ses portes, mais le puissant Oz n'accorde que de brèves audiences…"
+	      }, 
+	      { 
+	         "number" : "4095", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "ad9_3.mp3", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "J85", 
+	         "message" : "Vous trouvez un extrait de GRIMOIRE intéressant. Prenez cette carte dans le paquet mis de côté."
+	      }, 
+	      { 
+	         "number" : "2083", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "ad9_3.mp3", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "J85", 
+	         "message" : "Vous trouvez un extrait de GRIMOIRE intéressant. Prenez cette carte dans le paquet mis de côté."
+	      }, 
+	      { 
+	         "number" : "6857", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "21", 
+	         "cardsToDiscard" : "9,17,J74,89,97", 
+	         "message" : "Tout n'était qu'illusion ! À la place d'Oz se tient un vieux monsieur derrière un paravent."
+	      }, 
+	      { 
+	         "number" : "1469", 
+	         "locale" : "", 
+	         "type" : "Penal", 
+	         "extraNumber" : "2", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "SA droite est VOTRE gauche et inversement."
+	      }, 
+	      { 
+	         "number" : "9099", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "ad9_3.mp3", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "J85", 
+	         "message" : "Vous trouvez un extrait de GRIMOIRE intéressant. Prenez cette carte dans le paquet mis de côté."
+	      }, 
+	      { 
+	         "number" : "7383", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "ad9_3.mp3", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "J85", 
+	         "message" : "Vous trouvez un extrait de GRIMOIRE intéressant. Prenez cette carte dans le paquet mis de côté."
+	      }, 
+	      { 
+	         "number" : "6435", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "ad9_3.mp3", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "J85", 
+	         "message" : "Vous trouvez un extrait de GRIMOIRE intéressant. Prenez cette carte dans le paquet mis de côté."
+	      }, 
+	      { 
+	         "number" : "6038", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "ad9_3.mp3", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "J85", 
+	         "message" : "Vous trouvez un extrait de GRIMOIRE intéressant. Prenez cette carte dans le paquet mis de côté."
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "60", 
+	         "nextObject" : "False", 
+	         "message" : "Avez-vous bien observé le coeur de la tornade ?"
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "108", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Sur l'ensemble des 6 dos de médaille, une seule couleur manque sur chaque emplacement. Pour celui du haut, c'est le vert."
+	      }, 
+	      { 
+	         "number" : "180", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les numéros des médailles et des aventuriers dessinent la forme désirée."
+	      }, 
+	      { 
+	         "number" : "188", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois les 6 médailles trouvées et assemblées, suivez les \"?\" pour obtenir un numéro de carte."
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les enchaînements de symboles permettent de voyager tous ensemble dans le pays d'Oz. Encore faut-il trouver le point de départ…"
+	      }, 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ne voyez-vous rien au cœur de la tornade ?"
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les couleurs au sol vous rappellent l'un des miroirs au dos des cartes."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez l'unique miroir avec : rouge, puis violet, puis jaune, puis vert, puis bleu."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les enchaînements de symboles permettent de voyager tous ensemble dans le pays d'Oz. Encore faut-il trouver le point de départ…"
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les yeux vairons de la tête semblent des plus étranges, de même que ce point rouge."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Inclinez le miroir en faisant correspondre les repères de couleurs : le bord du miroir pointe alors vers un des symboles."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faudra une experte en magie pour comprendre comment les utiliser."
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Des fleurs jaunes, vertes, bleues et rouges... Ces couleurs ne vous rappellent rien ?"
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Inclinez le miroir en faisant correspondre les repères de couleurs : le bord du miroir pointe alors vers un des symboles."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois les 6 médailles trouvées, vous devriez pouvoir aider l'épouvantail, le lion et le bûcheron."
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La boule de cristal vous indiquera le chemin une fois le bon moyen de transport trouvé. Une couleur est une direction sur la carte du pays d'Oz…"
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous trouverez le moyen de vaincre la sorcière dans la cuisine."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "D'après le garde, la sorcière n'apprécie pas les jours de pluie donc son point faible est..."
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Lequel des compagnons demandera son chemin, et à qui ? Peut-être tous ?"
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois les 6 médailles trouvées, vous devriez pouvoir aider l'épouvantail, le lion et le bûcheron."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois les 6 médailles trouvées, vous devriez pouvoir aider l'épouvantail, le lion et le bûcheron."
+	      }, 
+	      { 
+	         "number" : "39", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une formule pour l'utiliser doit se trouver dans la bibliothèque de la sorcière."
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez superposer exactement le miroir de la Sorcière du Nord et le portail pour trouver les 4 chiffres du code."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le bûcheron indique le point de départ. Suivez les symboles jusqu'à trouver un numéro de carte."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les deux vitraux se superposent. Chaque vitrail vous donnera un chiffre."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Quand une bande est verte, elle contient à la fois du jaune et du bleu. Reformez les 2 chiffres."
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous êtes sûrs que cela vous servira. Mais probablement à la toute fin."
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le lion indique le point de départ. Suivez les symboles jusqu'à trouver un numéro de carte."
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le garde n'attend qu'un geste pour vous aider. Peut-être trouverez-vous quelque chose d'utile à lui rapporter de la cuisine ?"
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Amenez-lui de quoi se laver."
+	      }, 
+	      { 
+	         "number" : "59", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois les 6 médailles trouvées, vous devriez pouvoir aider l'épouvantail, le lion et le bûcheron."
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois vos amis rétablis, il ne devrait rester que 4 gardes à convaincre."
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Retournez la carte Sens Interdit."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le garde du centre est le 5e. Il faudra ordonner les 4 numéros des gardes restants en ordre croissant."
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les différentes couleurs vous mèneront à Glinda. Encore faut-il trouver le bon moyen de locomotion."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chacune des quatre apparitions vous donnera une partie du code grâce au miroir de vérité."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Inclinez le miroir sur les apparitions en fonction des repères colorés. Le bord du miroir pointe un symbole..."
+	      }, 
+	      { 
+	         "number" : "76", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ramener des éléments de la cuisine pourrait vous permettre de remettre vos compagnons en état."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois les 6 médailles trouvées, vous devriez pouvoir aider l'épouvantail, le lion et le bûcheron."
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les enchaînements de symboles permettent de voyager tous ensemble dans le pays d'Oz. Encore faut-il trouver le point de départ…"
+	      }, 
+	      { 
+	         "number" : "84", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Des ressources illimitées sont très utiles pour passer TOUTES les épreuves de ce château."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'épouvantail indique le point de départ. Suivez les symboles jusqu'à trouver un numéro de carte."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les enchaînements de symboles permettent de voyager tous ensemble dans le pays d'Oz. Encore faut-il trouver le point de départ…"
+	      }, 
+	      { 
+	         "number" : "89", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vert, jaune, bleu, rouge : ces couleurs vous rappellent quelque chose."
+	      }, 
+	      { 
+	         "number" : "89", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Inclinez le miroir en faisant correspondre les zones de couleurs : le bord du miroir pointe alors vers un des symboles."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Souder est une première étape, mais autre chose dans la cuisine devrait permettre de débloquer les articulations du bûcheron."
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le voisin situé à SA gauche est le garde placé un cran à droite pour vous."
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le voisin situé à SA droite est le garde placé un cran à gauche pour vous."
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "4 boules de feu : une verte, une jaune, une bleue et une rouge. Ces couleurs vous rappellent quelque chose."
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Inclinez le miroir en faisant correspondre les repères de couleurs : le bord du miroir pointe alors vers un des symboles."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le miroir de la Sorcière du Nord vous aidera à passer le portail."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous superposez le miroir de vérité et cette carte, les 4 chiffres du code d'entrée apparaîtront. Reste à les placer dans l'ordre de l'arc-en-ciel."
+	      }, 
+	      { 
+	         "number" : "121", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Répétez le cycle des 3 arbres jusqu'à dessiner le numéro d'une carte."
+	      }, 
+	      { 
+	         "number" : "111", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Lire un mot sur deux de chaque côté de la carte vous donnera la formule."
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le miroir de vérité devrait vous guider à travers les ouvrages pour trouver les 4 chiffres du code."
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Superposez le miroir et la carte de QUATRE manières différentes (y compris en le retournant)."
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois les 6 médailles trouvées, vous devriez pouvoir aider l'épouvantail, le lion et le bûcheron."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Résolvez les 3 quêtes optionnelles pour aider vos amis. Les indices 108, 180 et 188 pourront vous donner plus d'indications si nécessaire."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "1", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "25", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "24", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "43", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "29", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "91", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "52", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "29", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "56", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "7", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "57", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "76", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "85", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "2895"
+	      }, 
+	      { 
+	         "hintNumber" : "86", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "52", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "90", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "93", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "91", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "3412"
+	      }, 
+	      { 
+	         "hintNumber" : "111", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "12", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "121", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "45", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "7", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "86", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "45", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "15", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "93", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "3467"
+	      }, 
+	      { 
+	         "hintNumber" : "74", 
+	         "hintID" : "", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "6887"
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "80", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "66", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Quel joli cœur !"
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "69", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Après une âpre lutte, les vents vous poussent enfin dans la bonne direction !"
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

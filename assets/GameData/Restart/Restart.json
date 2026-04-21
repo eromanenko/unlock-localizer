@@ -1,0 +1,781 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Restart", 
+	   "displayName" : "Restart", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Restart", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Restart_Start", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "0", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La créalys est la plante emblématique de Créaria."
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez déjà vu une fleur de créalys depuis le début votre aventure. Elle fait partie du logo de Créaria. Une fois que vous l'aurez reconnue, apportez-en au mage (15)."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans certains jeux, le « ! » signifie qu'il y a une quête qui vous attend auprès du personnage qui le porte."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut réussir à coincer et à attraper Wolfix. Utilisez les champignons pour gagner en vitesse. N'essayez pas de suivre exactement le trajet de Wolfix. Tentez plutôt d'anticiper ses déplacements et de lui couper la route."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour continuer votre route vers le château, il faudra trouver un moyen de vous débarrasser de ce loup. Si ce n'est pas déjà fait, occupez-vous d'abord de la quête du mage (15)."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vaudrait mieux atterrir sur une surface qui ne vous fera pas perdre davantage de points de vie."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "« Tourner en rond » vous indique la prochaine carte à prendre."
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce bâton n'est pas très impressionnant à première vue, mais peut-être pourrait-il vous permettre d'affronter une créature pas trop forte."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le bâton n'a pas eu le résultat escompté, mais le loup ne le quitte pas des yeux et semble d'humeur à jouer."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Débarrassez-vous du bâton et vous vous débarrasserez du loup par la même occasion. Mais où jeter ce bâton ?"
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois que vous aurez trouvé ce que le roi pourrait offrir à la reine pour la reconquérir, ce sceau royal vous permettra d'en certifier la provenance."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Tant que le jeu ne vous réclamera rien à ce sujet, ce disque anti-copie ne vous sera d'aucune utilité."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La porte d'accès au portail est protégée par une séquence particulière."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Autrefois, vous avez noté cette séquence quelque part pour être sûre de ne pas l'oublier."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "À qui le roi peut-il bien adresser l'anneau d'Union ?"
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le mage vous demande de prendre les règles du jeu, celles d'Unlock! Les 2 ingrédients, eux, sont présents sur le disque anti-copie (30)."
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Faites pivoter le disque anti-copie (30) de façon à aligner le symbole de l'œil et du champignon. Le disque vous indiquera alors une page des règles et deux couleurs."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour ouvrir cette porte, il faut appuyer sur le bouton X."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a quelque part sur la table votre manette de jeu. Trouvez-la et appuyez sur le bouton X."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il semble qu'on peut voir à travers le portail de téléportation. Quelle destination souhaitez-vous distinguer de l'autre côté du portail ?"
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La caméra de votre appareil est activée. Pointez-la vers la destination souhaitée."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce poster avait été dédicacé pour vous. Il vous rappelle que vous avez toujours eu un attrait particulier pour les guerrières."
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'usage de la force ne vous a pas vraiment réussi la dernière fois. Observez bien ce troll et trouvez comment vous débarrasser de lui par la ruse."
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Remarquez le bouclier cassé que le troll porte sur son dos."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut trouver un moyen de réconcilier le roi et la reine. Trouvez une idée de cadeau que le roi pourrait offrir à la reine."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Et si le roi offrait l'anneau d'Union (52) à la dryade (12) ? Il faut à présent trouver comment délivrer ce cadeau de la part du roi."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Qu'êtes-vous venue apporter à la dryade ?"
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut à présent trouver un moyen de sceller l'enveloppe."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'amont de la rivière est propre alors que l'aval est pollué. Que se passe-t-il entre les deux ?"
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cherchez l'origine de la pollution très exactement entre la rivière propre (70) et la rivière polluée (72)."
+	      }, 
+	      { 
+	         "number" : "71", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est cette usine qui est responsable de la pollution de la rivière. Il faut la détruire. Montrez-lui de quel bois vous vous chauffez !"
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Des deux parents, lequel va monter et se retrouver à la porte du grenier ?"
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est la mère (8) qui monte au grenier. Une fois en haut des escaliers, les tableaux et son tee-shirt vous indiquent la prochaine carte à prendre."
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le portail de téléportation se trouve au niveau de la porte indiquée par la flèche. Un seul chemin permet d'y accéder. L'ordre et la forme du chemin sont importants."
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le chemin vers le portail commence à l'échelle située en bas à droite. En montant à cette échelle, en traversant la plate-forme vers la gauche, puis en grimpant à la plante jusqu'à la petite porte, vous formez un 4. La porte vous mène ensuite directement à l'autre porte située en haut à gauche..."
+	      }, 
+	      { 
+	         "number" : "83", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Examinez attentivement la forme des éclaboussures."
+	      }, 
+	      { 
+	         "number" : "84", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce troll a l'air très fort, mais il va falloir l'affronter pour gagner le château."
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il ne reste plus qu'à apposer le sceau du roi sur la cire."
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Apposez physiquement la face de la bague sur la cire de l'enveloppe."
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce coup de massue vous fait perdre 89 points de vie. Combien vous en reste-t-il ?"
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si vous souhaitez lancer une partie, il faut d'abord insérer un CD-Rom."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "90_step2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ne seriez-vous pas tentée de (re)jouer à Créaria ? Insérez donc le CD-Rom dans le lecteur."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "90_step5", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a dans le grenier un vieux souvenir qui rappelle la classe que vous aimiez jouer à l'époque."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "90_step6", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pourquoi ne pas utiliser le même pseudo qu'à l'époque ? Celui-ci doit bien être écrit quelque part parmi vos vieilles affaires."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "90_step7", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ça bloque toujours à 99%... Il y a une carte pour terminer ce chargement."
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Wolfix est à présent dans une position délicate. Remarquez le jetpack sur son dos. Cette machine contient très probablement des produits explosifs."
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le jeu a planté. Peut-être un problème au niveau du CD-Rom."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "94_step2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une poussière a dû gêner la lecture du disque. Comment la retirer ?"
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "94_step3", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Remarquez à présent la trace de doigt sur le CD-Rom. Il faut le nettoyer."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Wolfix est d'un niveau très supérieur au vôtre ! Une attaque directe risquerait de vous être fatale. Votre impression de déjà-vu tient sans doute du fait que Wolfix est un loup..."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Wolfix ne serait-il pas le loup que vous avez rencontré plus tôt dans l'aventure ? Comment vous en êtes-vous débarrassée la première fois ?"
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est la main de votre fils, qui tente de vous ramener à la réalité. Vous étiez trop absorbée par le jeu. Portez plutôt votre attention sur cette main, qui indique la prochaine carte à prendre."
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre personnage est prêt. Il ne reste plus qu'à appuyer sur le bouton START pour lancer le jeu."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "0", 
+	         "hintID" : "", 
+	         "message" : "Observez le CD-Rom de Créaria (68). Il y a de part et d'autre du titre deux fleurs de créalys. Ce sont les mêmes que celles situées en bas à gauche (+20). Rapportez-les au mage (15).", 
+	         "cards" : "35", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "Regardez parmi vos cartes, il y en a une qui porte le signe « ! ».", 
+	         "cards" : "!", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "hintID" : "", 
+	         "message" : "Dirigez votre chute (11) vers la rivière de Créaria (72) pour éviter de subir de nouveaux dégâts.", 
+	         "cards" : "83", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "hintID" : "", 
+	         "message" : "En tournant en rond pour l'éternité, vous tracez un cercle. Parmi vos cartes s'en trouve une avec un cercle au lieu d'un numéro.", 
+	         "cards" : "O", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "17", 
+	         "hintID" : "", 
+	         "message" : "Utilisez ce bâton (17) pour tenter de vaincre le loup (6).", 
+	         "cards" : "23", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "Jetez le bâton (17) à travers les vastes plaines de Créaria (4).", 
+	         "cards" : "21", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "33", 
+	         "hintID" : "", 
+	         "message" : "Le code noté sur le Post-it (2) est la séquence pour ouvrir la porte (33). Frappez à la porte en touchant votre écran selon la séquence suivante : 1 fois, puis 3 fois et enfin 1 fois.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "34", 
+	         "hintID" : "", 
+	         "message" : "Partez livrer le présent du roi (34) à la dryade (12) pour tenter de les réconcilier.", 
+	         "cards" : "46", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "36", 
+	         "hintID" : "", 
+	         "message" : "Une fois l'œil et le champignon alignés correctement, le disque anti-copie (30) vous indique la page 4, ainsi que les couleurs jaune et rose. Allez à la page 4 des règles du jeu et remarquez les fumées colorées du chaudron. La fumée jaune vous donne le chiffre 4, et la rose, le chiffre 8.", 
+	         "cards" : "48", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "37", 
+	         "hintID" : "", 
+	         "message" : "Repérez la manette de jeu en bas de l'écran de l'application et appuyez sur le bouton X pour ouvrir les portes du château.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "42", 
+	         "hintID" : "", 
+	         "message" : "Le mage (35) vous a indiqué de vous rendre au Château Royal. Placez la caméra de votre appareil au-dessus du Château Royal (10) pour vous y téléporter.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "46", 
+	         "hintID" : "", 
+	         "message" : "Peut-être que le troll (46) serait intéressé par le tract de la promotion publicitaire sur les boucliers (14). Donnez-le-lui.", 
+	         "cards" : "60", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "48", 
+	         "hintID" : "", 
+	         "message" : "Commencez par glisser l'anneau d'Union (52) dans l'enveloppe vide (13).", 
+	         "cards" : "65", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "60", 
+	         "hintID" : "", 
+	         "message" : "Donnez à la dryade (60) le cadeau de l'anneau d'Union de la part du roi (34).", 
+	         "cards" : "94", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "65", 
+	         "hintID" : "", 
+	         "message" : "Versez de la cire chaude (20) sur l'enveloppe (65) pour préparer le sceau.", 
+	         "cards" : "85", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "70", 
+	         "hintID" : "", 
+	         "message" : "Vous trouverez l'origine de la pollution au niveau de la carte située entre l'amont de la rivière (70) et l'aval pollué (72).", 
+	         "cards" : "71", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "71", 
+	         "hintID" : "", 
+	         "message" : "Utilisez votre épée (3) pour démolir cette usine polluante (71).", 
+	         "cards" : "74", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "81", 
+	         "hintID" : "", 
+	         "message" : "Une fois la mère (8) en haut des escaliers, les tableaux et le tee-shirt composent 50 + 8.", 
+	         "cards" : "58", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "82", 
+	         "hintID" : "", 
+	         "message" : "La suite du chemin vers le portail de téléportation forme un 2. Le chemin, dans l'ordre, forme donc un 4 puis un 2.", 
+	         "cards" : "42", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "83", 
+	         "hintID" : "", 
+	         "message" : "Les éclaboussures forment un 7 et un 0.", 
+	         "cards" : "70", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "84", 
+	         "hintID" : "", 
+	         "message" : "Attaquez le troll avec votre épée (3).", 
+	         "cards" : "87", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "85", 
+	         "hintID" : "", 
+	         "message" : "Placez la face de la carte de la bague du roi (28) sur la face de la carte de l'enveloppe avec la cire (85). Vous verrez deux chiffres se former à la jonction des 2 cartes : un 3 (à gauche de l'ordinateur) et un 4 (à droite de l'ordinateur).", 
+	         "cards" : "34", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "87", 
+	         "hintID" : "", 
+	         "message" : "Vous aviez 100 points de vie au début du jeu (100). Après avoir subi 89 points de dégâts, il vous en reste 11 (100-89).", 
+	         "cards" : "11", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "90", 
+	         "hintID" : "", 
+	         "message" : "Appuyez sur le lecteur de CD-Rom situé en bas à droite de l'ordinateur.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "90_step2", 
+	         "message" : "Passez la caméra de votre appareil au-dessus du CD-Rom de Créaria (68).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "90_step5", 
+	         "message" : "Votre vieux poster de Shield Maiden (45) atteste de votre admiration pour les guerrières. Choisissez donc la classe de « GUERRIER ».", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "90_step6", 
+	         "message" : "Observez le poster de Shield Maiden (45). Il y a dessus une dédicace manuscrite à l'attention de Molimiss, sans doute votre ancien pseudo. Saisissez MOLIMISS.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "90_step7", 
+	         "message" : "Vous souhaitez que ce chargement passe enfin à 100% ? Alors faites-le passer vous-même à 100.", 
+	         "cards" : "100", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "93", 
+	         "hintID" : "", 
+	         "message" : "C'est le moment de porter le coup fatal. Utilisez votre épée (3) pour faire exploser le jetpack de Wolfix (93).", 
+	         "cards" : "96", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "94", 
+	         "hintID" : "", 
+	         "message" : "Appuyez à nouveau sur le lecteur de CD-Rom situé en bas à droite de l'ordinateur pour éjecter le disque.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "94_step2", 
+	         "message" : "Souffler sur le CD-Rom (près du micro de votre appareil) pour retirer les éventuelles poussières.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "94_step3", 
+	         "message" : "Nettoyez la trace de doigt en frottant votre écran à cet endroit.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "95", 
+	         "hintID" : "", 
+	         "message" : "Lancez la barre de minerai (61) à travers les plaines (+32) pour détourner l'attention de Wolfix.", 
+	         "cards" : "93", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "96", 
+	         "hintID" : "", 
+	         "message" : "Votre fils agite ses 5 doigts devant l'écran.", 
+	         "cards" : "5", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "100", 
+	         "hintID" : "", 
+	         "message" : "Observez attentivement le bouton START. Le « A » est en fait un « 4 ».", 
+	         "cards" : "4", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "5", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Bravo ! Vous avez débarrassé les mondes de Créaria de Wolfix. Il est hors d’état de nuire. Au moins pour cette fois... Une voix retentit alors : « Tout va bien, là-haut ? On passe à table ! »"
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "82", 
+	         "cardsToDiscard" : "", 
+	         "message" : "C'est la bonne séquence. La porte s'ouvre, vous donnant accès à l'intérieur du gigantesque tronc de votre base."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "37", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous traversez le portail, qui vous transporte instantanément aux portes du Château Royal."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "95", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Après l'avoir nettoyé, vous réinsérez le CD-Rom dans le lecteur de l'ordinateur. Le jeu reprend…"
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "1", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Les portes du château s'ouvrent. Vous entrez quand soudain le jeu se coupe…", 
+	         "messageID" : "button_X", 
+	         "cardsToTake" : "36", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

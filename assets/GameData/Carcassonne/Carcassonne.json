@@ -1,0 +1,872 @@
+{ 
+	   "visible" : "True", 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Carcassonne", 
+	   "displayName" : "Carcassonne", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Carcassonne", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "medieval-horizons-ballad", 
+	   "maxTime" : "4800", 
+	   "totalTime" : "4800", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque membre du conseil parle avec un accent qui lui est propre. Identifiez ces particularités pour les comprendre."
+	      }, 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque accent  met certaines lettres en évidence. Lisez-les dans l'ordre des membres du conseil indiqué sur la carte 1."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque membre du conseil parle avec un accent qui lui est propre. Identifiez ces particularités pour les comprendre."
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque accent  met certaines lettres en évidence. Lisez-les dans l'ordre des membres du conseil indiqué sur la carte 1."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque membre du conseil parle avec un accent qui lui est propre. Identifiez ces particularités pour les comprendre."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque accent  met certaines lettres en évidence. Lisez-les dans l'ordre des membres du conseil indiqué sur la carte 1."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque membre du conseil parle avec un accent qui lui est propre. Identifiez ces particularités pour les comprendre."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque accent  met certaines lettres en évidence. Lisez-les dans l'ordre des membres du conseil indiqué sur la carte 1."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque membre du conseil parle avec un accent qui lui est propre. Identifiez ces particularités pour les comprendre."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque accent  met certaines lettres en évidence. Lisez-les dans l'ordre des membres du conseil indiqué sur la carte 1."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque membre du conseil parle avec un accent qui lui est propre. Identifiez ces particularités pour les comprendre."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque accent  met certaines lettres en évidence. Lisez-les dans l'ordre des membres du conseil indiqué sur la carte 1."
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez réveiller ce garde."
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Aidez le marchand à remplir son étal."
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Fermez la porte pour protéger la cité."
+	      }, 
+	      { 
+	         "number" : "89", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez chaque meeple sur l'emplacement à sa couleur. Ils vous indiqueront quelque chose avec leurs mains."
+	      }, 
+	      { 
+	         "number" : "89", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque membre du conseil vous indique une lettre. Mettez-les dans l'ordre pour avancer."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez chaque meeple sur l'emplacement à sa couleur. Ils vous indiqueront quelque chose avec leurs mains."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque membre du conseil vous indique une lettre. Mettez-les dans l'ordre pour avancer."
+	      }, 
+	      { 
+	         "number" : "83", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez chaque meeple sur l'emplacement à sa couleur. Ils vous indiqueront quelque chose avec leurs mains."
+	      }, 
+	      { 
+	         "number" : "83", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque membre du conseil vous indique une lettre. Mettez-les dans l'ordre pour avancer."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois complété, le plan de Carcassonne vous indiquera le numéro  que vous cherchez."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez repérer les espions qui portent un symbole des templiers."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Faites attention a partager les bonnes informations en tenant compte du changement de perspective."
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le forgeron est occupé. Il faudrait le persuader de vous écouter. "
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devriez lui donner quelques pièces supplémentaires pour le convaincre de vous céder la couronne."
+	      }, 
+	      { 
+	         "number" : "49", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait un expert pour arriver à trier ces outils rapidement."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait un expert pour arriver à trier ces armes rapidement."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces paysans sont bien insouciants. Il faut les prévenir du danger qui approche et les équiper."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Aldric doit distribuer les armes dans l'ordre. Utilisez le plan de Carcassonne pour suivre son parcours."
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez placer les meeples dans l'odre d'arrivée sur la carte 67. Deux cartes, dont celle-ci, vous indiquent leur position autour de la table  et leur ordre d'arrivée."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez placer les meeples dans l'ordre d'arrivée sur la carte 67. Deux cartes, dont celle-ci, vous indiquent leur position autour de la table  et leur ordre d'arrivée."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez la même méthode que pour la ville de Carcassonne pour créer le plan de la régions à l'ouest. Vous devriez alors voir la prochaine étape."
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Rodric est absent, retirez du plan les instructions qui le concernent pour trouver le nouveau plan."
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Blaise est absent, retirez du plan les instructions qui le concernent pour trouver le nouveau plan."
+	      }, 
+	      { 
+	         "number" : "35", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Basile est absent, retirez du plan les instructions qui le concernent pour trouver le nouveau plan."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez appliquer les instructions avec les deux membres du conseil restants."
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez chaque meeple sur l'abbaye qui lui correspond. Aidez-vous des drapeaux. Vous pourrez ainsi trouver la zone qui n'est pas à portée su son des cloches."
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une seule zone de cette région n'est pas adjacente à l'une des abbayes, et ne peut donc pas entendre l'alerte.Placez-y Blaise et relevez le numéro de la carte."
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Blaise doit trouver un moyen de sonner l'alarme."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez chaque meeple sur le pont qui lui correspond. Les portions de route restantes vous donneront la suite."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Complétez le plan et vous obtiendrez un nombre à ajouter à cette carte."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'icône machine est à moitié effacée. Cela vous indique comment bonbiner cette machine avec la machine 18."
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez viser les troupes des Templiers avec la catapulte."
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Calculez le nombre de cartes nécessaires pour construire les 2 cités au sud de Carcassonne. Ajoutez-y le nombre de casernes qu'elles contiennent."
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Multipliez le tout par 2 pour obtenir leur puissance militaire, comme indiqué dans le manuel militaire."
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Blaise parle encore avec son accent particulier. Déchiffrez ce qu'il dit."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut lire entre les lignes, dans les espaces vides. Attention le texte a aussi son importance."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le code vous permet de déchiffrer les symboles trouvés sur le plan."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La graduation vous permet de mesurer les distances sur le plan."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Rodric parle encore avec son accent particulier. Déchiffrez ce qu'il dit."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Placez les meeples sur leurs silhouettes et prenez de la hauteur pour déchiffrer le parchemin."
+	      }, 
+	      { 
+	         "number" : "79", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "En utilisant les livres trouvés plus tôt, calculez les valeurs des éléments énoncés dans le poème (3)."
+	      }, 
+	      { 
+	         "number" : "79", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La statue du jeune homme chevauchant un  cochon se trouve juste à côté de Carcassonne. Le château d'eau se trouve juste à gauche de la statue, plus bas."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "En utilisant les livres trouvés plus tôt, calculez les valeurs des éléments énoncés dans le poème."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La statue du jeune homme chevauchant un  cochon se trouve juste à côté de Carcassonne. Le château d'eau se trouve juste à gauche de la statue, plus bas."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "1", 
+	         "hintID" : "", 
+	         "message" : "Chaque membre a une manière de s'exprimer qui met en évidence certaines lettres. En mettant ces lettres dans l'ordre du conseil sur la carte 1, vous obtenez \" VIN / GT / FOIS TR / OIS PL / US UN \" (Vingt fois trois plus un). 20 x 3 + 1 = 61.", 
+	         "cards" : "61", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "2", 
+	         "hintID" : "", 
+	         "message" : "Chaque membre a une manière de s'exprimer qui met en évidence certaines lettres. En mettant ces lettres dans l'ordre du conseil sur la carte 1, vous obtenez \" VIN / GT / FOIS TR / OIS PL / US UN \" (Vingt fois trois plus un). 20 x 3 + 1 = 61.", 
+	         "cards" : "61", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "Chaque membre a une manière de s'exprimer qui met en évidence certaines lettres. En mettant ces lettres dans l'ordre du conseil sur la carte 1, vous obtenez \" VIN / GT / FOIS TR / OIS PL / US UN \" (Vingt fois trois plus un). 20 x 3 + 1 = 61.", 
+	         "cards" : "61", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "24", 
+	         "hintID" : "", 
+	         "message" : "Chaque membre a une manière de s'exprimer qui met en évidence certaines lettres. En mettant ces lettres dans l'ordre du conseil sur la carte 1, vous obtenez \" VIN / GT / FOIS TR / OIS PL / US UN \" (Vingt fois trois plus un). 20 x 3 + 1 = 61.", 
+	         "cards" : "61", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "10", 
+	         "hintID" : "", 
+	         "message" : "Chaque membre a une manière de s'exprimer qui met en évidence certaines lettres. En mettant ces lettres dans l'ordre du conseil sur la carte 1, vous obtenez \" VIN / GT / FOIS TR / OIS PL / US UN \" (Vingt fois trois plus un). 20 x 3 + 1 = 61.", 
+	         "cards" : "61", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "34", 
+	         "hintID" : "", 
+	         "message" : "Chaque membre a une manière de s'exprimer qui met en évidence certaines lettres. En mettant ces lettres dans l'ordre du conseil sur la carte 1, vous obtenez \" VIN / GT / FOIS TR / OIS PL / US UN \" (Vingt fois trois plus un). 20 x 3 + 1 = 61.", 
+	         "cards" : "61", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "44", 
+	         "hintID" : "", 
+	         "message" : "Alderic, le chevalier, ( 34) doit informer les gardes de la menace. Il doit donc réveiller le garde (42). 34 + 44 = 78", 
+	         "cards" : "78", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "65", 
+	         "hintID" : "", 
+	         "message" : "Basile (24) s'assure que le marchand (65) ait quelques provisions. Il donne ses provisions au marchand. 24 + 65 = 89", 
+	         "cards" : "89", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "80", 
+	         "hintID" : "", 
+	         "message" : "Dame Elianor possède les clés de la ville (+3), elle peut les utiliser pour fermer la porte nord (80). 80 + 3 = 83", 
+	         "cards" : "83", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "89", 
+	         "hintID" : "", 
+	         "message" : "Placez chaque Meeple sur l'emplacement à sa couleur. Chacun vous montre une lettre en  majuscule avec sa main. Placez ces lettres dans l'ordre du conseil sur la carte 1 (Noir, Vert, Bleu, Jaune, puis Rouge).  vous pouvez lire DOUZE.", 
+	         "cards" : "12", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "78", 
+	         "hintID" : "", 
+	         "message" : "Placez chaque Meeple sur l'emplacement à sa couleur. Chacun vous montre une lettre en  majuscule avec sa main. Placez ces lettres dans l'ordre du conseil sur la carte 1 (Noir, Vert, Bleu, Jaune, puis Rouge).  vous pouvez lire DOUZE.", 
+	         "cards" : "12", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "83", 
+	         "hintID" : "", 
+	         "message" : "Placez chaque Meeple sur l'emplacement à sa couleur. Chacun vous montre une lettre en  majuscule avec sa main. Placez ces lettres dans l'ordre du conseil sur la carte 1 (Noir, Vert, Bleu, Jaune, puis Rouge).  vous pouvez lire DOUZE.", 
+	         "cards" : "12", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "hintID" : "", 
+	         "message" : "La ville forme un 8. La forme de la tour en haut à droite vous confirme que c'est une machine. Lancez la machine 8.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "hintID" : "", 
+	         "message" : "La 1re équipe identifie un espion grâce au symbole qu'il porte, puis il disparait. La 2nde équipe voit le même lieu mais de l'angle opposé. Elle peut identifier l'espion à l'aide des indications de la 1re équipe.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "53", 
+	         "hintID" : "", 
+	         "message" : "Dame  Elianor sort sa bourse (+22) et  lui donne quelques pièces. 53 + 22 = 75.", 
+	         "cards" : "75", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "32", 
+	         "hintID" : "", 
+	         "message" : "Dame Elianor sort à nouveau sa bourse (+22) et  le paye.32 + 22 = 54.", 
+	         "cards" : "54", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "49", 
+	         "hintID" : "", 
+	         "message" : "Basile (24) se charge de trier  les outils. 24 + 49 = 73.", 
+	         "cards" : "73", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "11", 
+	         "hintID" : "", 
+	         "message" : "Aldric (34) se charge de trier  les armes. 34 + 11 = 45.", 
+	         "cards" : "45", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "9", 
+	         "hintID" : "", 
+	         "message" : "Les outils du forgeron, une fois triés par Basile (73), pourraient les aider à se défendre. 73 + 9 = 82.", 
+	         "cards" : "82", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "45", 
+	         "hintID" : "", 
+	         "message" : "Aldric visite les casernes du nord au sud. Cela dessine un 4. Puis Aldric visite les arbalétriers, toujours du nord au sud. Cela dessine un 2. Le parcours d'Aldric donne donc 42. ", 
+	         "cards" : "42", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "82", 
+	         "hintID" : "", 
+	         "message" : "En utilisant les cartes 82 et 42, vous pouvez établir les positions et l'ordre d'arrivée autour de la table sur la carte 67. D'abord Elianor, puis Blaise en bas à gauche, puis Basile à sa droite, puis Alderic à côté de Basile, et enfin Rodric à la place restante en face d'Alderic. Puis, en reliant les places dans l'ordre, vous tracez un 6.", 
+	         "cards" : "6", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "42", 
+	         "hintID" : "", 
+	         "message" : "En utilisant les cartes 82 et 42, vous pouvez établir les positions et l'ordre d'arrivée autour de la table sur la carte 67. D'abord Elianor, puis Blaise en bas à gauche, puis Basile à sa droite, puis Alderic à côté de Basile, et enfin Rodric à la place restante en face d'Alderic. Puis, en reliant les places dans l'ordre, vous tracez un 6.", 
+	         "cards" : "6", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "6", 
+	         "hintID" : "", 
+	         "message" : "Le tracé des routes forme le nombre 93.", 
+	         "cards" : "93", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "51", 
+	         "hintID" : "", 
+	         "message" : "Retirez les flèches noires du chiffre 88 sur le plan. Cela forme le chiffre 96.", 
+	         "cards" : "96", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "96", 
+	         "hintID" : "", 
+	         "message" : "Retirez les flèches vertes du chiffre 96 sur le plan. Cela forme le chiffre 35.", 
+	         "cards" : "35", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "35", 
+	         "hintID" : "", 
+	         "message" : "Retirez les flèches bleues du chiffre 35 sur le plan. Cela forme le chiffre  74.", 
+	         "cards" : "74", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "74", 
+	         "hintID" : "", 
+	         "message" : "Déplacez les meeples rouge et jaune selon les flêches à leur couleur. Ils se rejoignent sur la carte numérotée 20/60.", 
+	         "cards" : "20", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "28", 
+	         "hintID" : "", 
+	         "message" : "Les abbayes occupées sonnent l'alarme aux cartes qui leur sont directement adjacentes. La seule carte qui ne soit pas adjacente à une abbaye se trouve tout en bas à droite de la région.Placez-y Blaise. Cette carte est numérotée 19/60", 
+	         "cards" : "19", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "19", 
+	         "hintID" : "", 
+	         "message" : "Blaise utilise le Cor de chasse (38) trouvé chez le forgeron. 38 + 19 = 57.", 
+	         "cards" : "57", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "64", 
+	         "hintID" : "", 
+	         "message" : "Le tracé des routes restantes forme le nombre 51.", 
+	         "cards" : "51", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "20", 
+	         "hintID" : "", 
+	         "message" : "Les cités sur le plan forment un modificateur rouge. Retournez voir Alderic et additionnez ce modificateur à cette carte (20).", 
+	         "cards" : "90", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "77", 
+	         "hintID" : "", 
+	         "message" : "La moitié gauche du symbole machine sur la carte 18 est visible, vous indiquant d'utiliser le 1er chiffre du 18 (le 1). La moitié droite du symbole machine sur la carte 77 est visible, vous indiquant d'utiliser le 2nd chiffre du 77 (7). Cela vous donne 17. Lancez la Machine 17 dans l'application.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "95", 
+	         "hintID" : "", 
+	         "message" : "La carte 90 vous indique que les troupes des Templiers ataquent par le sud-ouest. Pointez la catapulte dans cette direction et validez.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "40", 
+	         "hintID" : "", 
+	         "message" : "Les 2 villes sont formées par 14 cartes, et contiennent 4 casernes. En suivant les instructions de la carte 40, la puissance des cités est de 18 x 2 = 36.", 
+	         "cards" : "36", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "36", 
+	         "hintID" : "", 
+	         "message" : "Les lettres mises en avant dans son dialogue sont Q U I N Z E.", 
+	         "cards" : "15", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "hintID" : "", 
+	         "message" : "Les espaces vides dans le texte forment un 14.", 
+	         "cards" : "14", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "14", 
+	         "hintID" : "", 
+	         "message" : "Vous déchiffrez les symboles  et pouvez mesurer  7 lieues à partir de l'Abbaye qui a un vitrail (celle dans le coin inférieur gauche) pour trouver le bon arbre. Lorsque vous trouvez le bon arbre, le 7 qui apparait sur cette carte s'aligne avec le 9 sur le plan, pour former un 79.", 
+	         "cards" : "5, 79", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "5", 
+	         "hintID" : "", 
+	         "message" : "Les lettres mises en avant dans son dialogue sont QUATRE VINGT DIX NEUF.", 
+	         "cards" : "99", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "hintID" : "", 
+	         "message" : "L'espace vide entre les meeples forme un 3.", 
+	         "cards" : "3", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "79", 
+	         "hintID" : "", 
+	         "message" : "Le pré vaut 9 (3 cités, 3 x 3 = 9), la puissance de Carcassonne est de 20 (6 cartes et 4 casernes, soit 10 x 2 = 20) , et la route vaut 3 (3 cartes). Entrez le code 9203 dans la machine 79.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "3", 
+	         "hintID" : "", 
+	         "message" : "Le pré vaut 9 (3 cités, 3 x 3 = 9), la puissance de Carcassonne est de 20 (6 cartes et 4 casernes, soit 10 x 2 = 20) , et la route vaut 3 (3 cartes). Entrez le code 9203 pour dévérouiller le coffret.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "8", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "53", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous avez démasqué tous les espions. Vous profitez du répit pour aller vous équiper."
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "64", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous réussissez à démasquer tous les espions."
+	      }, 
+	      { 
+	         "number" : "77", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "name" : "Machine_Carcassonne_95", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "name" : "Machine_Carcassonne_95", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "1877", 
+	         "name" : "Machine_Carcassonne_95", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "7718", 
+	         "name" : "Machine_Carcassonne_95", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "name" : "Machine_Carcassonne_95", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "95", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "94", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vos tirs de catapulte dispersent les troupes des Templiers."
+	      }, 
+	      { 
+	         "number" : "79", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Félicitations ! Vous avez réussi à stopper l'invasion des templiers en leur restituant leur relique perdue. Des banquets et des fêtes sont organisés dans toute la cité pour célébrer ses héros. Si vous le souhaitez, vous pouvez assister aux festivités avec les membres du conseil en assemblant le plan de Carcassonne avec les 6 cartes pénalité qui vous restent en main."
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

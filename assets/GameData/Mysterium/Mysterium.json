@@ -1,0 +1,664 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Mysterium", 
+	   "displayName" : "", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Mysterium", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "", 
+	   "maxTime" : "4200", 
+	   "totalTime" : "4200", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o1", 
+	         "time" : "600", 
+	         "nextObject" : "False", 
+	         "message" : "Observez bien la médaille dans le coffre-fort."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "hintName" : "o2", 
+	         "time" : "630", 
+	         "nextObject" : "False", 
+	         "message" : "Regardez la disposition des couverts dans la cuisine."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un message vous parlera de ce code à trois chiffres. Il faut suffisamment avancer dans votre enquête pour l'obtenir."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce coffre grossièrement ficelé doit être ouvert au plus vite. Il semble impossible de défaire les nœuds."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Amenez le fantôme dans une pièce du manoir qui vous permettra de communiquer avec lui."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un salon exceptionnel à plus d'un titre, notamment pour sa table de Ouija et sa bibliothèque."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La pomme est associée à la nourriture, et les têtes de mort sur sa peau, à l'empoisonnement. Il vous faut trois visions pour interpréter le message intégralement."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut replacer les pièces du manoir en respectant le plan (carte P) et les indications de la gouvernante. L'aura du fantôme semble de plus en plus proche."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Toute cette poussière…"
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette tête de lion vous rappelle quelque chose."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Qui pourrait vous aider pour savoir ce que cette clef ouvre ?"
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous remarqué qu'un des yeux (celui de gauche, marron) appartenait à une femme, et que l'autre (bleu) semble bien différent ? Il vous faut trois visions pour interpréter le message intégralement."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Deux éclairs déchirent le ciel dans un vacarme assourdissant tandis que vous sentez le regard oppressant du fantôme dans le rétroviseur. Vous frissonnez, mais ne perdez pas de vue ces diverses informations."
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "E, I, L, W, S : le fantôme vous pointe les lettres, mais dans quel ordre les replacer ?"
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Beaucoup de choses différentes à observer dans ce bureau : une voiture rose numérotée 5, une horloge bloquée sur 3h05, une médaille manquante au mur et une curieuse aura."
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le couteau est en mauvais état : vous devriez l'aiguiser."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous pris les cartes 13, 16 et 53 ? Observez la médaille, elle devrait vous aider."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous cherchez le numéro d'une carte Vision vraiment très près. Quelle question pourriez-vous poser pour trouver ce numéro ?"
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces fleurs de lotus blanches portent un message lourd de sens. Il vous faut deux visions pour interpréter ce message intégralement."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous remarquez une voiture verte numérotée 1 devant la fontaine à la tête de lion."
+	      }, 
+	      { 
+	         "number" : "32", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les bulles de savon et la couleur violette sont les éléments marquants de cette vision. Il vous en faut une deuxième pour interpréter le message intégralement."
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut absolument ramener le fantôme près de la table de Ouija pour l'activer. Suivez l'aura du fantôme pour le trouver."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut un miroir pour lire ce message : où pourriez-vous en trouver un dans le manoir ?"
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'horloge semble être bloquée sur 1h20, étrange."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Grâce à cette note, vous savez qu'un rayon particulier de la bibliothèque du salon cache le levier."
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Passez la machine au-dessus de la carte 43 et observez le portail."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La disposition de cette dalle vous rappelle la disposition d'une autre de vos cartes. Vous savez que la « Magie des éléments » était la clef pour ouvrir. Trouvez le lien logique entre ces deux cartes."
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous pris les cartes 14, 21 et J ? Pas de numéro caché ici."
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette vision vous montre le noir total. Se rapporte-t-il à la nuit ou à l'absence complète de vision ? Il vous faut deux visions pour interpréter le message intégralement."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'eau et la couleur bleue sont les éléments marquants de cette vision. Il vous en faut une deuxième pour interpréter le message intégralement."
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Beaucoup de choses différentes à observer dans cette chambre : une voiture verte numérotée 3, une voiture orange numérotée 4, une horloge bloquée sur 2h10 et une curieuse aura."
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les initiales des livres préférés vous indiqueront la marche à suivre."
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut trois cartes OB / JE / TS pour activer le pendule."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une aura de mort plane sur ce lieu et vous sursautez en voyant votre reflet dans le miroir."
+	      }, 
+	      { 
+	         "number" : "61", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il est suffisamment aiguisé pour couper quelque chose."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez la disposition des couverts."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous pris la carte 90 ? Pas de numéro caché ici."
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le numéro 2 sur le capot de la voiture indique un ordre. Reste à trouver les quatre autres voitures."
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Un xylophone en forme de voiture avec des couleurs qui vous rappellent quelque chose. Reste à trouver le bon ordre."
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a trois horloges dans le manoir. Qu'est-ce qui peut être « petite » et « grande » sur une horloge ?"
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "7", 
+	         "hintID" : "", 
+	         "message" : "Coupez la corde autour du coffre avec le couteau aiguisé (61) : 61+7=68.", 
+	         "cards" : "68", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "9", 
+	         "hintID" : "", 
+	         "message" : "Amenez le fantôme près de la table de Ouija dans le salon (10) : 10+9=19.", 
+	         "cards" : "19", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "hintID" : "", 
+	         "message" : "Une fois les pièces du manoir disposées autour de la piscine, une aura verte dessine un 0.", 
+	         "cards" : "0", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "14", 
+	         "hintID" : "", 
+	         "message" : "Frottez les lunettes du casque pour retirer la poussière.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "16", 
+	         "hintID" : "", 
+	         "message" : "Donnez la clef au jardinier (30), qui a toutes les clefs du manoir : 16+30=46.", 
+	         "cards" : "46", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "18", 
+	         "hintID" : "", 
+	         "message" : "Les éclairs forment un 43 dans le ciel. Le 08 vu dans le rétroviseur est un 80 (en miroir).", 
+	         "cards" : "43,80", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "19", 
+	         "hintID" : "", 
+	         "message" : "Entrez L, E, W, I puis S sur la table de Ouija (machine 36). C'est le nom du neveu, mentionné sur la carte P.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "21", 
+	         "hintID" : "", 
+	         "message" : "Amenez le couteau dans la cuisine (40) pour qu'il soit aiguisé : 40+21=61.", 
+	         "cards" : "61", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "22", 
+	         "hintID" : "", 
+	         "message" : "Replacez la médaille (+3 bleu) sur le mur du bureau (20) : 20+3=23.", 
+	         "cards" : "23", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "Vous deviez poser des questions pour trouver le numéro suivant (très près) : le 24.", 
+	         "cards" : "24", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "36", 
+	         "hintID" : "", 
+	         "message" : "Une fois l'aura reformée (carte 0) et le fantôme ramené dans le salon, ce dernier vous indique les lettres LEWIS à rentrer dans l'application.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "37", 
+	         "hintID" : "", 
+	         "message" : "Placez le message devant le miroir de la salle de bains (60) : 60+37=97.", 
+	         "cards" : "97", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "42", 
+	         "hintID" : "", 
+	         "message" : "L'information sur cette page vous permet de trouver les livres préférés dans le salon (10) : 42+10=52.", 
+	         "cards" : "52", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "43", 
+	         "hintID" : "", 
+	         "message" : "C'est un numéro caché. Pointez l'appareil vers la carte, vous verrez un numéro apparaître sur la grille.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "45", 
+	         "hintID" : "", 
+	         "message" : "Les billes (carte U) donnent les différents symboles à saisir sur la dalle. En partant du haut (et dans le sens horaire) : FEU, FEUILLE, EAU, LUNE, ÉTOILE, VENT.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "52", 
+	         "hintID" : "", 
+	         "message" : "Les livres préférés de Lewis sont en rapport avec les voitures : Q, U, I, N, Z, E.", 
+	         "cards" : "15", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "53", 
+	         "hintID" : "", 
+	         "message" : "En passant le pendule au-dessus des cartes B, J et N, vous devez apercevoir un numéro formé par l'oscillation du pendule.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "63", 
+	         "hintID" : "", 
+	         "message" : "C'est un numéro caché.", 
+	         "cards" : "44", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "88", 
+	         "hintID" : "", 
+	         "message" : "Les numéros sur les voitures donnent l'ordre : 1, 2, 3, 4 puis 5. Entrez la séquence vert, jaune, vert, orange puis rose dans l'application.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "97", 
+	         "hintID" : "", 
+	         "message" : "L'horloge de la cuisine (petite aiguille sur le 1) donne le 1er chiffre du code : 4 (grande aiguille sur le 4) ; celle de la chambre, le 2e : 2 ; et celle du bureau, le 3e : 1. Entrez le code 421 dans la machine 6 (coffre-fort).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "6", 
+	         "name" : "", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "22", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Le coffre-fort s'ouvre."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "48", 
+	         "cardsToDiscard" : "A,P,19,36", 
+	         "message" : "À l'évocation du nom du défunt, vous êtes pris d'une vision. Attention, il vous en faudra une deuxième pour interpréter complètement le message du fantôme."
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "7", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous entendez un cliquètement, la pierre centrale est descellée."
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "32", 
+	         "cardsToDiscard" : "18,80,88", 
+	         "message" : "Alors que ces notes résonnent dans la pièce, une vision vous vient soudainement. Cela devrait vous permettre de répondre au commissaire."
+	      }, 
+	      { 
+	         "number" : "11111", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "90", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "Mysterious_forest", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "« Intéressant ! Cela coïncide avec le dernier rapport de police. Tenez, le voici. Par ailleurs, j'ai fouillé la maison et j'ai trouvé ce papier bizarre dans les affaires de Lewis. »", 
+	         "messageID" : "machine_90_room_validated", 
+	         "cardsToTake" : "R,37", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "Inside_The_Asylum", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "", 
+	         "messageID" : "", 
+	         "cardsToTake" : "K", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Suite à nos indications, le commissaire mène un interrogatoire auprès de la gouvernante, qui passe aux aveux.", 
+	         "messageID" : "machine_90_suspects_validated", 
+	         "cardsToTake" : "X", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Avec ces deux visions liées à l'AR/ME, vous pouvez aller voir le commissaire.", 
+	         "messageID" : "event_step_2", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "30", 
+	         "nextEvent" : "0", 
+	         "soundName" : "Mysterium_Cutlery", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous entendez un vacarme assourdissant venant de la cuisine.", 
+	         "messageID" : "event_step_3", 
+	         "cardsToTake" : "63", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

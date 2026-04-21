@@ -1,0 +1,338 @@
+{ 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "5thAvenue", 
+	   "number" : "85", 
+	   "displayName" : "La 5ème avenue", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "Auto", 
+	   "skinName" : "Tuto", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "ad0_tuto.mp3", 
+	   "maxTime" : "1800", 
+	   "totalTime" : "1800", 
+	   "penaltyTime" : "3", 
+	   "wrongCodePenaltyTime" : "3", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	      { 
+	         "number" : "1305", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous voilà dehors avec le précieux prototype !"
+	      }, 
+	      { 
+	         "number" : "3153", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous voilà dehors avec le précieux prototype !"
+	      }, 
+	      { 
+	         "number" : "3513", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous voilà dehors avec le précieux prototype !"
+	      }, 
+	      { 
+	         "number" : "5031", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous voilà dehors avec le précieux prototype !"
+	      }, 
+	      { 
+	         "number" : "9589", 
+	         "locale" : "", 
+	         "type" : "Code", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "2", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "22,G", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La lourde porte blindée s'ouvre. Vous pénétrez dans la chambre forte."
+	      }, 
+	      { 
+	         "number" : "1210", 
+	         "locale" : "", 
+	         "type" : "End", 
+	         "extraNumber" : "0", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "soundName" : "", 
+	         "musicName" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous voilà dehors avec le précieux prototype !"
+	      }
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o2", 
+	         "time" : "900", 
+	         "nextObject" : "False", 
+	         "message" : "Avez-vous examiné la cocotte ?"
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "5", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avez-vous bien fouillé les environs du building, près des poubelles ?"
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Un pied-de-biche. Indispensable pour forcer les portes ou ouvrir des caisses."
+	      }, 
+	      { 
+	         "number" : "11", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les deux animaux présents au centre vous donneront le code en temps voulu : remettez-les dans l'ordre."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette épingle à cheveux devrait vous permettre de forcer une serrure."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez vite un moyen d'ouvrir cette caisse !"
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait couper l'électricité qui alimente l'alarme. Regardez les couleurs des fils."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette manette se combine parfaitement avec les connecteurs du tableau électrique."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce grappin devrait vous permettre d'accéder aux étages du Flatiron Building."
+	      }, 
+	      { 
+	         "number" : "43", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'alarme n'est plus alimentée en électricité. Ajoutez ce modificateur au tableau de M. CORC."
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le siège de la 2M4GD Corp. est au troisième étage. Il faudrait y accéder avec une corde."
+	      }, 
+	      { 
+	         "number" : "58", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut la clef de cette bibliothèque (ou de quoi forcer la serrure) pour l'ouvrir."
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous manque un morceau de papier… et vous êtes sûrs d'en avoir vu un traîner quelque part."
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'étagère contient deux objets. Regardez bien !"
+	      }, 
+	      { 
+	         "number" : "121", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le matériel qu'on vous avait promis est bien là. Prenez les trois objets indiqués."
+	      }, 
+	      { 
+	         "number" : "131", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le motif du tapis vous aidera à trouver le code : remettez les animaux dans l'ordre."
+	      }, 
+	      { 
+	         "number" : "141", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour désactiver l'alarme du tableau baissez uniquement les bonnes couleurs."
+	      }, 
+	      { 
+	         "number" : "151", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "1", 
+	         "message" : "Seul, ce morceau de papier ne sert à rien. Une fois l'autre partie de la page trouvée, regardez les numéros des animaux."
+	      }, 
+	      { 
+	         "number" : "161", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Comment écririez-vous SOLEIL avec une calculatrice (et sans le chiffre \"7\") ?"
+	      }, 
+	      { 
+	         "number" : "171", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Comment écririez-vous SOLEIL avec une calculatrice (et sans le chiffre \"7\") ?"
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "5", 
+	         "message" : "", 
+	         "cards" : "F", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "message" : "", 
+	         "cards" : "73", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "22", 
+	         "message" : "", 
+	         "cards" : "30", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "42", 
+	         "message" : "", 
+	         "cards" : "86", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "43", 
+	         "message" : "", 
+	         "cards" : "92", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "44", 
+	         "message" : "", 
+	         "cards" : "86", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "73", 
+	         "message" : "", 
+	         "cards" : "V", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "131", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "9589"
+	      }, 
+	      { 
+	         "hintNumber" : "141", 
+	         "message" : "Rouge, Bleu, Jaune", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "161", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "1305"
+	      }, 
+	      { 
+	         "hintNumber" : "171", 
+	         "message" : "", 
+	         "cards" : "", 
+	         "code" : "1305"
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "141", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "6", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	      "French", 
+	      "English", 
+	      "German", 
+	      "Italian", 
+	      "Spanish", 
+	      "Russian", 
+	      "Korean"
+	   ]
+	}

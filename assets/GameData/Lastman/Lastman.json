@@ -1,0 +1,282 @@
+{ 
+	   "visible" : "True", 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "Lastman", 
+	   "displayName" : "Lastman", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Lastman", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Lastman", 
+	   "maxTime" : "1800", 
+	   "totalTime" : "1800", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "1", 
+	         "hintName" : "o1", 
+	         "time" : "120", 
+	         "nextObject" : "False", 
+	         "message" : "Observez bien le sac de Marianne, la maman d'Adrian."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "0", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Adrian est maintenant extralucide. Il est ainsi capable d'identifier la nature des énergies d'une invocation. "
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Portez le regard extralucide d'Adrian sur l'invocation de Gregorio pour identifier, grâce au livre, à quelle école appartient celle-ci. Vous serez alors en mesure de la contrer avec la bonne invocation."
+	      }, 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez bien le sac de Marianne, la maman d'Adrian."
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ces viennoiseries feront le bonheur d'Adrian."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Adrian se souvient à présent de l'évolution de son score de combat durant son dernier affrontement avec Gregorio. Il démarre à 10, passe à 8, puis à 3, etc."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Elorna est très bienveillante envers Adrian, elle pourrait sans doute l'aider dans sa quête."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce médaillon serait une relique héritée des fondateurs des premières écoles de combat. Il est le symbole de savoirs ancestraux. Il n'est pas question de le donner à qui que ce soit."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Elorna vous indique le chemin à suivre dans la Vallée des Rois."
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'itinéraire indiqué par Elorna dessine un chiffre."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Gregorio est très fort. Il faudra d'abord qu'Adrian s'entraîne avant d'oser l'affronter"
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Après avoir levé sa garde (machine 45), Adrian pourra exécuter sur Elorna l'enchaînement que lui a enseigné Maître Jansen."
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il semblerait que l'on puisse insérer quelque chose dans la couverture de ce livre."
+	      }, 
+	      { 
+	         "number" : "58", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il est temps pour Adrian de faire ses preuves en affrontant un adversaire de taille."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Soyez attentifs aux 4 « sons » du combat, ainsi qu'à leur ordre."
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La rivière bat l'âtre, l'âtre bat le chêne, le chêne bat le vent, le vent bat les cieux, les cieux battent la rivière."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Adrian doit ouvrir son 3e œil pour pouvoir lire l'invocation de Gregorio et la contrer."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le 3e œil se trouve entre les 2 yeux, mais lesquels ?"
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez les cartes qu'il vous reste."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "0", 
+	         "hintID" : "", 
+	         "message" : "Gregorio amorce une invocation des cieux. Tracez alors une invocation du vent.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "3", 
+	         "hintID" : "", 
+	         "message" : "Donnez ces viennoiseries (3) à Adrian (8) pour qu'il prenne des forces avant son entraînement.", 
+	         "cards" : "11", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "7", 
+	         "hintID" : "", 
+	         "message" : "Le score d'Adrian évolue de la façon suivante : 10/8/3/2/0. Dans l'ordre, il a donc encaissé -2/-5/-1/-2. En regardant la feuille des scores (5), vous pouvez déduire l'enchaînement de Gregorio : Coup de pied / Invocation / Coup de Poing / Coup de Pied. Indiquez cet enchaînement à Maître Jansen (80) pour qu'il donne à Adrian les bonnes parades.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "10", 
+	         "hintID" : "", 
+	         "message" : "Envoyez Adrian (8) discuter avec Elorna (10).", 
+	         "cards" : "18", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "18", 
+	         "hintID" : "", 
+	         "message" : "En partant de l'éclat de Jade (en bas), puis en le reliant en ligne droite au sommet de la vallée du lion (en haut), à l'iguane noir (à gauche) et enfin au lac d'émeraude (à droite), vous tracez un 4.", 
+	         "cards" : "4", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "56", 
+	         "hintID" : "", 
+	         "message" : "Insérez le médaillon d'Adrian (12) dans la couverture du livre (56).", 
+	         "cards" : "68", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "58", 
+	         "hintID" : "", 
+	         "message" : "Envoyez Adrian (58) affronter Gregorio (20).", 
+	         "cards" : "78", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "63", 
+	         "hintID" : "", 
+	         "message" : "En prenant dans l'ordre la première lettre de chaque onomatopée, vous pourrez lire SEPT.", 
+	         "cards" : "7", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "78", 
+	         "hintID" : "", 
+	         "message" : "Le 3e œil fait référence au dos de la Carte O, qui forme un 3e œil entre les deux yeux fermés.", 
+	         "cards" : "O", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "0", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "80", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "56,58", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Adrian montre à Maître Jansen l'enchaînement de Gregorio qu'il souhaiterait contrer."
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	      "French"
+	   ]
+	}

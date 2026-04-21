@@ -1,0 +1,843 @@
+{ 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Sherlock2", 
+	   "number" : "27", 
+	   "displayName" : "Sherlock Holmes - L'affaire des Anges brûlés", 
+	   "difficulty" : "3", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "Manual", 
+	   "skinName" : "Sherlock2", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "Victorian_Conundrum", 
+	   "maxTime" : "5400", 
+	   "totalTime" : "5400", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "2", 
+	         "hintName" : "o1", 
+	         "time" : "120", 
+	         "nextObject" : "False", 
+	         "message" : "Avez-vous bien fouillé Maître Fogel ?"
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "2", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avant que Red Henry ne tourne les talons, vous avez eu le temps d'observer 4 éléments bien particuliers : son teint pâle, sa veste rongée, son pantalon délavé et la plume de mouette accrochée au chapeau. "
+	      }, 
+	      { 
+	         "number" : "2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le manque d'exposition à la lumière, les fréquents passages dans l'eau et la proximité avec des rongeurs tels que des rats laissent penser que Red Henry se cache dans les égouts. Les mouettes, attirées par le poisson, vivent en général près des lieux où accostent les bateaux de pêche. "
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "En concentrant les rayons du soleil sur le journal, vous pourriez réussir à faire du feu."
+	      }, 
+	      { 
+	         "number" : "5", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Superposez la loupe sur le journal (5) pour concentrer les rayons du halo de lumière sur le papier. Les morceaux de lettres restantes décrivent à présent un nombre."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'une des victimes devait passer ici le jour de sa mort. Laquelle ? "
+	      }, 
+	      { 
+	         "number" : "17", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Red Henry ne vit apparemment plus ici, mais il a laissé quelques pistes à suivre. Au sol, les 3 morceaux de papier déchirés forment ensemble un numéro de carte. "
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "D'après les sans-abri (81), les membres du gang se cachent parmi eux après leur larcin. Peut-être même en avez-vous déjà croisé plus tôt dans la journée. "
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La serrure est verrouillée, mais vous avez avec vous le nécessaire pour tenter de faire sauter le verrou."
+	      }, 
+	      { 
+	         "number" : "24", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Edith Chadha est entrée en contact avec Red Henry quelque part entre le Strand et Green Park. Une fois que vous aurez obtenu le trajet de chacune des 2 autres victimes, cherchez le lieu commun à ces 3 trajets."
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez la loupe pour lire la gravure en la superposant sur la bague, un nombre apparaît. La monture de la loupe et les anneaux en argent forment un nombre."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le message codé (83) vous donnera la provenance du train de Maître Fogel. Le message est composé de 7 étapes. Chacune d'entre elles vous donnera une lettre. "
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les étapes du trajet correspondent à certaines villes présentes sur la carte de l'Europe (M)."
+	      }, 
+	      { 
+	         "number" : "28", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le gardien sait peut-être quelque chose à propos de l'une des victimes, mais laquelle ? "
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Voilà de quoi amorcer une détonation qui vous rendra votre liberté. "
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pouvez échanger ces vêtements contre des informations importantes pour votre enquête."
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Rien à signaler."
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Quelle victime allait tous les jours en calèche au travail ? "
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Red Henry se venge de la mort de ses parents. Il tue les membres du corps médical qui ont en priorité porté secours aux riches spectateurs et ont laissé mourir ses parents, membres de la CHORALE DES CIEUX, et emportés par les FLAMMES. "
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Voilà une preuve on ne peut plus concrète…"
+	      }, 
+	      { 
+	         "number" : "49", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Que pourriez-vous montrer à cet orfèvre ? "
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il va donc falloir trouver des preuves pour qu'il se mette à table. Commencez par le fouiller. "
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Tant que vous n'aurez pas trouver de quoi les convaincre, ces sans-abris ne vous diront rien."
+	      }, 
+	      { 
+	         "number" : "53", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Une fois que vous aurez obtenu le trajet de chacune des 3 victimes, cherchez le lieu commun à ces 3 trajets."
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cherchez dans la pièce de quoi amorcer l'explosion de la cartouche (54)."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le morceau de carte correspond à un quart du plan de Londres (P, L, A ou N). En procédant à un recoupement avec les informations du gardien (39), vous pourrez en déduire la localisation de l'appartement d'Edith Chadha (victime 3). "
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Oxford Street est la bonne rue, mais le numéro 2 semble être un leurre. Les points sous l'adresse de l'agenda (75) vous donneront le bon numéro. "
+	      }, 
+	      { 
+	         "number" : "61", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les petites marques sur la manchette ont dû retenir l'attention de Sherlock. Mais à l'œil nu, difficile d'identifier la nature de ces marques."
+	      }, 
+	      { 
+	         "number" : "61", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Superposez la loupe sur la photo de la victime 1 (61) pour examiner de plus près les marques autour de la manchette. Les taches de sang forment deux chiffres."
+	      }, 
+	      { 
+	         "number" : "63", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le symbole présent sur le bouton de manchette ainsi que les traces de craie et d'antiseptique (63) vous donneront le lieu de travail de la victime 1 (61). "
+	      }, 
+	      { 
+	         "number" : "69", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est l'adresse de l'orfèvre qui a créé cette bague. Peut-être aura-t-il des informations concernant la victime 2. "
+	      }, 
+	      { 
+	         "number" : "73", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "John Koffley est entré en contact avec Red Henry quelque part entre College Street et le University Hospital. Une fois que vous aurez obtenu le trajet de chacune des 2 autres victimes, cherchez le lieu commun à ces 3 trajets."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Mr Dray est entré en contact avec Red Henry quelque part entre Charing Cross et la boutique de Saint James's Square. Une fois que vous aurez obtenu le trajet de chacune des 2 autres victimes, cherchez le lieu commun à ces 3 trajets. L'affiche derrière l'orfèvre attire votre attention."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez le butin et vous aurez votre preuve pour faire parler Fogel. Rendez-vous à l'adresse indiquée dans l'agenda. Oxford Street est la bonne rue, mais le numéro 2 semble être un leurre. Les points sous l'adresse vous donneront le bon numéro."
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les sans-abri vous indiquent où vous rendre pour espérer traquer le gang de Fogel."
+	      }, 
+	      { 
+	         "number" : "83", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Maître Fogel arrive donc ce jour (voir la date du journal T) à la gare de Londres. Rendez-vous-y pour tenter de le coincer. "
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "À l'aide des différents éléments trouvés dans la planque de Red Henry (17), vous devriez être en mesure de suspecter une de ces personnes d'être Red Henry."
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les parents de Red Henry étaient membres d'une chorale (46). Il possède lui-même un violon (17) et semble avoir un fort attrait pour les ballades médiévales (16). "
+	      }, 
+	      { 
+	         "number" : "97", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il n'y a qu'un seul lieu près d'un parc à côté d'un lac (H) se situant à 10 minutes en calèche du University Hospital (92)."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Tentez d'aller en apprendre davantage sur ce Jack Young. Il vous mènera sans doute à l'identité de Red Henry."
+	      }, 
+	      { 
+	         "number" : "100", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "John Koffley venait en calèche tous les jours. Il était donc un client régulier de certains cochers…"
+	      }, 
+	      { 
+	         "number" : "200", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La piste à suivre dont vous parle Sherlock (7) concerne le lieu du crime de la 3e victime (11) ainsi que la suspicion autour du gang de Fogel. Allez enquêter sur les lieux du crime pour tenter d'en apprendre davantage."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "2", 
+	         "message" : "Red Henry doit se cacher dans des égouts accessibles depuis le bord de la Tamise. Repérez sur le plan, au bord de la Tamise, la petite entrée d'un tunnel. C'est là que Red Henry doit à présent se planquer. Allez en Q4.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "5", 
+	         "message" : "Vous pouvez lire VINGT (en haut) NEUF (en bas). ", 
+	         "cards" : "29", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "message" : "Selon sa femme (27), John Koffley devait se rendre chez Warlock Spectacles le jour de sa mort. Interrogez cet homme (12) au sujet de la victime 1 (61). ", 
+	         "cards" : "73", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "17", 
+	         "message" : "En rassemblant les 3 morceaux de la bulle grise, vous pourrez former un 16. ", 
+	         "cards" : "16", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "20", 
+	         "message" : "Comparez les individus qui étaient présents dans le groupe des sans-abri le matin (51) avec ceux de l'après-midi (81). Tous sont présents sauf celui qui était appuyé contre l'arbre (51). Ce même individu est par contre bien présent au Wellington Arch (20). Surveillez-le de près !", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "message" : "La cartouche de fusil (31) pourrait faire office d'explosif. Commencez par l'insérer dans le trou de la serrure (23). ", 
+	         "cards" : "54", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "25", 
+	         "message" : "La monture de la loupe et les anneaux en argent forment le nombre 69. ", 
+	         "cards" : "69", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "26", 
+	         "message" : "Reportez le trajet du message codé (83) sur la carte de l'Europe (M) : Barcelone, Rome, Innsbruck, Stockholm, Tallinn, Oslo, Londres. En prenant la 1re lettre de chaque ville, on obtient BRISTOL. Rendez-vous sur le quai 8.  ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "28", 
+	         "message" : "Interrogez le gardien de Green Park (28) à propos de la victime 3 (11) retrouvée dans son parc. ", 
+	         "cards" : "39", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "29", 
+	         "message" : "Lorsque vous aurez placer la cartouche de fusil dans la serrure (54), utilisez cette flamme (29) pour amorcer une détonation et faire sauter le verrou. ", 
+	         "cards" : "83", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "30", 
+	         "message" : "Donnez ces vêtements (30) aux sans-abri (51). ", 
+	         "cards" : "81", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "36", 
+	         "message" : "Interrogez le cocher (36) à propos de John Koffley, la victime 1 (61). ", 
+	         "cards" : "97", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "46", 
+	         "message" : "Les « Anges Brûlés » sont donc les membres de la Chorale des Cieux morts dans l'incendie. Rapportez l'article (46) à Sherlock (7). ", 
+	         "cards" : "53", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "48", 
+	         "message" : "Mettez le butin du gang (48) sous le nez de Maître Fogel (50) afin de le faire chanter pour lui soutirer des informations sur le tueur. ", 
+	         "cards" : "98", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "49", 
+	         "message" : "Montrez à cet orfèvre (49) la bague (25) retrouvée chez Red Henry. ", 
+	         "cards" : "74", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "50", 
+	         "message" : "Repérez le numéro caché sur la poche de sa veste. ", 
+	         "cards" : "75", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "55", 
+	         "message" : "La croix sur le plan indique la position de l'appartement d'Edith Chadha sur un des 4 quarts du plan de Londres : C1, C6, L1 ou L6. Mais selon les informations du gardien (39), cette victime vivait près d'une église. L6 est le seul lieu juxtaposé à une église (L5). Allez enquêter en L6.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "56", 
+	         "message" : "Les points vous indiquent 511-20. Allez au numéro 491. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "61", 
+	         "message" : "Les taches de sang forment un 6 et un 3. ", 
+	         "cards" : "63", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "63", 
+	         "message" : "Le symbole du bouton de manchette est celui des hôpitaux (18). Les traces d'antiseptique (63) étayent l'hypothèse selon laquelle la victime 1 (61) est un médecin. Dans quel hôpital vous rendre ? Les traces de craie, elles, mènent à penser que la victime est également professeur. Il y a fort à parier que la victime 1 (61) est professeur en médecine. Rendez-vous donc au University Hospital (K7).", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "69", 
+	         "message" : "Allez rendre visite à Degan Orfèvres. Rendez-vous à Saint James's Square en I2. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "73", 
+	         "message" : "Les trajets des 3 victimes (24, 73 et 74) ont en commun de traverser Trafalgar Square. C'est sans doute à cet endroit précis que Red Henry entre en contact avec ses victimes. Tentez d'aller le débusquer en vous rendant en L3.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "74", 
+	         "message" : "La victime 1, John Koffley, se rendait chez Warlock Spectacles selon sa femme (27). Vous avez maintenant l'adresse. Allez donc à College Street en M0.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "75", 
+	         "message" : "Allez d'abord à Oxford Street en G5. Pour le numéro de la rue, les points vous indiquent 511-20. Dans la machine 56, entrez le numéro 491. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "81", 
+	         "message" : "La base du gang de Fogel se trouve au Wellington Arch. Allez y jeter un œil. Utilisez le bouton dédié et entrez les coordonnées C0.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "83", 
+	         "message" : "Commencez par vous rendre à la gare de Charing Cross en N3. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "85", 
+	         "message" : "Red Henry est l'enfant d'un couple de chanteurs et joue lui-même de la musique. Pour repérer ses victimes, Red Henry doit se rendre très régulièrement à Trafalgar Square. S'il est ici, alors tout porte à croire qu'il doit être ce chanteur de rue situé près de la fontaine. Allez interroger cet individu.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "97", 
+	         "message" : "Sur le plan, en partant du University Hospital (K7), empruntez la route vers le nord-ouest (J8), soit 2 minutes de calèche. Puis suivez la route vers l'ouest jusqu'en B8 pour faire 8 minutes de calèche supplémentaires. Vous voilà près d'un parc, à côté d'un lac, et à 10 minutes de calèche du University Hospital. Utilisez le bouton dédié pour vous rendre en B8.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "98", 
+	         "message" : "Allez enquêter à l'orphelinat de Hopkins Street en J4 et demandez à consulter le dossier de Jack Young.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "100", 
+	         "message" : "Allez au dépôt des calèches situé en O8.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "200", 
+	         "message" : "Selon le journal (T), la 3e victime (11) a été retrouvée à l'extrémité nord de Green Park. Sur le plan (P), l'extrémité nord du parc correspond aux coordonnées F2. Utilisez le bouton dédié pour vous y rendre.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "2", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "E", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous prenez le bandit en filature. Il vous mène jusqu'à un entrepôt avoisinant. Vous décidez d'y pénétrer discrètement, mais à peine la porte passée, celle-ci se referme lourdement derrière vous. Vous voilà piégés."
+	      }, 
+	      { 
+	         "number" : "26", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "50", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous vous postez discrètement à l'entrée du quai, en attendant que le train en provenance de Bristol fasse son entrée en gare. Une fois le train à quai, une foule de voyageurs jaillit des différents wagons puis se presse vers vous. Parmi eux, le chef du gang tant recherché, Maître Fogel. Épaulés par deux agents, vous vous dirigez vers lui..."
+	      }, 
+	      { 
+	         "number" : "56", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "B", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous vous rendez au 491 Oxford Street. À cette adresse, une maison semble inhabitée. Après un tour de passe-passe sur la serrure, vous voilà à l'intérieur."
+	      }, 
+	      { 
+	         "number" : "85", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "2", 
+	         "cardsToDiscard" : "", 
+	         "message" : "A votre approche, Red Henry prend ses jambes à son coup et s'enfuit en direction du Strand. Courant comme un beau diable, il se faufile parmi les nombreux badauds et vous sème sans peine."
+	      }, 
+	      { 
+	         "number" : "11111", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "4", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "« Bonjour, vous venez pour le Serpentine Tour ? Allez-y, faites la queue ! » Il semblerait qu'il n'y ait ici rien qui puisse faire avancer votre enquête…", 
+	         "messageID" : "machine_special_A4", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "Emerald_Island", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "La porte de l'appartement est entrouverte. Vous vous annoncez, mais nul ne daigne vous répondre. Vous entrez…", 
+	         "messageID" : "machine_special_B6", 
+	         "cardsToTake" : "17", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "18", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous toquez à la porte d'une maison surplombant le beau lac de Regent's Park. Une femme vous ouvre et vous fait entrer.", 
+	         "messageID" : "machine_special_B8", 
+	         "cardsToTake" : "27", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Comme souvent, le Wellington Arch est animé.", 
+	         "messageID" : "machine_special_C0", 
+	         "cardsToTake" : "20", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "51", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Il n'y a rien à cet endroit du parc.", 
+	         "messageID" : "machine_special_F1", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "52", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "221B_Baker_Street_LIGHT", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Une fois dans le parc, vous apercevez une silhouette au travers de la brume.", 
+	         "messageID" : "machine_special_F2", 
+	         "cardsToTake" : "G", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "65", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous voilà sur la célèbre et longue avenue d'Oxford Street.", 
+	         "messageID" : "machine_special_G5", 
+	         "cardsToTake" : "56", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "82", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Aux abords de Saint James's Square, vous trouvez la bijouterie Degan Silversmith.", 
+	         "messageID" : "machine_special_I2", 
+	         "cardsToTake" : "49", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "94", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Après une courte attente, le directeur de l'orphelinat vous reçoit dans son bureau.", 
+	         "messageID" : "machine_special_J4", 
+	         "cardsToTake" : "14", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "107", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Dans les couloirs de l'hôpital, vous faites la rencontre d'une infirmière.", 
+	         "messageID" : "machine_special_K7", 
+	         "cardsToTake" : "H", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "113", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "À l'affût du tueur, vous arpentez discrètement la place animée de Trafalgar Square.", 
+	         "messageID" : "machine_special_L3", 
+	         "cardsToTake" : "85", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "116", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Il n'y a personne chez Edith Chadha. Vous frappez alors à l'appartement voisin et une vieille femme vous ouvre.", 
+	         "messageID" : "machine_special_L6", 
+	         "cardsToTake" : "24", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "120", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Un homme imposant vous accueille dans la boutique.", 
+	         "messageID" : "machine_special_M0", 
+	         "cardsToTake" : "12", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "133", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous entrez dans le hall bruyant de la gare de Charing Cross.", 
+	         "messageID" : "machine_special_N3", 
+	         "cardsToTake" : "26", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "144", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Le Strand est très fréquenté. Vous ne trouvez rien ici.", 
+	         "messageID" : "machine_special_O4", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "148", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "True", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Vous voilà à vous faufiler entre des calèches.", 
+	         "messageID" : "machine_special_O8", 
+	         "cardsToTake" : "36", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

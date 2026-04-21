@@ -1,0 +1,703 @@
+{ 
+	   "visible" : "True", 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Mafia", 
+	   "displayName" : "L'infiltré de Little Italy", 
+	   "difficulty" : "3", 
+	   "useMachine" : "True", 
+	   "useCode" : "True", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Mafia", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "mafia_intro", 
+	   "maxTime" : "4800", 
+	   "totalTime" : "4800", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "3", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez Tony, il a descendu cette rue et il est arrivé au croisement de Grand St. "
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les membres de la Triade ne semblent pas vouloir discuter, il va falloir utiliser la force."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Don Salvatore a une mallette, vous devez l'ouvrir pour vérifier son contenu."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour rejoindre votre voiture, vous devez marcher cinquante pas de plus depuis votre position actuelle."
+	      }, 
+	      { 
+	         "number" : "22", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous êtes actuellement au club (22) et devez rejoindre la voiture située à cinquante pas de là."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il n'y a aucune affiche de Fletch Co. indiquant son adresse, mais vous avez le moyen de la trouver."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Tous les diamantaires ont une adresse connue grâce aux affiches publicitaires, sauf Fletch Co. Mais vous ne devriez avoir aucun problème à la trouver."
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le journal vous indique où devrait se trouver Don Salvatore."
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Don Salvatore est au dernier étage de la tour et comme vu avec l'ascenseur de l'hôtel (55) le rez-de-chaussée est indiqué comme étant le premier étage."
+	      }, 
+	      { 
+	         "number" : "36", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a plusieurs cinémas dans la ville. Lequel choisir ? L’un des magasins pourrait vous renseigner."
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Tony était chez Stone & Sons, puis il a retrouvé son receleur, ensuite il est allé à Fletch Co. et enfin il a descendu la rue vers le sud. En retrançant son trajet, vous devriez le trouver. "
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour retrouver Tony, retracez son chemin sur le plan en respectant le sens de circulation."
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez eu accès à l'heure régulièrement tout au long de votre aventure."
+	      }, 
+	      { 
+	         "number" : "54", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Dans le journal, vous avez la durée de chaque film diffusé au Palazzo, vous permettant de savoir quel film va se terminer dans quelques minutes."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez un moyen de prouver à cette policière que vous êtes un agent du FBI."
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez votre badge du FBI. Vous l'avez vu au début de votre aventure. "
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut contacter vos collègues du FBI."
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Selon vos collègues du FBI (34), Vittorio doit être dans un hôtel de luxe, sûrement le même que celui indiqué dans le journal comme étant voisin d'un musée."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous pouvez lui donner le mot de passe caché dans la lettre que l'on vous a donné (E)."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La lettre concernant ce rendez-vous (E) est écrite d'une manière très étrange, notamment le tout début de chaque phrase."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si Tony a été pris en charge par des médecins, il doit être dans l'un des hôpitaux de Little Italy."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez vous débarrasser de vos deux poursuivants en même temps, mais il va falloir garder une main sur le volant."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La portière de droite est trop éloignée depuis la position que vous occupez, et le motard à votre gauche est très près de votre autre portière."
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour enlever le panneau, vous allez devoir utiliser le tournevis plat et la clé anglaise. "
+	      }, 
+	      { 
+	         "number" : "78", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En plaçant comme il faut le tournevis et la clé anglaise, vous devrez trouver un numéro."
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Malgré la grande confiance du fuyard, vous avez subtilement compris qu'il y avait dans sa phrase deux indices pour trouver le conteneur. Ce dernier est donc quelque part, à l'abri de la lumière depuis le début de votre partie."
+	      }, 
+	      { 
+	         "number" : "87", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le fuyard utilise ici une drôle d'expression \"l'affaire est déjà dans la boite\" c'est un indice de plus pour trouver le conteneur. "
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez trouver le moyen de connecter les fils rouges. Puis vous devez connecter le fil bleu (21) aux autres fils bleus, qui sont dénudés."
+	      }, 
+	      { 
+	         "number" : "19", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le fil électrique bleu en votre possession peut vous servir à laisser passer le courant, mais un autre objet en métal devrait vous permettre de connecter les morceaux de fils rouges entre eux."
+	      }, 
+	      { 
+	         "number" : "83", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'homme est maintenant trop loin pour que vous puissiez le rattraper, mais vous pourriez stopper sa course en lui lançant quelque chose."
+	      }, 
+	      { 
+	         "number" : "45", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Même si le port est interdit au public, vous avez un moyen légal pour pouvoir y entrer."
+	      }, 
+	      { 
+	         "number" : "37", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La routine de chaque livreur de Stone & Sons cache l'identité de celui qui a livré de faux diamants hier midi.  "
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Si Vittorio veut prendre la place de Don Salvatore, vous devez trouver ce dernier avant qu'il lui arrive malheur. "
+	      }, 
+	      { 
+	         "number" : "29", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "D'après le journal, Don Salvatore est au chantier du grand bâtiment dans Little Italy."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La conversation que vous avez surprise ainsi que le tableau à clés de la réception vont vous aider à trouver la chambre de Vittorio."
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La chambre de Vittorio se trouve à un étage où la chambre de luxe n'est pas à côté de l'ascenseur et est face à une autre chambre. Il ne reste plus qu'à trouver la chambre qui n'est ni vide ni occupée par une autre personne."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Utilisez le guide que vous avez trouvé pour savoir lequel des diamantaires a livré des faux et lui mettre la main dessus."
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez vu des affiches publicitaires qui vous permettront de trouver   le diamantaire que vous cherchez. Une fois localisé,  vous pouvez vous y rendre en voiture. "
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'informateur (99) vous a transmis un message important avec la mallette en référence à des victoires contre Boston."
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a des résultats de match entre New York et Boston dans le journal."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_34_part1", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le numéro de la ligne sécurisée change chaque jour, il est donc écrit sur un document qui change lui aussi tous les jours."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_34_part1", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le FBI a laissé dans le journal un indice qui permet de  trouver le bon numéro de téléphone."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_34_part2", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il y a des lettres inscrites sur les touches du téléphone."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "3", 
+	         "hintID" : "", 
+	         "message" : "Si Tony est plus bas sur Grand St., c'est qu'il a marché sur Lafayette St. jusqu'à atteindre le croisement avec Grand St. Appuyez sur le bouton dédié « voiture » et allez au croisement de Lafayette St. et de Grand St. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "Les membres de la Triade ne semblent pas vous vouloir du bien. Votre batte de baseball peut vous aider à vous défendre. 12+4=16", 
+	         "cards" : "16", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "15", 
+	         "hintID" : "", 
+	         "message" : "Ouvrez la mallette de Don Salvatore avec la clé trouvée dans la chambre de Vittorio. 15+63=78", 
+	         "cards" : "78", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "22", 
+	         "hintID" : "", 
+	         "message" : "Si la voiture est à 50 pas de vous, vous devez ajouter 50 à la carte 22.", 
+	         "cards" : "72", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "27", 
+	         "hintID" : "", 
+	         "message" : "Fletch Co. est le seul diamantaire n'ayant pas d'affiche avec une adresse. En observant le plan, par élimination, il ne reste que le diamantaire au croisement de Centre St. et de Broom St. Appuyez sur le bouton dédié « voiture » pour vous y rendre. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "31", 
+	         "hintID" : "", 
+	         "message" : "D'après le journal, Don Salvatore est au dernier étage de sa tour. Comptez le nombre d'étages pour vous y rendre, sachant que le rez-de-chaussée est le 1er comme dans l'hôtel (55). Vous allez donc au 15e étage.", 
+	         "cards" : "15", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "36", 
+	         "hintID" : "", 
+	         "message" : "Vous avez vu une affiche de ce cinéma chez le marchand de journaux ( 76 ) indiquant qu’il est au cœur de Little Italy. Le seul cinéma au centre du plan est celui au croisement de Kenmare St. et Mott St. Appuyez sur le bouton dédié \"voiture\" et allez à ce croisement.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "46", 
+	         "hintID" : "", 
+	         "message" : "Retracez le trajet de Tony sur votre plan à l'aide des conversations (3), (27) et (46). Commencez au croisement de Lafayette St. et Broom St., descendez jusqu'au croisement avec Grand St., suivez Grand St. jusqu'au croisement avec Centre St., puis remontez Centre St. jusqu'au croisement avec Broom St. et enfin redescendez Centre St. Vous dessinez ainsi un 4. ", 
+	         "cards" : "4", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "54", 
+	         "hintID" : "", 
+	         "message" : "Vous étiez au chantier (31) à 16h06 et êtes arrivé au cinéma (20) 29 minutes plus tard, il est donc 16h35. Votre rendez-vous a lieu à la fin d'une séance (E). Le seul film qui se termine bientôt est Cuore Spezzato, qui a commencé à 14h45 en salle 4 d'après le programme (56). Le journal indique qu'il dure 2 heures. Il finit donc à 16h45, c'est-à-dire très bientôt. Utilisez votre billet (36) pour entrer dans la salle 4 (+62). 36+62=98", 
+	         "cards" : "98", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "74", 
+	         "hintID" : "", 
+	         "message" : "Votre badge du FBI est caché au dos de la carte d'introduction (22). Vous pouvez montrer ce badge (+22) à la policière (74). 74+22=96", 
+	         "cards" : "96", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "96", 
+	         "hintID" : "", 
+	         "message" : "Après avoir contacté vos collègues du FBI en ouvrant la machine (34), vos savez que Vittorio est dans un hôtel de luxe. Un hôtel de luxe est mentionné dans le journal comme étant voisin d'un musée. Sur le plan, le seul hôtel avec cette caractéristique est celui au croisement de Elizabeth St. et Kenmare St. Appuyez sur le bouton dédié \"voiture\" et allez à ce croisement.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "98", 
+	         "hintID" : "", 
+	         "message" : "Le contact de Don Salvatore a caché un mot de passe dans son message (E). En ne lisant que les majuscules, vous verrez « PLUS UN ». Faites « PLUS UN » avec le contact dans la salle de cinéma (98). 98+1=99", 
+	         "cards" : "99", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "16", 
+	         "hintID" : "", 
+	         "message" : "Si Tony est avec des médecins, il doit être dans un hôpital, mais d'après le journal, l'hôpital de Mott St. n'admet plus de patients. Tony est donc à l'hôpital Houston St. Appuyez sur le bouton dédié « voiture » et allez au croisement de Houston St. et de Elizabeth St.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "48", 
+	         "hintID" : "", 
+	         "message" : "Pour vous débarrasser de vos deux poursuivants, vous vous servez de votre main gauche (+60) afin d'ouvrir la portière (+6) pour faire tomber le motard de gauche, puis vous donnez un coup de volant (+70) vers le camion (+5) pour forcer le motard de droite à foncer dedans.", 
+	         "cards" : "66,75", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "78", 
+	         "hintID" : "", 
+	         "message" : "Placez le tournevis plat (23) sur la vis plate de la bombe (78). Le pas de vis doit avoir le bon angle pour que le tournevis s'insère convenablement, affichant un 1. Placez ensuite la clé anglaise (25) sur l'écrou de la bombe (78) de manière qu'il s'insère en évitant l'arrondi gênant, affichant ainsi un 9. ", 
+	         "cards" : "19", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "87", 
+	         "hintID" : "", 
+	         "message" : "Le fuyard vous informe que le conteneur est dans un lieu à l'abri de la lumière, et que l'affaire est dans la boîte. Le conteneur est caché dans la boîte de jeu. Retirez l'insert pour le trouver sur l'un des bords. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "19", 
+	         "hintID" : "", 
+	         "message" : "Placez le câble bleu (93) de sorte à relier les fils bleus de la bombe (19), ce qui forme un 9, puis placez la clé anglaise rouge (25) pour relier les fils rouges de la bombe (19), ce qui forme un 3. Vous créez ainsi un court-circuit. ", 
+	         "cards" : "93", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "83", 
+	         "hintID" : "", 
+	         "message" : "L'homme en fuite est trop loin. Pour l'arrêter, le mieux est encore de lui lancer la batte (12) dans les jambes (+75) pour le faire tomber. 12+75=87", 
+	         "cards" : "87", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "45", 
+	         "hintID" : "", 
+	         "message" : "Montrez votre badge du FBI présent au-dessus du texte d'introduction (+22) au gardien du port (+61). 22+61=83", 
+	         "cards" : "83", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "37", 
+	         "hintID" : "", 
+	         "message" : "D'après le bijoutier (80), la livraison du faux diamant a eu lieu hier midi. En regardant le planning des livreurs (2 et 7) et le journal, le seul livreur en poste hier midi (et donc jeudi midi) était le livreur A. En consultant les horaires de ce livreur, vous verrez un 3.", 
+	         "cards" : "3", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "29", 
+	         "hintID" : "", 
+	         "message" : "Don Salvatore est en danger. D'après le journal, il est actuellement dans un chantier sur Prince St., et selon les documents (24) trouvés dans la chambre de Vittorio, ce bâtiment est sur Bowery St. Appuyez sur le bouton dédié « voiture » et allez au croisement de Bowery St. et de Prince St.  ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "55", 
+	         "hintID" : "", 
+	         "message" : "Si vous rassemblez toutes les informations de la discussion dans le hall de l'hôtel (44), le seul étage où la chambre de luxe n'est pas proche d'un ascenseur et ayant une chambre en face d'elle, c'est le 4e. La 402 est donc occupée, la 403 est celle du barman, la 401 est celle de Gina, la 405 est libre et la 400 est celle de Luna Ricci. Vittorio est donc dans la chambre 404. Appuyez sur la porte de la chambre 404.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "86", 
+	         "hintID" : "", 
+	         "message" : "Si vous soufflez sur le téléphone et le faites bouger dans votre main, vous verrez que les diamants ronds ne respectent pas les critères de la fiche (59) : ils ne brillent pas et ne font pas de buée. Les diamants ronds sont donc des faux venant de chez Stone & Sons. Vous avez vu une affiche de Stone & Sons (72) indiquant que ces derniers sont sur Lafayette St. Le seul diamantaire possible est donc celui au croisement de Lafayette St. et de Broom St. Appuyez sur le bouton dédié « voiture » et allez à ce croisement. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "33", 
+	         "hintID" : "", 
+	         "message" : "Le contact dans le cinéma (99) vous a dit  « On a sorti Boston. » Dans le journal, il y a les résultats de l'équipe de New York, notamment contre Boston, écrit BOS. Entrez les deux résultats de New York contre Boston 3241 pour ouvrir la mallette.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_34_part1", 
+	         "message" : "Le numéro de la ligne sécurisé change chaque jour, il est donc écrit dans les petites annonces du journal. Une annonce étrange a des majuscules F, B et I sur des mots n'en ayant pas besoin. Tapez le numéro de téléphone de cette annonce 5553855 sur la machine.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_34_part2", 
+	         "message" : "Le numéro de série du conteneur est constitué d'une série de chiffres et de lettres. Utilisez le clavier du téléphone pour indiquer ce numéro de série au FBI. Tapez  84539821.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_Mafia_Car", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "33", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "N", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La mallette s’ouvre."
+	      }, 
+	      { 
+	         "number" : "34", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "55", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "29", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous entendez de l'autre côté de la porte « Vous êtes des rapides au room service ! » et la porte s'ouvre. "
+	      }, 
+	      { 
+	         "number" : "86", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_Mafia_End", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "« Des changements chez les Battaglia ? Il faut s’assurer de ça. Vittorio semble avoir récemment fait une grosse dépense dans un hôtel de Little Italy. Il faut que tu le trouves avant qu’il ne fasse tout foirer ! En plus, ce sera un bon moyen d’avoir le Don dans la poche. »", 
+	         "messageID" : "phone_step_1", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "« Cette lettre n’est pas une preuve assez solide pour coffrer Don Salvatore, il faut trouver cette livraison avant eux. ». Vous prenez la route pour le port.", 
+	         "messageID" : "phone_step_2", 
+	         "cardsToTake" : "48", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "Pas de tonalité ? Il va falloir utiliser la ligne sécurisée qui change chaque jour.", 
+	         "messageID" : "phone_step_3", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "« Tu as trouvé la livraison ? Donne-nous son numéro et on lancera l’arrestation de Don Salvatore. »", 
+	         "messageID" : "phone_step_4", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }, 
+	      { 
+	         "number" : "0", 
+	         "type" : "Normal", 
+	         "extraNumber" : "0", 
+	         "time" : "0", 
+	         "nextEvent" : "0", 
+	         "soundName" : "", 
+	         "soundPauseMusic" : "False", 
+	         "musicName" : "", 
+	         "musicType" : "Loop", 
+	         "resourceName" : "", 
+	         "message" : "« On a lancé une patrouille à sa poursuite !  On va avoir besoin de toi pour l’arrêter ! » ", 
+	         "messageID" : "phone_step_5", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : ""
+	      }
+	   ], 
+	   "languages" : [ 
+	   ]
+	}

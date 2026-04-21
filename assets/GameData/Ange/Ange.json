@@ -1,0 +1,425 @@
+{ 
+	   "hideIfNotLocalized" : "True", 
+	   "ID" : "Ange", 
+	   "displayName" : "", 
+	   "difficulty" : "2", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Ange", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "", 
+	   "maxTime" : "2400", 
+	   "totalTime" : "2400", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous ne savez pas par où commencer ? Lisez attentivement les insctructions qui ont été fixées sur le plan, puis utilisez votre gondole (15) pour vous rendre à l'endroit en question."
+	      }, 
+	      { 
+	         "number" : "7", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est par le fil tendu entre cette tour et le Palais que vous allez tenter de vous infiltrer. Allez d'abord à la rencontre de votre contact dans la foule (44) afin de récupérer le matériel nécesssaire à votre infiltration."
+	      }, 
+	      { 
+	         "number" : "9", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est sans doute cette horloge qui renferme les plans, mais reste à l'ouvrir ! Selon la note (50), le carnet (66) une fois ouvert vous indiquera comment orienter les 3 aiguilles."
+	      }, 
+	      { 
+	         "number" : "10", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Au moment opportun, ce produit vous permettra d'endormir quelqu'un."
+	      }, 
+	      { 
+	         "number" : "15", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est votre moyen de locomotion. Repérez sur le plan de Venise vers quel lieu vous souhaitez naviguer avec cette gondole."
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez vous infiltrer dans le Palais des Doges. L'entrée principale étant surveillée, il va falloir trouver un autre moyen d'y accéder. Ce grappin va vous pemettre de prendre un peu de hauteur."
+	      }, 
+	      { 
+	         "number" : "23", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour s'équilibrer, il faut utiliser un objet long et maniable, comme un long baton par exemple."
+	      }, 
+	      { 
+	         "number" : "27", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le solliste attendu dans la salle de bal (27) est sans aucun doute le violoniste répétant seul sur la Loggia. Après le concert, il sera invité dans la suite du Doge. C'est justement là où vous souhaitez aussi vous rendre."
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce violoniste est celui qui est attendu dans la salle de bal (27). Après le concert, il sera invité dans la suite du doge. C'est justement là que vous souhaitez vous rendre."
+	      }, 
+	      { 
+	         "number" : "38", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faudrait prendre sa place au concert en lui volant son violon. Le soliste ne vous pas vu arriver. Trouvez de quoi vous débarasser de lui."
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Votre contact est parmi cette foule costumée. La note du plan (91) contient des indices concernant l'identité de votre contact."
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Remarquez les tâches d'encre rouge sur la note du plan (91). Elles recouvrent certaines lettres qui vous renseigneront sur le costume de votre contact."
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Procédez par élimination en communiquant avec les autres joueurs sur les formes, les couleurs et motifs présents sur les masques. Vous pouvez par exemple vérifier si vous avez le même nombre de masque présentant du bleu."
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le masque manquant dans la boutique, et présent sur l'application, possède des grelots."
+	      }, 
+	      { 
+	         "number" : "48", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le masque manquant dans la boutique, et présent sur l'application, possède des grelots."
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette note mentionne un code de carnet. Ce code doit y être dissimulé. Remarquez les deux \"O\" des mots \"œil\"."
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "\"Seul votre œil averti est capable de le déceler.\" Cette phrase fait référence à votre masque. Placez-le correctement sur la note pour révéler le code à 3 chiffres."
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Procédez par élimination en communiquant avec les autres joueurs sur les formes, les couleurs et motifs présents sur les masques. Vous pouvez par exemple vérifier si vous avez le même nombre de masques présentant du bleu."
+	      }, 
+	      { 
+	         "number" : "57", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Le masque manquant dans la boutique, et présent sur l'application, possède des grelots."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La note (50) de votre contact mentionne un code de carnet. Ce code doit y être dissimulé. Remarquez les deux \"O\" des mots \"œil\"."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "\"Seul votre œil averti est capable de le déceler.\" Cette phrase fait référence à votre masque. Placez-le correctement sur la note pour révéler le code à 3 chiffres."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "1. Vous avez déjà croisé un membre de la garde plus tôt dans l'aventure.\\n2. Si vous le connaissez pas, pas d'inquiétude. Cet animal est exposé partout l'aventure.\\n3. Il vous faut d'abord une source de lumière. Reste ensuite à la projeter correctement sur le parquet à travers un masque de façon à éclairer exactement le rond de la lune . Le faisceau doit alors être ni trop gros ni trop petit."
+	      }, 
+	      { 
+	         "number" : "64", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "1. Repérez le signe astrologique présent sur la tenue du garde (70).\\n2. Vous trouverez le symbôle de venise sur la bannière du plan mais aussi sculpté sur l'entrée du Palais des Doges, et sur la Piazza San Marco.\\n3. Utilisez par exemple la torche de votre téléphone. Un oeil du masque vous pemet de projeter un rond de lumière. La distance de ce masque par rapport au parquet module la taille du rond. Une fois le faisceau placé sur la lune et à la bonne taille, l'autre oeil vous indique un signe."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Pour pouvoir vous rendre sur la place San Marco tout en restant anonyme, il faut d'abord trouver un masque. Regardez sur le plan de Venise pour repérez un lieu qui pourrait vous aider dans ce sens."
+	      }, 
+	      { 
+	         "number" : "70", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Il est trop risqué de tenter d'accéder au Palais des Doges par l'entrée principale. Il va falloir trouver une autre facon d'y accéder. Allez d'abord à la rencontre de votre contact dans la foule (44) afin de récupérer le matériel nécesssaire à votre infiltration."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque joueur doit garder la/les même(s) couleur(s). Essayez de garder l'écran toujours bien visible pour tous les joueurs. Si toutefois vous ne parvenez pas à enchainer les notes, persistez. Le reste de l'orchestre finira pas réduire le tempo pour vous faciliter la tâche."
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est le plan de la ville de Venise. Une fois que vous aurez choisi dans quels lieux vous rendre, utilisez la gondole (15) pour vous y déplacer."
+	      }, 
+	      { 
+	         "number" : "92", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est le plan de la ville de Venise. Une fois que vous aurez choisi dans quels lieux vous rendre, utilisez la gondole (15) pour vous y déplacer."
+	      }, 
+	      { 
+	         "number" : "93", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est le plan de la ville de Venise. Une fois que vous aurez choisi dans quels lieux vous rendre, utilisez la gondole (15) pour vous y déplacer."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "C'est le plan de la ville de Venise. Une fois que vous aurez choisi dans quels lieux vous rendre, utilisez la gondole (15) pour vous y déplacer."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "1", 
+	         "hintID" : "", 
+	         "message" : "Vous devez vous rendre à la Piazza San Marco afin d'aller à la rencontre de votre contact. Repérez ce lieu (+51) sur le plan de Venise et rendez-vous y avec votre gondole (15).", 
+	         "cards" : "66", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "16", 
+	         "hintID" : "", 
+	         "message" : "Vous allez devoir accéder à la Loggia du Palais des Doges en traversant vous aussi le fil qui relie la tour du Campanile. Utilisez le grappin (16) pour accéder au sommet du Campanile (7).", 
+	         "cards" : "23", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "23", 
+	         "hintID" : "", 
+	         "message" : "Utilisez la perche de votre gondole (15) pour vous équilibrer sur le fil (23).", 
+	         "cards" : "38", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "38", 
+	         "hintID" : "", 
+	         "message" : "Approchez-vous discrètement par derrière et utilisez le chloroforme (10) pour endormir le violoniste (38).", 
+	         "cards" : "48", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "44", 
+	         "hintID" : "", 
+	         "message" : "Les tâches d'encre de la note recouvrent les lettres C-Y-G-N-E. Sélectionnez alors la personne dont le déguisement représente un cygne.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "47", 
+	         "hintID" : "", 
+	         "message" : "Le masque manquant est celui possédant 3 grelots, la coiffe verte et orange au centre. Sélectionnez-le dans l'application et appuyez sur \"valider\".", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "48", 
+	         "hintID" : "", 
+	         "message" : "Rejoignez le Grand Bal (27) avec votre violon (48) pour tenter de réaliser une performance musicale et être ensuite invité dans la Suite du Doge.", 
+	         "cards" : "75", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "50", 
+	         "hintID" : "", 
+	         "message" : "Placez chaque orifice du masque (99) sur les deux \"O\" en gras sur la note (50). Les lettres restantes de part et d'autre du texte forment les mots TROIS et SEPT. Il y a également un \"8\" restant en bas de la note. Le code est donc 378.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "57", 
+	         "hintID" : "", 
+	         "message" : "Le masque manquant est celui possédant 3 grelots, la coiffe verte et orange au centre. Sélectionnez-le dans l'application et appuyez sur \"valider\".", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "60", 
+	         "hintID" : "", 
+	         "message" : "Placez chaque orifice du masque (99) sur les deux \"O\" en gras sur la note (50). Les lettres restantes de part et d'autre du texte forment les mots TROIS et SEPT. Il y a également un \"8\" restant en bas de la note. Le code est donc 378.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "64", 
+	         "hintID" : "", 
+	         "message" : "1. Le signe porté par la garde est le Cancer (le crabe).\\n2. Le symbole de Venise est le Lion.\\n3. Une fois la lumière projetée à travers un œil du masque et placé à la bonne taille sur la lune, l'autre œil éclaire le signe du Sagittaire. Orientez la petite aiguille sur le Cancer, la moyenne sur le Lion et la Grande sur le Sagittaire.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "66", 
+	         "hintID" : "", 
+	         "message" : "Rendez-vous au Palais des masques (+32) avec votre gondole (15). Une fois que vous aurez obtenu votre masque, superposez-le bord à bord sur la vue de la Piazza San Marco (66) pour révéler la suite.", 
+	         "cards" : "47", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "hintID" : "", 
+	         "message" : "Une fois placé (carte bord à bord) sur la vue de la Piazza San Marco (66) le masque laisse apparaître deux chiffres au niveau des yeux : un 8 et un 2.", 
+	         "cards" : "82", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "9", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "44", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "47", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "99", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "64", 
+	         "cardsToDiscard" : "", 
+	         "message" : "C'est le bon code. Vous ouvrez le carnet et le feuilletez rapidement."
+	      }, 
+	      { 
+	         "number" : "75", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	      "French", 
+	      "English", 
+	      "German", 
+	      "Italian", 
+	      "Dutch", 
+	      "Spanish", 
+	      "Chinese", 
+	      "Ukrainian"
+	   ]
+	}

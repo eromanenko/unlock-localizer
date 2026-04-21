@@ -1,0 +1,772 @@
+{ 
+	   "visible" : "True", 
+	   "hideIfNotLocalized" : "False", 
+	   "ID" : "Heat", 
+	   "displayName" : "Heat", 
+	   "difficulty" : "1", 
+	   "useMachine" : "True", 
+	   "useCode" : "False", 
+	   "hiddenObjectMode" : "UserDefined", 
+	   "skinName" : "Heat", 
+	   "fontName" : "", 
+	   "timerFontName" : "", 
+	   "musicFilename" : "", 
+	   "maxTime" : "3600", 
+	   "totalTime" : "3600", 
+	   "penaltyTime" : "1", 
+	   "wrongCodePenaltyTime" : "1", 
+	   "scoreOvertime" : "True", 
+	   "scoreHints" : [ 
+	      "1", 
+	      "7"
+	   ], 
+	   "codes" : [ 
+	   ], 
+	   "hiddenObjects" : [ 
+	      { 
+	         "number" : "98", 
+	         "hintName" : "", 
+	         "time" : "240", 
+	         "nextObject" : "False", 
+	         "message" : "Une note traine au sol dans l'atelier."
+	      }
+	   ], 
+	   "hints" : [ 
+	      { 
+	         "number" : "1", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Une interview de Legend vous donnerait des informations pour la suite de la course."
+	      }, 
+	      { 
+	         "number" : "98", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "L'interview n'est pas passionnante, concentrez-vous plutôt sur l'évolution de la météo."
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce n'est pas une carte rouge. Regardez bien dans le feu vert et vous saurez quoi faire."
+	      }, 
+	      { 
+	         "number" : "90", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Regardez les dos des cartes restantes et comptez les cartes de votre couleur."
+	      }, 
+	      { 
+	         "number" : "12", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il vous faut trouver de quoi revisser grossièrement votre volant."
+	      }, 
+	      { 
+	         "number" : "46", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avec vos mains nues vous aurez du mal à ouvrir le capot."
+	      }, 
+	      { 
+	         "number" : "72", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Avec toute cette poussière difficile de garder les yeux ouverts. Protégez-vous !"
+	      }, 
+	      { 
+	         "number" : "74", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Examinez la carte du circuit et vous saurez dans quel sens aller."
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Sur la carte du circuit quelle vitesse se trouve au bout de la grande ligne droite ?"
+	      }, 
+	      { 
+	         "number" : "4", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Cette carte est particulière. Examinez la pastille au dos."
+	      }, 
+	      { 
+	         "number" : "89", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Le tête à queue vous a fait virer à 180°. Il faut se remettre dans le bon sens."
+	      }, 
+	      { 
+	         "number" : "68", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il faut se placer juste derrière Legend. Quel est le numéro de cette carte ?"
+	      }, 
+	      { 
+	         "number" : "67", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Suivez la trajectoire indiquée par le texte et deux numéros se formeront."
+	      }, 
+	      { 
+	         "number" : "31", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La voiture de Legend est dans un miroir. Son numéro est donc inversé."
+	      }, 
+	      { 
+	         "number" : "81", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les voitures, roues dans roues, forment un numéro."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Trouvez dans la défausse les événements étranges qui se sont produits à chaque course."
+	      }, 
+	      { 
+	         "number" : "8", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "L'un concerne votre volant au Japon et le second une surchauffe aux USA."
+	      }, 
+	      { 
+	         "number" : "20", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il est temps de prendre des information sur le fameux numéro 1."
+	      }, 
+	      { 
+	         "number" : "66", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Retrouvez le garage sur la carte du circuit."
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous avez vu les pneus de Legend pendant toute l'aventure."
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Examinez le dos des cartes comportant une voiture rouge."
+	      }, 
+	      { 
+	         "number" : "96", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Examinez le dos des cartes comportant une voiture rouge."
+	      }, 
+	      { 
+	         "number" : "40", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Ce carburant non conforme fera les choux gras de la presse."
+	      }, 
+	      { 
+	         "number" : "99", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez absolument lire cet article."
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Se battre est une mauvaise idée. Mais votre pièce porte bonheur est surement capable de tomber sur pile !"
+	      }, 
+	      { 
+	         "number" : "6", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Sur la carte (13) vous voyez le côté FACE mais pouvez vous deviner la valeur du côté PILE ?"
+	      }, 
+	      { 
+	         "number" : "16", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il ne vous reste plus qu'un seul type de pneus pour la course. Observez bien."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Vous devez dévisser les 4 vis dans l'ordre."
+	      }, 
+	      { 
+	         "number" : "14", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque vis vous demande d'effectuer une opération sur la carte 14."
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez bien la position des vitesses sur le levier."
+	      }, 
+	      { 
+	         "number" : "50", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "En suivant les instructions de Liz, vous obtiendrez un numéro."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Observez bien la carte du circuit."
+	      }, 
+	      { 
+	         "number" : "42", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Les grandes tribunes sont en bas à gauche et le virage encore plus à gauche."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Chaque carrosserie est testée sur une même durée."
+	      }, 
+	      { 
+	         "number" : "60", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "La carrosserie qui parcourt la plus longue distance est la meilleure."
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Manoeuvrez délicatement chaque aiguille jusquà vous positionner précisément sur l'endroit qui fait \"Clic\". "
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "ID" : "", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Répétez l'opération 2 fois pour ouvrir la porte."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_3_pneus", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La météo est affichée dans l'atelier (carte 98)."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_3_pneus", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Sur vos gants (carte 26), vous voyez l'heure (14h) et l'histoire commence 1h avant la course."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_3_rpm", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les compteurs vous montrent la vitesse tout au long de la course. Chaque baisse est un virage."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_3_rpm", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comptez le nombre de virages du circuit pour comparer."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_91_pneus", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La trace des pneus visibles sur la carte 91 vous aidera à faire votre choix."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_91_rpm", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les compteurs vous montrent la vitesse tout au long de la course. Chaque baisse est un virage."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_91_rpm", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comptez le nombre de virages du circuit pour comparer."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_91_pedal_susp", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Souvenez-vous des choix de Liz lors de la première course."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_41_pneus", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Il ne vous reste plus qu'un seul type de pneus pour la course. Observez bien la carte 16."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_41_rpm", 
+	         "hasMoreHint" : "True", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Les compteurs vous montrent la vitesse tout au long de la course. Chaque baisse est un virage."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_41_rpm", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "False", 
+	         "objectNumber" : "0", 
+	         "message" : "Comptez le nombre de virages du circuit pour comparer."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_41_pedal_susp", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "Souvenez-vous des choix des deux premières courses."
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "ID" : "machine_41_carros", 
+	         "hasMoreHint" : "False", 
+	         "hasSolution" : "True", 
+	         "objectNumber" : "0", 
+	         "message" : "La carrosserie qui parcourt la plus longue distance sur la carte 60 est la meilleure."
+	      }
+	   ], 
+	   "answers" : [ 
+	      { 
+	         "hintNumber" : "1", 
+	         "hintID" : "", 
+	         "message" : "Associez la carte de Legend (1) à la journaliste (97).", 
+	         "cards" : "98", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "98", 
+	         "hintID" : "", 
+	         "message" : "La météo est présentée heure par heure. Reste à déterminer quelle heure il est et quand commence la course.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "30", 
+	         "hintID" : "", 
+	         "message" : "Pour faire la course, lancez la machine 30.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "90", 
+	         "hintID" : "", 
+	         "message" : "Il reste 12 cartes jaunes.", 
+	         "cards" : "12", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "12", 
+	         "hintID" : "", 
+	         "message" : "Uitilisez votre pièce (13) sur le volant (12).", 
+	         "cards" : "25", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "46", 
+	         "hintID" : "", 
+	         "message" : "Utilisez vos gants (26) sur le capot brûlant (46).", 
+	         "cards" : "72", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "72", 
+	         "hintID" : "", 
+	         "message" : "Utilisez vos lunettes (19) sur la carte 72 pour voir au travers de la tempête.", 
+	         "cards" : "91", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "74", 
+	         "hintID" : "", 
+	         "message" : "Le circuit tourne sur la droite. Donc prenez la carte 4.", 
+	         "cards" : "4", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "4", 
+	         "hintID" : "", 
+	         "message" : "Au bout du grand virage il faut être en seconde. Ajoutez donc +85 au numéro de la carte (4).", 
+	         "cards" : "89", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "89", 
+	         "hintID" : "", 
+	         "message" : "En inversant 89, vous obtenez 68.", 
+	         "cards" : "68", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "68", 
+	         "hintID" : "", 
+	         "message" : "Legend est sur la carte 68. Pour vous placer juste derrière lui prenez la carte 67.", 
+	         "cards" : "67", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "67", 
+	         "hintID" : "", 
+	         "message" : "En dépassant et vous rabattant devant les voitures rouges, puis verte, vous formez un 3. Puis en fonçant tout droit un 1.", 
+	         "cards" : "31", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "81", 
+	         "hintID" : "", 
+	         "message" : "Les deux roues avant et arrières des deux voitures forment un 8.", 
+	         "cards" : "88", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "8", 
+	         "hintID" : "", 
+	         "message" : "Ajoutez la carte 12 (volant dévissé) et la carte 46 (surchauffe) à la carte 8.", 
+	         "cards" : "66", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "20", 
+	         "hintID" : "", 
+	         "message" : "Pour rencontrer le pilote numéro 1, prenez la carte 1.", 
+	         "cards" : "1", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "66", 
+	         "hintID" : "", 
+	         "message" : "Ajoutez le +30 situé sur les garages du circuit Italien (carte H) à 66.", 
+	         "cards" : "96", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "96", 
+	         "hintID" : "", 
+	         "message" : "Les traces de pneus au dos des cartes rouges sont identiques à celle menant au premier garage.", 
+	         "cards" : "21", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "40", 
+	         "hintID" : "", 
+	         "message" : "Montrez l'essence non conforme (-40) à la journaliste (97).", 
+	         "cards" : "57", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "99", 
+	         "hintID" : "", 
+	         "message" : "Pour lire l'article, prenez la carte 6.", 
+	         "cards" : "6", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "6", 
+	         "hintID" : "", 
+	         "message" : "Ajoutez Legend (6) à la valeur PILE de votre pièce (10).", 
+	         "cards" : "16", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "16", 
+	         "hintID" : "", 
+	         "message" : "Pendant les réglages, choisissez les pneus cerclés de rouge. ", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "14", 
+	         "hintID" : "", 
+	         "message" : "Commencez par la partie verte (x10), puis la noire (+20), la blanche (-10) et enfin la dernière vis (/3). 14x10 = 140. 140 +20 -10 = 150. 150/3 = 50.", 
+	         "cards" : "50", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "50", 
+	         "hintID" : "", 
+	         "message" : "De R à 3 vous formez le chiffre 4. De 4 à 5 le chiffre 1.", 
+	         "cards" : "41", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "42", 
+	         "hintID" : "", 
+	         "message" : "Le virage est marqué 3.", 
+	         "cards" : "3", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "60", 
+	         "hintID" : "", 
+	         "message" : "Pour les réglages, la voiture à l'aileron est la plus performante.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_3_pneus", 
+	         "message" : "A 15h le ciel sera couvert. Sélectionnez le pneu avec des flêches vertes.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_3_rpm", 
+	         "message" : "Sélectionnez le compteur blanc.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_91_pneus", 
+	         "message" : "Sélectionnez les pneus \"Brouillard\"", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_91_rpm", 
+	         "message" : "Sélectionnez le compteur Rouge.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_91_pedal_susp", 
+	         "message" : "Sélectionnez une pédale et des suspensions différents de ceux de la première course.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_41_pneus", 
+	         "message" : "Choisissez les pneus cerclés de rouge.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_41_rpm", 
+	         "message" : "Sélectionnez le compteur Jaune.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_41_pedal_susp", 
+	         "message" : "Sélectionnez une pédale et un compteur différents de ceux des deux premières courses.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }, 
+	      { 
+	         "hintNumber" : "-1", 
+	         "hintID" : "machine_41_carros", 
+	         "message" : "Sélectionnez la carrosserie avec un aileron.", 
+	         "cards" : "", 
+	         "code" : ""
+	      }
+	   ], 
+	   "machines" : [ 
+	      { 
+	         "number" : "911", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "20", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Tandis que vous recouvrez vos esprits, vous tentez de vous souvenir de ce qui s’est passé."
+	      }, 
+	      { 
+	         "number" : "25", 
+	         "name" : "Machine_Heat_911", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }, 
+	      { 
+	         "number" : "88", 
+	         "name" : "Machine_Heat_911", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "8", 
+	         "cardsToDiscard" : "", 
+	         "message" : "« Bonne nouvelle ! Votre état est stable et les médecins vous autorisent à reprendre le volant pour le grand prix d’Italie. Legend est largement en tête mais vous avez franchi la ligne d’arrivée donc vous pouvez encore faire une belle place au championnat. »"
+	      }, 
+	      { 
+	         "number" : "30", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "90", 
+	         "cardsToDiscard" : "", 
+	         "message" : "Vous êtes en tête et la ligne d'arrivée n'est plus qu'à quelques encablures !"
+	      }, 
+	      { 
+	         "number" : "21", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "-40", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La serrure cède !"
+	      }, 
+	      { 
+	         "number" : "3", 
+	         "name" : "", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "« Nous sommes prêts ! Plus qu'à rejoindre la ligne de départ. »"
+	      }, 
+	      { 
+	         "number" : "91", 
+	         "name" : "Machine_Heat_3", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "74", 
+	         "cardsToDiscard" : "", 
+	         "message" : "La course est lancée ! La visibilité est toujours réduite à cause de la tempête. Mais cela ne va pas vous arrêter."
+	      }, 
+	      { 
+	         "number" : "41", 
+	         "name" : "Machine_Heat_3", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : "« Vous êtes fin prêt ! Avec la pénalité de Legend il nous reste une chance de gagner le championnat si vous parvenez à gagner la course ! Je crois en vous ! »"
+	      }, 
+	      { 
+	         "number" : "-1", 
+	         "name" : "Machine_Heat_End", 
+	         "objectNumber" : "0", 
+	         "eventNumber" : "0", 
+	         "solutions" : "", 
+	         "cardsToTake" : "", 
+	         "cardsToDiscard" : "", 
+	         "message" : ""
+	      }
+	   ], 
+	   "events" : [ 
+	   ], 
+	   "languages" : [ 
+	   ]
+	}
