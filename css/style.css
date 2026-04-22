@@ -381,7 +381,7 @@ a {
   flex-direction: column;
   padding: 24px 16px 32px;
   gap: 20px;
-  max-width: 600px;
+  max-width: 640px;
   width: 100%;
   margin: 0 auto;
 }
@@ -401,7 +401,6 @@ a {
   object-fit: cover;
   object-position: center;
   background: var(--clr-surface-2);
-  border-bottom: 1px solid var(--clr-border);
   flex-shrink: 0;
 }
 
@@ -445,7 +444,13 @@ a {
 /* Code input row */
 .code-row {
   display: flex;
-  gap: 10px;
+}
+
+.code-row .btn-primary {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
 }
 
 .code-input {
@@ -454,7 +459,6 @@ a {
   height: 52px;
   background: var(--clr-surface);
   border: 1.5px solid var(--clr-border);
-  border-radius: var(--radius-md);
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 0.15em;
@@ -477,7 +481,13 @@ a {
 /* Hint input row */
 .hint-row {
   display: flex;
-  gap: 10px;
+}
+
+.hint-row .btn-primary {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
 }
 
 .hint-input {
@@ -486,7 +496,6 @@ a {
   height: 52px;
   background: var(--clr-surface);
   border: 1.5px solid var(--clr-border);
-  border-radius: var(--radius-md);
   font-size: 1.2rem;
   font-weight: 600;
   text-align: center;
@@ -611,7 +620,12 @@ a {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--clr-text-muted);
-  margin-bottom: -4px;
+  background: var(--clr-surface);
+  border-radius: var(--radius-md) 0 0 var(--radius-md);
+  padding: 0 10px;
+  width: 30%;
+  display: flex;
+  align-items: center;
 }
 
 /* Hidden objects button */
@@ -909,7 +923,7 @@ a {
    ================================================================ */
 @media (min-width: 600px) {
   .game-content {
-    padding: 32px 24px 48px;
+    padding: 32px 0 48px;
   }
 
   .modal-overlay {

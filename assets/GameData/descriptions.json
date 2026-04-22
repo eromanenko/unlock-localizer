@@ -334,5 +334,23 @@
     "fr": "Suivez la piste d’un pirate légendaire et de son trésor !",
     "uk": "Йдіть слідами легендарного пірата та знайдіть його скарб!",
     "ru": "Идите по стопам легендарного пирата и найдите его клад!"
+  },
+  "Hoth": {
+    "en": "Escape from the ice planet Hoth!",
+    "fr": "Évadez-vous de la planète glacée Hoth !",
+    "uk": "Втечі з крижаної планети Хот!",
+    "ru": "Побег с ледяной планеты Хот!"
+  },
+  "UnforseenDelay": {
+    "en": "Break out of an Imperial Star Destroyer!",
+    "fr": "Échappez-vous d’un Star Destroyer Impérial !",
+    "uk": "Втечі з імперського зоряного руйнівника!",
+    "ru": "Побег из имперского звездного разрушителя!"
+  },
+  "Jeddha": {
+    "en": "Recover kyber crystals on the ancient moon,  Jedha",
+    "fr": "Récupérer les cristaux kyber sur l’ancienne lune, Jedha",
+    "uk": "Відновіть кристал кібер на стародавньому місяці Джедха",
+    "ru": "Восстановите кристалл кибер на древней луне Джедха"
   }
 }

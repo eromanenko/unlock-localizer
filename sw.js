@@ -10,7 +10,7 @@
  *  - assets/Skins/*_fond.jpg  (too large; loads over network)
  */
 
-const VERSION = 0.5
+const VERSION = 0.6
 
 const CACHE_NAME = `unlock-helper-v${VERSION}`;
 

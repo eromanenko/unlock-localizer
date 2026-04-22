@@ -1,0 +1,35 @@
+{
+	"visible": "True",
+	"hideIfNotLocalized": "False",
+	"ID": "UnforseenDelay",
+	"displayName": "An Unforseen Delay",
+	"difficulty": "2",
+	"useMachine": "True",
+	"useCode": "False",
+	"hiddenObjectMode": "UserDefined",
+	"skinName": "UnforseenDelay",
+	"fontName": "",
+	"timerFontName": "",
+	"musicFilename": "",
+	"maxTime": "3600",
+	"totalTime": "3600",
+	"penaltyTime": "3",
+	"wrongCodePenaltyTime": "2",
+	"scoreOvertime": "True",
+	"scoreHints": [
+		"1",
+		"7"
+	],
+	"codes": [],
+	"hiddenObjects": [],
+	"hints": [],
+	"answers": [],
+	"machines": [],
+	"events": [],
+	"languages": [
+		"English",
+		"French",
+		"Ukrainian",
+		"Russian"
+	]
+}

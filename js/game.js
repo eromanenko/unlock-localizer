@@ -149,12 +149,13 @@ function _renderView(view) {
   const hasCodes = Array.isArray(gameData.codes) && gameData.codes.length > 0;
 
   if (hasCodes) {
-    const codeLabel = document.createElement('div');
-    codeLabel.className = 'input-label';
-    codeLabel.textContent = t(uiStrings, 'enter_code');
-
     const codeRow = document.createElement('div');
     codeRow.className = 'code-row';
+
+    const codeLabel = document.createElement('label');
+    codeLabel.className = 'input-label';
+    codeLabel.textContent = t(uiStrings, 'enter_code');
+    codeLabel.setAttribute('for', 'code-input');
 
     const codeWrapper = document.createElement('div');
     codeWrapper.className = 'input-wrapper';
@@ -186,12 +187,12 @@ function _renderView(view) {
     codeBtn.textContent = t(uiStrings, 'go');
     codeBtn.setAttribute('aria-label', t(uiStrings, 'enter_code'));
 
-    codeRow.append(codeWrapper, codeBtn);
+    codeRow.append(codeLabel, codeWrapper, codeBtn);
 
     const codeResult = document.createElement('div');
     codeResult.className = 'inline-result';
 
-    panel.append(codeLabel, codeRow, codeResult);
+    panel.append(codeRow, codeResult);
 
     codeBtn.addEventListener('click', () => _handleCode(codeInput.value.trim(), codeResult));
     codeInput.addEventListener('keydown', e => { if (e.key === 'Enter') _handleCode(codeInput.value.trim(), codeResult); });
@@ -204,56 +205,62 @@ function _renderView(view) {
   }
 
   // Hint input
-  const hintLabel = document.createElement('div');
-  hintLabel.className = 'input-label';
-  hintLabel.textContent = t(uiStrings, 'hint_button');
+  const hasHints = (Array.isArray(gameData.hints) && gameData.hints.length > 0) ||
+                   (Array.isArray(gameData.answers) && gameData.answers.length > 0);
 
-  const hintRow = document.createElement('div');
-  hintRow.className = 'hint-row';
+  if (hasHints) {
+    const hintRow = document.createElement('div');
+    hintRow.className = 'hint-row';
 
-  const hintWrapper = document.createElement('div');
-  hintWrapper.className = 'input-wrapper';
+    const hintLabel = document.createElement('label');
+    hintLabel.className = 'input-label';
+    hintLabel.textContent = t(uiStrings, 'hint_button');
+    hintLabel.setAttribute('for', 'hint-input');
 
-  const hintInput = document.createElement('input');
-  hintInput.id = 'hint-input';
-  hintInput.className = 'hint-input';
-  hintInput.type = 'number';
-  hintInput.inputMode = 'numeric';
-  hintInput.placeholder = '101';
-  hintInput.setAttribute('aria-label', t(uiStrings, 'hint_button'));
+    const hintWrapper = document.createElement('div');
+    hintWrapper.className = 'input-wrapper';
 
-  const hintClear = document.createElement('button');
-  hintClear.className = 'btn-clear-input hidden';
-  hintClear.innerHTML = svgCross;
-  hintClear.setAttribute('aria-label', 'Clear');
+    const hintInput = document.createElement('input');
+    hintInput.id = 'hint-input';
+    hintInput.className = 'hint-input';
+    hintInput.type = 'number';
+    hintInput.inputMode = 'numeric';
+    hintInput.placeholder = '101';
+    hintInput.setAttribute('aria-label', t(uiStrings, 'hint_button'));
 
-  hintInput.addEventListener('input', () => {
-    if (hintInput.value) hintClear.classList.remove('hidden');
-    else hintClear.classList.add('hidden');
-  });
+    const hintClear = document.createElement('button');
+    hintClear.className = 'btn-clear-input hidden';
+    hintClear.innerHTML = svgCross;
+    hintClear.setAttribute('aria-label', 'Clear');
 
-  hintWrapper.append(hintInput, hintClear);
+    hintInput.addEventListener('input', () => {
+      if (hintInput.value) hintClear.classList.remove('hidden');
+      else hintClear.classList.add('hidden');
+    });
 
-  const hintBtn = document.createElement('button');
-  hintBtn.id = 'btn-submit-hint';
-  hintBtn.className = 'btn-primary';
-  hintBtn.textContent = t(uiStrings, 'go');
+    hintWrapper.append(hintInput, hintClear);
 
-  hintRow.append(hintWrapper, hintBtn);
+    const hintBtn = document.createElement('button');
+    hintBtn.id = 'btn-submit-hint';
+    hintBtn.className = 'btn-primary';
+    hintBtn.textContent = t(uiStrings, 'go');
 
-  const hintResult = document.createElement('div');
-  hintResult.className = 'inline-result';
+    hintRow.append(hintLabel, hintWrapper, hintBtn);
 
-  panel.append(hintLabel, hintRow, hintResult);
+    const hintResult = document.createElement('div');
+    hintResult.className = 'inline-result';
 
-  hintBtn.addEventListener('click', () => _handleHint(hintInput.value.trim(), hintResult));
-  hintInput.addEventListener('keydown', e => { if (e.key === 'Enter') _handleHint(hintInput.value.trim(), hintResult); });
-  hintClear.addEventListener('click', () => {
-    hintInput.value = '';
-    hintResult.innerHTML = '';
-    hintClear.classList.add('hidden');
-    hintInput.focus();
-  });
+    panel.append(hintRow, hintResult);
+
+    hintBtn.addEventListener('click', () => _handleHint(hintInput.value.trim(), hintResult));
+    hintInput.addEventListener('keydown', e => { if (e.key === 'Enter') _handleHint(hintInput.value.trim(), hintResult); });
+    hintClear.addEventListener('click', () => {
+      hintInput.value = '';
+      hintResult.innerHTML = '';
+      hintClear.classList.add('hidden');
+      hintInput.focus();
+    });
+  }
 
   // Hidden objects
   const hasHO = Array.isArray(gameData.hiddenObjects) && gameData.hiddenObjects.length > 0;

@@ -469,6 +469,25 @@
 			"visible": "True",
 			"hideIfNotLocalized": "True",
 			"languages": [
+				"English",
+				"French",
+				"Ukrainian",
+				"Russian"
+			],
+			"soonLanguages": [],
+			"ID": "StarWars",
+			"displayName": "Star Wars",
+			"localizedBanner": "False",
+			"adventures": [
+				"Hoth",
+				"UnforseenDelay",
+				"Jeddha"
+			]
+		},
+		{
+			"visible": "True",
+			"hideIfNotLocalized": "True",
+			"languages": [
 				"French",
 				"English",
 				"German",
