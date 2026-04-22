@@ -1,0 +1,16 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="128" fill="#0D0F14"/>
+  
+  <!-- Padlock Shackle -->
+  <path d="M156 220V160C156 104.771 200.771 60 256 60C311.229 60 356 104.771 356 160V220" stroke="#F5A623" stroke-width="48" stroke-linecap="round"/>
+  
+  <!-- Padlock Body -->
+  <rect x="106" y="210" width="300" height="230" rx="40" fill="#F5A623"/>
+  
+  <!-- Glowing Keyhole / Lightbulb shape -->
+  <path d="M256 280C239.431 280 226 293.431 226 310C226 322.5 234 333 245 337.5V370H267V337.5C278 333 286 322.5 286 310C286 293.431 272.569 280 256 280Z" fill="#0D0F14"/>
+  <circle cx="256" cy="310" r="15" fill="#FFFFFF" fill-opacity="0.8">
+    <animate attributeName="fill-opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite" />
+  </circle>
+</svg>

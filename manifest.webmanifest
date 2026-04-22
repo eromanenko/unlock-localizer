@@ -1,13 +1,13 @@
 {
-  "name": "Unlock! Helper",
-  "short_name": "Unlock!",
-  "description": "Hints, codes and solutions for Unlock! board game adventures",
+  "name": "UNLOCK! Localizer",
+  "short_name": "Localizer",
+  "description": "Hints, codes and solutions for UNLOCK! board game adventures",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#0d0f14",
   "theme_color": "#f5a623",
   "icons": [
-    { "src": "assets/images/icons/Tuto.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "assets/images/icons/Tuto.png", "sizes": "512x512", "type": "image/png" }
+    { "src": "assets/images/icons/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "assets/images/icons/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
   ]
 }

@@ -59,7 +59,7 @@ function showCatalog() {
 
   // Header visible on catalog (language switcher needed), back button hidden
   header.classList.remove('hidden');
-  headerTitle.innerHTML = `Unlock Localizer <span class="header-version">v${APP_VERSION}</span>`;
+  headerTitle.innerHTML = `UNLOCK! Localizer <span class="header-version">v${APP_VERSION}</span>`;
   btnBack.classList.add('hidden');
   updateLangButtons(SUPPORTED_LANGS, state.lang);
 
