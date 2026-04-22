@@ -94,13 +94,14 @@ async function showGame(gameId) {
   viewCatalog.classList.remove('active');
   viewGame.classList.add('active');
 
-  await renderGame(
+  const { title } = await renderGame(
     gameId,
     { lang: state.lang, uiStrings: state.uiStrings, descriptions: state.descriptions },
-    (newLang, availLangs, activeLang) => {
+    (availLangs, activeLang) => {
       updateLangButtons(availLangs, activeLang);
     }
   );
+  if (title) headerTitle.textContent = title;
 }
 
 /* ═══════════════════════════════════════════════════════════
@@ -125,9 +126,10 @@ document.getElementById('lang-switcher').addEventListener('click', async e => {
     // Inside game view: delegate to game module
     state.lang = newLang; // sync so back→catalog uses this lang
     localStorage.setItem('unlock-lang', newLang);
-    await switchGameLang(newLang, (availLangs, activeLang) => {
+    const { title } = await switchGameLang(newLang, (availLangs, activeLang) => {
       updateLangButtons(availLangs, activeLang);
     });
+    if (title) headerTitle.textContent = title;
   } else {
     // Catalog: switch UI language and re-render catalog
     state.lang = newLang;

@@ -8,8 +8,8 @@
   "Funfair": {
     "en": "The funfair is winding down: now is the ideal chance to snag the grand prize.",
     "fr": "La fête foraine touche à sa fin, l’occasion ou jamais de remporter le gros lot.",
-    "uk": "Ярмарок добігає кінця: зараз ідеальний шанс виграти головний приз.",
-    "ru": "Ярмарка подходит к концу: сейчас идеальный шанс выиграть главный приз!"
+    "uk": "Ярмарок добігає кінця: зараз ідеальний шанс зірвати головний приз.",
+    "ru": "Ярмарка подходит к концу: сейчас идеальный шанс сорвать главный приз!"
   },
   "Excalibur": {
     "en": "The legendary sword Excalibur has disappeared! Venture forth and embark on an epic quest to recover it and restore the glory of the kingdom of Pendragon!",
@@ -128,7 +128,7 @@
   "Cinema": {
     "en": "Grab your popcorn! Tonight, the horror movie “The Werewolf’s Final Night” premieres. Will you get through unharmed?",
     "fr": "Munissez-vous de votre pop-corn ! Ce soir, c’est la première du film d’horreur “la dernière nuit du loup-garou”. En sortirez-vous indemnes ?",
-    "uk": "Беріть попкорн! Сьогодні прем'єра фільду жахів «Остання ніч перевертня». Чи вийдете ви неушкодженими?",
+    "uk": "Беріть попкорн! Сьогодні прем'єра фільму жахів «Остання ніч перевертня». Чи вийдете ви неушкодженими?",
     "ru": "Берите попкорн! Сегодня премьера фильма ужасов «Последняя ночь оборотня». Выйдете ли вы невредимыми?"
   },
   "Chine": {
@@ -158,7 +158,7 @@
   "TimeTravel": {
     "en": "Professor Alcibiades Tempus’ time machine works erratically. You must return the timeline to normal!",
     "fr": "La machine à voyager dans le temps du professeur Alcibiade Tempus s’emballe et c’est à vous qu’il revient de tout remettre en ordre !",
-    "uk": "Машина часу професора Альцибіада Темпуса працює збоями. Ви повинні повернути часову шкалу в норму!",
+    "uk": "Машина часу професора Альцибіада Темпуса працює зі збоями. Ви повинні повернути часову шкалу в норму!",
     "ru": "Машина времени профессора Альцибиада Темпуса работает со сбоями. Вы должны вернуть временную шкалу в норму!"
   },
   "InsertCoin": {
@@ -182,7 +182,7 @@
   "CroqueMitaine": {
     "en": "The Boogeymen have invaded William’s dreams! Unite your forces to chase them and soothe the little boy.",
     "fr": "Les croquemitaines ont envahi les rêves de Guillaume ! Unissez vos forces pour les chasser et apaiser le petit garçon.",
-    "uk": "Букаї вдерлися в сни Вільяма! Об'єднайте зусилля, щоб прогнати їх і заспокоїти хлопчика.",
+    "uk": "Бабаї вдерлися в сни Вільяма! Об'єднайте зусилля, щоб прогнати їх і заспокоїти хлопчика.",
     "ru": "Буки вторглись в сны Уильяма! Объедините усилия, чтобы прогнать их и успокоить мальчика."
   },
   "MilleNuits": {
@@ -261,7 +261,7 @@
     "en": "Your grandfather, the renowned climber Theodore Delaroche, set out to ascend Mount Celestine, but no one has heard from him for the past two days.",
     "fr": "Célèbre alpiniste, votre grand-père Théodore Delaroche, parti faire l’ascension du mont Célestin, n’a plus donné de nouvelles depuis deux jours.",
     "uk": "Ваш дідусь, відомий альпініст Теодор Деларош, вирушив на гору Селестина, але від нього немає звісток уже два дні.",
-    "ru": "Ваш дедушка, известный альпинист Теодор Деларош, отправился на гору Селестина, но от него нет изстей уже два дня."
+    "ru": "Ваш дедушка, известный альпинист Теодор Деларош, отправился на гору Селестина, но от него нет известий уже два дня."
   },
   "Sirene": {
     "en": "Explore the depths of the ocean and uncover its mysteries.",

@@ -62,6 +62,8 @@ export async function renderGame(gameId, state, onLangChange) {
 
   // Update language buttons visibility in header
   _updateLangButtons(availLangs, resolvedLang, onLangChange);
+
+  return { title: gameStrings?.title || getDisplayName(gameId) };
 }
 
 /** Called when user picks a lang from header inside game view */
@@ -83,6 +85,8 @@ export async function switchGameLang(lang, onLangChange) {
   const view = document.getElementById('view-game');
   _renderView(view);
   _updateLangButtons(_state.availLangs, resolvedLang, onLangChange);
+
+  return { title: _state.gameStrings?.title || getDisplayName(gameId) };
 }
 
 /* ── Internal render ───────────────────────────────────────── */
@@ -123,7 +127,7 @@ function _renderView(view) {
 
   const title = document.createElement('div');
   title.className = 'game-title';
-  title.textContent = getDisplayName(gameId);
+  title.textContent = gameStrings?.title || getDisplayName(gameId);
 
   const desc = document.createElement('div');
   desc.className = 'game-description';
