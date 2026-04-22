@@ -411,7 +411,6 @@
 			"displayName": "Escape Adventures",
 			"localizedBanner": "False",
 			"adventures": [
-				"Tuto",
 				"Formula",
 				"Squeek",
 				"DoctorGoorse"
@@ -492,6 +491,7 @@
 			"displayName": "Demo Adventures",
 			"localizedBanner": "False",
 			"adventures": [
+				"Tuto",
 				"5thAvenue",
 				"RalphAzham",
 				"GhostStone",

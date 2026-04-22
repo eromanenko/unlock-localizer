@@ -16,10 +16,10 @@ import { getDisplayName } from './catalog.js';
 /* ── Skin filename overrides ──────────────────────────────── */
 // Some skins don't follow the exact GameID naming pattern
 const SKIN_MAP = {
-  Nautilus:            'Naut',
-  HouseOnHill:         'Haunt',
-  'Donjon_Doo-Arann':  'DooArann',
-  Poursuite_Cabrakan:  'Cabrakan',
+  Nautilus: 'Naut',
+  HouseOnHill: 'Haunt',
+  'Donjon_Doo-Arann': 'DooArann',
+  Poursuite_Cabrakan: 'Cabrakan',
 };
 
 function getSkinBase(gameId, gameData) {
@@ -77,8 +77,8 @@ export async function switchGameLang(lang, onLangChange) {
   ]);
 
   _state.gameStrings = gameStrings;
-  _state.uiStrings   = uiStrings ?? _state.uiStrings;
-  _state.lang        = resolvedLang;
+  _state.uiStrings = uiStrings ?? _state.uiStrings;
+  _state.lang = resolvedLang;
 
   const view = document.getElementById('view-game');
   _renderView(view);
@@ -97,11 +97,7 @@ function _renderView(view) {
   bg.className = 'game-bg';
   bg.style.backgroundImage = `url('assets/Skins/${skinBase}_fond.jpg')`;
 
-  const skin = document.createElement('div');
-  skin.className = 'game-skin-overlay';
-  skin.style.backgroundImage = `url('assets/Skins/${skinBase}_skin.png')`;
-
-  view.append(bg, skin);
+  view.append(bg);
 
   // Main content
   const content = document.createElement('div');
@@ -147,7 +143,7 @@ function _renderView(view) {
 
   // Code input
   const hasCodes = Array.isArray(gameData.codes) && gameData.codes.length > 0;
-  
+
   if (hasCodes) {
     const codeLabel = document.createElement('div');
     codeLabel.className = 'input-label';
@@ -187,7 +183,7 @@ function _renderView(view) {
     codeBtn.setAttribute('aria-label', t(uiStrings, 'enter_code'));
 
     codeRow.append(codeWrapper, codeBtn);
-    
+
     const codeResult = document.createElement('div');
     codeResult.className = 'inline-result';
 
@@ -240,7 +236,7 @@ function _renderView(view) {
   hintBtn.textContent = t(uiStrings, 'go');
 
   hintRow.append(hintWrapper, hintBtn);
-  
+
   const hintResult = document.createElement('div');
   hintResult.className = 'inline-result';
 
@@ -257,12 +253,12 @@ function _renderView(view) {
 
   // Hidden objects
   const hasHO = Array.isArray(gameData.hiddenObjects) && gameData.hiddenObjects.length > 0;
-  
+
   if (hasHO) {
     const hoSpoiler = document.createElement('details');
     hoSpoiler.className = 'spoiler';
     hoSpoiler.style.marginTop = '12px';
-    
+
     const svgChevron = `<svg class="spoiler-chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>`;
     const svgHO = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>`;
 
@@ -277,7 +273,7 @@ function _renderView(view) {
 
     const body = document.createElement('div');
     body.className = 'spoiler-body';
-    
+
     // We render the hidden objects inside this body container
     showHiddenObjects(gameData.hiddenObjects, gameStrings, uiStrings, body);
 
