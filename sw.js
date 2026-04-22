@@ -10,7 +10,7 @@
  *  - assets/Skins/*_fond.jpg  (too large; loads over network)
  */
 
-const VERSION = 0.4
+const VERSION = 0.5
 
 const CACHE_NAME = `unlock-helper-v${VERSION}`;
 
@@ -23,6 +23,7 @@ const PRECACHE = [
   './js/catalog.js',
   './js/game.js',
   './js/modal.js',
+  './js/version.js',
   './manifest.webmanifest',
   './assets/GameData/Unlock.json',
   './assets/GameData/descriptions.json',

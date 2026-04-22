@@ -1,58 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="uk">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Unlock! Helper — підказки, коди та рішення для сценаріїв гри Unlock!" />
-  <title>Unlock! Helper</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="icon" type="image/png" href="assets/images/icons/Tuto.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
-</head>
-<body>
-
-  <!-- ============================================================
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Unlock! Helper — підказки, коди та рішення для сценаріїв гри Unlock!"
+    />
+    <title>Unlock! Helper</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" type="image/png" href="assets/images/icons/Tuto.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ============================================================
        APP SHELL
   ============================================================ -->
-  <div id="app">
-
-    <!-- HEADER -->
-    <header id="app-header" class="app-header hidden">
-      <button id="btn-back" class="btn-icon" aria-label="Back">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-      </button>
-      <span id="header-title" class="header-title"></span>
-      <div id="lang-switcher" class="lang-switcher" role="group" aria-label="Language">
-        <button class="lang-btn" data-lang="en" id="lang-en">EN</button>
-        <button class="lang-btn" data-lang="fr" id="lang-fr">FR</button>
-        <button class="lang-btn" data-lang="uk" id="lang-uk">UK</button>
-        <button class="lang-btn" data-lang="ru" id="lang-ru">RU</button>
-      </div>
-    </header>
-
-    <!-- VIEWS -->
-    <main id="view-catalog" class="view active"></main>
-    <main id="view-game"    class="view"></main>
-
-    <!-- MODAL OVERLAY -->
-    <div id="modal-overlay" class="modal-overlay hidden" role="dialog" aria-modal="true">
-      <div id="modal-box" class="modal-box">
-        <div class="modal-header">
-          <span id="modal-title" class="modal-title"></span>
-          <button id="modal-close" class="btn-icon modal-close" aria-label="Close">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-          </button>
+    <div id="app">
+      <!-- HEADER -->
+      <header id="app-header" class="app-header hidden">
+        <button id="btn-back" class="btn-icon" aria-label="Back">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="15 18 9 12 15 6" />
+          </svg>
+        </button>
+        <span id="header-title" class="header-title"></span>
+        <div
+          id="lang-switcher"
+          class="lang-switcher"
+          role="group"
+          aria-label="Language"
+        >
+          <button class="lang-btn" data-lang="en" id="lang-en">EN</button>
+          <button class="lang-btn" data-lang="fr" id="lang-fr">FR</button>
+          <button class="lang-btn" data-lang="uk" id="lang-uk">UK</button>
+          <button class="lang-btn" data-lang="ru" id="lang-ru">RU</button>
         </div>
-        <div id="modal-content"></div>
-      </div>
+      </header>
+
+      <!-- VIEWS -->
+      <main id="view-catalog" class="view active"></main>
+      <main id="view-game" class="view"></main>
     </div>
+    <!-- /#app -->
 
-
-  </div><!-- /#app -->
-
-  <script type="module" src="js/app.js"></script>
-</body>
+    <script type="module" src="js/app.js"></script>
+  </body>
 </html>

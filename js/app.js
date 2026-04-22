@@ -5,6 +5,7 @@
 import { loadUILocale, SUPPORTED_LANGS } from './i18n.js';
 import { renderCatalog, getDisplayName } from './catalog.js';
 import { renderGame, switchGameLang } from './game.js';
+import { APP_VERSION } from './version.js';
 
 /* ── Global state ──────────────────────────────────────────── */
 const state = {
@@ -58,7 +59,7 @@ function showCatalog() {
 
   // Header visible on catalog (language switcher needed), back button hidden
   header.classList.remove('hidden');
-  headerTitle.textContent = '';
+  headerTitle.innerHTML = `Unlock Localizer <span class="header-version">v${APP_VERSION}</span>`;
   btnBack.classList.add('hidden');
   updateLangButtons(SUPPORTED_LANGS, state.lang);
 

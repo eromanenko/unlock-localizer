@@ -143,31 +143,65 @@ function _renderView(view) {
   const panel = document.createElement('div');
   panel.className = 'action-panel';
 
+  const svgCross = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>`;
+
   // Code input
-  const codeLabel = document.createElement('div');
-  codeLabel.className = 'input-label';
-  codeLabel.textContent = t(uiStrings, 'enter_code');
+  const hasCodes = Array.isArray(gameData.codes) && gameData.codes.length > 0;
+  
+  if (hasCodes) {
+    const codeLabel = document.createElement('div');
+    codeLabel.className = 'input-label';
+    codeLabel.textContent = t(uiStrings, 'enter_code');
 
-  const codeRow = document.createElement('div');
-  codeRow.className = 'code-row';
+    const codeRow = document.createElement('div');
+    codeRow.className = 'code-row';
 
-  const codeInput = document.createElement('input');
-  codeInput.id = 'code-input';
-  codeInput.className = 'code-input';
-  codeInput.type = 'number';
-  codeInput.inputMode = 'numeric';
-  codeInput.maxLength = 4;
-  codeInput.placeholder = '0000';
-  codeInput.setAttribute('aria-label', t(uiStrings, 'enter_code'));
+    const codeWrapper = document.createElement('div');
+    codeWrapper.className = 'input-wrapper';
 
-  const codeBtn = document.createElement('button');
-  codeBtn.id = 'btn-submit-code';
-  codeBtn.className = 'btn-primary';
-  codeBtn.textContent = t(uiStrings, 'go');
-  codeBtn.setAttribute('aria-label', t(uiStrings, 'enter_code'));
+    const codeInput = document.createElement('input');
+    codeInput.id = 'code-input';
+    codeInput.className = 'code-input';
+    codeInput.type = 'number';
+    codeInput.inputMode = 'numeric';
+    codeInput.maxLength = 4;
+    codeInput.placeholder = '0000';
+    codeInput.setAttribute('aria-label', t(uiStrings, 'enter_code'));
 
-  codeRow.append(codeInput, codeBtn);
-  panel.append(codeLabel, codeRow);
+    const codeClear = document.createElement('button');
+    codeClear.className = 'btn-clear-input hidden';
+    codeClear.innerHTML = svgCross;
+    codeClear.setAttribute('aria-label', 'Clear');
+
+    codeInput.addEventListener('input', () => {
+      if (codeInput.value) codeClear.classList.remove('hidden');
+      else codeClear.classList.add('hidden');
+    });
+
+    codeWrapper.append(codeInput, codeClear);
+
+    const codeBtn = document.createElement('button');
+    codeBtn.id = 'btn-submit-code';
+    codeBtn.className = 'btn-primary';
+    codeBtn.textContent = t(uiStrings, 'go');
+    codeBtn.setAttribute('aria-label', t(uiStrings, 'enter_code'));
+
+    codeRow.append(codeWrapper, codeBtn);
+    
+    const codeResult = document.createElement('div');
+    codeResult.className = 'inline-result';
+
+    panel.append(codeLabel, codeRow, codeResult);
+
+    codeBtn.addEventListener('click', () => _handleCode(codeInput.value.trim(), codeResult));
+    codeInput.addEventListener('keydown', e => { if (e.key === 'Enter') _handleCode(codeInput.value.trim(), codeResult); });
+    codeClear.addEventListener('click', () => {
+      codeInput.value = '';
+      codeResult.innerHTML = '';
+      codeClear.classList.add('hidden');
+      codeInput.focus();
+    });
+  }
 
   // Hint input
   const hintLabel = document.createElement('div');
@@ -177,6 +211,9 @@ function _renderView(view) {
   const hintRow = document.createElement('div');
   hintRow.className = 'hint-row';
 
+  const hintWrapper = document.createElement('div');
+  hintWrapper.className = 'input-wrapper';
+
   const hintInput = document.createElement('input');
   hintInput.id = 'hint-input';
   hintInput.className = 'hint-input';
@@ -185,47 +222,75 @@ function _renderView(view) {
   hintInput.placeholder = '101';
   hintInput.setAttribute('aria-label', t(uiStrings, 'hint_button'));
 
+  const hintClear = document.createElement('button');
+  hintClear.className = 'btn-clear-input hidden';
+  hintClear.innerHTML = svgCross;
+  hintClear.setAttribute('aria-label', 'Clear');
+
+  hintInput.addEventListener('input', () => {
+    if (hintInput.value) hintClear.classList.remove('hidden');
+    else hintClear.classList.add('hidden');
+  });
+
+  hintWrapper.append(hintInput, hintClear);
+
   const hintBtn = document.createElement('button');
   hintBtn.id = 'btn-submit-hint';
   hintBtn.className = 'btn-primary';
   hintBtn.textContent = t(uiStrings, 'go');
 
-  hintRow.append(hintInput, hintBtn);
-  panel.append(hintLabel, hintRow);
+  hintRow.append(hintWrapper, hintBtn);
+  
+  const hintResult = document.createElement('div');
+  hintResult.className = 'inline-result';
 
-  // Hidden objects button
+  panel.append(hintLabel, hintRow, hintResult);
+
+  hintBtn.addEventListener('click', () => _handleHint(hintInput.value.trim(), hintResult));
+  hintInput.addEventListener('keydown', e => { if (e.key === 'Enter') _handleHint(hintInput.value.trim(), hintResult); });
+  hintClear.addEventListener('click', () => {
+    hintInput.value = '';
+    hintResult.innerHTML = '';
+    hintClear.classList.add('hidden');
+    hintInput.focus();
+  });
+
+  // Hidden objects
   const hasHO = Array.isArray(gameData.hiddenObjects) && gameData.hiddenObjects.length > 0;
-  const hoBtn = document.createElement('button');
-  hoBtn.id = 'btn-hidden-objects';
-  hoBtn.className = 'btn-hidden-objects';
-  hoBtn.disabled = !hasHO;
-  hoBtn.innerHTML = `
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
-      ${!hasHO ? '<line x1="3" y1="3" x2="21" y2="21"/>' : ''}
-    </svg>
-    <span class="btn-hidden-objects-label">${t(uiStrings, 'hidden_object_button').replace('\\n', ' ')}</span>
-  `;
-  panel.appendChild(hoBtn);
+  
+  if (hasHO) {
+    const hoSpoiler = document.createElement('details');
+    hoSpoiler.className = 'spoiler';
+    hoSpoiler.style.marginTop = '12px';
+    
+    const svgChevron = `<svg class="spoiler-chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>`;
+    const svgHO = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>`;
+
+    const summary = document.createElement('summary');
+    summary.innerHTML = `
+      <div style="display:flex; align-items:center; gap:10px;">
+        <div style="color:var(--clr-accent); display:flex; width:20px; height:20px;">${svgHO}</div>
+        <span>${t(uiStrings, 'hidden_object_button').replace('\\n', ' ')}</span>
+      </div>
+      ${svgChevron}
+    `;
+
+    const body = document.createElement('div');
+    body.className = 'spoiler-body';
+    
+    // We render the hidden objects inside this body container
+    showHiddenObjects(gameData.hiddenObjects, gameStrings, uiStrings, body);
+
+    hoSpoiler.append(summary, body);
+    panel.appendChild(hoSpoiler);
+  }
 
   content.appendChild(panel);
   view.appendChild(content);
-
-  // ── Wire up events ──────────────────────────────────────
-  codeBtn.addEventListener('click', () => _handleCode(codeInput.value.trim()));
-  codeInput.addEventListener('keydown', e => { if (e.key === 'Enter') _handleCode(codeInput.value.trim()); });
-
-  hintBtn.addEventListener('click', () => _handleHint(hintInput.value.trim()));
-  hintInput.addEventListener('keydown', e => { if (e.key === 'Enter') _handleHint(hintInput.value.trim()); });
-
-  hoBtn.addEventListener('click', () => {
-    if (!hasHO) return;
-    showHiddenObjects(gameData.hiddenObjects, gameStrings, uiStrings);
-  });
 }
 
 /* ── Code lookup ───────────────────────────────────────────── */
-function _handleCode(rawValue) {
+function _handleCode(rawValue, container) {
   const { gameData, gameStrings, uiStrings } = _state;
   if (!rawValue || rawValue.length < 1) return;
 
@@ -234,18 +299,24 @@ function _handleCode(rawValue) {
   const found = codes.find(c => parseInt(c.number, 10) === num);
 
   // Resolve message from game strings
-  if (found && found.message && gameStrings?.[found.message]) {
-    found._resolvedMessage = gameStrings[found.message];
-  } else if (found && found.message) {
-    found._resolvedMessage = found.message;
+  if (found) {
+    const dialKey = `code_${found.number}_dial`;
+    const regKey = `code_${found.number}`;
+    if (found.type === 'Dial' && gameStrings?.[dialKey]) {
+      found._resolvedMessage = gameStrings[dialKey];
+    } else if (gameStrings?.[regKey]) {
+      found._resolvedMessage = gameStrings[regKey];
+    } else {
+      found._resolvedMessage = found.message;
+    }
   }
 
   const codeObj = found ? { ...found, message: found._resolvedMessage } : null;
-  showCodeResult(codeObj, uiStrings);
+  showCodeResult(codeObj, uiStrings, container);
 }
 
 /* ── Hint lookup ───────────────────────────────────────────── */
-function _handleHint(rawValue) {
+function _handleHint(rawValue, container) {
   const { gameData, gameStrings, uiStrings } = _state;
   if (!rawValue || rawValue.length < 1) return;
 
@@ -264,9 +335,13 @@ function _handleHint(rawValue) {
   const resolvedHints = _resolveHintMessages(matchingHints, gameStrings);
 
   // Resolve answer[] messages using locale keys: answer_hint_{hintNumber} or answer_hint_{hintID}
-  const resolvedAnswers = _resolveAnswerMessages(answers, gameStrings);
+  const allResolvedAnswers = _resolveAnswerMessages(answers, gameStrings);
+  // Filter to only answers for this card number
+  const resolvedAnswers = allResolvedAnswers.filter(
+    a => String(a.hintNumber) === String(num)
+  );
 
-  showHints(hintObj, resolvedHints, resolvedAnswers, gameStrings, uiStrings);
+  showHints(hintObj, resolvedHints, resolvedAnswers, gameStrings, uiStrings, container);
 }
 
 /**

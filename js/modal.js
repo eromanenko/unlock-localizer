@@ -7,41 +7,15 @@
  *   3. Hidden objects list
  */
 
-import { t } from './i18n.js';
-
-const overlay   = document.getElementById('modal-overlay');
-const box       = document.getElementById('modal-box');
-const modalTitle = document.getElementById('modal-title');
-const content   = document.getElementById('modal-content');
-const closeBtn  = document.getElementById('modal-close');
-
-/* ── Open / close ──────────────────────────────────────────── */
-function open() {
-  overlay.classList.remove('hidden');
-  document.body.style.overflow = 'hidden';
-  closeBtn.focus();
-}
-
-export function closeModal() {
-  overlay.classList.add('hidden');
-  document.body.style.overflow = '';
-}
-
-closeBtn.addEventListener('click', closeModal);
-overlay.addEventListener('click', e => {
-  if (e.target === overlay) closeModal();
-});
-document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') closeModal();
-});
+import { t } from "./i18n.js";
 
 /* ── SVG helpers ───────────────────────────────────────────── */
 const svgChevron = `<svg class="spoiler-chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>`;
 
 /* ── Spoiler builder ───────────────────────────────────────── */
 function makeSpoiler(summary, body) {
-  const d = document.createElement('details');
-  d.className = 'spoiler';
+  const d = document.createElement("details");
+  d.className = "spoiler";
   d.innerHTML = `
     <summary>${summary}${svgChevron}</summary>
     <div class="spoiler-body">${body}</div>
@@ -52,47 +26,43 @@ function makeSpoiler(summary, body) {
 /* ────────────────────────────────────────────────────────────
    1. CODE RESULT
    ────────────────────────────────────────────────────────── */
-export function showCodeResult(codeObj, uiStrings) {
-  content.innerHTML = '';
+export function showCodeResult(codeObj, uiStrings, container) {
+  container.innerHTML = "";
 
   if (!codeObj) {
     // Wrong code
-    modalTitle.textContent = t(uiStrings, 'code_wrong');
-    const div = document.createElement('div');
-    div.className = 'wrong-notice';
-    div.textContent = t(uiStrings, 'code_wrong');
-    content.appendChild(div);
-    open();
+    const div = document.createElement("div");
+    div.className = "wrong-notice";
+    div.textContent = t(uiStrings, "code_wrong");
+    container.appendChild(div);
     return;
   }
 
   const { type, number, message, cardsToTake, cardsToDiscard } = codeObj;
 
-  modalTitle.textContent = type === 'Sound' ? '🔊 ' + number : '✓ ' + number;
-
   // Code number + badge
-  const header = document.createElement('div');
-  header.className = 'code-result-header';
+  const header = document.createElement("div");
+  header.className = "code-result-header";
 
-  const badge = document.createElement('div');
-  badge.className = `code-result-badge ${type === 'Sound' ? 'sound' : 'correct'}`;
-  badge.textContent = type === 'Sound' ? '🔊' : '✓';
+  const badge = document.createElement("div");
+  badge.className = `code-result-badge ${type === "Sound" ? "sound" : "correct"}`;
+  badge.textContent = type === "Sound" ? "🔊" : "✓";
 
-  const num = document.createElement('div');
-  num.className = 'code-result-num';
+  const num = document.createElement("div");
+  num.className = "code-result-num";
   num.textContent = number;
 
   header.append(badge, num);
-  content.appendChild(header);
+  container.appendChild(header);
 
   // Sound type: redirect to original app
-  if (type === 'Sound') {
-    const notice = document.createElement('div');
-    notice.className = 'sound-notice';
-    notice.textContent = uiStrings?.sound_notice
-      ?? 'This code triggers a sound puzzle. Please enter it in the official Unlock! app.';
-    content.appendChild(notice);
-    open();
+  if (type === "Sound") {
+    const notice = document.createElement("div");
+    notice.className = "sound-notice";
+    notice.textContent =
+      uiStrings?.sound_notice ??
+      "This code triggers a sound puzzle. Please enter it in the official Unlock! app.";
+    container.appendChild(notice);
     return;
   }
 
@@ -101,42 +71,43 @@ export function showCodeResult(codeObj, uiStrings) {
   const toArr = (val) => {
     if (!val) return [];
     if (Array.isArray(val)) return val;
-    return val.split(',').map(s => s.trim()).filter(Boolean);
+    return val
+      .split(",")
+      .map((s) => s.trim())
+      .filter(Boolean);
   };
 
-  const takeList    = toArr(cardsToTake);
+  const takeList = toArr(cardsToTake);
   const discardList = toArr(cardsToDiscard);
 
   if (message) {
-    const msg = document.createElement('div');
-    msg.className = 'code-result-message';
-    msg.textContent = message;
-    content.appendChild(msg);
+    const msg = document.createElement("div");
+    msg.className = "code-result-message";
+    msg.innerHTML = escHtml(message);
+    container.appendChild(msg);
   }
 
   // Cards to take
   if (takeList.length > 0) {
-    const el = document.createElement('div');
-    el.className = 'cards-action';
+    const el = document.createElement("div");
+    el.className = "cards-action";
     el.innerHTML = `
-      <span class="cards-action-label">${t(uiStrings, takeList.length === 1 ? 'take_card' : 'take_cards')}</span>
-      <span class="cards-action-value">${takeList.join(', ')}</span>
+      <span class="cards-action-label">${t(uiStrings, takeList.length === 1 ? "take_card" : "take_cards")}</span>
+      <span class="cards-action-value">${takeList.join(", ")}</span>
     `;
-    content.appendChild(el);
+    container.appendChild(el);
   }
 
   // Cards to discard
   if (discardList.length > 0) {
-    const el = document.createElement('div');
-    el.className = 'cards-action discard';
+    const el = document.createElement("div");
+    el.className = "cards-action discard";
     el.innerHTML = `
-      <span class="cards-action-label">${t(uiStrings, 'discard')}</span>
-      <span class="cards-action-value">${discardList.join(', ')}</span>
+      <span class="cards-action-label">${t(uiStrings, "discard")}</span>
+      <span class="cards-action-value">${discardList.join(", ")}</span>
     `;
-    content.appendChild(el);
+    container.appendChild(el);
   }
-
-  open();
 }
 
 /* ────────────────────────────────────────────────────────────
@@ -147,107 +118,107 @@ export function showCodeResult(codeObj, uiStrings) {
    gameStrings — game locale strings (for message resolution)
    uiStrings   — UI locale strings
    ────────────────────────────────────────────────────────── */
-export function showHints(hintObj, resolvedHints, answers, gameStrings, uiStrings) {
-  content.innerHTML = '';
-  modalTitle.textContent = t(uiStrings, 'hint');
+export function showHints(
+  hintObj,
+  resolvedHints,
+  answers,
+  gameStrings,
+  uiStrings,
+  container,
+) {
+  container.innerHTML = "";
 
   if (!hintObj) {
-    const div = document.createElement('div');
-    div.className = 'empty-state';
-    div.innerHTML = `<div class="empty-state-icon">🔍</div><div class="empty-state-text">${t(uiStrings, 'hint_not_found')}</div>`;
-    content.appendChild(div);
-    open();
+    const div = document.createElement("div");
+    div.className = "empty-state";
+    div.innerHTML = `<div class="empty-state-icon">🔍</div><div class="empty-state-text">${t(uiStrings, "hint_not_found")}</div>`;
+    container.appendChild(div);
     return;
   }
 
-  const cardNum = hintObj.number;
-
-  // Filter answers for this card number
-  const hintAnswers = answers.filter(a => a.hintNumber === cardNum);
-
-  if (resolvedHints.length === 0 && hintAnswers.length === 0) {
-    const div = document.createElement('div');
-    div.className = 'empty-state';
-    div.innerHTML = `<div class="empty-state-icon">🔍</div><div class="empty-state-text">${t(uiStrings, 'nothing_to_report')}</div>`;
-    content.appendChild(div);
-    open();
+  if (resolvedHints.length === 0 && answers.length === 0) {
+    const div = document.createElement("div");
+    div.className = "empty-state";
+    div.innerHTML = `<div class="empty-state-icon">🔍</div><div class="empty-state-text">${t(uiStrings, "nothing_to_report")}</div>`;
+    container.appendChild(div);
     return;
   }
 
   // Hints section: show all resolved hint messages as spoilers
   if (resolvedHints.length) {
-    const label = document.createElement('div');
-    label.className = 'modal-section-title';
-    label.textContent = t(uiStrings, 'hint');
-    content.appendChild(label);
+    const label = document.createElement("div");
+    label.className = "modal-section-title";
+    label.textContent = t(uiStrings, "hint");
+    container.appendChild(label);
 
     resolvedHints.forEach((h, idx) => {
       const spoiler = makeSpoiler(
-        `${t(uiStrings, 'hint_number', idx + 1)}`,
-        escHtml(h.message)
+        `${t(uiStrings, "hint_number", idx + 1)}`,
+        escHtml(h.message),
       );
-      content.appendChild(spoiler);
+      container.appendChild(spoiler);
     });
   }
 
   // Solution section: answers for this card
-  const solutionItems = hintAnswers.filter(a => !a.code || a.code === '');
-  const codeItems     = hintAnswers.filter(a => a.code && a.code !== '');
-  const allSolutions  = [...solutionItems, ...codeItems];
+  if (answers.length > 0) {
+    const label = document.createElement("div");
+    label.className = "modal-section-title solution-title";
+    label.textContent = t(uiStrings, "solution");
+    container.appendChild(label);
 
-  if (allSolutions.length || hintObj.hasSolution === 'True') {
-    const label = document.createElement('div');
-    label.className = 'modal-section-title';
-    label.textContent = t(uiStrings, 'solution');
-    content.appendChild(label);
-
-    allSolutions.forEach(ans => {
-      const extra = ans.code ? ` — <strong>${ans.code}</strong>` : '';
+    answers.forEach((ans) => {
+      const msg = resolveGameString(ans.message, gameStrings);
       const spoiler = makeSpoiler(
-        t(uiStrings, 'solution'),
-        escHtml(ans.message) + extra
+        t(uiStrings, "solution_for_hint") + " " + ans.hintNumber,
+        escHtml(msg),
       );
-      content.appendChild(spoiler);
+      container.appendChild(spoiler);
     });
   }
-
-  open();
 }
 
 /* ────────────────────────────────────────────────────────────
    3. HIDDEN OBJECTS
    ────────────────────────────────────────────────────────── */
-export function showHiddenObjects(hiddenObjects, gameStrings, uiStrings) {
-  content.innerHTML = '';
-  modalTitle.textContent = t(uiStrings, 'hidden_object');
+export function showHiddenObjects(
+  hiddenObjects,
+  gameStrings,
+  uiStrings,
+  container,
+) {
+  container.innerHTML = "";
 
   if (!hiddenObjects?.length) {
-    const div = document.createElement('div');
-    div.className = 'empty-state';
-    div.innerHTML = `<div class="empty-state-icon">🙈</div><div class="empty-state-text">${t(uiStrings, 'nothing_to_report')}</div>`;
-    content.appendChild(div);
-    open();
+    const div = document.createElement("div");
+    div.className = "empty-state";
+    div.innerHTML = `<div class="empty-state-icon">🙈</div><div class="empty-state-text">${t(uiStrings, "nothing_to_report")}</div>`;
+    container.appendChild(div);
     return;
   }
 
-  const label = document.createElement('div');
-  label.className = 'modal-section-title';
-  label.textContent = t(uiStrings, 'hidden_object');
-  content.appendChild(label);
-
-  hiddenObjects.forEach(ho => {
-    const msg = resolveGameString(ho.message, gameStrings);
-    const timeLabel = ho.time != null
-      ? `<span class="ho-time-chip">⏱ ${formatTime(ho.time)}</span> `
-      : '';
-    const spoiler = makeSpoiler(
-      `${timeLabel}${t(uiStrings, 'hidden_object')} ${ho.number ?? ''}`,
-      escHtml(msg)
-    );
-    content.appendChild(spoiler);
+  // Sort by time (ascending), placing items without time at the end
+  const sortedHO = [...hiddenObjects].sort((a, b) => {
+    const ta = a.time != null && a.time !== "" ? Number(a.time) : Infinity;
+    const tb = b.time != null && b.time !== "" ? Number(b.time) : Infinity;
+    return ta - tb;
   });
 
-  open();
+  sortedHO.forEach((ho) => {
+    const key = `hiddenObject_${ho.number}`;
+    let msg = gameStrings?.[key];
+    if (!msg) msg = resolveGameString(ho.message, gameStrings);
+
+    const timeLabel =
+      ho.time != null && ho.time !== ""
+        ? `<span class="ho-time-chip">⏱ ${formatTime(ho.time)}</span> `
+        : "";
+    const spoiler = makeSpoiler(
+      `${timeLabel}${t(uiStrings, "hidden_object")} ${ho.number ?? ""}`.trim(),
+      escHtml(msg),
+    );
+    container.appendChild(spoiler);
+  });
 }
 
 /* ── Helpers ───────────────────────────────────────────────── */
@@ -257,7 +228,7 @@ export function showHiddenObjects(hiddenObjects, gameStrings, uiStrings) {
  * referencing game locale strings.
  */
 function resolveGameString(value, gameStrings) {
-  if (!value) return '';
+  if (!value) return "";
   // If the value is a key in gameStrings, resolve it
   if (gameStrings && gameStrings[value]) return gameStrings[value];
   return value;
@@ -265,15 +236,15 @@ function resolveGameString(value, gameStrings) {
 
 function escHtml(str) {
   return String(str)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/\n/g, '<br>');
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/\n/g, "<br>");
 }
 
 function formatTime(seconds) {
-  if (!seconds && seconds !== 0) return '';
+  if (!seconds && seconds !== 0) return "";
   const m = Math.floor(seconds / 60);
   const s = seconds % 60;
-  return m > 0 ? `${m}:${String(s).padStart(2, '0')}` : `${s}s`;
+  return m > 0 ? `${m}:${String(s).padStart(2, "0")}` : `${s}s`;
 }
