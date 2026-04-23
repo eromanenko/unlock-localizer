@@ -9,9 +9,9 @@
  *  - ALL images (covers, icons, backgrounds)
  */
 
-const VERSION = 0.7;
+const VERSION = 0.8;
 const CACHE_NAME = `unlock-helper-v${VERSION}`;
-const CDN_BASE = 'https://cdn.jsdelivr.net/gh/gamepage-web/unssets@main/';
+const CDN_BASE = 'https://raw.githubusercontent.com/gamepage-web/unssets/main/';
 
 const PRECACHE = [
   './',
