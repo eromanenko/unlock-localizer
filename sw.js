@@ -2,22 +2,22 @@
  * sw.js — Service Worker (Vanilla JS, Cache First strategy)
  *
  * Caches:
- *  - App shell (HTML, CSS, JS, manifest)
- *  - Game data JSONs (assets/GameData/**)
- *  - UI images: covers, icons (NOT _fond.jpg backgrounds)
+ *  - App shell (HTML, CSS, JS, manifest, branding)
+ *  - Game data JSONs (from CDN)
  *
  * Excludes:
- *  - assets/Skins/*_fond.jpg  (too large; loads over network)
+ *  - ALL images (covers, icons, backgrounds)
  */
 
-const VERSION = 0.6
-
+const VERSION = 0.7;
 const CACHE_NAME = `unlock-helper-v${VERSION}`;
+const CDN_BASE = 'https://cdn.jsdelivr.net/gh/gamepage-web/unssets@main/';
 
 const PRECACHE = [
   './',
   './index.html',
   './css/style.css',
+  './js/config.js',
   './js/app.js',
   './js/i18n.js',
   './js/catalog.js',
@@ -25,16 +25,17 @@ const PRECACHE = [
   './js/modal.js',
   './js/version.js',
   './manifest.webmanifest',
-  './assets/GameData/Unlock.json',
-  './assets/GameData/descriptions.json',
-  // Global UI locales
-  './assets/GameData/Locale/English/locale.json',
-  './assets/GameData/Locale/French/locale.json',
-  './assets/GameData/Locale/Ukrainian/locale.json',
-  './assets/GameData/Locale/Russian/locale.json',
+  './branding/logo.svg',
+  // Data from CDN
+  `${CDN_BASE}GameData/Unlock.json`,
+  `${CDN_BASE}GameData/descriptions.json`,
+  `${CDN_BASE}GameData/Locale/English/locale.json`,
+  `${CDN_BASE}GameData/Locale/French/locale.json`,
+  `${CDN_BASE}GameData/Locale/Ukrainian/locale.json`,
+  `${CDN_BASE}GameData/Locale/Russian/locale.json`,
 ];
 
-/* ── Install: precache shell ───────────────────────────────── */
+/* ── Install: precache shell & data ────────────────────────── */
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME)
@@ -55,17 +56,18 @@ self.addEventListener('activate', event => {
   );
 });
 
-/* ── Fetch: Cache First, with exclusion for backgrounds ─────── */
+/* ── Fetch: Cache First for Shell/JSON, Network for Images ──── */
 self.addEventListener('fetch', event => {
   const url = event.request.url;
+  const isImage = /\.(png|jpg|jpeg|svg|webp)$/i.test(url) && !url.includes('branding/');
 
-  // Never cache fond backgrounds
-  if (url.includes('_fond.jpg')) {
+  // Never cache images (except app branding)
+  if (isImage) {
     event.respondWith(fetch(event.request).catch(() => new Response('', { status: 503 })));
     return;
   }
 
-  // Cache-first strategy for everything else
+  // Cache-first strategy for everything else (Shell, JS, JSON)
   event.respondWith(
     caches.match(event.request).then(cached => {
       if (cached) return cached;
@@ -75,8 +77,16 @@ self.addEventListener('fetch', event => {
         if (!response || response.status !== 200 || event.request.method !== 'GET') {
           return response;
         }
-        const cloned = response.clone();
-        caches.open(CACHE_NAME).then(cache => cache.put(event.request, cloned));
+
+        // Only cache if it's our origin or the CDN
+        const isCdn = url.startsWith(CDN_BASE);
+        const isLocal = url.startsWith(self.location.origin);
+
+        if (isLocal || isCdn) {
+          const cloned = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(event.request, cloned));
+        }
+
         return response;
       }).catch(() => {
         // Offline fallback for navigation

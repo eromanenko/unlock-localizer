@@ -9,6 +9,8 @@
  * Fallback chain for game content: chosen → fr
  */
 
+import { ASSETS_BASE_URL } from './config.js';
+
 const SUPPORTED_LANGS = ['en', 'fr', 'uk', 'ru'];
 
 // Directory name used in the file system for each lang key
@@ -41,13 +43,13 @@ async function _fetchLocale(url) {
 /* ── UI locale ─────────────────────────────────────────────── */
 export async function loadUILocale(lang) {
   const dir = LANG_DIR[lang] ?? LANG_DIR.en;
-  return _fetchLocale(`assets/GameData/Locale/${dir}/locale.json`);
+  return _fetchLocale(`${ASSETS_BASE_URL}GameData/Locale/${dir}/locale.json`);
 }
 
 /* ── Game locale ───────────────────────────────────────────── */
 export async function loadGameLocale(gameId, lang) {
   const dir = LANG_DIR[lang] ?? LANG_DIR.fr;
-  return _fetchLocale(`assets/GameData/${gameId}/Locale/${dir}/locale.json`);
+  return _fetchLocale(`${ASSETS_BASE_URL}GameData/${gameId}/Locale/${dir}/locale.json`);
 }
 
 /**

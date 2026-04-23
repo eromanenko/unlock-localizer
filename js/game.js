@@ -12,6 +12,7 @@
 import { t, detectGameLangs, resolveGameLocale } from './i18n.js';
 import { showCodeResult, showHints, showHiddenObjects } from './modal.js';
 import { getDisplayName } from './catalog.js';
+import { ASSETS_BASE_URL } from './config.js';
 
 /* ── Skin filename overrides ──────────────────────────────── */
 // Some skins don't follow the exact GameID naming pattern
@@ -43,7 +44,7 @@ export async function renderGame(gameId, state, onLangChange) {
   // Load game JSON
   let gameData;
   try {
-    const r = await fetch(`assets/GameData/${gameId}/${gameId}.json`);
+    const r = await fetch(`${ASSETS_BASE_URL}GameData/${gameId}/${gameId}.json`);
     if (!r.ok) throw new Error('not found');
     gameData = await r.json();
   } catch {
@@ -99,7 +100,7 @@ function _renderView(view) {
   // Background layers
   const bg = document.createElement('div');
   bg.className = 'game-bg';
-  bg.style.backgroundImage = `url('assets/Skins/${skinBase}_fond.jpg')`;
+  bg.style.backgroundImage = `url('${ASSETS_BASE_URL}Skins/${skinBase}_fond.jpg')`;
 
   view.append(bg);
 
@@ -114,7 +115,7 @@ function _renderView(view) {
   const icon = document.createElement('img');
   icon.className = 'game-icon';
   icon.alt = gameId;
-  icon.src = `assets/images/icons/${gameId}.png`;
+  icon.src = `${ASSETS_BASE_URL}images/icons/${gameId}.png`;
   icon.onerror = function () {
     const ph = document.createElement('div');
     ph.className = 'game-icon-placeholder';

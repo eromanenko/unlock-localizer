@@ -9,6 +9,7 @@
  */
 
 import { t, loadGameLocale, LANG_DIR } from './i18n.js';
+import { ASSETS_BASE_URL } from './config.js';
 
 const SKIP_BOXES = [];
 
@@ -40,7 +41,7 @@ export function renderCatalog(boxes, descriptions, lang, uiStrings, onSelect) {
     const coverImg = document.createElement('img');
     coverImg.alt = box.displayName || box.ID;
     coverImg.loading = 'lazy';
-    coverImg.src = `assets/images/covers/${box.ID}.png`;
+    coverImg.src = `${ASSETS_BASE_URL}images/covers/${box.ID}.png`;
     coverImg.onerror = function () {
       banner.style.background = buildGradientForBox(box.ID);
       this.remove();
@@ -130,7 +131,7 @@ function buildAdventureCard(advId) {
   img.className = 'adventure-card-img';
   img.alt = getDisplayName(advId);
   img.loading = 'lazy';
-  img.src = `assets/images/icons/${advId}.png`;
+  img.src = `${ASSETS_BASE_URL}images/icons/${advId}.png`;
   img.onerror = function () {
     const ph = document.createElement('div');
     ph.className = 'adventure-card-img-placeholder';

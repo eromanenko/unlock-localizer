@@ -6,6 +6,7 @@ import { loadUILocale, SUPPORTED_LANGS } from './i18n.js';
 import { renderCatalog, getDisplayName } from './catalog.js';
 import { renderGame, switchGameLang } from './game.js';
 import { APP_VERSION } from './version.js';
+import { ASSETS_BASE_URL } from './config.js';
 
 /* ── Global state ──────────────────────────────────────────── */
 const state = {
@@ -34,8 +35,8 @@ async function boot() {
 
   // Load everything in parallel
   const [unlockData, descriptionsData, uiStrings] = await Promise.all([
-    fetch('assets/GameData/Unlock.json').then(r => r.json()),
-    fetch('assets/GameData/descriptions.json').then(r => r.json()),
+    fetch(`${ASSETS_BASE_URL}GameData/Unlock.json`).then(r => r.json()),
+    fetch(`${ASSETS_BASE_URL}GameData/descriptions.json`).then(r => r.json()),
     loadUILocale(state.lang),
   ]);
 

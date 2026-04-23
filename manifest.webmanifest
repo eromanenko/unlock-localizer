@@ -7,7 +7,7 @@
   "background_color": "#0d0f14",
   "theme_color": "#f5a623",
   "icons": [
-    { "src": "assets/images/icons/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
-    { "src": "assets/images/icons/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+    { "src": "branding/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "branding/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
   ]
 }
