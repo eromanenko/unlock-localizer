@@ -1,13 +1,23 @@
 {
   "name": "UNLOCK! Localizer",
-  "short_name": "Localizer",
+  "short_name": "Unlock! Localizer",
   "description": "Hints, codes and solutions for UNLOCK! board game adventures",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#0d0f14",
   "theme_color": "#f5a623",
   "icons": [
-    { "src": "branding/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
-    { "src": "branding/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+    {
+      "src": "branding/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "branding/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
   ]
 }
